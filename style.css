@@ -1,3 +1,112 @@
+body {
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif; 
+	background-image: url('img/ai-bg.jpg');	
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+.curve {
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+h1,
+.h1 {
+	font-size: 4.375rem;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.1;
+}
+@media (max-width: 991px) {
+	h1,
+	.h1 {
+		font-size: 2.08rem;
+	}
+}
+h3,
+.h3 {
+	font-size: 1.556rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+}
+@media (max-width: 991px) {
+	h3,
+	.h3 {
+		font-size: 1.5rem;
+	}
+}
+h5,
+.h5 {
+	font-size: 0.938rem;
+	font-weight: bold;
+}
+h6,
+.h6 {
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif; 
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1.2;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.32);
+}
+.display-5 {
+	font-size: 2rem;
+	line-height: 1.3;
+}
+@media (max-width: 991px) {
+	.display-5 {
+		font-size: 1.1rem;
+	}
+}
+.display-6 {
+	font-size: 0.875rem;
+	font-weight: normal;
+	line-height: 1.23;
+	letter-spacing: 0.2px;
+}
+cite,
+.source {
+	font-size: 0.812rem;
+}
 .not-by-ai-folder {
-	filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.22));
+	filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.3));
+}
+.not-by-ai-folder-wrapper:hover{
+	background: #EDEDED;
+	box-shadow: inset 0 0 0px 4px #F9F9F9;
+}
+@media (min-width: 992px) {
+	.not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
+		background: #EDEDED;
+		box-shadow: inset 0 0 0px 4px #F9F9F9;
+	}
+}
+[class*="border-"] {
+	border-color: #EAEAEA !important;
+}
+.rounded {
+	border-radius: 12px !important;
+}
+.badget-grab {
+	cursor: grab;
+	transition: 0.2s all ease-out;
+}
+@media (max-width: 370px) {
+	.not-by-ai-badge-sample-wrapper .badget-grab:last-child {
+		display: none !important;
+	}
+}
+@media (max-width: 335px) {
+	.not-by-ai-badge-sample-wrapper .badget-grab {
+		display: none !important;
+	}
+}
+.badget-grab:hover {
+	transform: rotate(-1deg) skew(-3deg);
+	transform-origin: bottom left;
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+}
+nav {
+	font-size: 0.875rem;
 }
