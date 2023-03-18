@@ -110,3 +110,11 @@ cite,
 nav {
 	font-size: 0.875rem;
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.logo-feature-request-bar {
+	opacity: 0;
+	animation: fadeIn 0.5s ease-in 9s forwards;
+}
