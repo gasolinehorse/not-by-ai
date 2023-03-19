@@ -8,6 +8,12 @@ body {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
 }
+@media (max-width: 991px) {
+	.curve {
+		border-top-right-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+}
 a {
 	color: #000000;
 	text-decoration: none;
