@@ -122,7 +122,7 @@ nav {
 }
 .logo-feature-request-bar {
 	opacity: 0;
-	animation: fadeIn 0.5s ease-in 9s forwards;
+	animation: fadeIn 0.5s ease-in 6s forwards;
 }
 img[class*="share__"]:hover {
 	opacity: 1 !important;
