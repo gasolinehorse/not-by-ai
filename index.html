@@ -43,9 +43,9 @@
   <div class="container-flex bg-white text-center curve">
     <div class="row">
       <div class="col-sm-4 text-start pt-2 ps-4 pt-sm-3 ps-sm-4 share">
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnotbyai.fyi&text=" target="_blank"><img class="mx-1 opacity-50 share__fb" src="img/twitter.svg" alt="share on Twitter"></a>
-        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnotbyai.fyi&title=" target="_blank"><img class="mx-1 opacity-50 share__tt" src="img/linkedin.svg" alt="share on LinkedIn"></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnotbyai.fyi" target="_blank"><img class="mx-1 opacity-50 share__li" src="img/facebook.svg" alt="share on Facebook"></a>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnotbyai.fyi&text=" target="_blank"><img class="mx-1 opacity-50 share__tt" src="img/twitter.svg" alt="share on Twitter"></a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnotbyai.fyi&title=" target="_blank"><img class="mx-1 opacity-50 share__li" src="img/linkedin.svg" alt="share on LinkedIn"></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnotbyai.fyi" target="_blank"><img class="mx-1 opacity-50 share__fb" src="img/facebook.svg" alt="share on Facebook"></a>
       </div>
       <div class="col-sm-4 text-center">
         <img class="mt-4 mb-5" width="128.5" height="26.77" src="img/not-by-ai.svg" alt="Not By AI">
@@ -54,7 +54,7 @@
     <main class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 col-xl-7 col-xxl-6">
         <header>
-          <h1 class="pt-md-5 mt-md-3 pb-1">Your AI-free Content Deserves a&nbsp;Badge</h1>
+          <h1 id="tagline" class="pt-md-5 mt-md-3 pb-1">Your AI-free Content Deserves a&nbsp;Badge</h1>
         </header>
       </div>
       <div class="col-lg-9">
@@ -293,5 +293,11 @@
     <!--End mc_embed_signup-->
     <button type="button" class="btn-close" onClick="parentNode.remove()" aria-label="Close"></button>
   </div>
+  <script>
+  var trafficSource = document.referrer;
+  if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
+    document.getElementById("tagline").innerHTML = "I Added a 'Not&nbsp;By&nbsp;AI' Badge to My Content to Prove&nbsp;Originality.";
+  }
+</script>
 </body>
 </html>
