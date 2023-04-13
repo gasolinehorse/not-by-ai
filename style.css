@@ -82,6 +82,12 @@ cite,
 	background: #EDEDED;
 	box-shadow: inset 0 0 0px 4px #F9F9F9;
 }
+@media (min-width: 576px) {
+	.not-by-ai-folder-wrapper--sm {
+		transform: scale(0.8);
+		transform-origin: bottom;
+	}
+}
 @media (min-width: 992px) {
 	.not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
 		background: #EDEDED;
