@@ -98,6 +98,9 @@ cite,
 	cursor: grab;
 	transition: 0.2s all ease-out;
 }
+.btn-dark {
+	background-color: #000000;
+}
 @media (max-width: 370px) {
 	.not-by-ai-badge-sample-wrapper .badget-grab:last-child {
 		display: none !important;
