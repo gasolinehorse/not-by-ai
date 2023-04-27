@@ -4,6 +4,11 @@ body {
 	background-repeat: repeat-y;
 	background-size: 100%;
 }
+@media (max-width: 575px) {
+	body {
+		padding: 0.7rem !important;
+	}
+}
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
@@ -25,16 +30,29 @@ h1,
 	letter-spacing: -1px;
 	line-height: 1.1;
 }
-@media (max-width: 991px) {
+@media (max-width: 991px)  {
+	h1,
+	.h1 {
+		font-size: 2.8rem;
+	}
+}
+@media (max-width: 767px) {
 	h1,
 	.h1 {
 		font-size: 2.08rem;
+	}
+}
+@media (min-width: 768px) and (max-height: 730px) {
+	#tagline {
+		font-size: 3.8rem;
+		padding-top: 0 !important;
 	}
 }
 h3,
 .h3 {
 	font-size: 1.556rem;
 	font-weight: bold;
+	line-height: 1.2;
 	letter-spacing: -0.5px;
 }
 @media (max-width: 991px) {
@@ -65,6 +83,11 @@ h6,
 		font-size: 1.1rem;
 	}
 }
+@media (min-width: 992px) and (max-height: 730px) {
+	.display-5 {
+		font-size: 1.6rem;
+	}
+}
 .display-6 {
 	font-size: 0.875rem;
 	font-weight: normal;
@@ -77,6 +100,11 @@ cite,
 }
 .not-by-ai-folder {
 	filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.3));
+}
+@supports (-webkit-touch-callout: none) {
+	.not-by-ai-folder {
+		filter: none;
+	}
 }
 .not-by-ai-folder-wrapper:hover{
 	background: #EDEDED;
@@ -129,4 +157,71 @@ nav {
 }
 img[class*="share__"]:hover {
 	opacity: 1 !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.fade-in-move-up {
+	animation: fadeInMoveUp 0.7s ease-out forwards;
+}
+#artist-badge .fade-in-move-up {
+	opacity: 0;
+	animation-delay: 0.6s;
+}
+#writer-badge .fade-in-move-up {
+	opacity: 0;
+	animation-delay: 0.7s;	
+}
+#producer-badge .fade-in-move-up {
+	opacity: 0;
+	animation-delay: 0.8s;
+}
+@keyframes fadeInMoveUp {
+  0% { opacity: 0; transform: translateY(10px); }
+  50% { opacity: 1; transform: translateY(0px); }
+  70% { opacity: 1; transform: translateY(5px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+.wpforms-container .wpforms-hidden,
+.wpforms-container .wpforms-required-label,
+.wpforms-container .wpforms-label-hide {
+	display: none;
+}
+.wpforms-container label {
+	font-size: 0.82rem;
+}
+.wpforms-container input {
+	background-color: #efefef;
+	padding: 0.5rem;
+	width: 100%;
+	border: 0;
+	outline: 0;
+	transition: 0.2s ease all;
+}
+.wpforms-container input:focus,
+.wpforms-container input:focus-visible {
+	background-color: #f4f4f4;
+}
+.wpforms-container input[type=checkbox] {
+	width: auto;
+	margin-right: 0.25rem;
+}
+.wpforms-container button {
+	color: #FFFFFF;
+	background-color: #212529;
+	padding: 1rem 1.8rem;
+	border: 0;
+}
+.wpforms-container ul {
+	padding-left: 0;
+}
+.wpforms-container li {
+	list-style-type: none;
+}
+.wpforms-container .wpforms-field-checkbox li {
+	display: flex;
+}
+.wpforms-container .wpforms-field-checkbox {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
 }

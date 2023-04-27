@@ -1,57 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Not By AI — Add the 'Not By AI' Badge to Your Creative Work</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Prove your creativity: Add the 'Not By AI' badge to your AI-free content." />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-not-by-ai_32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-not-by-ai_16x16.png">
-  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon-not-by-ai.png">
-  <link rel="icon" type="image/svg+xml" href="img/favicon-not-by-ai.svg">
-  <meta property="og:title" content="Not By AI — Add the 'Not By AI' Badge to Your Creative Work" />
-  <meta property="og:description" content="Prove your creativity: Add the 'Not By AI' badge to your AI-free content." />
-  <meta property="og:image" content="https://notbyai.fyi/img/not-by-ai-share.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@NotByAIBadge" />
-  <meta name="twitter:title" content="Not By AI — Add the 'Not By AI' Badge to Your Creative Work" />
-  <meta name="twitter:description" content="Prove your creativity: Add the 'Not By AI' badge to your AI-free content." />
-  <meta name="twitter:image" content="img/not-by-ai-share.png" />
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-T9E8EYVXP6'></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-T9E8EYVXP6');
-  </script>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5TNDH2X');</script>
-  <!-- End Google Tag Manager -->
-</head>
-<body class="bg-dark p-4">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TNDH2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+<?php
+get_header();
+?>
   <div class="container-flex bg-white text-center curve">
     <div class="row">
       <div class="col-6 col-sm-4 text-start mt-sm-2 pt-2 ps-4 pt-sm-3 ps-sm-4 share order-sm-1">
-        <a href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1 opacity-50" src="img/twitter.svg" alt="Follow us on Twitter"></a>
-        <a href="http://facebook.com/notbyai" target="_blank"><img class="mx-1 opacity-50" src="img/facebook.svg" alt="Follow us on Facebook"></a>
-        <!-- <a href="http://www.instagram.com/notbyai" target="_blank"><img class="mx-1 opacity-50 share__li" src="img/instagram.svg" alt="Follow us on Instagram"></a> -->
+        <a href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.svg" alt="Follow us on Twitter"></a>
+        <a href="https://facebook.com/notbyai" target="_blank"><img class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.svg" alt="Follow us on Facebook"></a>
+        <a href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/linkedin.svg" alt="Follow us on Linkedin"></a>
+        <a href="mailto:?subject=Not By AI&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/forward.svg" alt="Share via email"></a>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
-        <a class="small opacity-50 pe-4 pe-sm-5 me-sm-3" href="https://buymeacoffee.com/notbyai">Support Us</a>
+        <a class="small opacity-50 pe-4 pe-sm-5 me-sm-3" href="https://buymeacoffee.com/notbyai" target="_blank">Support Us</a>
       </div>
       <div class="col-sm-4 text-center order-sm-2">
-        <img class="mt-4 mb-5" width="128.5" height="26.77" src="img/not-by-ai.svg" alt="Not By AI">
+        <img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI">
       </div>
     </div>
     <main class="row justify-content-center px-4 px-lg-0">
@@ -68,35 +30,35 @@
     <div class="mx-auto px-5 px-sm-4 px-xl-0 pt-5" style="max-width: 1052px;">
       <div class="row justify-content-center gx-4">
         <div class="col-sm-4 pb-4">
-          <a href="Not-By-AI.zip" id="artist-badge" class="d-block" target="_blank">
+          <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
             <span class="row">
-              <div class="col-d not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
-                <div class="not-by-ai-folder position-relative pb-1">
-                  <img class="position-static z-1 w-100 ai-folder" src="img/not-by-ai-folder.svg" alt="">
-                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="img/ai-art.svg" alt="">
+              <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
+                <div class="not-by-ai-folder fade-in-move-up position-relative pb-1">
+                  <img class="position-static z-1 w-100 ai-folder px-xl-1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai-folder.svg" alt="">
+                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ai-art.svg" alt="">
                   <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-sample-wrapper">
-                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="img/painted-by-human-not-by-ai-white.svg" alt="">
-                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="img/painted-by-human-not-by-ai-black.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/painted-by-human-not-by-ai-white.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/painted-by-human-not-by-ai-black.svg" alt="">
                   </div>
                 </div>
               </div>
               <div class="col-12 download-link-wrapper mt-1">
                 <h2 class="h6 py-2 px-md-3 download-link d-inline rounded">Download the artist badge</h2>
-                <p class="small mt-2 opacity-50">Good for artwork, including digital and traditional art</p>
+                <p class="small mt-2 opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
               </div>
             </span>
-          </a>
+          </span>
         </div>
         <div class="col-sm-4 pb-4">
-          <a href="Not-By-AI.zip" id="writer-badge" class="d-block" target="_blank">
+          <span id="writer-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
             <span class="row">
-              <div class="col-d not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
-                <div class="not-by-ai-folder position-relative pb-1">
-                  <img class="position-static z-1 w-100 ai-folder" src="img/not-by-ai-folder.svg" alt="">
-                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="img/ai-article.svg" alt="">
+              <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
+                <div class="not-by-ai-folder fade-in-move-up position-relative pb-1">
+                  <img class="position-static z-1 w-100 ai-folder px-xl-1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai-folder.svg" alt="">
+                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ai-article.svg" alt="">
                   <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-sample-wrapper">
-                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="img/written-by-human-not-by-ai-white.svg" alt="">
-                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="img/written-by-human-not-by-ai-black.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/written-by-human-not-by-ai-white.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/written-by-human-not-by-ai-black.svg" alt="">
                   </div>
                 </div>
               </div>
@@ -105,18 +67,18 @@
                 <p class="small mt-2 opacity-50">Good for blog posts, essays, research, code, and other text-based content</p>
               </div>
             </span>
-          </a>
+          </span>
         </div>
         <div class="col-sm-4 pb-4">
-          <a href="Not-By-AI.zip" id="producer-badge" class="d-block" target="_blank">
+          <span id="producer-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
             <span class="row">
-              <div class="col-d not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
-                <div class="not-by-ai-folder position-relative pb-1">
-                  <img class="position-static z-1 w-100 ai-folder" src="img/not-by-ai-folder.svg" alt="">
-                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="img/ai-music.svg" alt="">
+              <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
+                <div class="not-by-ai-folder fade-in-move-up position-relative pb-1">
+                  <img class="position-static z-1 w-100 ai-folder px-xl-1" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai-folder.svg" alt="">
+                  <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ai-music.svg" alt="">
                   <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-sample-wrapper">
-                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="img/produced-by-human-not-by-ai-white.svg" alt="">
-                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="img/produced-by-human-not-by-ai-black.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/produced-by-human-not-by-ai-white.svg" alt="">
+                    <img width="131" height="42" class="img-fluid badget-grab d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/produced-by-human-not-by-ai-black.svg" alt="">
                   </div>
                 </div>
               </div>
@@ -125,7 +87,7 @@
                 <p class="small mt-2 opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
               </div>
             </span>
-          </a>
+          </span>
         </div>
       </div>
     </div>
@@ -155,7 +117,7 @@
             <a class="nav-link text-black" href="#legal-effect-of-not-by-ai-badge">Legal Effect</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black text-decoration-underline mt-5" id="side-download" href="Not-By-AI.zip" target="_blank">Download the Badges&nbsp;<img src="img/download-not-by-ai-badge.svg" alt=""></a>
+            <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download the Badge&nbsp;<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
         </ul>
       </nav>
@@ -166,7 +128,7 @@
         <p>The Not By AI badge is created to encourage more humans to produce original content and help users identify human-generated content. The Ultimate goal is make sure humanity continues to advance.</p>
         <p>An expert estimates that 90 percent of online content could be generated by AI by 2025.<sup>1</sup> With the surge in AI-generated content, it is important to note that AI is trained on human-generated content. If humans rely solely on AI to generate content moving forward, any new content generated by AI may just be recycled content from the past. This could pose a major obstacle to human advancement. Only by limiting the reliance on AI and continue to create original content can propel us forward as a species.</p>
         <figure>
-          <img class="img-fluid mb-3" src="img/ai-generates-content-using-human-content.svg" alt="AI using human-created content to produce new content">
+          <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ai-generates-content-using-human-content.svg" alt="AI using human-created content to produce new content">
           <figcaption class="display-6">The chart represents a scenario in which humans stop generating new content and AI reuses pre-existing content to produce new content.</figcaption>
         </figure>
         <p>It is worth mentioning that AI technologies mark a major milestone in the history of technology and the Not By AI badge is not designed to discourage the use of AI. Instead, it is to make sure that, while we celebrate the achievement, we work with AI instead of being replaced by&nbsp;AI.</p>
@@ -189,27 +151,27 @@
         <div class="row pb-4">
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to a website</h5>
-            <img class="img-fluid" src="img/add-not-by-ai-badge-to-footer.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-footer.svg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to a blog article</h5>
-            <img class="img-fluid" src="img/add-not-by-ai-badge-to-blog.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-blog.svg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to an essay</h5>
-            <img class="img-fluid" src="img/add-not-by-ai-badge-to-essay.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-essay.svg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to an artwork</h5>
-            <img class="img-fluid" srcset="img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="img/add-not-by-ai-badge-to-art.jpg" alt="">
+            <img class="img-fluid" srcset="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-art.jpg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to an album cover or a musician profile</h5>
-            <img class="img-fluid" srcset="img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="img/add-not-by-ai-badge-to-music.jpg" alt="">
+            <img class="img-fluid" srcset="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-music.jpg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to a resume or a business card</h5>
-            <img class="img-fluid" src="img/add-not-by-ai-badge-to-business.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-business.svg" alt="">
           </div>
         </div>
         <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
@@ -229,95 +191,59 @@
         <p>Incorrect badge usage examples:</p>
         <div class="row">
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" src="img/no-rewrite-not-by-ai-badge.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-rewrite-not-by-ai-badge.svg" alt="">
             <p class="display-6 pt-2 pb-3 pb-sm-0">Do not rewrite the badge</p>
           </div>
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" src="img/no-color-not-by-ai-badge.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-color-not-by-ai-badge.svg" alt="">
             <p class="display-6 pt-2 pb-3 pb-sm-0">Do not replace any colors in the badge</p>
           </div>
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" srcset="img/no-shadow-not-by-ai-badge@2x.png 2x" src="img/no-shadow-not-by-ai-badge.png" alt="">
+            <img class="img-fluid" srcset="<?php echo get_stylesheet_directory_uri(); ?>/img/no-shadow-not-by-ai-badge@2x.png 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-shadow-not-by-ai-badge.png" alt="">
             <p class="display-6 pt-1 pb-3 pb-sm-0">Do not add effects to the badge</p>
           </div>
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" src="img/no-remake-not-by-ai-badge.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-remake-not-by-ai-badge.svg" alt="">
             <p class="display-6 pt-2 pb-3 pb-sm-0">Do not make changes to badge elements</p>
           </div>
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" src="img/no-small-not-by-ai-badge.svg" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-small-not-by-ai-badge.svg" alt="">
             <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure to maintain the minimum size</p>
           </div>
           <div class="col-sm-6 col-lg-4">
-            <img class="img-fluid" src="img/no-blurry-not-by-ai-badge.png" alt="">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/no-blurry-not-by-ai-badge.png" alt="">
             <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure the badge is legible</p>
           </div>
         </div>
         <div id="legal-effect-of-not-by-ai-badge" class="py-3"></div>
         <h3>Legal Effect</h3>
         <p>The current Not By AI badges do not hold any legal effect significance and displaying the badge on any asset does not guarantee the content is not majorly created by AI. Legal experts are encouraged to <a href="contact.html" class="text-decoration-underline">get in touch</a> to explore the potential of formalizing and regulating the use of the Not By AI badge.</p>
-        <p class="p-3 bg-light">To reinforce the credibility and authenticity of the badges, a verification process may be required to obtain the verified version of the badge in the future. <span class="text-decoration-underline" data-bs-toggle="modal" data-bs-target="#verificationNotification" style="cursor: pointer;">Sign up</span> or follow us on social channels for future updates.</p>
-
-<div class="modal fade" id="verificationNotification" tabindex="-1" aria-labelledby="verificationNotificationLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content border-0 rounded-0">
-      <div class="modal-header">
-        <div class="modal-title fs-5 h3" id="verificationNotificationLabel">Sign up for the Not By AI <span class="fst-italic">Verified</span> update</div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div id="mc_embed_signup">
-          <form action="https://fyi.us21.list-manage.com/subscribe/post?u=7d9fe7bb76d9778d4143ad9fc&amp;id=bc90c5c43c&amp;f_id=007f8fe1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-            <div id="mc_embed_signup_scroll">
-              <div class="mc-field-group">
-                <label for="mce-EMAIL">Email Address:</label>
-                <input type="email" value="" name="EMAIL" class="required email bg-body-secondary border-0 rounded-0 w-100 p-2 mt-1" id="mce-EMAIL" required>
-                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+        <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content border-0 rounded-0">
+              <div class="modal-header px-md-5 py-md-4">
+                <div class="modal-title fs-3 h3" id="downloadEmailLabel">Enter your email to receive your free badge</div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            <div hidden="true"><input type="hidden" name="tags" value="451534"></div>
-            <div id="mce-responses" class="clear foot">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7d9fe7bb76d9778d4143ad9fc_bc90c5c43c" tabindex="-1" value=""></div>
-              <div class="optionalParent">
-                <div class="clear foot">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark rounded-0 mt-3">
-                </div>
+              <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
+                <?php echo do_shortcode( '[wpforms id="39" title="false"]' ); ?>
               </div>
             </div>
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-        
         <ol class="source pt-5">
           <li>
             <cite>Why 90% of online content could be ‘generated by AI by 2025' https://www.youtube.com/watch?v=DgYCcdwGwrE</cite>
           </li>
         </ol>
       </div>
-      <div class="col-md-1 col-xl-3"></div>
     </div>
-    <div class="row border-top">
-      <div class="col text-center py-3 text-center">
-        <a href="localize.html" class="display-6 pt-3 text-decoration-underline me-3">Help Us Translate</a>
-        <a href="feedback.html" class="display-6 pt-3 text-decoration-underline me-3">Feedback</a>
-        <a href="contact.html" class="display-6 pt-3 text-decoration-underline">Contact</a>
-        <a href="https://notbyai.fyi"><img class="pt-3 d-block mx-auto" src="img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
-      </div>
-      <small class="pb-3">Not By AI © 2023 All rights reserved.</small>
-    </div>
-  </div>
-  <script>
-  var trafficSource = document.referrer;
-  if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
-    document.getElementById("tagline").innerHTML = "I Added a 'Not&nbsp;By&nbsp;AI' Badge to My Content to Prove Its&nbsp;Originality.";
-    document.getElementById("tagline").style.letterSpacing= "-2.7px";
-  }
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
-</html>
+    <script>
+      jQuery(function($) {
+        $('.modal').on('shown.bs.modal', function() {
+          $('#wpforms-39-field_1').focus();
+        });
+      });
+    </script>
+		<?php
+		get_footer();
