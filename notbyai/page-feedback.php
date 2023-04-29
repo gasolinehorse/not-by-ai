@@ -8,7 +8,7 @@
       	<div class="row justify-content-center">
       		<div class="col-lg-6 text-start pb-5">
       			<h2 class="h3 text-center pb-3">Please Fill Out the Form to Provide Feedback.</h5>
-      			<?php echo do_shortcode('[wpforms id="58" title="false"]'); ?>
+      			<?php echo do_shortcode('[wpforms id="82" title="false"]'); ?>
       		</div>
       	</div>
 				<p class="pt-5 pb-3 mt-5 border-top fs-5 h3">Share Your Not By AI Commitment on Social Media:</p>

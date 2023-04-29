@@ -8,7 +8,7 @@
       	<div class="row">
       		<div class="col-lg-6 text-start pb-5">
       			<h5 class="pb-3">Please Fill Out the Translation Form.</h5>
-      			<?php echo do_shortcode('[wpforms id="61" title="false"]'); ?>
+      			<?php echo do_shortcode('[wpforms id="80" title="false"]'); ?>
       		</div>
       		<div class="col-lg-6 text-start">
       			<h2 class="h5 pb-3">Instructions:</h3>

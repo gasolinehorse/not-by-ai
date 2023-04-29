@@ -226,7 +226,7 @@ get_header();
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
-                <?php echo do_shortcode( '[wpforms id="39" title="false"]' ); ?>
+                <?php echo do_shortcode( '[wpforms id="86" title="false"]' ); ?>
                 <div class="d-block d-sm-none"><p class="small pt-2">On a go? <a class="text-decoration-underline" href="mailto:?subject=Not By AI reminder&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank">Send yourself a reminder</a>.</p></div>
               </div>
             </div>
