@@ -1,13 +1,13 @@
 <?php
 get_header();
 ?>
-  <div class="container-flex bg-white text-center curve">
+  <div class="container-fluid bg-white text-center curve">
     <div class="row">
       <div class="col-6 col-sm-4 text-start mt-sm-2 pt-2 ps-4 pt-sm-3 ps-sm-4 share order-sm-1">
         <a href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.svg" alt="Follow us on Twitter"></a>
         <a href="https://facebook.com/notbyai" target="_blank"><img class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.svg" alt="Follow us on Facebook"></a>
         <a href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/linkedin.svg" alt="Follow us on Linkedin"></a>
-        <a href="mailto:?subject=Not By AI&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/forward.svg" alt="Share via email"></a>
+        <a href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/forward.svg" alt="Share via email"></a>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
         <a class="small opacity-50 pe-4 pe-sm-5 me-sm-3" href="https://buymeacoffee.com/notbyai" target="_blank">Support Us</a>
@@ -217,16 +217,17 @@ get_header();
         </div>
         <div id="legal-effect-of-not-by-ai-badge" class="py-3"></div>
         <h3>Legal Effect</h3>
-        <p>The current Not By AI badges do not hold any legal effect significance and displaying the badge on any asset does not guarantee the content is not majorly created by AI. Legal experts are encouraged to <a href="contact.html" class="text-decoration-underline">get in touch</a> to explore the potential of formalizing and regulating the use of the Not By AI badge.</p>
+        <p>The current Not By AI badges do not hold any legal effect significance and displaying the badge on any asset does not guarantee the content is not majorly created by AI. Legal experts are encouraged to <a href="<? bloginfo('url') ?>/contact" class="text-decoration-underline">get in touch</a> to explore the potential of formalizing and regulating the use of the Not By AI badge.</p>
         <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
-            <div class="modal-content border-0 rounded-0">
+            <div class="modal-content border-0 rounded-0 download-popup">
               <div class="modal-header px-md-5 py-md-4">
                 <div class="modal-title fs-3 h3" id="downloadEmailLabel">Enter your email to receive your free badge</div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
                 <?php echo do_shortcode( '[wpforms id="39" title="false"]' ); ?>
+                <div class="d-block d-sm-none"><p class="small pt-2">On a go? <a class="text-decoration-underline" href="mailto:?subject=Not By AI reminder&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank">Send yourself a reminder</a>.</p></div>
               </div>
             </div>
           </div>

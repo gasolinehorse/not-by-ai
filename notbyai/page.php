@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div class="container-flex bg-white text-center curve">
+	<div class="container-fluid bg-white text-center curve">
     <a href="https://notbyai.fyi/"><img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI"></a>
     <main class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
