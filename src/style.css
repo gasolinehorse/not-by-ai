@@ -22,6 +22,10 @@ body {
 a {
 	color: #000000;
 	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+a:hover {
+	opacity: 0.7;
 }
 h1,
 .h1 {
@@ -201,6 +205,20 @@ img[class*="share__"]:hover {
   50% { opacity: 1; transform: translateY(0px); }
   70% { opacity: 1; transform: translateY(5px); }
   100% { opacity: 1; transform: translateY(0px); }
+}
+.sliding-background {
+  background: url("img/not-by-ai-rotate.svg") repeat-x;
+  height: 42px;
+  width: 4881px;
+  animation: loopX 80s linear infinite;
+}
+@keyframes loopX {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1627px, 0, 0);
+  }
 }
 .wpforms-container .wpforms-hidden,
 .wpforms-container .wpforms-required-label,

@@ -10,7 +10,7 @@ get_header();
         <a href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/forward.svg" alt="Share via email"></a>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
-        <a class="small opacity-50 pe-4 pe-sm-5 me-sm-3" href="https://buymeacoffee.com/notbyai" target="_blank">Support Us</a>
+        <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate" target="_blank">Support Us</span>
       </div>
       <div class="col-sm-4 text-center order-sm-2">
         <img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI">
@@ -138,11 +138,11 @@ get_header();
         <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
         <h3>Which Badge Should I Use</h3>
         <ul>
-          <li class="pb-2"><span class="fw-bold">When to use the Painted By Human, Not By AI badge: </span><br>
+          <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Painted By Human, Not By AI badge: </h4><br>
           Use this badge if your artwork, including digital and traditional art, contains less than 10% of AI output. </li>
-          <li class="pb-2"><span class="fw-bold">When to use the Written By Human, Not By AI badge: </span><br>
+          <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Written By Human, Not By AI badge: </h4><br>
           Use this badge if your article, including blog posts, essays, research, emails, and other text-based content, contains less than 10% of AI output. </li>
-          <li class="pb-2"><span class="fw-bold">When to use the Produced By Human, Not By AI badge: </span><br>
+          <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Produced By Human, Not By AI badge: </h4><br>
           Use this badge if your audio (music, vocal, sound effects, voice over, and other sounds) or video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content) contains less than 10% of AI output. </li>
         </ul>
         <p><span class="text-decoration-underline">If you want to indicate that your overall content, which could include images, text, and audio, follows the 90% rule mentioned above, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
@@ -228,6 +228,27 @@ get_header();
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
                 <?php echo do_shortcode( '[wpforms id="86" title="false"]' ); ?>
                 <div class="d-block d-sm-none"><p class="small pt-2">On a go? <a class="text-decoration-underline" href="mailto:?subject=Not By AI reminder&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank">Send yourself a reminder</a>.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="donate" tabindex="-1" aria-labelledby="donateLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content border-0 rounded-0">
+              <div class="modal-header px-md-5 py-md-4">
+                <div class="modal-title fs-3 h3" id="donateLabel">Contribute to our mission.</div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5 text-center">
+	              <p class="mb-0">Please consider a donation to make a big impact. Your gift helps nurture the Not By AI project.</p>
+                <script async
+								  src="https://js.stripe.com/v3/buy-button.js">
+								</script>
+								<stripe-buy-button
+								  buy-button-id="buy_btn_1N2mpPHl9sHS7hKr9qop1oXF"
+								  publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
+								>
+								</stripe-buy-button>
               </div>
             </div>
           </div>

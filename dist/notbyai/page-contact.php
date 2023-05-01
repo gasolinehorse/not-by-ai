@@ -26,7 +26,7 @@
       			<p>That would be wonderful. Send us a message and tell us about what you have in mind! </p>
       		</div>
       	</div>
-				<p class="pt-5 pb-3 mt-5 border-top fs-5 h3">Share Your Not By AI Commitment on Social Media:</p>
+				<h3 class="pt-5 pb-3 mt-5 border-top fs-5">Share Your Not By AI Commitment on Social Media:</h3>
 				<div>
           <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnotbyai.fyi&text=" target="_blank"><img height="35" class="mx-3 share__tt" src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.svg" alt="share on Twitter"></a>
           <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnotbyai.fyi" target="_blank"><img height="35" class="mx-3 share__fb" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.svg" alt="share on Facebook"></a>
