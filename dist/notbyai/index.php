@@ -64,7 +64,7 @@ get_header();
               </div>
               <div class="col-12 download-link-wrapper mt-1">
                 <h2 class="h6 py-2 px-md-3 download-link d-inline rounded">Download the writer badge</h2>
-                <p class="small mt-2 opacity-50">Good for blog posts, essays, research, code, and other text-based content</p>
+                <p class="small mt-2 opacity-50">Good for blog posts, essays, books, research, code, and other text-based content</p>
               </div>
             </span>
           </span>
