@@ -11,7 +11,7 @@
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon-not-by-ai.svg">
 <meta property="og:title" content="Not By AI — Add the 'Not By AI' Badge to Your Creative Work" />
 <meta property="og:description" content="Prove your creativity: Add the 'Not By AI' badge to your AI-free content." />
-<meta property="og:image" content="https://notbyai.fyi/img/not-by-ai-share.png" />
+<meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai-share.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@NotByAIBadge" />
 <meta name="twitter:title" content="Not By AI — Add the 'Not By AI' Badge to Your Creative Work" />
