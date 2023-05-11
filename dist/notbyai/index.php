@@ -134,7 +134,7 @@ get_header();
         <p>It is worth mentioning that AI technologies mark a major milestone in the history of technology and the Not By AI badge is not designed to discourage the use of AI. Instead, it is to make sure that, while we celebrate the achievement, we work with AI instead of being replaced by&nbsp;AI.</p>
         <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
         <h3>Who Can Use the Badge</h3>
-        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, to look for grammatical errors and typos, to translate content.</p>
+        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, to look for grammatical errors and typos, and to translate content.</p>
         <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
         <h3>Which Badge Should I Use</h3>
         <ul>
