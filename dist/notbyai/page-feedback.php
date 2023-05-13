@@ -4,10 +4,11 @@
     <a href="https://notbyai.fyi/"><img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI"></a>
     <main class="row justify-content-center px-4 px-lg-0">
     	<h1>Feedback</h1>
-      <div class="col-lg-9 py-5">
-      	<div class="row justify-content-center">
-      		<div class="col-lg-6 text-start pb-5">
-      			<h2 class="h3 text-center pb-3">Please Fill Out the Form to Provide Feedback.</h5>
+      <div class="col-md-10 col-xl-9 py-5">
+      	<div class="row justify-content-center text-start">
+      		<div class="col-lg-6 pb-5">
+      			<h2 class="h3 text-center">Please Fill Out the Form to Provide Feedback.</h2>
+						<p class="pb-3 text-center">Whatever you have to say, we want to hear it. Bonus point if you are a user and want to help and make the badge better.</p>
       			<?php echo do_shortcode('[wpforms id="82" title="false"]'); ?>
       		</div>
       	</div>

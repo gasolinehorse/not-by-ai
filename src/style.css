@@ -9,6 +9,9 @@ body {
 		padding: 0.7rem !important;
 	}
 }
+::selection {
+  background-color: #FFE500;
+}
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;

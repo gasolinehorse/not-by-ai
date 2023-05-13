@@ -134,18 +134,18 @@ get_header();
         <p>It is worth mentioning that AI technologies mark a major milestone in the history of technology and the Not By AI badge is not designed to discourage the use of AI. Instead, it is to make sure that, while we celebrate the achievement, we work with AI instead of being replaced by&nbsp;AI.</p>
         <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
         <h3>Who Can Use the Badge</h3>
-        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, to look for grammatical errors and typos, and to translate content.</p>
+        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, to look for grammatical errors and typos, and to translate content.</p>
         <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
         <h3>Which Badge Should I Use</h3>
         <ul>
           <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Painted By Human, Not By AI badge: </h4><br>
-          Use this badge if your artwork, including digital and traditional art, contains less than 10% of AI output. </li>
+          Use this badge if your artwork, including digital and traditional art, paintings, illustrations, and comics, contains less than 10% of AI output. </li>
           <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Written By Human, Not By AI badge: </h4><br>
-          Use this badge if your article, including blog posts, essays, research, emails, and other text-based content, contains less than 10% of AI output. </li>
-          <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Produced By Human, Not By AI badge: </h4><br>
-          Use this badge if your audio (music, vocal, sound effects, voice over, and other sounds) or video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content) contains less than 10% of AI output. </li>
+          Use this badge if your article, including blog posts, essays, research, code, emails, and other text-based content, contains less than 10% of AI output. </li>
+          <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Produced By Human, Not By AI badge*: </h4><br>
+          Use this badge if your audio (music, vocal, sound effects, voice over, and other sounds) or video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content) contains less than 10% of AI output.</li>
         </ul>
-        <p><span class="text-decoration-underline">If you want to indicate that your overall content, which could include images, text, and audio, follows the 90% rule mentioned above, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
+        <p>* <span class="text-decoration-underline">If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the 90% rule mentioned above, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
         <div id="not-by-ai-badge-use-examples" class="py-3"></div>
         <h3>Examples</h3>
         <div class="row pb-4">
@@ -176,17 +176,23 @@ get_header();
         </div>
         <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
         <h3>Why Should I Use the Badge</h3>
-        <p>You should add the badge to your work because it helps your audience recognize your human-first approach, which, in turn, fosters awareness and encourages more individuals to produce new and original content. This process makes sure we, as a species, continue to contribute to online content collectively and prevent online content from being replaced by recycled content produced by AI.</p>
+        <p>You should add the badge to your work because it helps your audience recognize your human-first approach, which, in turn, fosters awareness and encourages more individuals to produce new and original content. This process makes sure we, as a species, continue to contribute to original content collectively and prevent content from being replaced by recycled content produced by AI.</p>
+        <p>If you are business-minded, the Not By AI badge helps your clients, prospects, and users recognize your human-first approach to problem-solving. This is especially important when the business problem they look to solve is complex and requires a tailored solution that is built by trained humans. Below are ways your business can be benefited by Not By AI:</p>
+        <ul>
+	        <li>It shows that you provide human-centric solutions.</li>
+	        <li>It sets you apart from the competition.</li>
+	        <li>It builds trust and credibility for your brand.</li>
+        </ul>
         <p>Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         <div id="not-by-ai-bdage-guidelines" class="py-3"></div>
         <h3>Badge Use</h3>
         <p>The following guidelines provide instructions on how to use the Not an AI badge.</p>
         <ul>
-          <li class="pb-2">Linking the badge out to notbyai.fyi is highly recommended. Wrap the badge image using the anchor HTML element with the href attribute. For example, <pre class="my-2 py-1 px-2 bg-black text-white"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-human-not-by-ai-white.svg" alt="written by human, not by AI"&gt;&lt;/a&gt;</code></pre> This allows your audience to understand the mission and why you participate in this movement by clicking on the badge to learn more. </li>
+          <li class="pb-2">Linking the badge to notbyai.fyi is strongly recommended. Wrap the badge image using the anchor HTML element with the href attribute. For example, <pre class="my-2 py-1 px-2 bg-black text-white" style="user-select: all; -webkit-user-select: all;"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-human-not-by-ai-white.svg" alt="Written by Human, Not by AI"&gt;&lt;/a&gt;</code></pre> This allows your audience to understand the mission you are participating in by clicking on the badge to learn more. </li>
           <li class="pb-2">Respect the clear space: Clear space is the surrounding area around the badge that should avoid any content. The minimum clear space is the x-height of the Not By AI typemark.</li>
           <li class="pb-2">Do not alter the badge: The badge should not be altered or modified in any way.</li>
           <li class="pb-2">Minimum Size: To make sure that the badge remains legible and recognizable, it is important to maintain the minimum size of 42 px high for 1x resolution screens, or 84 px high for 2x resolution screens.</li>
-          <li class="pb-2">While the Not By AI badge is meant to be displayed and noted, the content creator is welcome to place the badge in a less visible area, such as a website footer or the back of an album, to prevent the badge from visually competing with the content.</li>
+          <li class="pb-2">While the Not By AI badge is meant to be displayed and noted, the content creator is welcome to place the badge in a less visible area, such as a website footer, the plaque for your art, or the back of an album, to prevent the badge from visually competing with your content.</li>
         </ul>
         <p>Incorrect badge usage examples:</p>
         <div class="row">
@@ -240,7 +246,7 @@ get_header();
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5 text-center">
-	              <p class="mb-0">Please consider a donation to make a big impact. Your gift helps nurture the Not By AI project.</p>
+	              <p class="mb-0">We have a huge to-do list (literally) to grow Not By AI and need your help to do so. <br>Your support empowers the future of content and humans.</p>
                 <script async
 								  src="https://js.stripe.com/v3/buy-button.js">
 								</script>
