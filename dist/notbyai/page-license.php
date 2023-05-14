@@ -10,7 +10,7 @@
 
 	      		<h2 class="pt-4 text-center">A Rule of Thumb</h2>
 	      		
-	      		<p class="text-center pb-4">Read below for the actual license but the gist is you can use our badges for personal and commercial use without attribution or any costs, as long as you follow our <a class="text-decoration-underline" href="https://notbyai.fyi/#who-can-use-not-by-ai-badge">90% rule</a>. You cannot sell or alter the badge.</p>
+	      		<p class="text-center pb-4">Read below for the actual license but the gist is you can use our badges for personal and commercial use without attribution or any costs, as long as you follow our <a class="text-decoration-underline" href="https://notbyai.fyi/#who-can-use-not-by-ai-badge">90% rule</a>. You cannot sell or alter the badges.</p>
 	      		
 	      		<div class="border-bottom my-4"></div>
 	      		
