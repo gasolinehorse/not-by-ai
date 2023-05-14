@@ -271,7 +271,41 @@ img[class*="share__"]:hover {
 .wpforms-container input[type=checkbox],
 .wpforms-container input[type=radio] {
 	width: auto;
-	margin-right: 0.25rem;
+	margin-right: 0.45rem;
+}
+.wpforms-container input[type=checkbox] {
+	background-color: #FFFFFF;
+	appearance: none;
+	width: 1.3rem;
+	height: 1.3rem;
+	border: 1px solid #dee2e6;
+	border-radius: 0.15em;
+	display: grid;
+  place-content: center;
+  margin-bottom: 0.4rem;
+}
+@media not all and (-webkit-min-device-pixel-ratio:0) {
+ 	.wpforms-container input[type=checkbox] {
+ 		appearance: auto;
+ 	}
+ }
+.wpforms-container input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s cubic-bezier(0.175, 0.880, 0.31, 1.27);
+  /* Windows High Contrast Mode */
+  background-color: #000000;
+}
+.wpforms-container input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+.wpforms-container input[type="checkbox"]:focus {
+  outline: max(2px, 0.15em) solid #dee2e6;;
+  outline-offset: max(2px, 0.15em);
 }
 .wpforms-container button {
 	color: #FFFFFF;

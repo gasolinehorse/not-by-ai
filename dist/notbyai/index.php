@@ -114,9 +114,6 @@ get_header();
             <a class="nav-link text-black" href="#not-by-ai-bdage-guidelines">Badge Use</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#legal-effect-of-not-by-ai-badge">Legal Effect</a>
-          </li>
-          <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download the Badge&nbsp;<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
         </ul>
@@ -134,7 +131,7 @@ get_header();
         <p>It is worth mentioning that AI technologies mark a major milestone in the history of technology and the Not By AI badge is not designed to discourage the use of AI. Instead, it is to make sure that, while we celebrate the achievement, we work with AI instead of being replaced by&nbsp;AI.</p>
         <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
         <h3>Who Can Use the Badge</h3>
-        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, to look for grammatical errors and typos, and to translate content.</p>
+        <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), to look for grammatical errors and typos, and to translate content.</p>
         <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
         <h3>Which Badge Should I Use</h3>
         <ul>
@@ -221,15 +218,12 @@ get_header();
             <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure the badge is legible</p>
           </div>
         </div>
-        <div id="legal-effect-of-not-by-ai-badge" class="py-3"></div>
-        <h3>Legal Effect</h3>
-        <p>The current Not By AI badges do not hold any legal effect significance and displaying the badge on any asset does not guarantee the content is not majorly created by AI. Legal experts are encouraged to <a href="<? bloginfo('url') ?>/contact" class="text-decoration-underline">get in touch</a> to explore the potential of formalizing and regulating the use of the Not By AI badge.</p>
         <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content border-0 rounded-0 download-popup">
-              <div class="modal-header px-md-5 py-md-4">
-                <div class="modal-title fs-3 h3" id="downloadEmailLabel">Enter your email to receive your free badge</div>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div class="modal-header px-md-5 py-md-4 align-items-start">
+                <div class="modal-title fs-3 h3" id="downloadEmailLabel">Enter your email to receive your free badge<p class="fw-normal pt-1 mb-0" style="font-size: 0.82rem; letter-spacing: 0px;">Free for personal and commercial use under the <a class="text-decoration-underline" href="<? bloginfo('url') ?>/license" target="_blank">Not By AI license</a>. </p></div>
+                <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
                 <?php echo do_shortcode( '[wpforms id="86" title="false"]' ); ?>
