@@ -10,7 +10,7 @@ get_header();
         <a href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/forward.svg" alt="Share via email"></a>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
-        <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate" target="_blank">Support Us</span>
+        <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Support Us</span>
       </div>
       <div class="col-sm-4 text-center order-sm-2">
         <img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI">
@@ -112,6 +112,9 @@ get_header();
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" href="#not-by-ai-bdage-guidelines">Badge Use</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#support-not-by-ai">Support Us</a>
           </li>
           <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download the Badge&nbsp;<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/download-not-by-ai-badge.svg" alt=""></span>
@@ -218,6 +221,10 @@ get_header();
             <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure the badge is legible</p>
           </div>
         </div>
+        <div id="support-not-by-ai" class="py-3"></div>
+        <h3>Support Us</h3>
+        <p>Every pixel in the badge, every word typed, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
+        <h5 class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Donate Today</h5>
         <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content border-0 rounded-0 download-popup">

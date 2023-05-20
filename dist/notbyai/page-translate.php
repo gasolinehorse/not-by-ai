@@ -6,7 +6,6 @@
     	<h1>Translate</h1>
     	<div class="col-12">
 	    	<div class="row text-center pt-4 pb-3">
-		      <h2 class="h5 pb-2" style="letter-spacing: 0px;">Languages currently available:</h5>
 					<div class="overflow-hidden">
 					  <div class="sliding-background"></div>
 					</div>
@@ -30,7 +29,7 @@
               <li class="pb-2">In general, shorter word count is preferred.</li>
             </ul>
             <p>Can't wait to see what you are going to submit!</p>
-            <p class="small">These languages are <span class="fst-italic">no longer</span> needed: English, Spanish, German, Korean, Chinese, French, Japanese, Indonesian, Portuguese, and Swedish.</p>
+            <p class="small">These languages are <span class="fst-italic">no longer</span> needed: English, Spanish, German, Korean, Chinese, French, Japanese, Indonesian, Thai, Portuguese, Vietnamese, and Swedish.</p>
       		</div>
       	</div>
 				<h3 class="pt-5 pb-3 mt-5 border-top fs-5">Share Your Not By AI Commitment on Social Media:</h3>
