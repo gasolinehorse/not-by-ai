@@ -96,25 +96,25 @@ get_header();
       <nav class="col-md-3 col-xl-2 text-start pt-5 d-none d-md-block">
         <ul class="nav flex-column position-sticky top-0 pt-5">
           <li class="nav-item">
-            <a class="nav-link text-black active" href="#not-by-ai-mission">Mission</a>
+            <a class="nav-link text-black active" id="quick-link-mission" href="#not-by-ai-mission">Mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
+            <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#which-not-by-ai-badge-should-i-use">Which Badge Should I Use</a>
+            <a class="nav-link text-black" id="quick-link-which" href="#which-not-by-ai-badge-should-i-use">Which Badge Should I Use</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#not-by-ai-badge-use-examples">Examples</a>
+            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Examples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#why-should-i-use-not-by-ai-badge">Why Should I Use the Badge</a>
+            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Why Should I Use the Badge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#not-by-ai-bdage-guidelines">Badge Use</a>
+            <a class="nav-link text-black" id="quick-link-use" href="#not-by-ai-bdage-guidelines">Badge Use</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="#support-not-by-ai">Support Us</a>
+            <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Support Us</a>
           </li>
           <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download the Badge&nbsp;<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/download-not-by-ai-badge.svg" alt=""></span>
@@ -148,6 +148,7 @@ get_header();
         <p>* <span class="text-decoration-underline">If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the 90% rule mentioned above, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
         <div id="not-by-ai-badge-use-examples" class="py-3"></div>
         <h3>Examples</h3>
+        <p>Depending on how important it is to you to convey the message of Not By AI, you can decide where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach.</p>
         <div class="row pb-4">
           <div class="col-sm-6 pt-4 pt-sm-3">
             <h5>Add to a website</h5>
@@ -170,8 +171,21 @@ get_header();
             <img class="img-fluid" srcset="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-music.jpg" alt="">
           </div>
           <div class="col-sm-6 pt-4 pt-sm-3">
-            <h5>Add to a resume or a business card</h5>
+            <h5>Add to a resume, portfolio, or a business card</h5>
             <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/add-not-by-ai-badge-to-business.svg" alt="">
+          </div>
+        </div>
+        <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">Show More Inspirations</a></p>
+        <div class="collapse" id="collapseInspirations">
+          <div class="card card-body border-0">
+            <p>Below are a few ways to display the Not By AI badge on some common content:</p>
+            <ul>
+              <li class="pb-2"><span class="fw-bold">Text-based content</span>: display the Not By AI badge at the beginning or the end of the text-based content, on the author profile or website, on the book cover/back, and/or on the marketing materials.</li>
+              <li class="pb-2"><span class="fw-bold">Art</span>: display the Not By AI badge on the artwork (or back of the artwork), on the plaque of the art, on the artist profile or website, and/or on the marketing materials.</li>
+              <li class="pb-2"><span class="fw-bold">Photography</span>: display the Not By AI badge on the photographer’s profile or website, on the photos, and/or on the marketing materials.</li>
+              <li class="pb-2"><span class="fw-bold">Music</span>: display the Not By AI badge on the album cover/back, on the artist profile image, on the artist profile cover art, on the artist profile or website, and/or on the marketing materials.</li>
+              <li class="pb-2"><span class="fw-bold">Films</span>: display the Not By AI badge on the video intros/bumpers or outro, at a corner throughout the video, on the profile or website, and/or on the marketing materials.</li>
+            </ul>
           </div>
         </div>
         <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
@@ -179,9 +193,9 @@ get_header();
         <p>You should add the badge to your work because it helps your audience recognize your human-first approach, which, in turn, fosters awareness and encourages more individuals to produce new and original content. This process makes sure we, as a species, continue to contribute to original content collectively and prevent content from being replaced by recycled content produced by AI.</p>
         <p>If you are business-minded, the Not By AI badge helps your clients, prospects, and users recognize your human-first approach to problem-solving. This is especially important when the business problem they look to solve is complex and requires a tailored solution that is built by trained humans. Below are ways your business can be benefited by Not By AI:</p>
         <ul>
-	        <li>It shows that you provide human-centric solutions.</li>
-	        <li>It sets you apart from the competition.</li>
-	        <li>It builds trust and credibility for your brand.</li>
+          <li>It shows that you provide human-centric solutions.</li>
+          <li>It sets you apart from the competition.</li>
+          <li>It builds trust and credibility for your brand.</li>
         </ul>
         <p>Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         <div id="not-by-ai-bdage-guidelines" class="py-3"></div>
@@ -247,15 +261,15 @@ get_header();
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5 text-center">
-	              <p class="mb-0">We have a huge to-do list (literally) to grow Not By AI and need your help to do so. <br>Your support empowers the future of content and humans.</p>
+                <p class="mb-0">We have a huge to-do list (literally) to grow Not By AI and need your help to do so. <br>Your support empowers the future of content and humans.</p>
                 <script async
-								  src="https://js.stripe.com/v3/buy-button.js">
-								</script>
-								<stripe-buy-button
-								  buy-button-id="buy_btn_1N2mpPHl9sHS7hKr9qop1oXF"
-								  publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-								>
-								</stripe-buy-button>
+                  src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+                <stripe-buy-button
+                  buy-button-id="buy_btn_1N2mpPHl9sHS7hKr9qop1oXF"
+                  publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
+                >
+                </stripe-buy-button>
               </div>
             </div>
           </div>
@@ -274,5 +288,5 @@ get_header();
         });
       });
     </script>
-		<?php
-		get_footer();
+    <?php
+    get_footer();
