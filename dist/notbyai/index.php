@@ -284,7 +284,7 @@ get_header();
     <script>
       jQuery(function($) {
         $('.modal').on('shown.bs.modal', function() {
-          $('#wpforms-39-field_1').focus();
+          $('#wpforms-86-field_1').focus();
         });
       });
     </script>
