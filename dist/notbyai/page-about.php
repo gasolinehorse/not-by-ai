@@ -1,6 +1,6 @@
 <?php /* Template Name: About */ ?>
 <?php get_header(); ?>
-  <div class="container-fluid bg-white curve">
+	<div class="container-fluid bg-white curve">
     <div class="row text-center">
       <div class="col-6 col-sm-4 text-start mt-sm-2 pt-2 ps-4 pt-sm-3 ps-sm-4 share order-sm-1">
         <a href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1 opacity-50" src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.svg" alt="Follow us on Twitter"></a>
@@ -97,8 +97,8 @@
         </div>
       </div>
       <div class="overflow-hidden pt-4">
-        <div class="sliding-background"></div>
-      </div>
+			  <div class="sliding-background"></div>
+			</div>
       <div class="col-lg-10 col-xl-9 px-4 px-lg-0 pt-4 pb-5">
         <div class="row py-5 mb-lg-3">
           <div class="col-lg-6 px-2 px-sm-0">
@@ -185,7 +185,7 @@
       }
       
       window.onload = function() {
-        setTimeout(changeImage, 5052);
+	      setTimeout(changeImage, 5052);
         setTimeout(changeImage2, 2011);
       };
     </script>

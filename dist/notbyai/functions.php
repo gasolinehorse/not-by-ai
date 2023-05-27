@@ -166,3 +166,12 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+// Register the custom action hook for WPForms submission
+session_start();
+add_action('wpforms_process_complete', 'custom_wpforms_process_complete', 10, 4);
+function custom_wpforms_process_complete($entry, $form_data, $fields, $entry_id)
+{
+  $_SESSION["access_granted"] = true;
+  wp_redirect(home_url('/download')); // Redirect to the protected page
+  exit();
+}

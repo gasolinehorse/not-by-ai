@@ -1,5 +1,17 @@
 <?php /* Template Name: Download */ ?>
 <?php get_header(); ?>
+<?php
+session_start();
+
+// Check if access is granted
+if (!isset($_SESSION["access_granted"]) || $_SESSION["access_granted"] !== true) {
+  // Redirect if access not granted
+  header("Location: process-form-failed.php");
+  exit();
+}
+
+// Display protected content
+?>
 	<meta http-equiv="refresh" content="2; url='https://notbyai.fyi/Not-By-AI.zip'" />
 	<div class="container-fluid bg-white text-center curve">
     <a href="https://notbyai.fyi/"><img class="mt-4 mb-5" width="128.5" height="26.77" src="<?php echo get_stylesheet_directory_uri(); ?>/img/not-by-ai.svg" alt="Not By AI"></a>
