@@ -1,2 +1,6 @@
 
 *.htaccess
+dist/a.htaccess.txt
+dist/process-form.php
+dist/process-form-translate.php
+dist/process-form-feedback.php

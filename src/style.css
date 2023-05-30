@@ -9,9 +9,6 @@ body {
 		padding: 0.7rem !important;
 	}
 }
-::selection {
-  background-color: #FFE500;
-}
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
@@ -37,7 +34,7 @@ h1,
 	letter-spacing: -1px;
 	line-height: 1.1;
 }
-@media (max-width: 991px)  {
+@media (min-width: 768px) and (max-width: 991px)  {
 	h1,
 	.h1 {
 		font-size: 2.8rem;
@@ -59,7 +56,7 @@ h2,
 .h2 {
 	font-size: 1.625rem;
 	font-weight: bold;
-	letter-spacing: -1px;
+	letter-spacing: -0.2px;
 	line-height: 1.26;
 }
 @media (max-width: 991px) {
@@ -168,8 +165,21 @@ cite,
 .rounded {
 	border-radius: 12px !important;
 }
-.btn-dark {
+.btn {
+	color: #FFFFFF;
+	width: auto;
 	background-color: #000000;
+	padding: 0.6rem 2.8rem;
+	border: 0;
+	border-radius: 0;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+	color: #FFFFFF;
+	background-color: #333333;
 }
 nav {
 	font-size: 0.875rem;
@@ -228,6 +238,11 @@ img[class*="share__"]:hover {
   70% { opacity: 1; transform: translateY(5px); }
   100% { opacity: 1; transform: translateY(0px); }
 }
+@media (max-width: 375px) {
+	.not-by-ai-badge-folder img:last-child {
+	  display: none !important;
+	}
+}
 .sliding-background {
   background: url("img/not-by-ai-rotate.svg") repeat-x;
   height: 42px;
@@ -242,21 +257,15 @@ img[class*="share__"]:hover {
     transform: translate3d(-1627px, 0, 0);
   }
 }
-.wpforms-container .wpforms-hidden,
-.wpforms-container .wpforms-required-label,
-.wpforms-container .wpforms-label-hide {
-	display: none;
-}
-.wpforms-container label,
-.wpforms-container .wpforms-field-label {
+form label {
 	font-size: 0.82rem;
 	margin-top: 0.75rem;
 }
-.modal .wpforms-container label {
+.modal form label {
 	margin-top: 0;
 }
-.wpforms-container input,
-.wpforms-container textarea {
+form input,
+form textarea {
 	background-color: #efefef;
 	padding: 0.5rem;
 	width: 100%;
@@ -264,16 +273,16 @@ img[class*="share__"]:hover {
 	outline: 0;
 	transition: 0.2s ease all;
 }
-.wpforms-container input:focus,
-.wpforms-container input:focus-visible {
+form input:focus,
+form input:focus-visible {
 	background-color: #f4f4f4;
 }
-.wpforms-container input[type=checkbox],
-.wpforms-container input[type=radio] {
+form input[type=checkbox],
+form input[type=radio] {
 	width: auto;
 	margin-right: 0.45rem;
 }
-.wpforms-container input[type=checkbox] {
+form input[type=checkbox] {
 	background-color: #FFFFFF;
 	appearance: none;
 	width: 1.3rem;
@@ -285,11 +294,11 @@ img[class*="share__"]:hover {
   margin-bottom: 0.4rem;
 }
 @media not all and (-webkit-min-device-pixel-ratio:0) {
- 	.wpforms-container input[type=checkbox] {
+ 	form input[type=checkbox] {
  		appearance: auto;
  	}
  }
-.wpforms-container input[type="checkbox"]::before {
+form input[type="checkbox"]::before {
   content: "";
   width: 0.65em;
   height: 0.65em;
@@ -300,32 +309,29 @@ img[class*="share__"]:hover {
   /* Windows High Contrast Mode */
   background-color: #000000;
 }
-.wpforms-container input[type="checkbox"]:checked::before {
+form input[type="checkbox"]:checked::before {
   transform: scale(1);
 }
-.wpforms-container input[type="checkbox"]:focus {
+form input[type="checkbox"]:focus {
   outline: max(2px, 0.15em) solid #dee2e6;;
   outline-offset: max(2px, 0.15em);
 }
-.wpforms-container button {
+form button {
 	color: #FFFFFF;
 	background-color: #212529;
 	padding: 1rem 1.8rem;
 	border: 0;
 }
-.wpforms-container ul {
+form ul {
 	padding-left: 0;
 }
-.wpforms-container li {
+form li {
 	list-style-type: none;
 }
-.wpforms-container li label {
+form li label {
 	margin-top: 0;
 }
-.wpforms-container .wpforms-field-checkbox li {
-	display: flex;
-}
-.wpforms-container .wpforms-field-checkbox {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
+form .form-check-input:checked {
+	background-color: #000000;
+	border-color: #000000;
 }
