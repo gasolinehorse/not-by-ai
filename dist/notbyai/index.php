@@ -200,7 +200,7 @@ get_header();
         <p>Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         <div id="not-by-ai-bdage-guidelines" class="py-3"></div>
         <h3>Badge Use</h3>
-        <p>The following guidelines provide instructions on how to use the Not an AI badge.</p>
+        <p>The following guidelines provide instructions on how to use the Not By AI badge.</p>
         <ul>
           <li class="pb-2">Linking the badge to notbyai.fyi is strongly recommended. Wrap the badge image using the anchor HTML element with the href attribute. For example, <pre class="my-2 py-1 px-2 bg-black text-white" style="user-select: all; -webkit-user-select: all;"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-human-not-by-ai-white.svg" alt="Written by Human, Not by AI"&gt;&lt;/a&gt;</code></pre> This allows your audience to understand the mission you are participating in by clicking on the badge to learn more. </li>
           <li class="pb-2">Respect the clear space: Clear space is the surrounding area around the badge that should avoid any content. The minimum clear space is the x-height of the Not By AI typemark.</li>
