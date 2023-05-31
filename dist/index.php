@@ -4,7 +4,7 @@ $pageDes = 'Download and add the "Not By AI" badge to showcase your AI-free & hu
 include 'header.php';
 ?>
     <main>
-      <section class="row justify-content-center px-4 px-lg-0">
+      <section class="row justify-content-center px-sm-4 px-lg-0">
         <div class="col-lg-9 col-xl-7 col-xxl-6">
           <header>
             <h1 id="tagline" class="pt-md-5 mt-md-3 pb-1">Your AI-free Content Deserves a&nbsp;Badge</h1>

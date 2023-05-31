@@ -7,7 +7,8 @@ include 'header.php';
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
-          <h1 class="fs-2 h3 entry-title" itemprop="name">Your Download Will Start Shortly</h1>
+          <h1>Thank You for Your&nbsp;Purchase</h1>
+          <h3 class="fs-2 entry-title" itemprop="name">Your Download Will Start Shortly</h1>
         </header>
         <p class="entry-content small mb-0">If your download hasn’t started, you can <a class="text-decoration-underline" href="https://notbyai.fyi/Not-By-AI.zip">download the badge here</a>.</p>
       </div>
@@ -18,26 +19,14 @@ include 'header.php';
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 1</div>
-        <p class="mb-0">From a human to a human, please consider a small donation to make a big impact.</p>
-        <script async
-          src="https://js.stripe.com/v3/buy-button.js">
-        </script>
-        <stripe-buy-button
-          buy-button-id="buy_btn_1N2mpPHl9sHS7hKr9qop1oXF"
-          publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-        >
-        </stripe-buy-button>
-      </div>
-      <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 2</div>
         <p>Once you download the Not By AI ZIP file to your desktop and unzip it, open the folder. You will find subfolders that contain the Not By AI badge in different languages.</p>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 3</div>
-        <p>Add the Not By AI badge of your preferred language to your content.</p>
+        <div class="h1">Step 2</div>
+        <p>Add the Not By AI badge of your preferred language to your content. Here are some <a class="text-decoration-underline" href="https://notbyai.fyi/#not-by-ai-badge-use-examples">examples</a> for your reference.</p>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 4</div>
+        <div class="h1">Step 3</div>
         <p>If your content is in a digital format that allows for the Not By AI badge to be linked or clickable, consider inserting a link to https://notbyai.fyi. This will allow the users to learn more about why you are participating in the movement.</p>
       </div>
     </div>

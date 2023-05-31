@@ -5,7 +5,7 @@ body {
 	background-size: 100%;
 }
 @media (max-width: 575px) {
-	body {
+	body.p-4 {
 		padding: 0.7rem !important;
 	}
 }
@@ -238,7 +238,7 @@ img[class*="share__"]:hover {
   70% { opacity: 1; transform: translateY(5px); }
   100% { opacity: 1; transform: translateY(0px); }
 }
-@media (max-width: 375px) {
+@media (max-width: 325px) {
 	.not-by-ai-badge-folder img:last-child {
 	  display: none !important;
 	}
@@ -270,6 +270,7 @@ form textarea {
 	padding: 0.5rem;
 	width: 100%;
 	border: 0;
+	border-radius: 0;
 	outline: 0;
 	transition: 0.2s ease all;
 }
