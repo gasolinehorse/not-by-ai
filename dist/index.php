@@ -354,7 +354,7 @@ include 'header.php';
 
       var trafficSource = document.referrer;
       if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
-        document.getElementById("tagline").innerHTML = "I Added a 'Not&nbsp;By&nbsp;AI' Badge to My Content to Prove Its&nbsp;Originality.";
+        document.getElementById("tagline").innerHTML = "We Added a 'Not&nbsp;By&nbsp;AI' Badge to Our Content to Prove Its&nbsp;Originality.";
         document.getElementById("tagline").style.zoom = "90%";
       }
     </script>
