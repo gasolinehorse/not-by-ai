@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Download the Not By AI Badge';
-$pageDes = 'Add the "Not By AI" badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
+$pageDes = 'Add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include 'header.php';
 ?>
     <meta http-equiv="refresh" content="2; url='https://notbyai.fyi/Not-By-AI.zip'" />

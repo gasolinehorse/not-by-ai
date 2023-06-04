@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Not By AI — Add the Not By AI Badge to Human-Created Content';
-$pageDes = 'Download and add the "Not By AI" badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
+$pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include 'header.php';
 ?>
     <main>
