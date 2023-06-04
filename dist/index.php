@@ -182,6 +182,7 @@ include 'header.php';
                 <li class="pb-2"><span class="fw-bold">Music</span>: display the Not By AI badge on the album cover/back, on the artist profile image, on the artist profile cover art, on the artist profile or website, and/or on the marketing materials.</li>
                 <li class="pb-2"><span class="fw-bold">Films</span>: display the Not By AI badge on the video intros/bumpers or outro, at a corner throughout the video, on the profile or website, and/or on the marketing materials.</li>
               </ul>
+              <img class="img-fluid" srcset="/img/not-by-ai-in-use-examples@2x.jpg 2x" src="/img/not-by-ai-in-use-examples.jpg" alt="More ways to use Not By AI">
             </div>
           </div>
         </section>
