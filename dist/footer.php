@@ -23,7 +23,7 @@
             src="https://js.stripe.com/v3/buy-button.js">
           </script>
           <stripe-buy-button
-            buy-button-id="buy_btn_1N2mpPHl9sHS7hKr9qop1oXF"
+            buy-button-id="buy_btn_1NE0dmHl9sHS7hKrb8qDcV73"
             publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
           >
           </stripe-buy-button>
