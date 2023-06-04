@@ -5,3 +5,4 @@ dist/process-form.php
 dist/process-form-translate.php
 dist/process-form-feedback.php
 dist/process-form-contact.php
+dist/process-form-post-purchase-request.php
