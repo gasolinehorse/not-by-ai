@@ -8,9 +8,21 @@ include 'header.php';
       <div class="col-lg-9 pb-5">
         <header class="header">
           <h1>Thank You for Your&nbsp;Purchase</h1>
-          <h3 class="fs-2 entry-title" itemprop="name">Your Download Will Start Shortly</h1>
         </header>
-        <p class="entry-content small mb-0">If your download hasn’t started, you can <a class="text-decoration-underline" href="https://notbyai.fyi/Not-By-AI.zip">download the badge here</a>.</p>
+        <div class="row justify-content-center">
+	        <div class="col-sm-10 col-md-9 col-lg-5">
+		        <div class="h5 pt-4 pb-3">Your download will start soon. You can also request a copy to be sent to your inbox below.</div>
+		        <form method="post" action="process-form-post-purchase-request.php">
+		          <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
+	            <label class="d-block text-start" for="email">Email</label>
+	            <input type="email" name="email" required>
+	            <div class="d-flex pt-3">
+	              <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing" class="mt-0 text-start">I want to receive news such as updates, tips, resources, and discounts.</label>
+	            </div>
+	            <input type="submit" class="btn mt-4" value="Send Myself a Copy">
+		        </form>
+	        </div>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center pb-5">

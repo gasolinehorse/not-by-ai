@@ -1,0 +1,38 @@
+[29-May-2023 22:14:39 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 33
+[29-May-2023 22:14:39 America/Chicago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 41
+[29-May-2023 22:14:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/htmlbtes/public_html/notbyai.fyi/process-form.php:36) in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 45
+[29-May-2023 22:16:03 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 33
+[29-May-2023 23:27:26 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 33
+[30-May-2023 00:22:55 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 33
+[30-May-2023 20:25:35 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-contact.php on line 33
+[30-May-2023 20:31:09 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 33
+[30-May-2023 22:05:31 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 00:58:13 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 01:19:20 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 03:51:35 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 06:11:08 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 08:20:36 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 08:22:19 America/Chicago] PHP Warning:  Undefined array key "email" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 08:22:19 America/Chicago] PHP Warning:  Undefined array key "usage" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[31-May-2023 08:22:19 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 07:22:36 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 07:47:08 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 10:01:24 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 10:01:24 America/Chicago] PHP Warning:  Undefined array key "email" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 10:01:24 America/Chicago] PHP Warning:  Undefined array key "usage" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 10:01:24 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 13:33:37 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 20:36:47 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[01-Jun-2023 21:27:58 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-contact.php on line 34
+[01-Jun-2023 23:29:39 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[03-Jun-2023 04:20:14 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[03-Jun-2023 08:10:41 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[03-Jun-2023 19:07:05 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 34
+[04-Jun-2023 08:25:25 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form.php on line 39
+[04-Jun-2023 10:16:05 America/Chicago] PHP Warning:  Undefined array key "usage" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-post-purchase-request.php on line 39
+[04-Jun-2023 10:23:54 America/Chicago] PHP Warning:  Undefined array key "usage" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-post-purchase-request.php on line 39
+[04-Jun-2023 10:48:59 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-contact.php on line 41
+[04-Jun-2023 10:51:36 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-contact.php on line 40
+[04-Jun-2023 10:55:24 America/Chicago] PHP Parse error:  Unclosed '(' does not match ']' in /home3/htmlbtes/public_html/notbyai.fyi/process-form-feedback.php on line 44
+[04-Jun-2023 10:57:35 America/Chicago] PHP Warning:  Undefined array key "marketing" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-feedback.php on line 40
+[04-Jun-2023 11:01:26 America/Chicago] PHP Warning:  Undefined array key "languageNotification" in /home3/htmlbtes/public_html/notbyai.fyi/process-form-translate.php on line 40

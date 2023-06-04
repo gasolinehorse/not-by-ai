@@ -277,7 +277,6 @@ include 'header.php';
                         <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
                       </div>
                       <input type="submit" class="btn mt-4" value="Download My Badge">
-                      <div class="d-block d-sm-none"><p class="small pt-2">On a go? <a class="text-decoration-underline" href="mailto:?subject=Don't forget to download Not By AI&amp;body=Remind me to download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank">Send yourself a reminder</a>.</p></div>
                     </div>
                     <div id="commercial-form" class="d-none">
                       <p class="small mt-2 mb-1 w-100">You will get: </p>
