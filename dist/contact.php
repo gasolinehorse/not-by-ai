@@ -22,7 +22,8 @@ include 'header.php';
               <div class="d-flex pt-3">
                 <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label class="mt-0" for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
               </div>
-              <input type="submit" class="btn mt-4" value="Send My Message">
+              <div class="cf-turnstile" data-sitekey="0x4AAAAAAAFQ5_wULABP3JWj" data-callback="javascriptCallback"></div>
+              <input type="submit" class="btn mt-3" value="Send My Message">
             </form>
           </section>
           <section class="col-lg-6 text-start">
@@ -52,4 +53,5 @@ include 'header.php';
         </section>
       </div>
     </main>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <?php include 'footer.php'; ?>

@@ -111,10 +111,10 @@ include 'header.php';
     </main>
     <script>
       var images = [
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-druming.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-mixing.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-sketching.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-fashion.jpg"
+        "https://notbyai.fyi/img/slide-druming.jpg",
+        "https://notbyai.fyi/img/slide-mixing.jpg",
+        "https://notbyai.fyi/img/slide-sketching.jpg",
+        "https://notbyai.fyi/img/slide-fashion.jpg"
       ];
       var currentImageIndex = 0;      
       function changeImage() {
@@ -131,10 +131,10 @@ include 'header.php';
         }, 1000);
       }
       var images2 = [
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-photographing.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-filming.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-drawing.jpg",
-        "https://notbyai.fyi/wp-content/themes/notbyai/img/slide-noting.jpg"
+        "https://notbyai.fyi/img/slide-photographing.jpg",
+        "https://notbyai.fyi/img/slide-filming.jpg",
+        "https://notbyai.fyi/img/slide-drawing.jpg",
+        "https://notbyai.fyi/img/slide-noting.jpg"
       ];
       var currentImageIndex2 = 0;      
       function changeImage2() {

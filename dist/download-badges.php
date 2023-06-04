@@ -19,7 +19,7 @@ include 'header.php';
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 1</div>
-        <p>Once you download the Not By AI ZIP file to your desktop and unzip it, open the folder. You will find subfolders that contain the Not By AI badge in different languages.</p>
+        <p>Once you download the Not By AI ZIP file to your desktop and unzip it, open the folder. You will find subfolders that contain the Not By AI badges in different languages.</p>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 2</div>
