@@ -195,6 +195,7 @@ include 'header.php';
             <li>It shows that you provide human-centric solutions.</li>
             <li>It sets you apart from the competition.</li>
             <li>It builds trust and credibility for your brand.</li>
+            <li>It proves that your content is safe from AI hallucinations.</li>
           </ul>
           <p>Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         </section>
