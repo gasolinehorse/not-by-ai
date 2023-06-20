@@ -78,6 +78,9 @@ include 'header.php';
             </span>
           </div>
         </div>
+        <div class="row justify-content-center">
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 53.6K+ pages.</div>
+        </div>
       </section>
     </main>
     <div class="pb-5 border-bottom"></div>
