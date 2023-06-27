@@ -79,7 +79,7 @@ include 'header.php';
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
         </div>
       </section>
     </main>
@@ -280,6 +280,7 @@ include 'header.php';
                       <div class="d-flex pt-3">
                         <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
                       </div>
+                      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAFQ5_wULABP3JWj" data-callback="javascriptCallback"></div>
                       <input type="submit" class="btn mt-4" value="Download My Badge">
                     </div>
                     <div id="commercial-form" class="d-none">
@@ -362,4 +363,5 @@ include 'header.php';
         document.getElementById("tagline").style.zoom = "90%";
       }
     </script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <?php include 'footer.php'; ?>
