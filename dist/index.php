@@ -280,7 +280,7 @@ include 'header.php';
                       <div class="d-flex pt-3">
                         <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
                       </div>
-                      <div class="cf-turnstile" data-sitekey="0x4AAAAAAAFQ5_wULABP3JWj" data-callback="javascriptCallback"></div>
+                      <input type="text" name="nogo" style="display:none;">
                       <input type="submit" class="btn mt-4" value="Download My Badge">
                     </div>
                     <div id="commercial-form" class="d-none">
@@ -363,5 +363,4 @@ include 'header.php';
         document.getElementById("tagline").style.zoom = "90%";
       }
     </script>
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <?php include 'footer.php'; ?>
