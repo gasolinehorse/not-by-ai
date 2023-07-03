@@ -44,18 +44,41 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TNDH2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+  <div id="sidenav-bar" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a onclick="closeNav()" href="/#not-by-ai-mission">Mission</a>
+    <a onclick="closeNav()" href="/#who-can-use-not-by-ai-badge">Qualification</a>
+    <a onclick="closeNav()" href="/#which-not-by-ai-badge-should-i-use">Badge Types</a>
+    <a onclick="closeNav()" href="/#not-by-ai-badge-use-examples">Examples</a>
+    <a onclick="closeNav()" href="/#why-should-i-use-not-by-ai-badge">Benefits</a>
+    <a onclick="closeNav()" href="/#not-by-ai-bdage-guidelines">Guidelines</a>
+    <a href="https://notbyai.fyi/about">About Us</a>
+    <a href="https://notbyai.fyi/contact">Contact</a>
+    <div class="px-4 mt-3" onclick="closeNav()">
+      <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges</a>
+    </div>
+    <div class="d-flex pt-4">
+      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
+      <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
+      <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
+      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
+    </div>
+  </div>
   <div class="container-fluid bg-white text-center curve">
     <div class="row">
-      <div class="col-6 col-sm-4 text-start mt-sm-2 pt-2 ps-4 pt-sm-3 ps-sm-4 share order-sm-1">
-        <a href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1 opacity-50" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
-        <a href="https://facebook.com/notbyai" target="_blank"><img class="mx-1 opacity-50" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
-        <a href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1 opacity-50" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
-        <a href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1 opacity-50" src="/img/forward.svg" alt="Share via email"></a>
+      <div class="col-6 col-sm-4 text-start mt-sm-2 ps-4 pt-3 ps-sm-4 share order-sm-1">
+        <span onclick="openNav()">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </span>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
         <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Support Us</span>
       </div>
       <div class="col-sm-4 text-center order-sm-2">
-        <a href="https://notbyai.fyi"><img class="mt-4 mb-5" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
+        <a href="https://notbyai.fyi" style="opacity: 1;"><img class="mt-4 mb-5" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
       </div>
     </div>

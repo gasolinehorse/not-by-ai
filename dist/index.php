@@ -79,7 +79,7 @@ include 'header.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
+          <div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
         </div>
       </section>
     </main>
@@ -109,7 +109,7 @@ include 'header.php';
             <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Support Us</a>
           </li>
           <li class="nav-item">
-            <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download the Badge&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
+            <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
         </ul>
       </nav>
@@ -129,6 +129,7 @@ include 'header.php';
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
           <h3>Who Can Use the Badge</h3>
+          <h4>The 90% Rule</h4>
           <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
         </section>
         <section>
