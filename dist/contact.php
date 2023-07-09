@@ -17,12 +17,12 @@ include 'header.php';
               <input type="text" name="name" required autofocus>
               <label for="email">Email</label>
               <input type="email" name="email" required>
+              <input type="text" name="nogo" style="display:none;">
               <label for="message">Message</label>
               <textarea name="message" rows="5" required></textarea>
               <div class="d-flex pt-3">
                 <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label class="mt-0" for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
               </div>
-              <input type="text" name="nogo" style="display:none;">
               <input type="submit" class="btn mt-3" value="Send My Message">
             </form>
           </section>
