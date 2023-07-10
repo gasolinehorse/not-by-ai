@@ -2,6 +2,7 @@
 $pageTitle = 'Not By AI License';
 $pageDes = 'The license agreement for the Not By AI badge.';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>

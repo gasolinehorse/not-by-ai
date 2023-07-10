@@ -2,6 +2,7 @@
 $pageTitle = 'Not By AI — Add the Not By AI Badge to Human-Created Content';
 $pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main>
       <section class="row justify-content-center px-sm-4 px-lg-0">
@@ -32,7 +33,7 @@ include 'header.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the artist badge</h2>
-                  <p class="small mt-2 opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
+                  <p class="small mt-2 text-opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
                 </div>
               </span>
             </span>
@@ -52,7 +53,7 @@ include 'header.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the writer badge</h2>
-                  <p class="small mt-2 opacity-50">Good for blog posts, essays, books, research, code, and other text-based content</p>
+                  <p class="small mt-2 text-opacity-50">Good for blog posts, essays, books, research, code, and other text-based content</p>
                 </div>
               </span>
             </span>
@@ -72,7 +73,7 @@ include 'header.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the producer badge</h2>
-                  <p class="small mt-2 opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
+                  <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
                 </div>
               </span>
             </span>
@@ -110,6 +111,9 @@ include 'header.php';
           </li>
           <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
+          </li>
+          <li class="nav-item">
+            <a class="for-business-link ms-3 mt-3" href="https://notbyai.fyi/business">Not By AI for business</a>
           </li>
         </ul>
       </nav>

@@ -2,6 +2,7 @@
 $pageTitle = 'Contact Not By AI — Add the Badge to Human-Created Content';
 $pageDes = 'Contact us if you have questions about using the Not By AI badge, showing your AI-free & human-created content, which badge to use, licensing, and more.';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>

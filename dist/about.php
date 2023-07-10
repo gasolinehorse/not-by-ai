@@ -2,6 +2,7 @@
 $pageTitle = 'About Not By AI — The Badge to Showcase Human-Created Content';
 $pageDes = 'Not By AI is a badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <header class="row justify-content-center px-4 px-lg-0">
       <div class="col-12 col-sm-11 position-relative">

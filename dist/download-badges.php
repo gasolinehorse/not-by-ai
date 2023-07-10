@@ -2,6 +2,7 @@
 $pageTitle = 'Download the Not By AI Badge';
 $pageDes = 'Add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <meta http-equiv="refresh" content="2; url='https://notbyai.fyi/Not-By-AI.zip'" />
     <div class="row justify-content-center px-4 px-lg-0">

@@ -2,6 +2,7 @@
 $pageTitle = 'Page Not Found';
 $pageDes = '';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>

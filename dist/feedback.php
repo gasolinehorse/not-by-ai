@@ -2,6 +2,7 @@
 $pageTitle = 'Send Feedback to Not By AI';
 $pageDes = 'Contact us and provide feedback if you have feedback regarding the Not By AI badge, content, website experience, licensing, and more.';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>

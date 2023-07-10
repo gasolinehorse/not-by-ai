@@ -2,6 +2,7 @@
 $pageTitle = 'Translate Not By AI — Easily Translate the Badges Into Your Language';
 $pageDes = 'Translate the Not By AI badges into your language to help content creators like you around the world appreciate the AI-free approach. It’s easy and rewarding.';
 include 'header.php';
+include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>

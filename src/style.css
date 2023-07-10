@@ -153,11 +153,22 @@ cite,
 	background: #EDEDED;
 	box-shadow: inset 0 0 0px 4px #F9F9F9;
 }
+.bg-black .not-by-ai-folder-wrapper:hover{
+	background: #212529;
+	box-shadow: inset 0 0 0px 4px #444444;
+}
 @media (min-width: 992px) {
 	.not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
 		background: #EDEDED;
 		box-shadow: inset 0 0 0px 4px #F9F9F9;
 	}
+	.bg-black .not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
+		background: #212529;
+		box-shadow: inset 0 0 0px 4px #444444;
+	}
+}
+.bg-dark {
+	background-color: #292929 !important;
 }
 [class*="border-"] {
 	border-color: #EAEAEA !important;
@@ -173,6 +184,14 @@ cite,
 	border: 0;
 	border-radius: 0;
 }
+.btn-white {
+	color: #000000;
+	width: auto;
+	background-color: #FFFFFF;
+	padding: 0.6rem 2.8rem;
+	border: 0;
+	border-radius: 0;
+}
 .btn:hover,
 .btn:focus,
 .btn:active,
@@ -180,6 +199,14 @@ cite,
 :not(.btn-check)+.btn:active {
 	color: #FFFFFF;
 	background-color: #333333;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white:first-child:active,
+:not(.btn-check)+.btn-white:active {
+	color: #000000;
+	background-color: #EDEDED;
 }
 nav {
 	font-size: 0.875rem;
@@ -422,4 +449,53 @@ form .form-check-input:checked {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+#real-meaning-of-not-by-ai {
+	background-image: url('img/not-by-ai-grid-bg.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#big-not-by-ai-benefits {
+	background-image: url('img/typing-without-ai-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  #big-not-by-ai-benefits {
+    background-image: url('img/typing-without-ai-bg@2x.jpg');
+  }
+}
+.accordion-item {
+	border-radius: 0 !important;
+}
+.accordion-item .accordion-button {
+	background-color: #000000 !important;
+	color: #FFFFFF;
+}
+.accordion-button:not(.collapsed),
+.accordion-item {
+	background-color: #292929 !important;
+	color: #FFFFFF;
+}
+.accordion-body {
+	text-align: left;
+}
+.accordion-button:focus {
+	border-color: #FFFFFF;
+	box-shadow: none;
+}
+.for-business-link,
+.sidenav a.for-business-link {
+	border: #505050 1px solid;
+  padding: 0.2rem 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
 }

@@ -39,7 +39,7 @@
   })(window,document,'script','dataLayer','GTM-5TNDH2X');</script>
   <!-- End Google Tag Manager -->
 </head>
-<body class="bg-dark p-4">
+<body class="bg-secondary-subtle p-4">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TNDH2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -57,28 +57,13 @@
     <div class="px-4 mt-3" onclick="closeNav()">
       <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges</a>
     </div>
+    <div class="px-4 mt-3" onclick="closeNav()">
+      <a href="https://notbyai.fyi/business" class="border text-center px-2" style="border-color: #000000 !important;">Not By AI for business</a>
+    </div>
     <div class="d-flex pt-4">
       <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
       <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
       <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
-      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badge from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
+      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
     </div>
   </div>
-  <div class="container-fluid bg-white text-center curve">
-    <div class="row">
-      <div class="col-6 col-sm-4 text-start mt-sm-2 ps-4 pt-3 ps-sm-4 share order-sm-1">
-        <span onclick="openNav()">
-          <div class="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-        </span>
-      </div>
-      <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
-        <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Support Us</span>
-      </div>
-      <div class="col-sm-4 text-center order-sm-2">
-        <a href="https://notbyai.fyi" style="opacity: 1;"><img class="mt-4 mb-5" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
-      </div>
-    </div>
