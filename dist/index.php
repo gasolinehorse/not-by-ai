@@ -238,7 +238,7 @@ include 'top-nav.php';
             </div>
             <div class="col-sm-6 col-lg-4">
               <img class="img-fluid" src="/img/no-small-not-by-ai-badge.svg" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure to maintain the minimum size</p>
+              <p class="display-6 pt-2 pb-3 pb-sm-0">Do not shrink the badge below the minimum size</p>
             </div>
             <div class="col-sm-6 col-lg-4">
               <img class="img-fluid" src="/img/no-blurry-not-by-ai-badge.png" alt="">
