@@ -80,7 +80,7 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
         </div>
       </section>
     </main>
@@ -298,7 +298,7 @@ include 'top-nav.php';
                       </ul>
                       <div class="collapse" id="collapseInspirations">
                         <div class="card card-body border-0 bg-light">
-                          <p class="mb-3 small">The Not By AI badges are currently available in the following languages: English, French, German, Indonesian, Japanese, Korean, Portuguese, Spanish, Swedish, Simplified Chinese (CN), Traditional Chinese (TW), Russian, Persian, RussianThai, Vietnamese, Catalan, and Esperanto.</p>
+                          <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
                         </div>
                       </div>
                       <p class="small mt-2 mb-1 w-100">Amount: </p>

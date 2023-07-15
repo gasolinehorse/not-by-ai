@@ -54,7 +54,7 @@ include 'top-nav.php';
               <li class="pb-2">In general, shorter word count is preferred.</li>
             </ul>
             <p>Can't wait to see what you are going to submit!</p>
-            <p class="small">These languages are <span class="fst-italic">no longer</span> needed: English, Spanish, German, Korean, Chinese, French, Japanese, Indonesian, Thai, Portuguese, Vietnamese, Russian, Persian, Swedish, and Esperanto.</p>
+            <p class="small">These languages are <span class="fst-italic">no longer</span> needed: <?php include 'all-supported-languages.php'; ?></p>
           </div>
         </div>
         <h3 class="pt-5 pb-3 mt-5 border-top fs-5">Share Your Not By AI Commitment on Social Media:</h3>

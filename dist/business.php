@@ -95,7 +95,7 @@ include 'top-nav-dark.php';
     </section>
     <section id="big-not-by-ai-benefits" class="py-5">
       <h3 class="h1 text-white pt-5 mt-lg-5">Small Badge. Big Benefits.</h3>
-      <span class="btn btn-white mt-4" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badge</span>
+      <span class="btn btn-white mt-4" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges</span>
       <div class="container mt-lg-4 py-5">
         <div class="row">
           <div class="col-lg-4">
@@ -136,7 +136,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseLang" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    It currently includes English, Spanish, German, Korean, Chinese, French, Japanese, Indonesian, Thai, Portuguese, Vietnamese, Russian, Persian, Swedish, and Esperanto.
+                    It currently includes <?php include 'all-supported-languages.php'; ?>
                   </div>
                 </div>
               </div>
@@ -184,7 +184,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseSub" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    No. This is a one-time, 99USD payment. 
+                    No. This is a one-time, 99 USD payment. 
                   </div>
                 </div>
               </div>
@@ -201,7 +201,7 @@ include 'top-nav-dark.php';
                 </div>
               </div>
             </div>
-            <span class="btn btn-white mt-5" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badge</span>
+            <span class="btn btn-white mt-5" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges</span>
           </div>
         </div>
       </div>
