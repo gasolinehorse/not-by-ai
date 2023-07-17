@@ -499,3 +499,10 @@ only screen and (min-resolution: 2dppx) {
   display: inline-block;
   font-size: 0.8rem;
 }
+.business-profile__label {
+	font-weight: 300;
+	font-size: 0.8125rem;
+}
+.business-profile__field {
+	font-size: 1.125rem;
+}

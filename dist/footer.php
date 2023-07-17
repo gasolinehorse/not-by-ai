@@ -3,7 +3,7 @@
         <a href="https://notbyai.fyi/translate" class="display-6 pt-3 me-3">Help Us Translate</a>
         <a href="https://notbyai.fyi/feedback" class="display-6 pt-3 me-3">Feedback</a>
         <a href="https://notbyai.fyi/license" class="display-6 pt-3 me-3">License</a>
-        <a href="https://notbyai.fyi/about" class="display-6 pt-3 me-3">About Us</a>
+        <a href="https://notbyai.fyi/about" class="display-6 pt-3 me-3">About&nbsp;Us</a>
         <a href="https://notbyai.fyi/contact" class="display-6 pt-3">Contact</a>
         <a href="https://notbyai.fyi"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
       </div>
