@@ -39,6 +39,7 @@ include 'top-nav.php';
               <div class="d-flex pt-2">
                 <input type="checkbox" id="languageNotification" name="languageNotification" value="I want to be notified when a badge in a new language becomes available"><label class="mt-0" for="languageNotification">Notify me when a badge in a new language becomes available</label>
               </div>
+              <input type="text" name="nogo" style="display:none;">
               <input type="submit" class="btn mt-4" value="Send My Translation">
             </form>
           </div>
