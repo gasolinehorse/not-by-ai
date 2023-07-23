@@ -121,22 +121,22 @@ include 'top-nav-dark.php';
           </div>
           <div class="col-md-3">
             <div class="bg-dark text-start p-3 px-md-4 py-md-5 mb-3">
-              <p class="text-white" style="line-height: 1.7;">Highlight your customized and human-centric solutions.</p>
+              <h3 class="h4 text-white" style="line-height: 1.5;">Highlight your customized & human-centric solutions.</h3>
             </div>
           </div>
           <div class="col-md-3">
             <div class="bg-dark text-start p-3 px-md-4 py-md-5 mb-3">
-              <p class="text-white" style="line-height: 1.7;">Elevate and set yourself apart from the competition.</p>
+              <h3 class="h4 text-white" style="line-height: 1.5;">Elevate and set yourself apart from the competition.</h3>
             </div>
           </div>
           <div class="col-md-3">
             <div class="bg-dark text-start p-3 px-md-4 py-md-5 mb-3">
-              <p class="text-white" style="line-height: 1.7;">Build trust and credibility for your brand.</p>
+              <h3 class="h4 text-white" style="line-height: 1.5;">Build trust & credibility for your brand.</h3>
             </div>
           </div>
           <div class="col-md-3">
             <div class="bg-dark text-start p-3 px-md-4 py-md-5 mb-3">
-              <p class="text-white" style="line-height: 1.7;">Proves that your content is safe from AI hallucinations.</p>
+              <h3 class="h4 text-white" style="line-height: 1.5;">Prove that your content is safe from AI hallucinations.</h3>
             </div>
           </div>
         </div>
