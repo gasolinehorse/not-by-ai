@@ -76,7 +76,7 @@ include 'top-nav.php';
             <p>AI is trained using human-created content from the past and can only generate content by recycling and recomposing existing content. If we, as a species, stopped creating content and solely relied on AI, the content AI produced would become repetitive and stagnant. Furthermore, humans are advancing everyday and this reflects on our shifting values on racism, sexism, equality, and more. For AI to be able to generate content with these up-to-date values, humans need to continue to produce new content.</p>
           </div>
           <div class="col-sm-6">
-            <h2><img class="me-3" src="/img/business.svg" alt="">Grow your business</h2>
+            <h2><img class="me-3" src="/img/business.svg" alt="">Grow human-centric businesses</h2>
             <p>Your clients, prospects, users will appreciate AI but they will still want humans to address their specific needs. AI may be powerful, it is still only passively listening to prompts to generate answers. Only a trained human can understand the complexity of a real life problem and tailor a solution uniquely for it.</p>
           </div>
           <div class="col-sm-6">
@@ -95,7 +95,7 @@ include 'top-nav.php';
           </div>
           <div class="col-lg-6 ps-sm-4">
             <h3 class="h2 pt-4">Our Founder</h3>
-            <p>The founder behind Not By AI is Allen Hsu, a judge for multiple design awards and a full-on content creator with skills ranging from UX design and writing to animation and music. His passion for promoting original content extends to his appreciation for culture, which led him to spend 15 months as a nomad traveling around the world. This experience, combined with his multicultural background, has given Allen the vision to prioritize the international exposure and adoption of Not By AI.</p>
+            <p>The founder behind Not By AI is Allen Hsu, a Philadelphia-based designer and judge for multiple design awards, and a full-on content creator with skills ranging from UX design and writing to animation and music. His passion for promoting original content extends to his appreciation for culture, which led him to spend 15 months as a nomad traveling around the world. This experience, combined with his multicultural background, has given Allen the vision to prioritize the international exposure and adoption of Not&nbsp;By&nbsp;AI.</p>
           </div>
         </div>
         <div class="row bg-light mb-lg-3">

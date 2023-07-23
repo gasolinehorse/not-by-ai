@@ -197,15 +197,30 @@ include 'top-nav.php';
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
           <h3>Why Should I Use the Badge</h3>
-          <p>You should add the badge to your work because it helps your audience recognize your human-first approach, which, in turn, fosters awareness and encourages more individuals to produce new and original content. This process makes sure we, as a species, continue to contribute to original content collectively and prevent content from being replaced by recycled content produced by AI.</p>
-          <p>If you are business-minded, <a href="/business" class="text-decoration-underline">Not By AI badges for business</a> helps your clients, prospects, and users recognize your human-first approach to problem-solving. This is especially important when the business problem they look to solve is complex and requires a tailored solution that is built by trained humans. Below are ways your business can be benefited by Not By AI:</p>
-          <ul>
-            <li>It shows that you provide human-centric solutions.</li>
-            <li>It sets you apart from the competition.</li>
-            <li>It builds trust and credibility for your brand.</li>
-            <li>It proves that your content is safe from AI hallucinations.</li>
+          <ul class="nav nav-underline mb-4 border-bottom" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> As an individual</button>
+            </li>
           </ul>
-          <p>Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
+          <div class="tab-content px-3" id="myTabContent">
+            <div class="tab-pane fade show active" id="business-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <a href="/business" class="text-decoration-underline">Not By AI for Business</a> helps your clients, prospects, and users recognize your human-first approach to problem-solving. This is especially important when the business problem they look to solve is complex and requires a tailored solution that is built by trained humans. Below are ways your business can be benefited by Not By AI:
+              <ul class="mt-2">
+                <li>It highlights your customized, human-centric content and solutions.</li>
+                <li>It sets you apart from the competition.</li>
+                <li>It builds trust and credibility for your brand.</li>
+                <li>It proves that your content is safe from AI hallucinations.</li>
+              </ul>
+              <a class="h5 text-decoration-underline cursor-pointer" href="/business">Not By AI for Business</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
+            </div>
+            <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI. More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.
+            </div>
+          </div>
+          <p class="mt-3">Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         </section>
         <section>
           <div id="not-by-ai-bdage-guidelines" class="py-3"></div>
@@ -250,7 +265,7 @@ include 'top-nav.php';
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Support Us</h3>
           <p>Every pixel in the badge, every word typed, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
-          <h5 class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Donate Today</h5>
+          <a class="h5 text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content border-0 rounded-0 download-popup">
@@ -303,9 +318,6 @@ include 'top-nav.php';
                       </div>
                       <p class="small mt-2 mb-1 w-100">Amount: </p>
                       <div class="h3 mb-3">US$ 99.00</div>
-                      <script async
-                        src="https://js.stripe.com/v3/buy-button.js">
-                      </script>
                       <stripe-buy-button
                         buy-button-id="buy_btn_1NCu2mHl9sHS7hKr4WcBxjXI"
                         publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"

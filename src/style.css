@@ -506,3 +506,28 @@ only screen and (min-resolution: 2dppx) {
 .business-profile__field {
 	font-size: 1.125rem;
 }
+.nav-underline .nav-link.active, 
+.nav-underline .show>.nav-link {
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	opacity: 1;
+}
+.nav-underline .nav-link.active:focus, 
+.nav-underline .nav-link.active:hover, 
+.nav-underline .show>.nav-link:focus,
+.nav-underline .show>.nav-link:hover {
+	border-bottom-color: #000000;
+}
+.nav-underline .nav-link {
+	transform: translateY(2px);
+}
+.nav-underline .nav-link:focus, 
+.nav-underline .nav-link:hover {
+	border-bottom-color: transparent;
+	color: #000000;
+	opacity: 1;
+}
+.nav-underline .nav-link {
+	color: #000000;
+	opacity: 0.7;
+}
