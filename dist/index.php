@@ -113,7 +113,7 @@ include 'top-nav.php';
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
           <li class="nav-item">
-            <a class="for-business-link ms-3 mt-3" href="https://notbyai.fyi/business">Not By AI for business</a>
+            <a class="for-business-link ms-3 mt-3" href="https://notbyai.fyi/business">Not By AI for Business</a>
           </li>
         </ul>
       </nav>

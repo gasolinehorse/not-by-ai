@@ -58,7 +58,7 @@
       <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges</a>
     </div>
     <div class="px-4 mt-3" onclick="closeNav()">
-      <a href="https://notbyai.fyi/business" class="text-center px-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Not By AI for business</a>
+      <a href="https://notbyai.fyi/business" class="text-center px-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Not By AI for Business</a>
     </div>
     <div class="d-flex pt-4">
       <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
