@@ -85,13 +85,17 @@ include 'top-nav-dark.php';
     </main>
     <section id="real-meaning-of-not-by-ai" class="bg-black pt-5 mt-5 container-fluid">
       <div class="row justify-content-center py-5">
-        <div class="col-lg-6">
-          <h2 class="display-2"><span class="text-white text-opacity-25" style="line-height: 1.6;">It’s not about craftsmanship.<br>
-          It’s not about anti-AI.</span><br>
-          <span class="text-white pt-3 d-inline-block">It’s about the quality of work only humans can produce.</span></h2>
+        <div class="col-lg-8">
+          <h2 class="display-2">
+            <div class="text-white">
+              <div class="real-meaning-of-not-by-ai__1">It’s not about craftsmanship.</div>
+              <div class="real-meaning-of-not-by-ai__2">It’s not about anti-AI.</div>
+            </div>
+            <div class="display-4 fw-bold text-white pt-3 d-inline-block real-meaning-of-not-by-ai__3">It’s about the quality of work only humans can produce.</div>
+          </h2>
         </div>
       </div>
-      <img class="w-100 mt-4" srcset="/img/not-by-ai-placement-examples@2x.png 2x" src="/img/not-by-ai-placement-examples.png" alt="" />
+      <img class="w-100 position-absolute bottom-0 start-0" srcset="/img/not-by-ai-placement-examples@2x.png 2x" src="/img/not-by-ai-placement-examples.png" alt="" />
     </section>
     <section id="big-not-by-ai-benefits" class="py-5">
       <h3 class="h1 text-white pt-5 mt-lg-5">Small Badge. Big Benefits.</h3>
@@ -270,4 +274,31 @@ include 'top-nav-dark.php';
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js?v=32"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script>
+
+    <script type="text/javascript">
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.defaults({ ease: "none", duration: 5 })
+      const tl1 = gsap.timeline();
+      tl1.from(".real-meaning-of-not-by-ai__1", { opacity: 0 });
+      tl1.to(".real-meaning-of-not-by-ai__1", { opacity: 0 })
+        .from(".real-meaning-of-not-by-ai__2", { opacity: 0 });
+      tl1.to(".real-meaning-of-not-by-ai__2", { opacity: 0 })
+        .from(".real-meaning-of-not-by-ai__3", { opacity: 0 });
+      tl1.to(".real-meaning-of-not-by-ai__3", { opacity: 0 });
+
+      ScrollTrigger.create({
+        animation: tl1,
+        trigger: "#real-meaning-of-not-by-ai",
+        start: "center center",
+        end: "+=500%",
+        scrub: true,
+        pin: true,
+        anticipatePin: 1,
+
+      });
+    </script>
     <?php include 'footer-dark.php'; ?>
