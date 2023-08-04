@@ -78,12 +78,12 @@ include 'top-nav-dark.php';
             </span>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-5">
           <div class="col-lg-8 gx-4 h5 p-3 bg-dark rounded-5 mt-2 text-white">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
         </div>
       </section>
     </main>
-    <section id="real-meaning-of-not-by-ai" class="bg-black pt-5 mt-5 container-fluid">
+    <section id="real-meaning-of-not-by-ai" class="bg-black pt-5 container-fluid overflow-hidden">
       <div class="row justify-content-center py-5">
         <div class="col-lg-8">
           <h2 class="display-2">
@@ -95,7 +95,7 @@ include 'top-nav-dark.php';
           </h2>
         </div>
       </div>
-      <img class="w-100 position-absolute bottom-0 start-0" srcset="/img/not-by-ai-placement-examples@2x.png 2x" src="/img/not-by-ai-placement-examples.png" alt="" />
+      <img class="position-absolute bottom-0 start-0 min-vw-100" srcset="/img/not-by-ai-placement-examples@2x.png 2x" src="/img/not-by-ai-placement-examples.png" alt="" />
     </section>
     <section id="big-not-by-ai-benefits" class="py-5">
       <h3 class="h1 text-white pt-5 mt-lg-5">Small Badge. Big Benefits.</h3>
@@ -147,7 +147,21 @@ include 'top-nav-dark.php';
         </div>
       </div>
     </section>
-    <section id="faq" class="py-5">
+    <section id="faq" class="py-5 overflow-hidden">
+      <figure class="mt-4">
+        <ul class="scroller d-flex">
+          <li>
+            <img class="scroller__img" src='img/not-by-ai-badges-in-lanuages-top.svg' width="1460" height="42">
+          </li>
+        </ul>
+      </figure>
+      <figure>
+        <ul class="scroller d-flex">
+          <li>
+            <img class="scroller__img" src='img/not-by-ai-badges-in-lanuages-bottom.svg' width="1460" height="42">
+          </li>
+        </ul>
+      </figure>
       <h3 class="display-2 text-white pt-5 pb-3">Frequently Asked Questions</h3>
       <div class="container pb-5">
         <div class="row justify-content-center">
@@ -275,9 +289,10 @@ include 'top-nav-dark.php';
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js?v=32"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script>
 
     <script type="text/javascript">
@@ -290,7 +305,6 @@ include 'top-nav-dark.php';
       tl1.to(".real-meaning-of-not-by-ai__2", { opacity: 0 })
         .from(".real-meaning-of-not-by-ai__3", { opacity: 0 });
       tl1.to(".real-meaning-of-not-by-ai__3", { opacity: 0 });
-
       ScrollTrigger.create({
         animation: tl1,
         trigger: "#real-meaning-of-not-by-ai",
@@ -302,44 +316,23 @@ include 'top-nav-dark.php';
 
       });
 
-      batch(".card", {
-      interval: 0.1, // time window (in seconds) for batching to occur. The first callback that occurs (of its type) will start the timer, and when it elapses, any other similar callbacks for other targets will be batched into an array and fed to the callback. Default is 0.1
-      batchMax: 3,   // maximum batch size (targets)
-      onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.15, overwrite: true}),
-      onLeave: batch => gsap.set(batch, {autoAlpha: 0, overwrite: true}),
-      onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.15, overwrite: true}),
-      onLeaveBack: batch => gsap.set(batch, {autoAlpha: 0, overwrite: true})
-      // you can also define things like start, end, etc.
-    });
-
-
-
-
-    // the magical helper function (no longer necessary in GSAP 3.3.1 because it was added as ScrollTrigger.batch())...
-    function batch(targets, vars) {
-      let varsCopy = {},
-          interval = vars.interval || 0.1,
-          proxyCallback = (type, callback) => {
-            let batch = [],
-                delay = gsap.delayedCall(interval, () => {callback(batch); batch.length = 0;}).pause();
-            return self => {
-              batch.length || delay.restart(true);
-              batch.push(self.trigger);
-              vars.batchMax && vars.batchMax <= batch.length && delay.progress(1);
-            };
-          },
-          p;
-      for (p in vars) {
-        varsCopy[p] = (~p.indexOf("Enter") || ~p.indexOf("Leave")) ? proxyCallback(p, vars[p]) : vars[p];
-      }
-      gsap.utils.toArray(targets).forEach(target => {
-        let config = {};
-        for (p in varsCopy) {
-          config[p] = varsCopy[p];
-        }
-        config.trigger = target;
-        ScrollTrigger.create(config);
+    const images = gsap.utils.toArray('.scroller__img');
+    const showScroller = () => {
+      document.body.style.overflow = 'auto';
+      document.scrollingElement.scrollTo(0, 0);
+      
+      gsap.utils.toArray('figure').forEach((figure, index) => {
+        const w = figure.querySelector('.scroller');
+        const [x, xEnd] = (index % 2) ? ['100%', (w.scrollWidth - figure.offsetWidth) * -1] : [w.scrollWidth * -1, 0];
+        gsap.fromTo(w, {  x  }, {
+          x: xEnd,
+          scrollTrigger: { 
+            trigger: figure, 
+            scrub: 0.5 
+          }
+        });
       });
     }
+    imagesLoaded(images).on('always', showScroller);
     </script>
     <?php include 'footer-dark.php'; ?>
