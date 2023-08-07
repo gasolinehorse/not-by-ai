@@ -461,7 +461,7 @@ form .form-check-input:checked {
 	background-image: url('img/typing-without-ai-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-position: top center;
 }
 @media /* only for retina displays */
 only screen and (-webkit-min-device-pixel-ratio: 2),

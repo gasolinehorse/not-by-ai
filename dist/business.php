@@ -83,7 +83,7 @@ include 'top-nav-dark.php';
         </div>
       </section>
     </main>
-    <section id="real-meaning-of-not-by-ai" class="bg-black pt-5 container-fluid overflow-hidden">
+    <section id="real-meaning-of-not-by-ai" class="bg-black pt-5 container-fluid overflow-hidden" style="position: relative;">
       <div class="row justify-content-center py-5">
         <div class="col-lg-8">
           <h2 class="display-2">
