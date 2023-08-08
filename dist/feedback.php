@@ -17,8 +17,8 @@ include 'top-nav.php';
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <label for="name">Name</label>
               <input type="text" name="name" required autofocus>
-              <label for="email">Provide your email to get a reply regarding your feedback (optional)</label>
-              <input type="email" name="email">
+              <label for="email">Email</label>
+              <input type="email" name="email" required>
               <label for="feedbackType">What feedback would you like to provide?</label>
               <div class="form-check">
                 <input class="form-check-input" type="radio" name="feedbackType" id="feedbackType1" value="Things you love about Not By AI" required>
