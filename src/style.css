@@ -532,3 +532,27 @@ only screen and (min-resolution: 2dppx) {
 	color: #000000;
 	opacity: 0.7;
 }
+.freeprivacypolicy-com---palette-dark.freeprivacypolicy-com---nb {
+	text-align: center;
+}
+.freeprivacypolicy-com---palette-dark .cc-nb-okagree:focus {
+	box-shadow: none !important;
+}
+.freeprivacypolicy-com---palette-dark .cc-nb-buttons-container button {
+	background-color: #FFFFFF !important;
+	padding: 10px 2rem;
+	margin-right: 0.6rem !important;
+}
+.cc-nb-buttons-container {
+	display: flex !important;
+	justify-content: center;
+}
+.cc-nb-okagree {
+	order: 2;
+}
+.cc-nb-reject {
+	order: 3;
+}
+.cc-nb-changep {
+	order: 1;
+}

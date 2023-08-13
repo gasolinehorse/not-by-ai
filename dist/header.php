@@ -23,21 +23,31 @@
   <meta name="twitter:title" content="<?php echo $pageTitle ?>" />
   <meta name="twitter:description" content="<?php echo $pageDes ?>" />
   <meta name="twitter:image" content="img/not-by-ai-share.png" />
-  <script async src='https://www.googletagmanager.com/gtag/js?id=G-T9E8EYVXP6'></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-T9E8EYVXP6');
+  <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
+  <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
+  <script type="text/javascript" charset="UTF-8">
+  document.addEventListener('DOMContentLoaded', function () {
+  cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Not By AI","website_privacy_policy_url":"https://notbyai.fyi/privacy-policy"});
+  });
   </script>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5TNDH2X');</script>
-  <!-- End Google Tag Manager -->
+  <!-- Google Analytics -->
+  <script type="text/plain" data-cookie-consent="tracking" async src='https://www.googletagmanager.com/gtag/js?id=G-T9E8EYVXP6'></script>
+    <script type="text/plain" data-cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-T9E8EYVXP6');
+    </script>
+    <!-- Google Tag Manager -->
+    <script type="text/plain" data-cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5TNDH2X');</script>
+    <!-- End Google Tag Manager -->
+  <!-- end of Google Analytics-->
+
 </head>
 <body class="bg-secondary-subtle p-4">
   <!-- Google Tag Manager (noscript) -->
