@@ -1,13 +1,13 @@
     <div class="container-fluid">
       <div class="row border-top text-center" style="border-color: #505050 !important;">
         <div class="col text-center py-3 text-center">
-          <a href="https://notbyai.fyi/translate" class="display-6 pt-3 me-3">Help Us Translate</a>
-          <a href="https://notbyai.fyi/about" class="display-6 pt-3 me-3">About&nbsp;Us</a>
-          <a href="https://notbyai.fyi/#who-can-use-not-by-ai-badge" class="display-6 pt-3 me-3">The 90%&nbsp;Rule</a>
-          <a href="https://notbyai.fyi/contact" class="display-6 pt-3">Contact</a><br>
-          <a href="https://notbyai.fyi/feedback" class="display-6 pt-3 me-3 opacity-50">Feedback</a>
-          <a href="https://notbyai.fyi/license" class="display-6 pt-3 me-3 opacity-50">License</a>
-          <a href="https://notbyai.fyi/privacy-policy" class="display-6 pt-3 opacity-50">Privacy Policy</a>
+          <a href="https://notbyai.fyi/translate" class="display-6 me-3">Help Us Translate</a>
+          <a href="https://notbyai.fyi/about" class="display-6 me-3">About&nbsp;Us</a>
+          <a href="https://notbyai.fyi/#who-can-use-not-by-ai-badge" class="display-6 me-3">The 90%&nbsp;Rule</a>
+          <a href="https://notbyai.fyi/contact" class="display-6">Contact</a><br>
+          <a href="https://notbyai.fyi/feedback" class="display-6 me-3 opacity-50">Feedback</a>
+          <a href="https://notbyai.fyi/license" class="display-6 me-3 opacity-50">License</a>
+          <a href="https://notbyai.fyi/privacy-policy" class="display-6 opacity-50">Privacy Policy</a>
           <a href="https://notbyai.fyi"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
         </div>
         <small class="pb-3 text-white">Not By AI © 2023 All rights reserved.</small>
