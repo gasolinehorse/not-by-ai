@@ -88,6 +88,9 @@ include 'top-nav.php';
     <div class="row justify-content-center">
       <nav class="col-md-3 col-xl-2 text-start pt-5 d-none d-md-block">
         <ul class="nav flex-column position-sticky top-0 pt-5">
+          <li class="nav-item ps-2">
+            <a class="ps-1" href="https://notbyai.fyi" style="opacity: 1;"><img class="mb-4 img-fluid" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link text-black active" id="quick-link-mission" href="#not-by-ai-mission">Mission</a>
           </li>
