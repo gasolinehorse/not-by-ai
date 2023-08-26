@@ -387,6 +387,7 @@ include 'top-nav.php';
         var form = document.getElementById("forms");
         var requiredFields = form.querySelectorAll('[required]');
         var allFieldsFilled = true;
+        var personalUseRadio = document.getElementById("usage1");
 
         requiredFields.forEach(function(field) {
           if (field.value === '') {
@@ -394,7 +395,7 @@ include 'top-nav.php';
             return;
           }
         });
-        if (allFieldsFilled) {
+        if (allFieldsFilled && personalUseRadio.checked) {
           document.getElementById("loader").style.display = "flex";
         }
       }
