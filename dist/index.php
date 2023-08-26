@@ -4,6 +4,7 @@ $pageDes = 'Download and add the Not By AI badge to showcase your AI-free & huma
 include 'header.php';
 include 'top-nav.php';
 ?>
+    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Your download will start shortly. <br>Please do not close your window.</span></div>
     <main>
       <section class="row justify-content-center px-sm-4 px-lg-0">
         <div class="col-lg-9 col-xl-7 col-xxl-6">
@@ -277,7 +278,7 @@ include 'top-nav.php';
                   <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
-                  <form method="post" action="process-form.php">
+                  <form id="forms" method="post" action="process-form.php">
                     <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
                     <p class="small mt-2 mb-1 w-100">How will you use the badge? </p>
                     <div class="d-flex pb-3">
@@ -302,7 +303,7 @@ include 'top-nav.php';
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input type="submit" class="btn mt-4" value="Download My Badge">
+                      <input type="submit" class="btn mt-4" value="Download My Badge" onclick="showLoader()">
                     </div>
                     <div id="commercial-form" class="d-none">
                       <p class="small mt-2 mb-1 w-100">You will get: </p>
@@ -341,6 +342,7 @@ include 'top-nav.php';
         </ol>
       </div>
     </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script type="text/javascript">
       var personalRadio = document.getElementById("usage1");
       var commercialRadio = document.getElementById("usage2");
@@ -349,36 +351,52 @@ include 'top-nav.php';
       var personalDes = document.getElementById("personal-des");
       var commercialDes = document.getElementById("commercial-des");
       personalRadio.addEventListener("change", function() {
-          if (personalRadio.checked) {
-              personalForm.classList.remove("d-none");
-              commercialForm.classList.add("d-none");
-              personalDes.classList.remove("d-none");
-              commercialDes.classList.add("d-none");
-          } else {
-              personalForm.classList.add("d-none");
-              commercialForm.classList.remove("d-none");
-              personalDes.classList.add("d-none");
-              commercialDes.classList.remove("d-none");
-          }
+        if (personalRadio.checked) {
+            personalForm.classList.remove("d-none");
+            commercialForm.classList.add("d-none");
+            personalDes.classList.remove("d-none");
+            commercialDes.classList.add("d-none");
+        } else {
+            personalForm.classList.add("d-none");
+            commercialForm.classList.remove("d-none");
+            personalDes.classList.add("d-none");
+            commercialDes.classList.remove("d-none");
+        }
       });
       commercialRadio.addEventListener("change", function() {
-          if (commercialRadio.checked) {
-              commercialForm.classList.remove("d-none");
-              personalForm.classList.add("d-none");
-              commercialDes.classList.remove("d-none");
-              personalDes.classList.add("d-none");
-          } else {
-              commercialForm.classList.add("d-none");
-              personalForm.classList.remove("d-none");
-              commercialDes.classList.add("d-none");
-              personalDes.classList.remove("d-none");
-          }
+        if (commercialRadio.checked) {
+            commercialForm.classList.remove("d-none");
+            personalForm.classList.add("d-none");
+            commercialDes.classList.remove("d-none");
+            personalDes.classList.add("d-none");
+        } else {
+            commercialForm.classList.add("d-none");
+            personalForm.classList.remove("d-none");
+            commercialDes.classList.add("d-none");
+            personalDes.classList.remove("d-none");
+        }
       });
 
       var trafficSource = document.referrer;
       if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
         document.getElementById("tagline").innerHTML = "We Added a 'Not&nbsp;By&nbsp;AI' Badge to Our Content to Prove Its&nbsp;Originality.";
         document.getElementById("tagline").style.zoom = "90%";
+      }
+
+      function showLoader() {
+        var form = document.getElementById("forms");
+        var requiredFields = form.querySelectorAll('[required]');
+        var allFieldsFilled = true;
+
+        requiredFields.forEach(function(field) {
+          if (field.value === '') {
+            allFieldsFilled = false;
+            return;
+          }
+        });
+        if (allFieldsFilled) {
+          document.getElementById("loader").style.display = "flex";
+        }
       }
     </script>
     <?php include 'footer.php'; ?>

@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div id="curtain" class="position-fixed top-0 w-100 h-100" onclick="closeNav()"></div>
+  <div id="curtain" class="position-fixed top-0 start-0 w-100 h-100" onclick="closeNav()"></div>
   <script type="text/javascript">
     function openNav() {
       document.getElementById("sidenav-bar").style.width = "250px";
