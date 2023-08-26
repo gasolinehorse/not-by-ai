@@ -264,7 +264,7 @@ include 'top-nav.php';
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Support Us</h3>
-          <p>Every pixel in the badge, every word typed, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
+          <p>Every pixel in the badge, every idea invested, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
           <a class="h5 text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -300,7 +300,8 @@ include 'top-nav.php';
                       <div class="d-flex pt-3">
                         <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
                       </div>
-                      <input type="text" name="nogo" style="display:none;">
+                      <label for="nogo" class="d-none">Company</label>
+                      <input type="text" name="nogo" class="d-none">
                       <input type="submit" class="btn mt-4" value="Download My Badge">
                     </div>
                     <div id="commercial-form" class="d-none">
