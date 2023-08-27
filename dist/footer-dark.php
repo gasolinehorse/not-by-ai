@@ -16,6 +16,7 @@
           <div class="text-center text-md-start col-md-3 col-lg-2">
             <ul class="nav flex-column">
               <li class="fw-bold py-2 text-white">Company</li>
+              <li class="lh-sm pb-1"><a class="display-6 text-white" href="/about">About Us</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/translate">Help Us Translate</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/feedback">Feedback</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/contact">Contact Us</a></li>
@@ -49,7 +50,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content border-0 rounded-0">
         <div class="modal-header px-md-5 py-md-4">
-          <div class="modal-title fs-3 h3" id="donateLabel">Contribute to Our Mission</div>
+          <div class="modal-title fs-3 h3" id="donateLabel">Contribute to Not By AI</div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5 text-center">

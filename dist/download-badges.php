@@ -5,22 +5,37 @@ include 'header.php';
 include 'top-nav.php';
 ?>
     <meta http-equiv="refresh" content="2; url='https://notbyai.fyi/Not-By-AI.zip'" />
+    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Your download will start shortly. <br>Please do not close your window.</span></div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        var form = document.getElementById("forms");
+        if (form.checkValidity()) {
+          document.getElementById("loader").style.display = "flex";
+          form.submit();
+        } else {
+          grecaptcha.reset();
+          form.reportValidity();
+        }
+      }
+    </script>
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
           <h1>Thank You for Your&nbsp;Purchase</h1>
         </header>
         <div class="row justify-content-center">
-	        <div class="col-sm-10 col-md-9 col-lg-5">
+	        <div class="col-sm-10 col-md-9 col-lg-6">
 		        <div class="h5 pt-4 pb-3">Your download will start soon. You can also request a copy to be sent to your inbox below.</div>
-		        <form method="post" action="process-form-post-purchase-request.php">
+		        <form id="forms" method="post" action="process-form-post-purchase-request.php">
 		          <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
 	            <label class="d-block text-start" for="email">Email</label>
 	            <input type="email" name="email" required>
 	            <div class="d-flex pt-3">
 	              <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing" class="mt-0 text-start">I want to receive news such as updates, tips, resources, and discounts.</label>
 	            </div>
-	            <input type="submit" class="btn mt-4" value="Send Myself a Copy">
+              <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send Myself a Copy">
 		        </form>
 	        </div>
         </div>

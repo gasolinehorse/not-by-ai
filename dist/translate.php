@@ -4,6 +4,21 @@ $pageDes = 'Translate the Not By AI badges into your language to help content cr
 include 'header.php';
 include 'top-nav.php';
 ?>
+    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Submitting your translation. <br>Please do not close your window.</span></div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        var form = document.getElementById("forms");
+        if (form.checkValidity()) {
+          document.getElementById("loader").style.display = "flex";
+          form.submit();
+        } else {
+          grecaptcha.reset();
+          form.reportValidity();
+        }
+      }
+    </script>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
         <h1>Translate</h1>
@@ -19,7 +34,7 @@ include 'top-nav.php';
         <div class="row">
           <div class="col-lg-6 text-start pb-5">
             <h2 class="h5 pb-3" style="letter-spacing: 0px;">Please fill out the translation form.</h2>
-            <form class="" method="post" action="process-form-translate.php">
+            <form id="forms" method="post" action="process-form-translate.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <label for="name">Name</label>
               <input type="text" name="name" required autofocus>
@@ -40,7 +55,7 @@ include 'top-nav.php';
                 <input type="checkbox" id="languageNotification" name="languageNotification" value="I want to be notified when a badge in a new language becomes available"><label class="mt-0" for="languageNotification">Notify me when a badge in a new language becomes available</label>
               </div>
               <input type="text" name="nogo" style="display:none;">
-              <input type="submit" class="btn mt-4" value="Send My Translation">
+              <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send My Translation">
             </form>
           </div>
           <div class="col-lg-6 text-start">

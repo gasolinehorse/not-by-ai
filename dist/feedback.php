@@ -4,6 +4,21 @@ $pageDes = 'Contact us and provide feedback if you have feedback regarding the N
 include 'header.php';
 include 'top-nav.php';
 ?>
+    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Submitting your feedback. <br>Please do not close your window.</span></div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        var form = document.getElementById("forms");
+        if (form.checkValidity()) {
+          document.getElementById("loader").style.display = "flex";
+          form.submit();
+        } else {
+          grecaptcha.reset();
+          form.reportValidity();
+        }
+      }
+    </script>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
         <h1>Feedback</h1>
@@ -13,7 +28,7 @@ include 'top-nav.php';
           <div class="col-lg-6 pb-5">
             <h2 class="h3 text-center">Please Fill Out the Form to Provide Feedback.</h2>
             <p class="pb-3 text-center">Whatever you have to say, we want to hear it. Bonus point if you are a user and want to help and make the badge better.</p>
-            <form class="" method="post" action="process-form-feedback.php">
+            <form id="forms" method="post" action="process-form-feedback.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <label for="name">Name</label>
               <input type="text" name="name" required autofocus>
@@ -49,7 +64,7 @@ include 'top-nav.php';
               <div class="d-flex pt-3">
                 <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label class="mt-0" for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
               </div>
-              <input type="submit" class="btn mt-4" value="Send My Message">
+              <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send My Message">
             </form>
           </div>
         </div>
