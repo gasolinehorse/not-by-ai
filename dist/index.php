@@ -95,7 +95,7 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 74.2K+ pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on 333.1K+ pages.</div>
         </div>
       </section>
     </main>
