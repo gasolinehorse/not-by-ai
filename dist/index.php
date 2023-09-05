@@ -20,18 +20,22 @@ include 'top-nav.php';
       }
     </script>
     <main>
-      <section class="row justify-content-center px-sm-4 px-lg-0">
-        <div class="col-lg-9 col-xl-7 col-xxl-6">
-          <header>
-            <h1 id="tagline" class="pt-md-5 mt-md-3 pb-1">Your AI-free Content Deserves a&nbsp;Badge</h1>
-          </header>
+      <section class="row justify-content-center">
+        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
+          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l" src="/img/not-by-ai-badges-l.svg" alt="">
         </div>
-        <div class="col-lg-9">
-          <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may run the risk of becoming repetitive and&nbsp;stagnant.</p>
+        <div class="col-lg-10 col-xl-8">
+          <header>
+            <h1 id="tagline" class="pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
+          </header>
+          <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
           <p class="display-5">If your content is not AI-generated, add the badge to your work, with&nbsp;pride.</p>
         </div>
+        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
+          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r" src="/img/not-by-ai-badges-r.svg" alt="">
+        </div>
       </section>
-      <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-5" style="max-width: 1052px;">
+      <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
         <div class="row justify-content-center gx-4">
           <div class="col-sm-4 pb-4">
             <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">

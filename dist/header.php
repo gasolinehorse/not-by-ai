@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="<?php echo $pageDes ?>" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="/style.css?v=09042023" />
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-not-by-ai_32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-not-by-ai_16x16.png">
   <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/img/favicon-not-by-ai.png">
