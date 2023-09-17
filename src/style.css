@@ -96,6 +96,16 @@ h6,
 	line-height: 1.2;
 	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.32);
 }
+.display-1 {
+	font-size: 3.5rem;
+	font-weight: bold;
+	line-height: 1.2;
+}
+@media (max-width: 991px) {
+	.display-1 {
+		font-size: 2rem;
+	}
+}
 .display-2 {
 	font-size: 2.25rem;
 	font-weight: bold;
@@ -276,12 +286,40 @@ img[class*="share__"]:hover {
   width: 4881px;
   animation: loopX 80s linear infinite;
 }
+.sliding-background-l {
+  background: url("img/not-by-ai-placement-examples.jpg") repeat-x;
+  height: 205px;
+  width: 4944px;
+  animation: loopX 200s linear infinite;
+}
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	.sliding-background-l {
+	  background: url("img/not-by-ai-placement-examples@2x.jpg") repeat-x cover;
+	}
+}
 @keyframes loopX {
   0% {
     transform: translate3d(0, 0, 0);
   }
   100% {
     transform: translate3d(-1627px, 0, 0);
+  }
+}
+.rotated-clockwise {
+  animation: rotateClockwise 60s linear infinite; 
+}
+@keyframes rotateClockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 .not-by-ai-badges-l {

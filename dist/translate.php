@@ -60,7 +60,7 @@ include 'top-nav.php';
           </div>
           <div class="col-lg-6 text-start">
             <h2 class="h5 pb-3" style="letter-spacing: 0px;">Instructions:</h2>
-            <p class="bg-light p-3 small">First of all, your involvement in our mission is one of the best things we humans can do while AI quickly takes over content creation. Your contribution is very much appreciated.</p>
+            <p class="bg-light p-3 small">Your involvement in our mission is one of the best things we humans can do while AI quickly takes over content creation. Your contribution is very much appreciated.</p>
             <p>Below are some tips and tricks to get you started.</p>
             <ul>
               <li class="pb-2">Your translation should be punctual and so simple that a third-grader can understand. </li>
