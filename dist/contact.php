@@ -26,7 +26,7 @@ include 'top-nav.php';
       <div class="col-lg-9 py-5">
         <div class="row">
           <section class="col-lg-6 text-start pb-5">
-            <h5 class="pb-3">Please fill out the form to contact us.</h5>
+            <h2 class="h5 pb-3">Please fill out the form to contact us.</h2>
             <form id="forms" method="post" action="process-form-contact.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <label for="name">Name</label>
