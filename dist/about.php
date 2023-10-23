@@ -105,17 +105,18 @@ include 'top-nav.php';
           <div class="col-lg-7 pt-5 text-center text-lg-start">
             <h2 class="display-2">Support Us</h2>
             <p style="font-size: 1.3125rem;">Not By AI is a self-started project that requires effort and innovation to sustain its impact. Yes, this is where we ask you for your support. We have a huge to-do list (literally) to grow Not By AI and need your help to do so. Your support empowers the future of content and humans.</p>
-            <a href="https://notbyai.fyi" class="btn btn-dark rounded-0 mb-5" data-bs-toggle="modal" data-bs-target="#donate">Name Your Price</a>
+            <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" class="btn btn-dark rounded-0 mb-5" target="_blank">Name Your Price</a>
           </div>
         </div>
       </div>
     </main>
     <script>
       var images = [
-        "https://notbyai.fyi/img/slide-druming.jpg",
+        "https://notbyai.fyi/img/slide-noting.jpg",
         "https://notbyai.fyi/img/slide-mixing.jpg",
+        "https://notbyai.fyi/img/slide-photographing.jpg",
         "https://notbyai.fyi/img/slide-sketching.jpg",
-        "https://notbyai.fyi/img/slide-fashion.jpg"
+        "https://notbyai.fyi/img/slide-painting.jpg"
       ];
       var currentImageIndex = 0;      
       function changeImage() {
@@ -132,10 +133,11 @@ include 'top-nav.php';
         }, 1000);
       }
       var images2 = [
-        "https://notbyai.fyi/img/slide-photographing.jpg",
+        "https://notbyai.fyi/img/slide-photos.jpg",
         "https://notbyai.fyi/img/slide-filming.jpg",
+        "https://notbyai.fyi/img/slide-painting-water.jpg",
         "https://notbyai.fyi/img/slide-drawing.jpg",
-        "https://notbyai.fyi/img/slide-noting.jpg"
+        "https://notbyai.fyi/img/slide-writing.jpg"
       ];
       var currentImageIndex2 = 0;      
       function changeImage2() {

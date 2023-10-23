@@ -10,7 +10,7 @@
         </span>
       </div>
       <div class="col-6 col-sm-4 text-end mt-sm-2 pt-2 pt-sm-3 order-sm-3">
-        <span class="small opacity-50 pe-4 pe-sm-5 me-sm-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Support Us</span>
+        <a class="small opacity-50 pe-4 pe-sm-5 me-sm-3" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Support Us</a>
       </div>
       <div class="col-sm-4 text-center order-sm-2">
         <a href="https://notbyai.fyi" style="opacity: 1;"><img class="mt-4 mb-5" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>

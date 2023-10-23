@@ -20,14 +20,7 @@ include 'top-nav.php';
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 1</div>
         <p class="mb-0">From a human to a human, please consider a small donation to make a big impact.</p>
-        <script async
-          src="https://js.stripe.com/v3/buy-button.js">
-        </script>
-        <stripe-buy-button
-          buy-button-id="buy_btn_1NE0dmHl9sHS7hKrb8qDcV73"
-          publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-        >
-        </stripe-buy-button>
+        <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" class="btn btn-dark rounded-0 mt-4" target="_blank">Contribute</a>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 2</div>

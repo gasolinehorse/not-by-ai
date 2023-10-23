@@ -46,27 +46,6 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="donate" tabindex="-1" aria-labelledby="donateLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content border-0 rounded-0">
-        <div class="modal-header px-md-5 py-md-4">
-          <div class="modal-title fs-3 h3" id="donateLabel">Contribute to Not By AI</div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5 text-center">
-          <p class="mb-0">We have a huge to-do list (literally) to grow Not By AI and need your help to do so. <br>Your support empowers the future of content and humans.</p>
-          <script async
-            src="https://js.stripe.com/v3/buy-button.js">
-          </script>
-          <stripe-buy-button
-            buy-button-id="buy_btn_1NE0dmHl9sHS7hKrb8qDcV73"
-            publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-          >
-          </stripe-buy-button>
-        </div>
-      </div>
-    </div>
-  </div>
   <div id="curtain" class="position-fixed top-0 start-0 w-100 h-100" onclick="closeNav()"></div>
   <script type="text/javascript">
     function openNav() {

@@ -284,7 +284,7 @@ include 'top-nav.php';
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Support Us</h3>
           <p>Every pixel in the badge, every idea invested, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
-          <a class="h5 text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#donate">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
+          <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content border-0 rounded-0 download-popup">
@@ -338,11 +338,7 @@ include 'top-nav.php';
                       </div>
                       <p class="small mt-2 mb-1 w-100">Amount: </p>
                       <div class="h3 mb-3">US$ 99.00</div>
-                      <stripe-buy-button
-                        buy-button-id="buy_btn_1NCu2mHl9sHS7hKr4WcBxjXI"
-                        publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-                      >
-                      </stripe-buy-button>
+                      <a class="btn mb-2" href="https://buy.stripe.com/4gw01P6ka09mbKw9AB">Purchase My Badges</a>
                       <div class="row">
                         <div class="col-9 col-lg-6" style="font-size: 0.82rem;">By clicking the Download My Badge button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
                       </div>
