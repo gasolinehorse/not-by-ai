@@ -357,6 +357,12 @@ include 'top-nav.php';
       </div>
     </div>
     <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
       var personalRadio = document.getElementById("usage1");
       var commercialRadio = document.getElementById("usage2");
       var personalForm = document.getElementById("personal-form");
@@ -392,7 +398,7 @@ include 'top-nav.php';
 
       var trafficSource = document.referrer;
       if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
-        document.getElementById("tagline").innerHTML = "We Added a 'Not&nbsp;By&nbsp;AI' Badge to Our Content to Prove Its&nbsp;Originality.";
+        document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>If You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
         document.getElementById("tagline").style.zoom = "90%";
       }
     </script>
