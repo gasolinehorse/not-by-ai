@@ -117,7 +117,7 @@ include 'top-nav.php';
       </div>
       <div class="row">
         <div class="position-relative overflow-hidden w-100 mt-4 border-bottom">
-          <div class="xs bg-white position-absolute z-1 bottom-0 start-50 translate-middle-x px-2 py-1 mb-3">Show your creativity with the Not By AI badges. <a href="https://notbyai.fyi" class="text-decoration-underline">Download free</a>.</div>
+          <div class="xs bg-white position-absolute z-1 bottom-0 start-50 translate-middle-x px-2 py-1 mb-3">Show your creativity with the Not By AI badges. <a href="https://notbyai.fyi" class="text-decoration-underline">Download free</a> <img src="/img/download-not-by-ai-badge.svg" alt=""></div>
           <div class="sliding-background-l position-relative z-0"></div>
         </div>
       </div>
