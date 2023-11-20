@@ -39,7 +39,7 @@
   })(window,document,'script','dataLayer','GTM-5TNDH2X');</script>
   <!-- End Google Tag Manager -->
 </head>
-<body class="bg-secondary-subtle p-4">
+<body class="bg-light p-4">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TNDH2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -12,6 +12,7 @@ body {
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
+	overflow: clip;
 }
 @media (max-width: 991px) {
 	.curve {
@@ -148,7 +149,8 @@ h6,
 	letter-spacing: 0.2px;
 }
 cite,
-.source {
+.source,
+.xs {
 	font-size: 0.812rem;
 }
 .not-by-ai-folder {
@@ -176,6 +178,9 @@ cite,
 		background: #212529;
 		box-shadow: inset 0 0 0px 4px #444444;
 	}
+}
+.bg-light {
+	background-color: #f9f8f7 !important;
 }
 .bg-dark {
 	background-color: #292929 !important;
@@ -556,11 +561,11 @@ only screen and (min-resolution: 2dppx) {
   display: inline-block;
   font-size: 0.8rem;
 }
-.business-profile__label {
+.creator-profile__label {
 	font-weight: 300;
 	font-size: 0.8125rem;
 }
-.business-profile__field {
+.creator-profile__field {
 	font-size: 1.125rem;
 }
 .nav-underline .nav-link.active, 
