@@ -292,7 +292,7 @@ img[class*="share__"]:hover {
   animation: loopX 80s linear infinite;
 }
 .sliding-background-l {
-  background: url("img/not-by-ai-placement-examples.jpg") repeat-x;
+  background: url("img/not-by-ai-placement-examples.jpg") repeat-x bottom;
   height: 205px;
   width: 4944px;
   animation: loopX 200s linear infinite;
