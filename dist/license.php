@@ -34,7 +34,7 @@ include 'top-nav.php';
             
             <p class="fw-bold pt-2 mb-2">3. Not By AI Rule</p>
             
-            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI Rule, which states that at least 90% of the Content must be created by humans. The Not By AI Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content.</p>
+            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI Rule, which states that at least 90% of the Content must be created by humans. The Not By AI Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, and looking for grammatical errors and typos.</p>
             
             <p class="fw-bold pt-2 mb-2">4. Commercial Use</p>
             
