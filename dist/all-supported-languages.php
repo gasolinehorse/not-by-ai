@@ -1,1 +1,1 @@
-English, Spanish, German, Korean, Simplified Chinese (CN), Traditional Chinese (TW), Japanese, French, Finnish, Swedish, Indonesian, Thai, Turkish, Greek, Portuguese, Vietnamese, Russian, Persian, Catalan, and Esperanto.
+English, Spanish, German, Korean, Simplified Chinese (CN), Traditional Chinese (TW), Japanese, French, Finnish, Italian, Swedish, Hebrew, Indonesian, Thai, Turkish, Greek, Portuguese, Vietnamese, Russian, Persian, Catalan, and Esperanto.

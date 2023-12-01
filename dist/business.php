@@ -267,7 +267,7 @@ include 'top-nav-dark.php';
                 </ul>
                 <div class="collapse" id="collapseInspirations">
                   <div class="card card-body border-0 bg-light">
-                    <p class="mb-3 small">The Not By AI badges are currently available in the following languages: English, French, German, Indonesian, Japanese, Korean, Portuguese, Spanish, Swedish, Simplified Chinese (CN), Traditional Chinese (TW), Russian, Persian, RussianThai, Vietnamese, Catalan, and Esperanto.</p>
+                    <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
                   </div>
                 </div>
                 <p class="small mt-2 mb-1 w-100">Amount: </p>
