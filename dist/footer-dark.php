@@ -17,6 +17,7 @@
             <ul class="nav flex-column">
               <li class="fw-bold py-2 text-white">Company</li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/about">About Us</a></li>
+              <li class="lh-sm pb-1"><a class="display-6 text-white" href="/meet-our-translators">Meet Our Translators</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/translate">Help Us Translate</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/feedback">Feedback</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/contact">Contact Us</a></li>
