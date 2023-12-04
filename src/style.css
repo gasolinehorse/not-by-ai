@@ -354,17 +354,21 @@ form label {
 }
 form input,
 form textarea {
-	background-color: #efefef;
+	background-color: #f9f8f7;
 	padding: 0.5rem;
 	width: 100%;
-	border: 0;
+	border: 1px solid #eae9e9;
 	border-radius: 0;
 	outline: 0;
 	transition: 0.2s ease all;
+	box-shadow: 0px 1px 1px #f5f3f1;
 }
 form input:focus,
-form input:focus-visible {
-	background-color: #f4f4f4;
+form input:focus-visible,
+form textarea:focus,
+form textarea:focus-visible {
+	background-color: #fffefd;
+	box-shadow: inset 0px 1px 3px #f5f3f1;
 }
 form input[type=checkbox],
 form input[type=radio] {

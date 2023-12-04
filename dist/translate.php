@@ -69,7 +69,7 @@ include 'top-nav.php';
               <li class="pb-2">"Produce" has many meanings in English. In our case, it is referring to music production and overall content creation. If there is no such word in your language, consider "create" or "make".</li>
               <li class="pb-2">In general, shorter word count is preferred.</li>
             </ul>
-            <p>Can't wait to see what our badges in your beautiful languages!</p>
+            <p>You will be featured on our <a href="/meet-our-translators" class="text-decoration-underline">Meet Our Translators page</a> for your contribution (optional). Can't wait to see what our badges in your beautiful languages!</p>
             <p class="small">These languages are <span class="fst-italic">no longer</span> needed: <?php include 'all-supported-languages.php'; ?></p>
           </div>
         </div>
