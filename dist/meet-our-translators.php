@@ -25,50 +25,53 @@ include 'top-nav.php';
       </header>
       <div class="col-md-10 col-xl-9 pt-5">
         <div class="row justify-content-center text-start">
-          <div class="col-lg-10 pb-5">
+          <div class="col-lg-10 pb-4">
             <img class="w-100 mb-4" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
             <p>These are the amazing humans behind the Not By AI badges. Not By AI would not be able to grow and expand into different regions without their help.</p> 
             <p>Thanks to their contributions, we now have over twenty languages translated including <?php include 'all-supported-languages.php'; ?></p>
           </div>
         </div>
       </div>
-      <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-5">
-        <div class="row bg-light pt-4 pb-5 gy-4">
+      <div class="col-12 text-center position-relative z-2" style="margin-bottom: -22px;">
+        <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
+      </div>
+      <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1">
+        <div class="row bg-light pt-4 pb-4 pb-lg-5 gy-4">
           <div class="col-12">
-            <h3 class="h4 border-bottom pb-3">The Not By AI Translators</h3>
+            <h3 class="h4 border-bottom py-3">The Not By AI Translators</h3>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://fadamakis.com" target="_blank" rel="nofollow">Fotis Adamakis</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.idapersson.com" target="_blank" rel="nofollow">Ida Persson</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.ptsgrn.dev" target="_blank" rel="nofollow">Patsagorn Yuenyong</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://carlos-aguilar.com" target="_blank" rel="nofollow">Carlos Aguilar</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="mailto:linerly@linerly.xyz" target="_blank" rel="nofollow">Linerly</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://mastodon.social/@vanzasetia" target="_blank" rel="nofollow">Vanza</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://mas.to/@KNTRO" target="_blank" rel="nofollow">KNTRO</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.instagram.com/chrispanetta_/" target="_blank" rel="nofollow">Chris Panetta</a></p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.gasolinehorses.com/" target="_blank" rel="nofollow">Allen Hsu</a></p>
           </div>
           <div class="col-12 pt-4">
             <p class="opacity-50">...and other 24 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
-            <div class="sliding-background"></div>
+            <div class="sliding-background sliding-background--trans"></div>
           </div>
         </div>
       </div>

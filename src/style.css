@@ -297,6 +297,9 @@ img[class*="share__"]:hover {
   width: 4944px;
   animation: loopX 200s linear infinite;
 }
+.sliding-background--trans {
+	background: url("img/not-by-ai-rotate-transparent.svg") repeat-x;
+}
 @media /* only for retina displays */
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
