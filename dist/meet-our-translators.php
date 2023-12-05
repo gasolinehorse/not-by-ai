@@ -32,12 +32,12 @@ include 'top-nav.php';
           </div>
         </div>
       </div>
-      <div class="col-12 text-center position-relative z-2" style="margin-bottom: -22px;">
+      <div class="col-12 text-center position-relative z-2 fade-in-move-up" style="margin-bottom: -22px; animation-delay: 0.7s; opacity: 0;">
         <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
       </div>
-      <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1">
+      <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1 fade-in-move-up" style="animation-delay: 0.5s; opacity: 0;">
         <div class="row bg-light pt-4 pb-4 pb-lg-5 gy-4">
-          <div class="col-12">
+          <div class="col-12 pb-3">
             <h3 class="h4 border-bottom py-3">The Not By AI Translators</h3>
           </div>
           <div class="col-sm-4 col-6">
@@ -63,6 +63,9 @@ include 'top-nav.php';
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.instagram.com/chrispanetta_/" target="_blank" rel="nofollow">Chris Panetta</a></p>
+          </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0">Jérôme</p>
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.gasolinehorses.com/" target="_blank" rel="nofollow">Allen Hsu</a></p>
