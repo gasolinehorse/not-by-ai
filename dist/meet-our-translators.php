@@ -94,7 +94,7 @@ include 'top-nav.php';
         <div class="row justify-content-center text-start">
           <div class="col-lg-10 pb-5">
             <p class="mb-4">If you want to be a part of the mission to help and ensure humanity continues to generate authentic content and advance, become a translator.</p>
-            <a href="/translate" class="btn btn-dark rounded-0 mb-5" target="_blank">Help Us Translate</a>
+            <a href="/translate" class="btn btn-dark rounded-0 mb-5">Help Us Translate</a>
           </div>
         </div>
       </div>
