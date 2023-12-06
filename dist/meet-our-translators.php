@@ -53,7 +53,7 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://carlos-aguilar.com" target="_blank" rel="nofollow">Carlos Aguilar</a></p>
           </div>
           <div class="col-sm-4 col-6">
-            <p class="mb-0"><a class="text-decoration-underline" href="mailto:linerly@linerly.xyz" target="_blank" rel="nofollow">Linerly</a></p>
+            <p class="mb-0"><a class="text-decoration-underline" href="https://linerly.xyz" target="_blank" rel="nofollow">Linerly</a></p>
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://mastodon.social/@vanzasetia" target="_blank" rel="nofollow">Vanza</a></p>
@@ -66,6 +66,18 @@ include 'top-nav.php';
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0">Jérôme</p>
+          </div>
+          <script>
+            var userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            console.log('User timezone:', userTimezone);
+            if (userTimezone === 'Asia/Taipei') {
+                document.write('<div class="col-sm-4 col-6"><p class="mb-0"><a class="text-decoration-underline" href="https://twitter.com/Ivon852" target="_blank" rel="nofollow">Ivon Huang</a></p></div>');
+            } else {
+                document.write('<div class="col-sm-4 col-6"><p class="mb-0">Ivon Huang</p></div>');
+            }
+          </script>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://twitter.com/AlSeg_" target="_blank" rel="nofollow">Alyson Segovia</a></p>
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.gasolinehorses.com/" target="_blank" rel="nofollow">Allen Hsu</a></p>
