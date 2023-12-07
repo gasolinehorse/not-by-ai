@@ -80,6 +80,9 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://twitter.com/AlSeg_" target="_blank" rel="nofollow">Alyson Segovia</a></p>
           </div>
           <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://www.linkedin.com/in/oanastroe22" target="_blank" rel="nofollow">Oana Stroe</a></p>
+          </div>
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.gasolinehorses.com/" target="_blank" rel="nofollow">Allen Hsu</a></p>
           </div>
           <div class="col-12 pt-4">
