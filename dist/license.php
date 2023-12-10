@@ -14,7 +14,7 @@ include 'top-nav.php';
 
             <h2 class="pt-4 text-center">A Rule of Thumb</h2>
             
-            <p class="text-center pb-4">Read below for the actual license but the gist is you can use our badges for personal use without attribution or any costs. For commercial use, pay $99. Both require you to follow our <a class="text-decoration-underline" href="https://notbyai.fyi/#who-can-use-not-by-ai-badge">90%&nbsp;rule</a>.</p>
+            <p class="text-center pb-4">Read below for the actual license but the gist is you can use our badges for personal use without attribution or any costs. For commercial use, pay $99. Both require you to follow our <a class="text-decoration-underline" href="https://notbyai.fyi/#who-can-use-not-by-ai-badge">Not By AI&nbsp;rule</a>.</p>
             
             <div class="border-bottom my-4"></div>
             

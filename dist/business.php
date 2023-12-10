@@ -211,7 +211,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Yes, if you follow <a href="https://notbyai.fyi/#who-can-use-not-by-ai-badge" class="text-decoration-underline text-white">the 90% rule</a>. In short, the 90% rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
+                    Yes, if you follow <a href="https://notbyai.fyi/#who-can-use-not-by-ai-badge" class="text-decoration-underline text-white">the Not By AI rule</a>. In short, the Not By AI rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
                   </div>
                 </div>
               </div>
