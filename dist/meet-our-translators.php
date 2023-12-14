@@ -41,6 +41,9 @@ include 'top-nav.php';
             <h3 class="h4 border-bottom py-3">The Not By AI Translators</h3>
           </div>
           <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://github.com/tuncaykaptan" target="_blank" rel="nofollow">Tuncay KAPTAN</a></p>
+          </div>
+          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://fadamakis.com" target="_blank" rel="nofollow">Fotis Adamakis</a></p>
           </div>
           <div class="col-sm-4 col-6">
