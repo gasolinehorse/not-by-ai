@@ -185,6 +185,11 @@ cite,
 .bg-dark {
 	background-color: #292929 !important;
 }
+@media (max-width: 767px) {
+	.no-md-bg {
+		background-image: none !important;
+	}
+}
 [class*="border-"] {
 	border-color: #EAEAEA !important;
 }

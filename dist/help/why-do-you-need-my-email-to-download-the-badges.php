@@ -5,7 +5,7 @@ include '../header.php';
 include '../top-nav.php';
 ?>
     <main>
-      <header class="row justify-content-center text-start pt-1 pb-2 mb-3 mb-md-5 bg-light" style="margin-top: -1.8rem; background-image: url(/img/creator-profile-of-not-by-ai.svg); background-position: top right; background-repeat: no-repeat; background-attachment: fixed;">
+      <header class="row no-md-bg justify-content-center text-start pt-1 pb-2 mb-3 mb-md-5 bg-light" style="margin-top: -1.8rem; background-image: url(/img/creator-profile-of-not-by-ai.svg); background-position: top right; background-repeat: no-repeat; background-attachment: fixed;">
         <div class="col-md-11 col-xl-8 pt-1">
           <div class="row">
             <div class="col">
