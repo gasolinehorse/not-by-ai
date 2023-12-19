@@ -32,13 +32,13 @@ include 'top-nav.php';
             
             <p>Not By AI grants to Licensee a non-exclusive, non-transferable, and limited license to use the Badge in connection with Licensee's Content, subject to the terms and conditions of this Agreement.</p>
             
-            <p class="fw-bold pt-2 mb-2">3. Not By AI Rule</p>
+            <p class="fw-bold pt-2 mb-2">3. Not By AI 90% Rule</p>
             
-            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI Rule, which states that at least 90% of the Content must be created by humans. The Not By AI Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content.</p>
+            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI 90% Rule, which states that at least 90% of the Content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content. Not By AI reserves the right to determine the origin of content in cases of ambiguity regarding whether it is human-created or AI-created. Content created by humans utilizing AI does not qualify as human-created content within the parameters of the Not By AI 90% Rule.</p>
             
             <p class="fw-bold pt-2 mb-2">4. Commercial Use</p>
             
-            <p>Licensee may use a Badge for commercial purposes. Not By AI reserves the right to, at its sole discretion, require Licensee to submit Licensee’s Content for verification of compliance with the Not By AI Rule. The verification method and criteria are confidential and proprietary to Not By AI and will not be disclosed to Licensee. By using a Badge, Licensee agrees to cooperate with Not By AI in the verification process and to accept Not By AI’s determination as final and binding. If Licensee refuses or fails to submit Licensee’s Content for verification, or if Licensee’s Content does not pass the verification process, Licensee must cease using the Badge and destroy all copies of the Badge in its possession or control within thirty (30) days after receiving a written notice from Not By AI. Effective May 30, 2023, Licensee must pay a one-time fee of $99 to use the Badge for commercial purposes. The fee is non-refundable regardless of the outcome of the verification process.</p>
+            <p>Licensee may use a Badge for commercial purposes. Not By AI reserves the right to, at its sole discretion, require Licensee to submit Licensee’s Content for verification of compliance with the Not By AI 90% Rule. The verification method and criteria are confidential and proprietary to Not By AI and will not be disclosed to Licensee. By using a Badge, Licensee agrees to cooperate with Not By AI in the verification process and to accept Not By AI’s determination as final and binding. If Licensee refuses or fails to submit Licensee’s Content for verification, or if Licensee’s Content does not pass the verification process, Licensee must cease using the Badge and destroy all copies of the Badge in its possession or control within thirty (30) days after receiving a written notice from Not By AI. Effective May 30, 2023, Licensee must pay a one-time fee of $99 to use the Badge for commercial purposes. The fee is non-refundable regardless of the outcome of the verification process.</p>
             
             <p class="fw-bold pt-2 mb-2">5. Liability</p>
             
@@ -62,7 +62,7 @@ include 'top-nav.php';
             
             <p class="fw-bold pt-2 mb-2">8. Term and Termination</p>
             
-            <p>This Agreement will commence on the date Licensee downloads the Badge and will continue in effect until terminated by either party. Either party may terminate this Agreement at any time for any reason by giving at least thirty (30) days prior written notice to the other party. Not By AI may also terminate this Agreement immediately if Licensee breaches any provision of this Agreement or fails to comply with the Not By AI Rule. Upon termination, Licensee will immediately cease using the Badge and destroy all copies of the Badge in its possession or control.</p>
+            <p>This Agreement will commence on the date Licensee downloads the Badge and will continue in effect until terminated by either party. Either party may terminate this Agreement at any time for any reason by giving at least thirty (30) days prior written notice to the other party. Not By AI may also terminate this Agreement immediately if Licensee breaches any provision of this Agreement or fails to comply with the Not By AI 90% Rule. Upon termination, Licensee will immediately cease using the Badge and destroy all copies of the Badge in its possession or control.</p>
             
             <p class="fw-bold pt-2 mb-2">9. Governing Law and Dispute Resolution</p>
             

@@ -152,21 +152,30 @@ include 'top-nav.php';
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
           <h3>Who Can Use the Badge</h3>
-          <h4>The Not By AI Rule</h4>
+          <h4>The Not By AI 90% Rule</h4>
           <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
         </section>
         <section>
           <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
           <h3>Which Badge Should I Use</h3>
           <ul>
-            <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Painted By Human, Not By AI badge: </h4><br>
-            Use this badge if your artwork, including digital and traditional art, paintings, illustrations, and comics, contains less than 10% of AI output. </li>
-            <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Written By Human, Not By AI badge: </h4><br>
-            Use this badge if your article, including blog posts, essays, research, code, emails, and other text-based content, contains less than 10% of AI output. </li>
-            <li class="pb-2"><h4 class="fw-bold fs-6 d-inline">When to use the Produced By Human, Not By AI badge*: </h4><br>
-            Use this badge if your audio (music, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography contains less than 10% of AI output.</li>
+            <li class="pb-2">
+              <h4 class="fw-bold fs-6 d-inline">You should use the Painted By Human, Not By AI badge when: </h4><br>
+              <img class="my-2 d-block" src="../img/painted-by-human-not-by-ai-white.svg" alt="Painted by Human, Not By AI.">
+              <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the Not By AI 90% Rule.</p>
+            </li>
+            <li class="pb-2">
+              <h4 class="fw-bold fs-6 d-inline">You should use the Written By Human, Not By AI badge when: </h4><br>
+              <img class="my-2 d-block" src="../img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI.">
+              <p>Your article, including blog posts, essays, research, reports, code, emails, and other text-based content, follows the Not By AI 90% Rule.</p>
+            </li>
+            <li>
+              <h4 class="fw-bold fs-6 d-inline">You should use the Produced By Human, Not By AI badge when: </h4><br>
+              <img class="my-2 d-block" src="../img/produced-by-human-not-by-ai-white.svg" alt="Produced by Human, Not By AI.">
+              <p>Your audio (music, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the Not By AI 90% Rule.</p>
+              <p>If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the Not By AI 90% Rule, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
+            </li>
           </ul>
-          <p>* <span class="text-decoration-underline">If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the Not By AI rule mentioned above, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
