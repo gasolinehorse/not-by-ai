@@ -187,16 +187,16 @@ include 'top-nav.php';
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-footer.svg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to an essay</h5>
-              <img class="img-fluid" src="/img/add-not-by-ai-badge-to-essay.svg" alt="">
+              <h5>Add to an artwork</h5>
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-artwork@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-artwork.jpg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to an app</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.jpgpng alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to an artwork</h5>
-              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-artwork@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-artwork.jpg" alt="">
+              <h5>Add to an essay</h5>
+              <img class="img-fluid" src="/img/add-not-by-ai-badge-to-essay.svg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to a book</h5>
