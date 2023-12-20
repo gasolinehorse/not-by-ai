@@ -187,28 +187,62 @@ include 'top-nav.php';
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-footer.svg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to a blog article</h5>
-              <img class="img-fluid" src="/img/add-not-by-ai-badge-to-blog.svg" alt="">
-            </div>
-            <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to an essay</h5>
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-essay.svg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to an artwork</h5>
-              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
+              <h5>Add to an app</h5>
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.jpgpng alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to an album cover or a musician profile</h5>
+              <h5>Add to an artwork</h5>
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-artwork@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-artwork.jpg" alt="">
+            </div>
+            <div class="col-sm-6 pt-4 pt-sm-3">
+              <h5>Add to a book</h5>
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-book@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book.jpg" alt="">
+            </div>
+            <div class="col-sm-6 pt-4 pt-sm-3">
+              <h5>Add to an album cover</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-music.jpg" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
-              <h5>Add to a resume, portfolio, or a business card</h5>
-              <img class="img-fluid" src="/img/add-not-by-ai-badge-to-business.svg" alt="">
+              <h5>Add to a blog article</h5>
+              <img class="img-fluid" src="/img/add-not-by-ai-badge-to-blog.svg" alt="">
             </div>
+            <div class="col-sm-6 pt-4 pt-sm-3">
+              <h5>Add to a painting</h5>
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
+            </div>           
           </div>
-          <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">Show More Inspirations</a></p>
+          <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations" onclick="hide()">Show More Inspirations</a></p>
           <div class="collapse" id="collapseInspirations">
+            <div class="row">
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a photo</h5>
+                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-photo@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-photo.jpg" alt="">
+              </div>
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a musician profile</h5>
+                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-musician-profile@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-musician-profile.jpg" alt="">
+              </div>
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a resume, portfolio, or a business card</h5>
+                <img class="img-fluid" src="/img/add-not-by-ai-badge-to-business.svg" alt="">
+              </div>
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a podcast cover</h5>
+                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-podcast@2x.png 2x" src="/img/add-not-by-ai-badge-to-podcast.png" alt="">
+              </div>
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a video bumper</h5>
+                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-video@2x.png 2x" src="/img/add-not-by-ai-badge-to-video.png" alt="">
+              </div>            
+              <div class="col-sm-6 pt-4 pt-sm-3">
+                <h5>Add to a drawing</h5>
+                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-drawing@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-drawing.jpg" alt="">
+              </div> 
+            </div>
             <div class="card card-body border-0">
               <p>Below are a few ways to display the Not By AI badges on some common content:</p>
               <ul>
@@ -218,7 +252,7 @@ include 'top-nav.php';
                 <li class="pb-2"><span class="fw-bold">Music</span>: display the Not By AI badge on the album cover/back, on the artist profile image, on the artist profile cover art, on the artist profile or website, and/or on the marketing materials.</li>
                 <li class="pb-2"><span class="fw-bold">Films</span>: display the Not By AI badge on the video intros/bumpers or outro, at a corner throughout the video, on the profile or website, and/or on the marketing materials.</li>
               </ul>
-              <img class="img-fluid" srcset="/img/not-by-ai-in-use-examples@2x.jpg 2x" src="/img/not-by-ai-in-use-examples.jpg" alt="More ways to use Not By AI">
+              <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations" onclick="hide()">Show Fewer Inspirations</a></p>
             </div>
           </div>
         </section>
@@ -409,6 +443,15 @@ include 'top-nav.php';
       if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
         document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>If You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
         document.getElementById("tagline").style.zoom = "90%";
+      }
+
+      function hide() {
+        var x = document.getElementById("not-by-ai-inspirations");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
       }
     </script>
     <?php include 'footer.php'; ?>
