@@ -21,7 +21,7 @@ include 'top-nav.php';
         <div class="h1">Step 1</div>
         <p class="mb-0">From a human to a human, please consider a small donation to make a big impact.</p>
         <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" class="btn btn-dark rounded-0 mt-4" target="_blank">Contribute</a>
-        <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline small opacity-50" target="_blank">Where Your Money Goes</a>
+        <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline small opacity-50 d-block my-2" target="_blank">Where Your Money Goes</a>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 2</div>

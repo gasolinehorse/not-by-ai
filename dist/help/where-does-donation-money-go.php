@@ -32,7 +32,7 @@ include '../top-nav.php';
               <li>...and more </li>
             </ul>
             <p>Reference upon request. </p>
-            <p class="pb-2">Please Join us in shaping a better future for art, literature, music, and other types of content.</p>
+            <p class="pb-2">Please join us in shaping a better future for art, literature, music, and other types of content.</p>
             <a class="btn" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a>
           </section>
           <section class="py-4">
