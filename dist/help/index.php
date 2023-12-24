@@ -38,7 +38,7 @@ include '../top-nav.php';
         </div>
         <div class="row border-bottom">
           <div class="col-6 py-3 border-end">
-            <h2 class="h4"><a href="/help/i-want-to-donate-but-first-how-will-the-donation-be-used.php" class="text-decoration-underline">I Want to Donate but First, How Will the Donation Be Used?</a></h2>
+            <h2 class="h4"><a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">Where Does the Donation Money Go?</a></h2>
           </div>
           <div class="col-6 py-3">
             <h2 class="h4"><a href="/help/the-not-by-ai-badges-are-not-available-in-my-language.php" class="text-decoration-underline">The Not By AI Badges Are Not Available in My Language, What Do I Do?</a></h2>
