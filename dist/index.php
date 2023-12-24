@@ -120,7 +120,7 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-which" href="#which-not-by-ai-badge-should-i-use">Which Badge Should I Use</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Examples</a>
+            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Why Should I Use the Badge</a>
@@ -179,7 +179,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Examples</h3>
+          <h3>Gallery</h3>
           <p>Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach.</p>
           <div class="row pb-4">
             <div class="col-sm-6 pt-4 pt-sm-3">
@@ -215,46 +215,7 @@ include 'top-nav.php';
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
             </div>           
           </div>
-          <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations" onclick="hide()">Show More Inspirations</a></p>
-          <div class="collapse" id="collapseInspirations">
-            <div class="row">
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a photo</h5>
-                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-photo@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-photo.jpg" alt="">
-              </div>
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a musician profile</h5>
-                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-musician-profile@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-musician-profile.jpg" alt="">
-              </div>
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a resume, portfolio, or a business card</h5>
-                <img class="img-fluid" src="/img/add-not-by-ai-badge-to-business.svg" alt="">
-              </div>
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a podcast cover</h5>
-                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-podcast@2x.png 2x" src="/img/add-not-by-ai-badge-to-podcast.png" alt="">
-              </div>
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a video bumper</h5>
-                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-video@2x.png 2x" src="/img/add-not-by-ai-badge-to-video.png" alt="">
-              </div>            
-              <div class="col-sm-6 pt-4 pt-sm-3">
-                <h5>Add to a drawing</h5>
-                <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-drawing@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-drawing.jpg" alt="">
-              </div> 
-            </div>
-            <div class="card card-body border-0">
-              <p>Below are a few ways to display the Not By AI badges on some common content:</p>
-              <ul>
-                <li class="pb-2"><span class="fw-bold">Text-based content</span>: display the Not By AI badge at the beginning or the end of the text-based content, on the author profile or website, on the book cover/back, and/or on the marketing materials.</li>
-                <li class="pb-2"><span class="fw-bold">Art</span>: display the Not By AI badge on the artwork (or back of the artwork), on the plaque of the art, on the artist profile or website, and/or on the marketing materials.</li>
-                <li class="pb-2"><span class="fw-bold">Photography</span>: display the Not By AI badge on the photographer’s profile or website, on the photos, and/or on the marketing materials.</li>
-                <li class="pb-2"><span class="fw-bold">Music</span>: display the Not By AI badge on the album cover/back, on the artist profile image, on the artist profile cover art, on the artist profile or website, and/or on the marketing materials.</li>
-                <li class="pb-2"><span class="fw-bold">Films</span>: display the Not By AI badge on the video intros/bumpers or outro, at a corner throughout the video, on the profile or website, and/or on the marketing materials.</li>
-              </ul>
-              <p class="text-center mb-0"><a id="not-by-ai-inspirations" class="h5 text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations" onclick="hide()">Show Fewer Inspirations</a></p>
-            </div>
-          </div>
+          <p class="text-center mb-0"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Show More Inspirations</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
@@ -372,9 +333,9 @@ include 'top-nav.php';
                         <li style="list-style-type: disc;">All three badges</li>
                         <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
                         <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
-                        <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
+                        <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
                       </ul>
-                      <div class="collapse" id="collapseInspirations">
+                      <div class="collapse" id="collapseLang">
                         <div class="card card-body border-0 bg-light">
                           <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
                         </div>

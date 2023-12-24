@@ -4,21 +4,6 @@ $pageDes = 'The Not By AI badges are now available in over 20 languages thanks t
 include 'header.php';
 include 'top-nav.php';
 ?>
-    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Submitting your feedback. <br>Please do not close your window.</span></div>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-      function onSubmit(token) {
-        var form = document.getElementById("forms");
-        if (form.checkValidity()) {
-          document.getElementById("loader").style.display = "flex";
-          form.submit();
-        } else {
-          grecaptcha.reset();
-          form.reportValidity();
-        }
-      }
-    </script>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
         <h1>Meet Our Translators</h1>
