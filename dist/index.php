@@ -117,7 +117,7 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-which" href="#which-not-by-ai-badge-should-i-use">Which Badge Should I Use</a>
+            <a class="nav-link text-black" id="quick-link-which" href="#which-not-by-ai-badge-should-i-use">Which Badge to Use</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
@@ -157,7 +157,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
-          <h3>Which Badge Should I Use</h3>
+          <h3>Which Badge to Use</h3>
           <ul>
             <li class="pb-2">
               <h4 class="fw-bold fs-6 d-inline">You should use the Artist badge when: </h4><br>
