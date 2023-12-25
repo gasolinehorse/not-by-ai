@@ -51,7 +51,7 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the artist badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Artist badge</h2>
                   <p class="small mt-2 text-opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
                 </div>
               </span>
@@ -71,7 +71,7 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the writer badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Writer badge</h2>
                   <p class="small mt-2 text-opacity-50">Good for blog posts, essays, books, research, code, and other text-based content</p>
                 </div>
               </span>
@@ -91,7 +91,7 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the producer badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Producer badge</h2>
                   <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
                 </div>
               </span>
@@ -160,17 +160,17 @@ include 'top-nav.php';
           <h3>Which Badge Should I Use</h3>
           <ul>
             <li class="pb-2">
-              <h4 class="fw-bold fs-6 d-inline">You should use the Painted By Human, Not By AI badge when: </h4><br>
+              <h4 class="fw-bold fs-6 d-inline">You should use the Artist badge when: </h4><br>
               <img class="my-2 d-block" src="../img/painted-by-human-not-by-ai-white.svg" alt="Painted by Human, Not By AI.">
               <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the Not By AI 90% Rule.</p>
             </li>
             <li class="pb-2">
-              <h4 class="fw-bold fs-6 d-inline">You should use the Written By Human, Not By AI badge when: </h4><br>
+              <h4 class="fw-bold fs-6 d-inline">You should use the Writer badge when: </h4><br>
               <img class="my-2 d-block" src="../img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI.">
-              <p>Your article, including blog posts, essays, research, reports, code, emails, and other text-based content, follows the Not By AI 90% Rule.</p>
+              <p>Your article, including blog posts, essays, books, research, reports, code, emails, and other text-based content, follows the Not By AI 90% Rule.</p>
             </li>
             <li>
-              <h4 class="fw-bold fs-6 d-inline">You should use the Produced By Human, Not By AI badge when: </h4><br>
+              <h4 class="fw-bold fs-6 d-inline">You should use the Producer/Generalist badge when: </h4><br>
               <img class="my-2 d-block" src="../img/produced-by-human-not-by-ai-white.svg" alt="Produced by Human, Not By AI.">
               <p>Your audio (music, podcasts, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the Not By AI 90% Rule.</p>
               <p>If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the Not By AI 90% Rule, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
@@ -180,7 +180,6 @@ include 'top-nav.php';
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
           <h3>Gallery</h3>
-          <p>Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach.</p>
           <div class="row pb-4">
             <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to a website</h5>
@@ -192,7 +191,7 @@ include 'top-nav.php';
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to an app</h5>
-              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.jpgpng alt="">
+              <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.png" alt="">
             </div>
             <div class="col-sm-6 pt-4 pt-sm-3">
               <h5>Add to an essay</h5>

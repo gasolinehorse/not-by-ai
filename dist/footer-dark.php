@@ -11,6 +11,7 @@
               <li class="fw-bold py-2 text-white">Badges</li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/">Not By AI for Individuals</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/business">Not By AI for Business</a></li>
+              <li class="lh-sm pb-1"><a class="display-6 text-white" href="/gallery">Gallery</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">

@@ -12,73 +12,83 @@ include 'top-nav.php';
       <div class="row justify-content-center text-start">
         <div class="col-lg-11">
           <div class="row">
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a website</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for website</h2>
               <img class="img-fluid w-100" src="/img/add-not-by-ai-badge-to-footer.svg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for an artwork</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for artwork</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-artwork@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-artwork.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Artist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for an app</h5>
-              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.jpgpng alt="">
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for app</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.png" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for an essay</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for essay</h2>
               <img class="img-fluid w-100" src="/img/add-not-by-ai-badge-to-essay.svg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a book</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for book</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-book@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for an album cover</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for album cover art</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-music.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a blog article</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for blog article</h2>
               <img class="img-fluid w-100" src="/img/add-not-by-ai-badge-to-blog.svg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a painting</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for painting</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Artist badge</p>
             </div> 
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a photo</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for photo</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-photo@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-photo.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a musician profile</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for musician profile</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-musician-profile@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-musician-profile.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a resume, portfolio, or a business card</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for resume, portfolio, or a business card</h2>
               <img class="img-fluid w-100" src="/img/add-not-by-ai-badge-to-business.svg" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a podcast cover</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for podcast cover art</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-podcast@2x.png 2x" src="/img/add-not-by-ai-badge-to-podcast.png" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a video bumper</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for video bumper</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-video@2x.png 2x" src="/img/add-not-by-ai-badge-to-video.png" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>            
-            <div class="col-md-6 col-lg-4 pt-4">
-              <h5>Not By AI for a drawing</h5>
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for drawing</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-drawing@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-drawing.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Artist badge</p>
             </div> 
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-10 col-xl-9">
-          <div class="row justify-content-center text-start">
-            <div class="col-lg-10 py-5">
-              <p class="mb-4">What else can I do with the Not By AI badges? Well, you are the creative content creator, you tell us. Submit your project and show the world how you are using the Not By AI badges.</p>
-              <a href="#" class="btn btn-dark rounded-0 mb-5">Submit Your Work to the Gallery</a>
-            </div>
-          </div>
+        <div class="col-lg-7 py-5">
+          <p class="mb-4">What else can I do with the Not By AI badges? Well, you are the creative content creator, you tell us. Submit your project and show the world how you are using the Not By AI badges.</p>
+          <a href="#" class="btn btn-dark rounded-0 mb-5">Submit Your Project to the Gallery</a>
         </div>
       </div>
     </main>
