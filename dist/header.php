@@ -49,7 +49,7 @@
     <a onclick="closeNav()" href="/#not-by-ai-mission">Mission</a>
     <a onclick="closeNav()" href="/#who-can-use-not-by-ai-badge">Qualification</a>
     <a onclick="closeNav()" href="/#which-not-by-ai-badge-should-i-use">Badge Types</a>
-    <a onclick="closeNav()" href="/#not-by-ai-badge-use-examples">Gallery</a>
+    <a onclick="closeNav()" href="/gallery">Gallery</a>
     <a onclick="closeNav()" href="/#why-should-i-use-not-by-ai-badge">Benefits</a>
     <a onclick="closeNav()" href="/#not-by-ai-bdage-guidelines">Guidelines</a>
     <a href="https://notbyai.fyi/about">About Us</a>
