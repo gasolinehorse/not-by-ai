@@ -72,10 +72,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Blog posts, recipes, guides, and reviews</h4>
-              <p class="ps-lg-5 small opacity-50">The Writer badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Writer badge at the beginning or the end of the content, in the author profile section, or on the author’s webpage. </p>
@@ -83,10 +83,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Essays, research, reports, and other educational/academic content </h4>
-              <p class="ps-lg-5 small opacity-50">The Writer badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Writer badge on the cover of your content, at the beginning of your content, or at the end of your content. </p>
@@ -94,10 +94,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Books and magazines</h4>
-              <p class="ps-lg-5 small opacity-50">The Writer badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Writer badge on the cover, the book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, display it on marketing materials, such as the website of the author or the book, is encouraged.</p>
@@ -105,10 +105,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Emails</h4>
-              <p class="ps-lg-5 small opacity-50">The Writer badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Writer badge in your email signature or at the beginning of the email.</p>
@@ -116,10 +116,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Digital art</h4>
-              <p class="ps-lg-5 small opacity-50">The Artist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Artist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Artist badge on the artwork (or on the back), near the artwork, in the description section, or on the artist's profile or website. </p>
@@ -127,10 +127,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Physical art and handcrafted products</h4>
-              <p class="ps-lg-5 small opacity-50">The Artist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Artist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Artist badge on the front, side, or back of the artwork or product, on the plaque, tag, or on the package/cover of the art or product. Also consider displaying the badge on the website of the art or product and on marketing materials.</p>
@@ -138,10 +138,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Comics</h4>
-              <p class="ps-lg-5 small opacity-50">The Artist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Artist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Artist badge on the cover, the comic book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, display it on marketing materials, such as the website of the author or the comics, is encouraged.</p>
@@ -149,10 +149,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Photography</h4>
-              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Producer/Generalist badge on the photographer’s profile or website, on the photos, near the photos, or on plaques of the photos. </p>
@@ -160,10 +160,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Music</h4>
-              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Producer/Generalist badge on the album cover art or back, artist profile image, artist profile cover art, or on the artist's profile or website. </p>
@@ -171,10 +171,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Videos</h4>
-              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Producer/Generalist badge in the video intros/bumpers or outros, at a corner throughout the video, or on the website of the video or the director/producer/filmmaker. </p>
@@ -182,10 +182,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Podcasts</h4>
-              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-8">
               <p>Display the Producer/Generalist badge on the podcast cover and/or on the podcast website. If there is a video component, consider including the badge in the video intros/bumpers, outros, at a corner throughout the video, or incorporate it as a physical element, such as a banner, in the studio or recording environment. Also, display it on marketing materials to amplify your marketing efforts.</p>
@@ -193,10 +193,10 @@ include '../top-nav.php';
           </div>
         </div>
         <div class="px-3 py-2 mb-3">
-          <div class="row py-2">
+          <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Overall creative approach</h4>
-              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-8">
               <p>The Producer/Generalist badge can be used to indicate that your overall creative approach to content creation follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>. For example, apply the badge when the content produced by your creative agency—whether it involves the design and copy of an app, website, or brochure—or in the case of your book, which may include both text and illustrations, meets the Not By AI requirement. Determine badge implementation by referring to the instructions above or consult with your design professionals.</p>
