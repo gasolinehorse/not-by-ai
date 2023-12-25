@@ -123,10 +123,10 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Why Should I Use the Badge</a>
+            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits of Not By AI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-use" href="#not-by-ai-bdage-guidelines">Badge Use</a>
+            <a class="nav-link text-black" id="quick-link-use" href="#support-not-by-ai">Support Us</a>
           </li>
           <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
@@ -219,7 +219,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Why Should I Use the Badge</h3>
+          <h3>Benefits of Not By AI</h3>
           <ul class="nav nav-underline mb-4 border-bottom" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
@@ -246,48 +246,9 @@ include 'top-nav.php';
           <p class="mt-3">Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         </section>
         <section>
-          <div id="not-by-ai-bdage-guidelines" class="py-3"></div>
-          <h3>Badge Use</h3>
-          <p>The following guidelines provide instructions on how to use the Not By AI badge.</p>
-          <ul>
-            <li class="pb-2">Linking the badge to notbyai.fyi is strongly recommended. Wrap the badge image using the anchor HTML element with the href attribute. For example, <pre class="my-2 py-1 px-2 bg-black text-white" style="user-select: all; -webkit-user-select: all;"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-human-not-by-ai-white.svg" alt="Written by Human, Not by AI"&gt;&lt;/a&gt;</code></pre> This allows your audience to understand the mission you are participating in by clicking on the badge to learn more. </li>
-            <li class="pb-2">Respect the clear space: Clear space is the surrounding area around the badge that should avoid any content. The minimum clear space is the x-height of the Not By AI typemark.</li>
-            <li class="pb-2">Do not alter the badge: The badge should not be altered or modified in any way.</li>
-            <li class="pb-2">Minimum Size: To make sure that the badge remains legible and recognizable, it is important to maintain the minimum size of 42 px high for 1x resolution screens, or 84 px high for 2x resolution screens.</li>
-            <li class="pb-2">While the Not By AI badge is meant to be displayed and noted, the content creator is welcome to place the badge in a less visible area, such as a website footer, the plaque for your art, or the back of an album, to prevent the badge from visually competing with your content.</li>
-          </ul>
-          <p>Incorrect badge usage examples:</p>
-          <div class="row">
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" src="/img/no-rewrite-not-by-ai-badge.svg" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Do not rewrite the badge</p>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" src="/img/no-color-not-by-ai-badge.svg" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Do not replace any colors in the badge</p>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" srcset="/img/no-shadow-not-by-ai-badge@2x.png 2x" src="/img/no-shadow-not-by-ai-badge.png" alt="">
-              <p class="display-6 pt-1 pb-3 pb-sm-0">Do not add effects to the badge</p>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" src="/img/no-remake-not-by-ai-badge.svg" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Do not make changes to badge elements</p>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" src="/img/no-small-not-by-ai-badge.svg" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Do not shrink the badge below the minimum size</p>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <img class="img-fluid" src="/img/no-blurry-not-by-ai-badge.png" alt="">
-              <p class="display-6 pt-2 pb-3 pb-sm-0">Make sure the badge is legible</p>
-            </div>
-          </div>
-        </section>
-        <section>
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Support Us</h3>
-          <p>Every pixel in the badge, every idea invested, and the whole Not By AI mission are created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance.</p>
+          <p>The whole Not By AI movement is created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance. Your donation will be used to grow Not By AI <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">in different ways</a>.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">

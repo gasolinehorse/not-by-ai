@@ -5,33 +5,37 @@
             <img class="mb-3" src="/img/not-by-ai.svg" alt="Not By AI">
             <div class="display-2 lh-sm pb-2">Human Minds Shape&nbsp;Tomorrow</div>
             <p style="font-size: 1.3125rem;">With a badge, we empower humans to create authentic content</p>
+            <ul class="nav">
+              <li class="lh-sm px-2"><a class="display-6" target="_blank" href="https://twitter.com/NotByAIBadge"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#000" fill-rule="evenodd" d="M11.905 8.47 19.35 0h-1.764L11.12 7.353 5.956 0H0l7.809 11.12L0 20h1.764l6.827-7.766L14.044 20H20M2.4 1.302h2.71l12.476 17.46h-2.71"/></svg></a></li>
+              <li class="lh-sm px-2"><a class="display-6" target="_blank" href="https://www.facebook.com/notbyai"><svg xmlns="http://www.w3.org/2000/svg" width="9.069" height="19.473"><path fill="#000" fill-rule="evenodd" d="M2.058 6.366H0v3.33h2.058v9.777h3.957v-9.82h2.76l.294-3.287H6.015V4.494c0-.775.157-1.082.913-1.082h2.14V0H6.33C3.385 0 2.058 1.285 2.058 3.745v2.621Z"/></svg></a></li>
+              <li class="lh-sm px-2"><a class="display-6" target="_blank" href="https://www.linkedin.com/company/notbyai/"><svg xmlns="http://www.w3.org/2000/svg" width="19.639" height="19.473"><path fill="#000" fill-rule="evenodd" d="M10.925 6.491h-3.89v12.982h3.89v-6.815c0-1.825.848-2.912 2.472-2.912 1.49 0 2.207 1.043 2.207 2.912v6.815h4.035v-8.22c0-3.477-1.988-5.158-4.767-5.158-2.777 0-3.947 2.145-3.947 2.145V6.49ZM.39 19.473h4.054V6.491H.39v12.982ZM4.795 2.395a2.396 2.396 0 0 1-2.398 2.396 2.396 2.396 0 1 1 0-4.791 2.396 2.396 0 0 1 2.398 2.395Z"/></svg></a></li>
+            </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
             <ul class="nav flex-column">
               <li class="fw-bold py-2">Badges</li>
               <li class="lh-sm pb-1"><a class="display-6" href="/">Not By AI for Individuals</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/business">Not By AI for Business</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="/help/what-is-the-not-by-ai-90-rule">The Not By AI 90% Rule</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="text-center text-md-start col-md-3 col-lg-2">
+            <ul class="nav flex-column">
+              <li class="fw-bold py-2">Resources</li>
+              <li class="lh-sm pb-1"><a class="display-6" href="/help">Help Center</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="/help/what-is-the-not-by-ai-90-rule">The Not By AI 90% Rule</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="/help#how-to">How to Insert the Badges</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="/help/guidelines">Usage Guidelines</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
             <ul class="nav flex-column">
               <li class="fw-bold py-2">Company</li>
               <li class="lh-sm pb-1"><a class="display-6" href="/about">About Us</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="/help">Help Center</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/feedback">Feedback</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/meet-our-translators">Meet Our Translators</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/translate">Help Us Translate</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="/contact">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="text-center text-md-start col-md-3 col-lg-2">
-            <ul class="nav flex-column">
-              <li class="fw-bold py-2">Social</li>
-              <li class="lh-sm pb-1"><a class="display-6" target="_blank" href="https://twitter.com/NotByAIBadge">X (Formerly Twitter)</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" target="_blank" href="https://www.facebook.com/notbyai">Facebook</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" target="_blank" href="https://www.linkedin.com/company/notbyai/">Linkedin</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">

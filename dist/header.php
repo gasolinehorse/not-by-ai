@@ -51,7 +51,7 @@
     <a onclick="closeNav()" href="/#which-not-by-ai-badge-should-i-use">Badge Types</a>
     <a onclick="closeNav()" href="/gallery">Gallery</a>
     <a onclick="closeNav()" href="/#why-should-i-use-not-by-ai-badge">Benefits</a>
-    <a onclick="closeNav()" href="/#not-by-ai-bdage-guidelines">Guidelines</a>
+    <a onclick="closeNav()" href="/help/guidelines">Guidelines</a>
     <a href="https://notbyai.fyi/about">About Us</a>
     <a href="https://notbyai.fyi/contact">Contact</a>
     <div class="px-4 mt-3" onclick="closeNav()">
