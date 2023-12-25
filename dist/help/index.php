@@ -55,7 +55,7 @@ include '../top-nav.php';
         </div>
         <div class="row">
           <div class="col-6 py-3 border-end">
-            <h3 class="h5"><a href="/help/can-i-share-my-not-by-ai-project-with-you-and-the-community.php">I Am Using the Not By AI Badge on My Project. Can I Share It With You and the Community?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5"><a href="/help/can-i-share-my-not-by-ai-project-with-you-and-the-community.php">I Am Using the Not By AI Badge on My Project. Can I Share It with You and the Community?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-6 py-3">
           </div>

@@ -26,7 +26,7 @@ include 'top-nav.php';
       <div class="col-lg-9 py-5">
         <div class="row">
           <section class="col-lg-6 text-start pb-5">
-            <h2 class="h5 pb-3">Please fill out the form to contact us.</h2>
+            <h2 class="h4 pb-3">Please fill out the form to contact us.</h2>
             <form id="forms" method="post" action="process-form-contact.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <label for="name">Name</label>
@@ -43,19 +43,13 @@ include 'top-nav.php';
             </form>
           </section>
           <section class="col-lg-6 text-start">
-            <h2 class="h5 pb-3" style="letter-spacing: 0px;">Frequently asked questions:</h2>
-            <h3 class="h4">The Not By AI badge is not available in my language, what do I do?</h3>
-            <p>We are currently working on adding more languages. If you do not see your language, please <a class="text-decoration-underline" href="https://notbyai.fyi/translate">help us translate</a> or let us know that you would which language you would like to request using the contact form.</p>
-            <h3 class="h4">Is commercial licensing available?</h3>
-            <p>Yes. Please refer to the License link at the bottom of the page. </p>
-            <h3 class="h4">I am not sure which of the three Not By AI badges to use for my project. How do I choose?</h3>
-            <p>If you are not sure which badge to use, the Produced By Humans, Not By AI badge is likely the most suitable option. You can also use the contact form to suggest a new badge or request an answer from us. We are happy to help!</p>
-            <h3 class="h4">I am using the Not By AI badge on my project. Can I share it with you and the community?</h3>
-            <p>Absolutely. We love seeing how our badges are used. Feel free to share it with us using the contact form. We may even share it on our social media channels or in our upcoming newsletter.</p>
-            <h3 class="h4">Do I need to link the Not By AI badge when I use it?</h3>
-            <p>We strongly recommend you to link the badge to notbyai.fyi to help your users understand the mission you are participating in. Learn more about the instructions for linking the badge under the <a class="text-decoration-underline" href="https://notbyai.fyi/#not-by-ai-bdage-guidelines">Badge Use</a> section.</p>
-            <h3 class="h4">Can we collaborate?</h3>
-            <p>That would be wonderful. Send us a message and tell us about what you have in mind! </p>
+            <h2 class="h4 pb-3" style="letter-spacing: 0px;">Helpful links:</h2>
+            <h3 class="h5"><a href="/help/">Frequently Asked Questions</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5"><a href="/help#how-to">How to Add the Not By AI Badges</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5"><a href="/help/what-is-the-not-by-ai-90-rule.php">What Is the Not By AI 90% Rule</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5 mb-4 pb-2"><a href="/gallery/">The Not By AI Gallery</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <hr>
+            <img class="img-fluid mt-4 mb-5" srcset="/img/not-by-ai-badge-contact-us@2x.jpg 2x" src="/img/not-by-ai-badge-contact-us.jpg" alt="">
           </section>
         </div>
         <section>
