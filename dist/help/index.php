@@ -64,9 +64,11 @@ include '../top-nav.php';
       <section class="col-lg-11 col-xl-10 py-5 text-start">
         <div class="row py-2 justify-content-center">
           <div class="col-lg-9 text-center">
-            <h2 class="mt-4 pt-2">How to Add the Not By AI Badges</h2>
+            <h2 id="how-to" class="mt-4 pt-2">How to Add the Not By AI Badges</h2>
             <p class="mb-4">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
             <img class="img-fluid mb-5" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
+            <p class="mb-1">1. First, download the badges on our <a href="https://notbyai.fyi/" class="text-decoration-underline">homepage</a> or <a href="https://notbyai.fyi/business" class="text-decoration-underline">Business</a> page.</p>
+            <p>2. Follow the directions below based on your content type.</p>
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">

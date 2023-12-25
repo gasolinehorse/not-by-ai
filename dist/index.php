@@ -176,6 +176,7 @@ include 'top-nav.php';
               <p>If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the Not By AI 90% Rule, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
             </li>
           </ul>
+          <p class="text-center"><a href="help#how-to" class="h5 text-decoration-underline">How to Insert the Badges to My Project</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
@@ -214,7 +215,7 @@ include 'top-nav.php';
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
             </div>           
           </div>
-          <p class="text-center mb-0"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Show More Inspirations</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
+          <p class="text-center"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Show More Inspirations</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
