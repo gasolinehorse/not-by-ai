@@ -129,11 +129,11 @@ include '../top-nav.php';
         <div class="border-bottom px-3 py-2 mb-3">
           <div class="row py-2">
             <div class="col-sm-4">
-              <h4 class="ps-lg-5 mb-1">Physical art</h4>
+              <h4 class="ps-lg-5 mb-1">Physical art and handcrafted products</h4>
               <p class="ps-lg-5 small opacity-50">The Artist badge</p>
             </div>
             <div class="col-sm-8">
-              <p>Display the Artist badge on the artwork (or on the back), on the plaque, tag, or on the package/cover of the art. Also consider displaying the badge on the website of the art and on marketing materials.</p>
+              <p>Display the Artist badge on the front, side, or back of the artwork or product, on the plaque, tag, or on the package/cover of the art or product. Also consider displaying the badge on the website of the art or product and on marketing materials.</p>
             </div>
           </div>
         </div>
