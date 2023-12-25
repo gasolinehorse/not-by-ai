@@ -8,15 +8,9 @@ include 'top-nav.php';
       <header>
         <h1>Badges Sent</h1>
       </header>
-      <section class="col-md-8 col-xl-6">
+      <section class="col-md-8 col-xl-6 pb-4">
         <p>Please check your inbox for your Not By AI badges. We are really glad to have you as a customer and would love to see what you will create with our badges!</p>
-        <h3 class="pt-3 pb-3 fs-5">Follow Not By AI on Social Media:</h3>
-        <div>
-          <a href="https://twitter.com/NotByAIBadge" target="_blank"><img height="35" class="mx-3 share__tt" src="/img/twitter.svg" alt="Twitter"></a>
-          <a href="https://facebook.com/notbyai" target="_blank"><img height="35" class="mx-3 share__fb" src="/img/facebook.svg" alt="Facebook"></a>
-          <a href="https://www.linkedin.com/company/notbyai/" target="_blank"><img height="35" class="mx-3 share__li" src="/img/linkedin.svg" alt="LinkedIn"></a>
-        </div>
-        <a href="https://notbyai.fyi" class="btn my-5">Return to Homepage</a>
+        <?php include 'all-social.php'; ?>
       </section>
     </main>
     <?php include 'footer.php'; ?>
