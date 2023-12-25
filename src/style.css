@@ -233,14 +233,14 @@ nav {
 }
 @media (min-width: 992px) {
 	.download-popup {
-		background-image: url('img/not-bi-ai-badge-download-examples.svg'); 
+		background-image: url('img/not-by-ai-badge-download-examples.svg'); 
 		background-position: bottom right; 
 		background-repeat: no-repeat;
 	}
 }
 @media (max-width: 991px) {
 	.download-popup {
-		background-image: url('img/not-bi-ai-badge-download-examples.svg'); 
+		background-image: url('img/not-by-ai-badge-download-examples.svg'); 
 		background-position: bottom right; 
 		background-repeat: no-repeat;
 		background-size: 50%;
