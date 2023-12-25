@@ -199,7 +199,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    For now, we will not. But you should still follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% rule</a>. Once purchased, you are welcome to start using the badges immediately.
+                    For now, we will not. But you should still follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. Once purchased, you are welcome to start using the badges immediately.
                   </div>
                 </div>
               </div>
@@ -211,7 +211,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Yes, if you follow <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">the Not By AI rule</a>. In short, the Not By AI rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
+                    Yes, if you follow <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">the Not By AI Rule</a>. In short, the Not By AI rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
                   </div>
                 </div>
               </div>

@@ -11,6 +11,7 @@
               <li class="fw-bold py-2 text-white">Badges</li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/">Not By AI for Individuals</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/business">Not By AI for Business</a></li>
+              <li class="lh-sm pb-1"><a class="display-6 text-white" href="/help/what-is-the-not-by-ai-90-rule">The Not By AI 90% Rule</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="/gallery">Gallery</a></li>
             </ul>
           </div>
