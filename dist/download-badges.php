@@ -52,7 +52,7 @@ include 'top-nav.php';
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h2">Step 2</div>
         <p class="mb-1">Add the Not By AI badge of your preferred language to your content. </p>
-        <a href="/help#how-to" class="text-decoration-underline small opacity-50 d-block mb-2">How to Insert the Badges</a>
+        <a href="/help#how-to" class="text-decoration-underline small opacity-50 d-block mb-4">How to Insert the Badges</a>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h2">Step 3</div>
