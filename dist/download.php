@@ -29,11 +29,12 @@ include 'top-nav.php';
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 3</div>
-        <p>Add the Not By AI badge of your preferred language to your content.</p>
+        <p class="mb-1">Add the Not By AI badge of your preferred language to your content.</p>
+        <a href="/help#how-to" class="text-decoration-underline small opacity-50 d-block mb-2">How to Insert the Badges</a>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h1">Step 4</div>
-        <p>If your content is in a digital format that allows for the Not By AI badge to be linked or clickable, consider inserting a link to https://notbyai.fyi. This will allow the users to learn more about why you are participating in the movement.</p>
+        <p>If your content is in a digital format that allows for the Not By AI badges to be linked, insert a link to https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
       </div>
     </div>
     <div class="row">

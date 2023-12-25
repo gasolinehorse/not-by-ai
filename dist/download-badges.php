@@ -46,16 +46,17 @@ include 'top-nav.php';
         <div class="h5 pb-4">What to Do Next</div>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 1</div>
+        <div class="h2">Step 1</div>
         <p>Once you download the Not By AI ZIP file to your desktop and unzip it, open the folder. You will find subfolders that contain the Not By AI badges in different languages.</p>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 2</div>
-        <p>Add the Not By AI badge of your preferred language to your content. Here are some <a class="text-decoration-underline" href="https://notbyai.fyi/#not-by-ai-badge-use-examples">examples</a> for your reference.</p>
+        <div class="h2">Step 2</div>
+        <p class="mb-1">Add the Not By AI badge of your preferred language to your content. </p>
+        <a href="/help#how-to" class="text-decoration-underline small opacity-50 d-block mb-2">How to Insert the Badges</a>
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
-        <div class="h1">Step 3</div>
-        <p>If your content is in a digital format that allows for the Not By AI badge to be linked or clickable, consider inserting a link to https://notbyai.fyi. This will allow the users to learn more about why you are participating in the movement.</p>
+        <div class="h2">Step 3</div>
+        <p>If your content is in a digital format that allows for the Not By AI badge to be linked, insert a link to your Creator Page (once approved) or https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
       </div>
     </div>
     <div class="row">
