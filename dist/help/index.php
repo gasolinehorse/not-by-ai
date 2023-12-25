@@ -68,7 +68,7 @@ include '../top-nav.php';
             <p class="mb-4">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
             <img class="img-fluid mb-5" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
             <p class="mb-1">1. First, download the badges on our <a href="https://notbyai.fyi/" class="text-decoration-underline">homepage</a> or <a href="https://notbyai.fyi/business" class="text-decoration-underline">Business</a> page.</p>
-            <p>2. Follow the directions below based on your content type.</p>
+            <p>2. Follow the recommendations below based on your content type.</p>
           </div>
         </div>
         <div class="border-bottom px-3 py-2 mb-3">
@@ -181,7 +181,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="px-3 py-2 mb-3">
+        <div class="border-bottom px-3 py-2 mb-3">
           <div class="row py-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Podcasts</h4>
@@ -189,6 +189,17 @@ include '../top-nav.php';
             </div>
             <div class="col-sm-8">
               <p>Display the Producer/Generalist badge on the podcast cover and/or on the podcast website. If there is a video component, consider including the badge in the video intros/bumpers, outros, at a corner throughout the video, or incorporate it as a physical element, such as a banner, in the studio or recording environment. Also, display it on marketing materials to amplify your marketing efforts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="px-3 py-2 mb-3">
+          <div class="row py-2">
+            <div class="col-sm-4">
+              <h4 class="ps-lg-5 mb-1">Overall creative approach</h4>
+              <p class="ps-lg-5 small opacity-50">The Producer/Generalist badge</p>
+            </div>
+            <div class="col-sm-8">
+              <p>The Producer/Generalist badge can be used to indicate that your overall creative approach to content creation follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>. For example, apply the badge when the content produced by your creative agency—whether it involves the design and copy of an app, website, or brochure—or in the case of your book, which may include both text and illustrations, meets the Not By AI requirement. Determine badge implementation by referring to the instructions above or consult with your design professionals.</p>
             </div>
           </div>
         </div>
