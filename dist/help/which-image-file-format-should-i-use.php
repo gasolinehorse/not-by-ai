@@ -18,7 +18,7 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Which Image File Format Should I Use?</h1>
-            <p>We include PNG, SVG, and EPS formats in our design. See below to learn which works best for you: </p>
+            <p>We include PNG, SVG, and EPS formats in our badge designs. See below to learn which works best for you: </p>
             <ul>
               <li class="mb-1"><strong>PNG</strong>: Applicable for most use cases due to its wide-range of support. If you are using a third-party platform to host your content, such as WordPress, Medium, Squarespace, and LinkedIn, PNG is likely the best option.</li>
               <li class="mb-1"><strong>SVG</strong>: If you are including the badge as a part of your web-based project or have full control over your digital content's editability, use SVG for its superior quality.</li>
