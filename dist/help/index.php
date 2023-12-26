@@ -11,7 +11,7 @@ include '../top-nav.php';
       <section class="col-md-10 col-xl-6 text-center pt-4 pb-4">
         <p>Hi, we are Not By AI and we are here to help. Below are some useful guides and FAQs created and answered to ensure that your users and audience can easily identify your content created by humans.</p>
       </section>
-      <section class="col-lg-11 col-xl-10 text-start pt-4 px-5 pt-2 pb-3 bg-light">
+      <section class="col-lg-11 col-xl-10 text-start pt-4 px-md-3 px-lg-5 pt-2 pb-3 bg-light">
         <h2 class="py-3 text-center">Frequently Asked Questions</h2>
         <div class="row border-bottom">
           <div class="col-6 py-3 border-end">
@@ -71,7 +71,7 @@ include '../top-nav.php';
             <p>2. Follow the recommendations below based on your content type.</p>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Blog posts, recipes, guides, and reviews</h4>
@@ -82,7 +82,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Essays, research, reports, and other educational/academic content </h4>
@@ -93,7 +93,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Books and magazines</h4>
@@ -104,7 +104,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Emails</h4>
@@ -115,7 +115,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Digital art</h4>
@@ -126,7 +126,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Physical art and handcrafted products</h4>
@@ -137,7 +137,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Comics</h4>
@@ -148,7 +148,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Photography</h4>
@@ -159,7 +159,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Music</h4>
@@ -170,7 +170,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Videos</h4>
@@ -181,7 +181,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom px-3 py-2 mb-3">
+        <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Podcasts</h4>
@@ -192,7 +192,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="px-3 py-2 mb-3">
+        <div class="px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Overall creative approach</h4>
