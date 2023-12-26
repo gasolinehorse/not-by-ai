@@ -9,23 +9,133 @@
 
 <url>
   <loc>https://notbyai.fyi/</loc>
-  <lastmod>2023-04-29T14:44:39+00:00</lastmod>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://notbyai.fyi/contact/</loc>
-  <lastmod>2023-04-29T14:44:39+00:00</lastmod>
+  <loc>https://notbyai.fyi/help/which-not-by-ai-badge-should-i-use.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notbyai.fyi/translate/</loc>
-  <lastmod>2023-04-29T14:44:39+00:00</lastmod>
+  <loc>https://notbyai.fyi/gallery</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notbyai.fyi/feedback/</loc>
-  <lastmod>2023-04-29T14:44:39+00:00</lastmod>
+  <loc>https://notbyai.fyi/help/</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/about</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/contact</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/business</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/where-does-donation-money-go.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/license</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/guidelines</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/feedback</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/media-assets</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/meet-our-translators</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/translate</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/privacy-policy</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/which-image-file-format-should-i-use.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/is-not-by-ai-anti-ai.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/how-do-you-ensure-not-by-ai-badge-usage-complies-with-the-not-by-ai-90-rule.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/why-cant-i-customize-the-not-by-ai-badges-to-better-fit-my-content.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/why-do-you-need-my-email-to-download-the-badges.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/the-not-by-ai-badges-are-not-available-in-my-language.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/help/can-i-share-my-not-by-ai-project-with-you-and-the-community.php</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notbyai.fyi/gallery/</loc>
+  <lastmod>2023-12-26T04:57:34+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
