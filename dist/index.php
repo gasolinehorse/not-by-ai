@@ -72,7 +72,7 @@ include 'top-nav.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Writer badge</h2>
-                  <p class="small mt-2 text-opacity-50">Good for blog posts, essays, books, research, code, and other text-based content</p>
+                  <p class="small mt-2 text-opacity-50">Good for blog posts, essays, books, research, code, and other text-based content.</p>
                 </div>
               </span>
             </span>
@@ -92,7 +92,7 @@ include 'top-nav.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Producer badge</h2>
-                  <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
+                  <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more.</p>
                 </div>
               </span>
             </span>
@@ -117,13 +117,13 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-which" href="#which-not-by-ai-badge-should-i-use">Which Badge to Use</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits of Not By AI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" id="quick-link-use" href="/help">Resources</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-use" href="#support-not-by-ai">Support Us</a>
@@ -154,29 +154,6 @@ include 'top-nav.php';
           <h3>Who Can Use the Badge</h3>
           <h4>The Not By AI 90% Rule</h4>
           <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
-        </section>
-        <section>
-          <div id="which-not-by-ai-badge-should-i-use" class="py-3"></div>
-          <h3>Which Badge to Use</h3>
-          <ul>
-            <li class="pb-2">
-              <h4 class="fw-bold fs-6 d-inline">You should use the Artist badge when: </h4><br>
-              <img class="my-2 d-block" src="../img/painted-by-human-not-by-ai-white.svg" alt="Painted by Human, Not By AI.">
-              <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the Not By AI 90% Rule.</p>
-            </li>
-            <li class="pb-2">
-              <h4 class="fw-bold fs-6 d-inline">You should use the Writer badge when: </h4><br>
-              <img class="my-2 d-block" src="../img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI.">
-              <p>Your article, including blog posts, essays, books, research, reports, code, emails, and other text-based content, follows the Not By AI 90% Rule.</p>
-            </li>
-            <li>
-              <h4 class="fw-bold fs-6 d-inline">You should use the Producer/Generalist badge when: </h4><br>
-              <img class="my-2 d-block" src="../img/produced-by-human-not-by-ai-white.svg" alt="Produced by Human, Not By AI.">
-              <p>Your audio (music, podcasts, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the Not By AI 90% Rule.</p>
-              <p>If you want to indicate that your overall creative approach and content, which could include images, text, and audio, follows the Not By AI 90% Rule, use the Produced By Human, Not By AI badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
-            </li>
-          </ul>
-          <p class="text-center"><a href="help#how-to" class="h5 text-decoration-underline">How to Insert the Badges to My Project</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
