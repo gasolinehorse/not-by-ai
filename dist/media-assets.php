@@ -83,7 +83,7 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <div class="col-lg-6 pb-5 text-center">
+          <div class="col-lg-6 text-center">
             <p>All assets above may be used for editorial purposes only. If you have any questions, please feel free to <a href="/contact" class="text-decoration-underline">contact us</a>. </p>
           </div>
         </div>
