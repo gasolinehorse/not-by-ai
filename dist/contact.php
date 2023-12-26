@@ -48,8 +48,8 @@ include 'top-nav.php';
             <h3 class="h5"><a href="/help#how-to">How to Add the Not By AI Badges</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
             <h3 class="h5"><a href="/help/what-is-the-not-by-ai-90-rule.php">What Is the Not By AI 90% Rule</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
             <h3 class="h5 mb-4 pb-2"><a href="/gallery/">The Not By AI Gallery</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
-            <hr>
-            <img class="img-fluid mt-4 mb-5" srcset="/img/not-by-ai-badge-contact-us@2x.jpg 2x" src="/img/not-by-ai-badge-contact-us.jpg" alt="">
+            <div class="border-bottom mb-3"></div>
+            <img class="img-fluid mt-4" srcset="/img/not-by-ai-badge-contact-us@2x.jpg 2x" src="/img/not-by-ai-badge-contact-us.jpg" alt="">
           </section>
         </div>
         <section>
