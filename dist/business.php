@@ -264,6 +264,7 @@ include 'top-nav-dark.php';
                   <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
                   <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
                   <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
+                  <li style="list-style-type: disc;">Your customized Creator Page (coming soon)</li>
                 </ul>
                 <div class="collapse" id="collapseInspirations">
                   <div class="card card-body border-0 bg-light">
