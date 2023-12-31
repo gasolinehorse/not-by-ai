@@ -22,7 +22,7 @@
   <meta name="twitter:site" content="@NotByAIBadge" />
   <meta name="twitter:title" content="<?php echo $pageTitle ?>" />
   <meta name="twitter:description" content="<?php echo $pageDes ?>" />
-  <meta name="twitter:image" content="img/not-by-ai-share.png" />
+  <meta name="twitter:image" content="https://notbyai.fyi/img/not-by-ai-share.png" />
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-T9E8EYVXP6'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
