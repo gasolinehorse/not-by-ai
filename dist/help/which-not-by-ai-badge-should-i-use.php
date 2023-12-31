@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Not By AI Help Center | Which Not by AI Badge Should I Use?';
+$pageTitle = 'Not By AI Help Center | Which Not By AI Badge Should I Use?';
 $pageDes = 'Explore the Not By AI guides, resources, FAQs, and documentations that help showcase your original content created by humans, not AI.';
 include '../header.php';
 include '../top-nav.php';
@@ -9,7 +9,7 @@ include '../top-nav.php';
         <div class="col-md-11 col-xl-8 pt-1">
           <div class="row">
             <div class="col">
-              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/help" class="text-decoration-underline">Help Center</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Which Not by AI Badge Should I Use?</small>
+              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/help" class="text-decoration-underline">Help Center</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Which Not By AI Badge Should I Use?</small>
             </div>
           </div>
         </div>
@@ -17,7 +17,7 @@ include '../top-nav.php';
       <div class="row justify-content-center">
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
-            <h1 class="h2 pb-3">Which Not by AI Badge Should I Use?</h1>
+            <h1 class="h2 pb-3">Which Not By AI Badge Should I Use?</h1>
             <ul>
               <li class="pb-2">
                 <h4 class="fw-bold fs-6 d-inline">You should use the Artist badge when: </h4><br>
