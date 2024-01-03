@@ -79,7 +79,7 @@ include 'top-nav-dark.php';
           </div>
         </div>
         <div class="row justify-content-center pb-5">
-          <div class="col-lg-8 gx-4 h5 p-3 bg-dark rounded-5 mt-2 text-white">You are in good company. The Not By AI badges are used on 338K+ pages.</div>
+          <div class="col-lg-8 gx-4 h5 p-3 bg-dark rounded-5 mt-2 text-white">You are in good company. The Not By AI badges are used on <?php include 'all-stats.php'; ?> pages.</div>
         </div>
       </section>
     </main>
