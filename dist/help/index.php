@@ -107,6 +107,17 @@ include '../top-nav.php';
         <div class="border-bottom px-md-3 py-2 mb-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
+              <h4 class="ps-lg-5 mb-1">Code</h4>
+              <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
+            </div>
+            <div class="col-sm-8">
+              <p>Display the Writer badge on your personal website, GitHub page, or directly on the UI, website, or app so it is visible to the end users.</p>
+            </div>
+          </div>
+        </div>
+        <div class="border-bottom px-md-3 py-2 mb-3">
+          <div class="row py-md-2">
+            <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Emails</h4>
               <p class="ps-lg-5 small opacity-50 mb-1">The Writer badge</p>
             </div>
