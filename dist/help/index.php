@@ -17,7 +17,7 @@ include '../top-nav.php';
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/which-image-file-format-should-i-use.php">Which Image File Format Should I Use?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/how-do-i-link-my-not-by-ai-badge.php">How Do I Link My Not By AI Badge?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
@@ -25,15 +25,15 @@ include '../top-nav.php';
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/is-not-by-ai-anti-ai.php">Is Not By AI Anti-AI?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/which-not-by-ai-badge-should-i-use.php">Which Not by AI Badge Should I Use?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
         <div class="row border-lg-bottom">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
-            <h3 class="h5"><a href="/help/how-do-you-ensure-not-by-ai-badge-usage-complies-with-the-not-by-ai-90-rule.php">How do you ensure Not By AI badge usage complies with the Not By AI 90% Rule?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5"><a href="/help/how-do-you-ensure-not-by-ai-badge-usage-complies-with-the-not-by-ai-90-rule.php">How Do You Ensure Not By AI Badge Usage Complies with the Not By AI 90% Rule?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/what-is-the-not-by-ai-90-rule.php">What Is the Not By AI 90% Rule?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
@@ -41,7 +41,7 @@ include '../top-nav.php';
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/why-cant-i-customize-the-not-by-ai-badges-to-better-fit-my-content.php">Why Can't I Customize the Not By AI Badges to Better Fit My Content?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/why-do-you-need-my-email-to-download-the-badges.php">Why Do You Need My Email to Download the Badges?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
@@ -49,7 +49,7 @@ include '../top-nav.php';
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/where-does-donation-money-go.php">Where Does the Donation Money Go?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/the-not-by-ai-badges-are-not-available-in-my-language.php">The Not By AI Badges Are Not Available in My Language, What Do I Do?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
@@ -57,7 +57,7 @@ include '../top-nav.php';
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/can-i-share-my-not-by-ai-project-with-you-and-the-community.php">I Am Using the Not By AI Badge on My Project. Can I Share It with You and the Community?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
-          <div class="col-6 py-2 py-lg-3">
+          <div class="col-lg-6 py-2 py-lg-3">
           </div>
         </div>
       </section>
