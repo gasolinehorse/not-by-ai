@@ -193,6 +193,14 @@ cite,
 [class*="border-"] {
 	border-color: #EAEAEA !important;
 }
+@media (min-width: 992px) {
+	.border-lg-end {
+		border-right: 1px solid #EAEAEA !important;
+	}
+	.border-lg-bottom {
+		border-bottom: 1px solid #EAEAEA !important;
+	}
+}
 .rounded {
 	border-radius: 12px !important;
 }
