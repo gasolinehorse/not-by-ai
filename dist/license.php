@@ -86,7 +86,7 @@ include 'top-nav.php';
 
           </div>
         </div>
-        <a href="https://notbyai.fyi" class="btn btn-dark rounded-0 my-5">Return to Homepage</a>
+        <a href="https://notbyai.fyi" class="btn btn-dark my-5">Return to Homepage</a>
       </div>
     </main>
     <?php include 'footer.php'; ?>

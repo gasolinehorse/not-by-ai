@@ -4,11 +4,6 @@ body {
 	background-repeat: repeat-y;
 	background-size: 100%;
 }
-@media (max-width: 575px) {
-	body.p-4 {
-		padding: 0.7rem !important;
-	}
-}
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
@@ -210,7 +205,7 @@ cite,
 	background-color: #000000;
 	padding: 0.6rem 2.8rem;
 	border: 0;
-	border-radius: 0;
+	border-radius: 6px;
 }
 .btn-white {
 	color: #000000;
@@ -218,7 +213,7 @@ cite,
 	background-color: #FFFFFF;
 	padding: 0.6rem 2.8rem;
 	border: 0;
-	border-radius: 0;
+	border-radius: 6px;
 }
 .btn:hover,
 .btn:focus,
@@ -374,7 +369,7 @@ form textarea {
 	padding: 0.5rem;
 	width: 100%;
 	border: 1px solid #eae9e9;
-	border-radius: 0;
+	border-radius: 6px;
 	outline: 0;
 	transition: 0.2s ease all;
 	box-shadow: 0px 1px 1px #f5f3f1;
@@ -582,7 +577,6 @@ only screen and (min-resolution: 2dppx) {
   font-size: 0.8rem;
 }
 .creator-profile__label {
-	font-weight: 300;
 	font-size: 0.8125rem;
 }
 .creator-profile__field {

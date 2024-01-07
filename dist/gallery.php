@@ -88,7 +88,7 @@ include 'top-nav.php';
       <div class="row justify-content-center">
         <div class="col-lg-7 py-5">
           <p class="mb-4">What else can I do with the Not By AI badges? Well, you are the creative content creator, you tell us. Submit your project and show the world how you are using the Not By AI badges.</p>
-          <a href="/contact" class="btn btn-dark rounded-0 mb-5">Submit Your Project to the Gallery</a>
+          <a href="/contact" class="btn btn-dark mb-5">Submit Your Project to the Gallery</a>
         </div>
       </div>
     </main>

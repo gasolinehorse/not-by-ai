@@ -99,7 +99,7 @@ include 'top-nav-dark.php';
     </section>
     <section id="big-not-by-ai-benefits" class="py-5">
       <h3 class="h1 text-white pt-5 mt-lg-5">Small Badge. Big Benefits.</h3>
-      <span class="btn btn-white mt-4" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges for $99</span>
+      <span class="btn btn-white mt-4" style="border-radius: 6px;" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges for $99</span>
       <div class="container mt-lg-4 py-5">
         <div class="row">
           <div class="col-lg-4">
@@ -240,7 +240,7 @@ include 'top-nav-dark.php';
                 </div>
               </div>
             </div>
-            <span class="btn btn-white mt-5" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges for $99</span>
+            <span class="btn btn-white mt-5" style="border-radius: 6px;" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges for $99</span>
           </div>
         </div>
       </div>

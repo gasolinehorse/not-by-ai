@@ -5,4 +5,4 @@
   <a href="https://www.facebook.com/notbyai" target="_blank"><img height="35" class="mx-3 share__fb" src="/img/facebook.svg" alt="share on Facebook"></a>
   <a href="https://www.linkedin.com/company/notbyai/" target="_blank"><img height="35" class="mx-3 share__li" src="/img/linkedin.svg" alt="share on LinkedIn"></a>
 </div>
-<a href="https://notbyai.fyi" class="btn rounded-0 mt-4 mb-4">Return to Homepage</a>
+<a href="https://notbyai.fyi" class="btn mt-4 mb-4">Return to Homepage</a>
