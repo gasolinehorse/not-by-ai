@@ -351,6 +351,11 @@ only screen and (min-resolution: 2dppx) {
 	overflow: clip;
 	box-shadow: 0px 12px 90px rgba(0, 0, 0, 0.2);
 }
+.blur-placeholder {
+	filter: blur(7px);
+	opacity: 0.5;
+	transition: all 0.2s ease;
+}
 form label {
 	font-size: 0.82rem;
 	margin-top: 0.75rem;
