@@ -73,8 +73,11 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://www.gasolinehorses.com/" target="_blank" rel="nofollow">Allen Hsu</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://digital-identitet.dk" target="_blank" rel="nofollow">Pernille Tranberg</a></p>
+          </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 26 anonymous translators.</p>
+            <p class="opacity-50">...and other 25 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
