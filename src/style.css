@@ -462,6 +462,25 @@ form .form-check-input:checked {
 	background-color: #000000;
 	border-color: #000000;
 }
+@keyframes loadingText {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+.preview-loading {
+	position: relative;
+  display: inline-block;
+  animation: loadingText 2s ease;
+  animation-duration: 0.5;
+  background: linear-gradient(to right, #000000, #999999 50%, #000000 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+}
 .hamburger-menu {
   width: 20px;
   height: 14.5px;
