@@ -266,17 +266,17 @@ include 'top-nav.php';
                       <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Badge">
                     </div>
                     <div id="commercial-form" class="d-none">
-                      <p class="small mt-2 mb-1 w-100">You will get: </p>
+                      <p class="small mt-2 mb-1 w-100">You will get the <a href="#" class="text-decoration-underline">Not By AI Pro</a> package: </p>
                       <ul style="padding-left: 2rem;">
-                        <li style="list-style-type: disc;">All three badges</li>
-                        <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
+                        <li style="list-style-type: disc;">Commerical use allowed</li>
+                        <li style="list-style-type: disc;">All three badges, with dark and light themes</li>
                         <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
                         <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
-                        <li style="list-style-type: disc;">Your customized Creator Page (coming soon)</li>
+                        <li style="list-style-type: disc;">A Not By AI Creator Page <div class="bg-black d-inline-block xs text-white px-2 rounded-1">new</div></li>
                       </ul>
                       <div class="collapse" id="collapseLang">
                         <div class="card card-body border-0 bg-light">
-                          <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
+                          <p class="mb-1 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
                         </div>
                       </div>
                       <p class="small mt-2 mb-1 w-100">Amount: </p>
