@@ -132,7 +132,7 @@ include 'top-nav.php';
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
           <li class="nav-item pb-4">
-            <a class="for-business-link ms-3 mt-3" style="border-radius: 6px;" href="https://notbyai.fyi/business">Not By AI for Business</a>
+            <a class="for-business-link ms-3 mt-3 rounded-2" href="https://notbyai.fyi/business">Not By AI for Business</a>
           </li>
         </ul>
       </nav>
@@ -258,32 +258,44 @@ include 'top-nav.php';
                     <div id="personal-form">
                       <label for="email">Email</label>
                       <input type="email" name="email" required>
-                      <div class="d-flex pt-3">
-                        <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
+                      <div class="pt-3">
+                        <div class="d-flex">
+                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to set up a Creator Page to describe my creative approach."><label for="personalCreatorPage">I want to set up a <a href="#" class="text-decoration-underline" target="_blank">Creator Page</a> to describe my creative approach.</label>
+                        </div>
+                        <div class="d-flex">
+                          <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
+                        </div>
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
                       <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Badge">
                     </div>
                     <div id="commercial-form" class="d-none">
-                      <p class="small mt-2 mb-1 w-100">You will get the <a href="#" class="text-decoration-underline">Not By AI Pro</a> package: </p>
-                      <ul style="padding-left: 2rem;">
-                        <li style="list-style-type: disc;">Commerical use allowed</li>
-                        <li style="list-style-type: disc;">All three badges, with dark and light themes</li>
-                        <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
-                        <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
-                        <li style="list-style-type: disc;">A Not By AI Creator Page <div class="bg-black d-inline-block xs text-white px-2 rounded-1">new</div></li>
-                      </ul>
-                      <div class="collapse" id="collapseLang">
-                        <div class="card card-body border-0 bg-light">
-                          <p class="mb-1 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
-                        </div>
-                      </div>
-                      <p class="small mt-2 mb-1 w-100">Amount: </p>
-                      <div class="h3 mb-3">US$ 99.00</div>
-                      <a class="btn mb-2" href="https://buy.stripe.com/4gw01P6ka09mbKw9AB">Purchase My Badges</a>
                       <div class="row">
-                        <div class="col-9 col-lg-6" style="font-size: 0.82rem;">By clicking the Download My Badge button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
+                        <div class="col-lg-7">
+                          <p class="small mt-2 mb-1 w-100">You will get: </p>
+                          <ul style="padding-left: 2rem;">
+                            <li style="list-style-type: disc;">All three badges</li>
+                            <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
+                            <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
+                            <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
+                            <li style="list-style-type: disc;">Choice to set up your Creator Page <a href="creator-page-preview" target="_blank"><div class="border d-inline-block xs px-2 rounded-pill">preview <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="none"><path stroke="#000" d="m.396 6.646 5.25-5.25M2.25 1H6v3.75"/></svg></div></a></li>
+                          </ul>
+                          <div class="collapse" id="collapseLang">
+                            <div class="card card-body border-0 bg-light">
+                              <p class="mb-1 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
+                            </div>
+                          </div>
+                          <p class="small mt-2 mb-1 w-100">Amount: </p>
+                          <div class="h3 mb-3">US$ 99.00</div>
+                          <a class="btn mb-2" href="https://buy.stripe.com/4gw01P6ka09mbKw9AB">Purchase My Badges</a>
+                          <div class="row">
+                            <div class="col-lg-10 xs">By clicking the Purchase My Badges button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-5 text-center text-lg-end">
+                          <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="Not By AI Professional package">
+                        </div>
                       </div>
                     </div>
                   </form>

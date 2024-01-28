@@ -408,8 +408,8 @@ form input[type=radio] {
 form input[type=checkbox] {
 	background-color: #FFFFFF;
 	appearance: none;
-	width: 1.3rem;
-	height: 1.3rem;
+	width: 1.1rem;
+	height: 1.1rem;
 	border: 1px solid #dee2e6;
 	border-radius: 0.15em;
 	display: grid;
@@ -617,7 +617,7 @@ only screen and (min-resolution: 2dppx) {
 }
 .for-business-link,
 .sidenav a.for-business-link {
-	border: #505050 1px solid;
+	border: #000000 1px solid;
   padding: 0.2rem 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
