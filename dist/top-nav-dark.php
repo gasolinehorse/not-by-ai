@@ -1,4 +1,4 @@
-  <div class="bg-black text-center curve">
+  <div class="bg-black-biz text-center curve">
     <div class="container-fluid">
       <div class="row">
         <div class="col-6 col-sm-4 text-start mt-sm-2 ps-4 pt-3 ps-sm-4 share order-sm-1">

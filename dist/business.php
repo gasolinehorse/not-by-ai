@@ -12,7 +12,7 @@ include 'top-nav-dark.php';
           </header>
         </div>
         <div class="col-lg-11 col-xl-9 col-xxl-8">
-          <p class="display-5 text-white">Content originality has become the rare differentiator for companies and entrepreneurs. Show your audience that your work is not&nbsp;by&nbsp;AI.</p>
+          <p class="display-5 text-white">Content originality has become the rare differentiator for companies and entrepreneurs. Show your audience that your work is Not&nbsp;By&nbsp;AI.</p>
         </div>
       </section>
       <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-5 container-fluid" style="max-width: 1052px;">

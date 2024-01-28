@@ -33,8 +33,8 @@ include 'top-nav.php';
               <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
-              <h2 class="h5">Not By AI for book</h2>
-              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-book@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book.jpg" alt="">
+              <h2 class="h5">Not By AI for book (first page)</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-book-page@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book-page.jpg" alt="">
               <p class="small opacity-50 mt-1">The Writer badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
@@ -68,6 +68,11 @@ include 'top-nav.php';
               <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for book (jacket flap)</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-book-jacket-flap@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book-jacket-flap.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
+            </div> 
+            <div class="col-sm-6 col-lg-4 pt-4">
               <h2 class="h5">Not By AI for podcast cover art</h2>
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-podcast@2x.png 2x" src="/img/add-not-by-ai-badge-to-podcast.png" alt="">
               <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
@@ -82,6 +87,11 @@ include 'top-nav.php';
               <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-drawing@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-drawing.jpg" alt="">
               <p class="small opacity-50 mt-1">The Artist badge</p>
             </div> 
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for book (cover)</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-book@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book.jpg" alt="">
+              <p class="small opacity-50 mt-1">The Writer badge</p>
+            </div>           
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 :root {
   --color-light: #f9f8f7;
   --color-light-darkened: #f2efec;
-  --color-dark: #292929;
-  --color-dark-lightened: #333333;
+  --color-dark: #232E3E;
+  --color-dark-lightened: #343B45;
+  --color-black-biz: #19212D;
   --bs-border-color: #eae9e9;
 }
 body {
@@ -174,14 +175,14 @@ cite,
 		box-shadow: inset 0 0 0px 4px var(--color-light);
 	}
 }
-.bg-black .not-by-ai-folder-wrapper:hover{
-	background: #212529;
-	box-shadow: inset 0 0 0px 4px #444444;
+.bg-black-biz .not-by-ai-folder-wrapper:hover{
+	background: var(--color-dark);
+	box-shadow: inset 0 0 0px 4px #444E5C;
 }
 @media (min-width: 992px) {
-	.bg-black .not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
-		background: #212529;
-		box-shadow: inset 0 0 0px 4px #444444;
+	.bg-black-biz .not-by-ai-folder-wrapper:hover + .download-link-wrapper .download-link {
+		background: var(--color-dark);
+		box-shadow: inset 0 0 0px 4px #444E5C;
 	}
 }
 .bg-light {
@@ -189,6 +190,9 @@ cite,
 }
 .bg-dark {
 	background-color: var(--color-dark) !important;
+}
+.bg-black-biz {
+	background-color: var(--color-black-biz) !important;
 }
 @media (max-width: 767px) {
 	.no-md-bg {
