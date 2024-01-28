@@ -58,13 +58,18 @@ include 'top-nav.php';
               <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
-              <h2 class="h5">Not By AI for musician profile</h2>
-              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-musician-profile@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-musician-profile.jpg" alt="">
+              <h2 class="h5">Not By AI for handcrafted products</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-handcrafted-product@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-handcrafted-product.jpg" alt="">
               <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
               <h2 class="h5">Not By AI for resume, portfolio, or a business card</h2>
               <img class="img-fluid w-100" src="/img/add-not-by-ai-badge-to-business.svg" alt="">
+              <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
+            </div> 
+            <div class="col-sm-6 col-lg-4 pt-4">
+              <h2 class="h5">Not By AI for musician profile</h2>
+              <img class="img-fluid w-100" srcset="/img/add-not-by-ai-badge-to-musician-profile@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-musician-profile.jpg" alt="">
               <p class="small opacity-50 mt-1">The Producer/Generalist badge</p>
             </div>
             <div class="col-sm-6 col-lg-4 pt-4">
