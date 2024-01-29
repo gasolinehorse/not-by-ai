@@ -231,7 +231,8 @@ cite,
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
 	color: #FFFFFF;
-	background-color: var(--color-dark-lightened);
+	opacity: 1;
+	background-color: #333333;
 }
 .btn--white:hover,
 .btn--white:focus,
