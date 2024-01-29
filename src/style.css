@@ -194,6 +194,9 @@ cite,
 .bg-black-biz {
 	background-color: var(--color-black-biz) !important;
 }
+.bg-black-biz [class*='border-'] {
+	border-color: var(--color-dark-lightened) !important;
+}
 @media (max-width: 767px) {
 	.no-md-bg {
 		background-image: none !important;
@@ -237,6 +240,14 @@ cite,
 :not(.btn-check)+.btn--white:active {
 	color: #000000;
 	background-color: var(--color-light-darkened);
+}
+.outlined-text {
+	color: var(--color-black-biz);
+	text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
 }
 nav {
 	font-size: 0.875rem;
@@ -576,40 +587,85 @@ form .form-check-input:checked {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-#real-meaning-of-not-by-ai {
-	background-image: url('img/not-by-ai-grid-bg.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100vh;
+.marquee {
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
 }
-#big-not-by-ai-benefits {
-	background-image: url('img/typing-without-ai-bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+  animation: marquee 20s linear infinite;
 }
-@media /* only for retina displays */
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
-  #big-not-by-ai-benefits {
-    background-image: url('img/typing-without-ai-bg@2x.jpg');
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
   }
 }
+article.horizontal {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+article.horizontal {
+	overflow-x: hidden;
+}
+article.horizontal .pin-wrap {
+	flex-flow: column nowrap;
+}
+article.horizontal .animation-wrap {
+	gap: 20px;
+}
+article.horizontal .pin-wrap,
+article.horizontal .animation-wrap {
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+article.horizontal .horizontal__item {
+	position: relative;
+	flex: 0 0 500px;
+	background-color: var(--color-dark);
+}
+article.horizontal .horizontal__item:before {
+	position: absolute;
+	font-size: 100px;
+	opacity: .13;
+	font-weight: bold;
+	z-index: -1;
+	-webkit-transform: translate(-30px, -50px);
+	transform: translate(-30px, -50px);
+	line-height: 1;
+}
+article.horizontal .animation-wrap .horizontal__item:nth-child(2n+2) {
+	align-items: flex-start;
+}
+article.horizontal .animation-wrap .horizontal__item:nth-child(4n+4) {
+	align-items: flex-end;
+}
+.show-when-scrolled {
+	opacity: 0;
+}
+
+
 .accordion-item {
 	border-radius: 0 !important;
 }
 .accordion-item .accordion-button {
-	background-color: #000000 !important;
+	background-color: var(--color-dark-lightened) !important;
 	color: #FFFFFF;
 }
 .accordion-button:not(.collapsed),
 .accordion-item {
-	background-color: var(--color-dark) !important;
+	background-color: var(--color-black-biz) !important;
 	color: #FFFFFF;
 }
 .accordion-body {
