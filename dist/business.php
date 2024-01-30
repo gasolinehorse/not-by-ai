@@ -17,7 +17,7 @@ include 'top-nav-dark.php';
       </section>
       <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-4 container-fluid pb-5 border-bottom" style="max-width: 1052px; background-image: url(/img/ai-dots.png); background-position: center; background-repeat: no-repeat; background-size: 100%;">
         <div class="row justify-content-center gx-4">
-          <div class="col-sm-4 pb-4 pt-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.6s; opacity: 0;">
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.6s; opacity: 0;">
             <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
               <span class="row">
                 <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
@@ -37,7 +37,7 @@ include 'top-nav-dark.php';
               </span>
             </span>
           </div>
-          <div class="col-sm-4 pb-4 pt-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.7s; opacity: 0;">
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.7s; opacity: 0;">
             <span id="writer-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
               <span class="row">
                 <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
@@ -57,7 +57,7 @@ include 'top-nav-dark.php';
               </span>
             </span>
           </div>
-          <div class="col-sm-4 pb-4 pt-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.8s; opacity: 0;">
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="background-image: url(/img/ai-glow.jpg); background-position: top center; background-repeat: no-repeat; background-size: 100%; animation-delay: 0.8s; opacity: 0;">
             <span id="producer-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
               <span class="row">
                 <div class="col-12 not-by-ai-folder-wrapper rounded px-2 px-xl-3 pt-3 pb-2">
