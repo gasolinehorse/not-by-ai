@@ -1,7 +1,7 @@
   <div class="bg-black-biz text-center curve">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-2 col-sm-4 text-start mt-sm-2 ps-4 pt-3 ps-sm-4 share order-sm-1">
+        <div class="col-2 col-sm-4 text-start mt-2 ps-4 pt-3 ps-sm-4 share order-sm-1">
           <span onclick="openNav()">
             <div class="hamburger-menu">
               <div class="bar bg-white"></div>
