@@ -294,7 +294,7 @@ include 'top-nav.php';
                           </div>
                         </div>
                         <div class="col-lg-5 text-center text-lg-end">
-                          <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="Not By AI Professional package">
+                          <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
                         </div>
                       </div>
                     </div>
