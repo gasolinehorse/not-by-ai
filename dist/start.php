@@ -20,15 +20,16 @@ include 'top-nav.php';
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
-          <h1>Time to Build Your Creator&nbsp;Page</h1>
+          <h1 class="display-1">Time to Build Your Creator&nbsp;Page</h1>
         </header>
         <div class="row justify-content-center">
-	        <div class="col-sm-10 col-md-9 col-lg-6">
-		        <div class="h5 pt-lg-4 pb-3">Your badges will soon be in your inbox. Now is the perfect time to build your Creator Page. </div>
+	        <div class="col-sm-10 col-md-9 col-lg-8">
+		        <h2 class="h5 pb-3">Thank you for your purchase. Now is the perfect time to build your Creator&nbsp;Page! </h2>
             <a href="/creator-page-application" class="btn btn-dark mb-5">Get Started</a>
 	        </div>
           <div class="col-12">
             <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
+            <p class="small pt-2">Your badges have been sent to your inbox. You can also <a href="/Not-By-AI.zip" class="text-decoration-underline" target="_blank">download them here</a>.</p>
           </div>
         </div>
       </div>

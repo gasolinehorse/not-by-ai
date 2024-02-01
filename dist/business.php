@@ -4,7 +4,7 @@ $pageDes = 'Add the Not By AI badge to showcase your AI-free & human-first busin
 include 'header.php';
 include 'top-nav-dark.php';
 ?>
-    <main class="container-fluid overflow-x-hidden">
+    <main class="container-fluid">
       <section class="row justify-content-center px-sm-4 px-lg-0">
         <div class="col-xl-9 col-xxl-8">
           <header>
@@ -118,7 +118,9 @@ include 'top-nav-dark.php';
           </div>
         </div>
       </section>
-      <section class="my-lg-5">
+    </main>
+    <div class="container-fluid overflow-x-hidden">
+      <section class="mt-lg-5">
         <article class="horizontal">
           <div class="pin-wrap overflow-x-hidden" style="background-image: url(/img/ai-dots-lg.jpg); background-position: center center; background-repeat: no-repeat; background-size: 100%;">
             <div>
@@ -153,7 +155,28 @@ include 'top-nav-dark.php';
           </div>
         </article>
       </section>
-    </main>
+    </div>
+    <section class="bg-dark py-5">
+      <div class="container text-white text-start pt-lg-3 pb-lg-4">
+        <p class="small text-center why mb-3 mb-lg-5">How It Works</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <img class="img-fluid mb-4" src="/img/not-by-ai-short-reel.gif" alt="Not By AI reel" />
+            <div class="d-flex">
+              <div class="xs fw-bold pe-2 mt-1">01</div>
+              <h3 class="pb-4 pb-lg-0">Add the badge to your human&#8209;created&nbsp;content</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <img class="img-fluid mb-4" srcset="/img/not-by-ai-creator-page-preview@2x.jpg 2x" src="/img/not-by-ai-creator-page-preview.jpg" alt="The Not By AI Creator Page" />
+            <div class="d-flex">
+              <div class="xs fw-bold pe-2 mt-1">02</div>
+              <h3>Set up your Creator Page to show your creative&nbsp;approach <span class="opacity-50 xs">(coming soon)</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="faq" class="py-5 overflow-hidden">
       <h3 class="display-2 text-white pt-5 pb-3">Frequently Asked Questions</h3>
       <div class="container pb-5">

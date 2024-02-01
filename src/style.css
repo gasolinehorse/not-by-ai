@@ -191,6 +191,9 @@ cite,
 .bg-dark {
 	background-color: var(--color-dark) !important;
 }
+.bg-dark-lightened {
+	background-color: var(--color-dark-lightened) !important;
+}
 .bg-black-biz {
 	background-color: var(--color-black-biz) !important;
 }
