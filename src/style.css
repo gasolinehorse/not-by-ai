@@ -263,6 +263,7 @@ nav {
 }
 @media (max-width: 991px) {
 	.download-popup {
+		background-image: none;
 		background-size: 50%;
 	}
 }

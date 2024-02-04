@@ -22,7 +22,7 @@ include 'top-nav.php';
     <main>
       <section class="row justify-content-center">
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l" src="/img/not-by-ai-badges-l.svg" alt="">
+          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
         </div>
         <div class="col-lg-10 col-xl-8">
           <header>
@@ -32,7 +32,7 @@ include 'top-nav.php';
           <p class="display-5">If your content is not AI-generated, add the badge to your work, with&nbsp;pride.</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r" src="/img/not-by-ai-badges-r.svg" alt="">
+          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
         </div>
       </section>
       <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
@@ -45,8 +45,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-art.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -65,8 +65,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-article.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -85,8 +85,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-music.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
+                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -260,7 +260,7 @@ include 'top-nav.php';
                       <input type="email" name="email" required>
                       <div class="pt-3">
                         <div class="d-flex">
-                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to set up a Creator Page to describe my creative approach."><label for="personalCreatorPage">I want to set up a <a href="#" class="text-decoration-underline" target="_blank">Creator Page</a> to describe my creative approach.</label>
+                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to describe my creative approach on a Creator Page to describe my creative approach for $4.99 /mo."><label for="personalCreatorPage">I want to describe my creative approach on a <a class="text-decoration-underline" href="#creatorPagePromoContainer" data-bs-toggle="collapse">Creator Page</a> for $4.99 /mo.</label>
                         </div>
                         <div class="d-flex">
                           <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
@@ -268,7 +268,24 @@ include 'top-nav.php';
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Badge">
+                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Badge">
+                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download</a>
+                      <div class="collapse pt-3" id="creatorPagePromoContainer">
+                        <div class="border-top pt-4 mt-4">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
+                            </div>
+                            <div class="col-md-6">
+                              <p class="xs mt-lg-3 mb-1">Creator Page</p>
+                              <p class="h4 pb-1">Submit your project details and we will set up a personalized Creator Page for you to link your badge to. </p>
+                              <div class="d-flex">
+                                <input type="checkbox" id="personalCreatorPagePromo" name="personalCreatorPagePromo" value="I'm in for one!"><label for="personalCreatorPagePromo">I'm in for one!</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div id="commercial-form" class="d-none">
                       <div class="row">
@@ -279,7 +296,7 @@ include 'top-nav.php';
                             <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
                             <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
                             <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
-                            <li style="list-style-type: disc;">Choice to set up your Creator Page <a href="creator-page-preview" target="_blank"><div class="border d-inline-block xs px-2 rounded-pill">preview <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="none"><path stroke="#000" d="m.396 6.646 5.25-5.25M2.25 1H6v3.75"/></svg></div></a></li>
+                            <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
                           </ul>
                           <div class="collapse" id="collapseLang">
                             <div class="card card-body border-0 bg-light">
@@ -295,6 +312,19 @@ include 'top-nav.php';
                         </div>
                         <div class="col-lg-5 text-center text-lg-end">
                           <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
+                        </div>
+                      </div>
+                      <div class="collapse pt-3" id="creatorPagePromoContainer-commercial">
+                        <div class="border-top pt-4 mt-4">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
+                            </div>
+                            <div class="col-md-6">
+                              <p class="xs mt-lg-3 mb-1">Creator Page</p>
+                              <p class="h4 pb-1">Submit your project details and we will set up a personalized Creator Page for you to link your badge to. </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -365,5 +395,37 @@ include 'top-nav.php';
           x.style.display = "none";
         }
       }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('img.no-download').forEach(function(img) {
+          img.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+          });
+        });
+      });
+
+      const checkbox1 = document.getElementById('personalCreatorPage');
+      const checkbox2 = document.getElementById('personalCreatorPagePromo');
+      function syncCheckboxes(checkboxChanged, checkboxToSync) {
+        checkboxToSync.checked = checkboxChanged.checked;
+      }
+      checkbox1.addEventListener('change', () => syncCheckboxes(checkbox1, checkbox2));
+      checkbox2.addEventListener('change', () => syncCheckboxes(checkbox2, checkbox1));
+
+      function toggleButtons() {
+        var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
+        var buttonB = document.getElementById('not-by-ai-badges-download-with-cp');
+        var isChecked = document.getElementById('personalCreatorPage').checked || document.getElementById('personalCreatorPagePromo').checked;
+
+        if (isChecked) {
+          buttonA.style.display = 'none';
+          buttonB.style.display = 'inline-block';
+        } else {
+          buttonA.style.display = 'inline-block';
+          buttonB.style.display = 'none';
+        }
+      }
+      document.getElementById('personalCreatorPage').addEventListener('change', toggleButtons);
+      document.getElementById('personalCreatorPagePromo').addEventListener('change', toggleButtons);
     </script>
     <?php include 'footer.php'; ?>

@@ -25,11 +25,11 @@ include 'top-nav.php';
         <div class="row justify-content-center">
 	        <div class="col-sm-10 col-md-9 col-lg-8">
 		        <h2 class="h5 pb-3">Thank you for your purchase. Now is the perfect time to build your Creator&nbsp;Page! </h2>
-            <a href="/creator-page-application" class="btn btn-dark mb-5">Get Started</a>
+            <a href="/creator-page-application.php" class="btn btn-dark mb-5">Get Started</a>
 	        </div>
           <div class="col-12">
             <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
-            <p class="small pt-2">Your badges have been sent to your inbox. You can also <a href="/Not-By-AI.zip" class="text-decoration-underline" target="_blank">download them here</a>.</p>
+            <p class="small pt-2">Your badges will be sent to your inbox automatically. You can also <a href="/Not-By-AI.zip" class="text-decoration-underline" target="_blank">download them here</a>.</p>
           </div>
         </div>
       </div>
