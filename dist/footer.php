@@ -49,7 +49,8 @@
           </div>
           <div class="col d-flex justify-content-center justify-content-md-end text-center text-md-end">
             <a href="https://notbyai.fyi/license" class="display-6 me-4 opacity-50">License</a>
-            <a href="https://notbyai.fyi/privacy-policy" class="display-6 opacity-50">Privacy Policy</a>
+            <a href="https://notbyai.fyi/privacy-policy" class="display-6 me-4 opacity-50">Privacy Policy</a>
+            <a href="https://notbyai.fyi/terms-and-conditions" class="display-6 opacity-50">Terms & Conditions</a>
           </div>
         </div>
       </div>
