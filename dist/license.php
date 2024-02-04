@@ -99,15 +99,15 @@ include 'top-nav.php';
             
             <p>This Agreement may be executed in one or more counterparts, each of which will be deemed an original, but all of which together will constitute one and the same instrument.</p>
             
-            <p class="fw-bold pt-2 mb-2">14. Creator Pages Subscription</p>
+            <p class="fw-bold pt-2 mb-2">14. Creator Page Subscription</p>
             
-            <p>Licensee acknowledges that the subscription to Creator Pages is voluntary and in addition to any other rights granted under this Agreement.</p>
+            <p>Licensee acknowledges that the subscription to the Creator Page is voluntary and in addition to any other rights granted under this Agreement.</p>
 
             <p>The monthly subscription fee is non-refundable except as may be required by applicable law.</p>
 
-            <p>Not By AI reserves the right to modify, suspend, or discontinue the Creator Pages service at any time without notice. In the event of discontinuation, Not By AI will provide a pro-rata refund of any prepaid fees for the period after discontinuation.</p>
+            <p>Not By AI reserves the right to modify, suspend, or discontinue the Creator Page service at any time without notice. In the event of discontinuation, Not By AI will provide a pro-rata refund of any prepaid fees for the period after discontinuation.</p>
 
-            <p>Licensee agrees to provide true, accurate, current, and complete information about themselves and their projects as prompted by the Creator Pages setup process. Furthermore, Licensee commits to maintaining and promptly updating this information to keep it true, accurate, current, and complete. In the event that any information provided by Licensee becomes inaccurate, outdated, or incomplete, Licensee agrees to notify Not By AI promptly by contacting hello@notbyai.fyi. This ensures that the Creator Pages accurately reflect the Licensee's current status and project details. Failure to maintain accurate and updated information may result in the suspension or termination of the Creator Page and associated services.</p>
+            <p>Licensee agrees to provide true, accurate, current, and complete information about themselves and their projects as prompted by the Creator Page setup process. Licensee grants Not By AI a non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and display such information in connection with the Creator Page. Furthermore, Licensee commits to maintaining and promptly updating this information to keep it true, accurate, current, and complete. In the event that any information provided by Licensee becomes inaccurate, outdated, or incomplete, Licensee agrees to notify Not By AI promptly by contacting hello@notbyai.fyi. This ensures that the Creator Page accurately reflects the Licensee's current status and project details. Failure to maintain accurate and updated information may result in the suspension or termination of the Creator Page and associated services.</p>
 
           </div>
         </div>
