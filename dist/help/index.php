@@ -227,7 +227,7 @@ include '../top-nav.php';
             <h3 class="display-2">Still Need Help?</h3>
             <p style="font-size: 1.3125rem;">If you have questions that are not answered above, feel free to send us a message! We want to learn what our users are encountering to better improve ourselves. </p>
             <p style="font-size: 1.3125rem;">Please, grab a chair and tell us everything. </p>
-            <a href="/contact" class="btn btn-dark mb-5" target="_blank">Contact Us</a>
+            <a href="mailto:help@notbyai.fyi" class="btn btn-dark mb-5" target="_blank">Contact Us</a>
           </div>
         </div>
       </section>

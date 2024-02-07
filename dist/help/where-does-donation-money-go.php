@@ -29,6 +29,7 @@ include '../top-nav.php';
               <li>Sustainable business development </li>
               <li>Certification and registration fees </li>
               <li>Marketing materials </li>
+              <li>AI detection tools and AI detection development (upcoming)</li>
               <li>...and more </li>
             </ul>
             <p>Reference upon request. </p>
@@ -47,7 +48,7 @@ include '../top-nav.php';
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
                 <div class="pb-1 pb-lg-3 pt-2">
                   <p>
-                    If you cannot find an answer in our Help Center, <a href="../contact" class="text-decoration-underline">send us a message</a> so we can help you out.
+                    If you cannot find an answer in our Help Center, <a href="mailto:help@notbyai.fyi" class="text-decoration-underline">send us a message</a> so we can help you out.
                   </p>
                 </div>
               </div>
