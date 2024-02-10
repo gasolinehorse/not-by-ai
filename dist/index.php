@@ -268,7 +268,7 @@ include 'top-nav.php';
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Badge">
+                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Free Badges">
                       <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download</a>
                       <div class="collapse pt-3" id="creatorPagePromoContainer">
                         <div class="border-top pt-4 mt-4">
