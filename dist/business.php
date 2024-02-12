@@ -191,7 +191,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to increase the credibility of the badges and make sure your audience understands your authentic human-first approach by showing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional.
+                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to further establish credibility of the badges and make sure your audience understands your authentic human-first approach by seeing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional.
                   </div>
                 </div>
               </div>
@@ -285,12 +285,10 @@ include 'top-nav-dark.php';
                     <p class="small mt-2 mb-1 w-100">You will get: </p>
                     <ul style="padding-left: 2rem;">
                       <li style="list-style-type: disc;">All three badges</li>
-                      <ul class="ps-4 pb-2">
-                        <li style="list-style-type: circle;">Each badge comes with dark and light themes</li>
-                        <li style="list-style-type: circle;">Available in PNG, SVG, and EPS</li>
-                        <li style="list-style-type: circle;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
-                      </ul>
-                      <li style="list-style-type: disc;">Your customized <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
+                      <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
+                      <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
+                      <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
+                      <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
                     </ul>
                     <div class="collapse" id="collapseInspirations">
                       <div class="card card-body border-0 bg-light">
