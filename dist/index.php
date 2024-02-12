@@ -307,11 +307,11 @@ include 'top-nav.php';
                           <div class="h3 mb-3">$12.99 <span class="h5">/mo</span></div>
                           <a class="btn mb-2" href="https://buy.stripe.com/dR63e18si5tGg0MeUY">Purchase My Badges & Creator Page</a>
                           <div class="row">
-                            <div class="col-lg-10 xs">By clicking the Purchase My Badges button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
+                            <div class="col-lg-10 xs">By clicking the button above, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
                           </div>
                         </div>
-                        <div class="col-lg-5 text-center text-lg-end">
-                          <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
+                        <div class="col-lg-5 text-center text-lg-end d-none d-lg-block">
+                          <img class="img-fluid mt-lg-3" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
                         </div>
                       </div>
                       <div class="collapse pt-3" id="creatorPagePromoContainer-commercial">

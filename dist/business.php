@@ -171,7 +171,7 @@ include 'top-nav-dark.php';
             <img class="img-fluid mb-4" srcset="/img/not-by-ai-creator-page-preview@2x.jpg 2x" src="/img/not-by-ai-creator-page-preview.jpg" alt="The Not By AI Creator Page" />
             <div class="d-flex">
               <div class="xs fw-bold pe-2 mt-1">02</div>
-              <h3>Set up your Creator Page to show your creative&nbsp;approach <span class="opacity-50 xs">(coming soon)</span></h3>
+              <h3>Set up your Creator Page to show your creative&nbsp;approach</h3>
             </div>
           </div>
         </div>
@@ -183,6 +183,18 @@ include 'top-nav-dark.php';
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="accordion" id="accordionExample" data-bs-theme="dark">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCreatorPage" aria-expanded="false" aria-controls="collapseCreatorPage">
+                    What is a Creator Page?
+                  </button>
+                </h2>
+                <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to increase the credibility of the badges and make sure your audience understands your authentic human-first approach by showing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional.
+                  </div>
+                </div>
+              </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLang" aria-expanded="true" aria-controls="collapseLang">
@@ -233,18 +245,6 @@ include 'top-nav-dark.php';
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSub" aria-expanded="false" aria-controls="collapseSub">
-                    Is this a subscription-based service?
-                  </button>
-                </h2>
-                <div id="collapseSub" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    No. This is a one-time, 99 USD payment. 
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose">
                     I am not sure which of the three Not By AI badges to use for my business. How do I choose?
                   </button>
@@ -265,7 +265,7 @@ include 'top-nav-dark.php';
         <h3 class="h1 text-white mt-5 pt-4 marquee__content d-inline-block"><span class="outlined-text">You worked hard,</span> don't let AI take your credit.</h3>
         <h3 class="h1 text-white mt-5 pt-4 marquee__content d-inline-block" aria-hidden="true"><span class="outlined-text">You worked hard,</span> don't let AI take your credit.</h3>
       </div>
-      <span class="btn btn--white mt-4 mb-5" data-bs-toggle="modal" data-bs-target="#downloadEmail">Purchase the Badges for $99</span>
+      <a class="btn btn--white mt-4 mb-5" href="https://buy.stripe.com/dR63e18si5tGg0MeUY">Purchase the Badges for $12.99 /mo</a>
     </section>
     <div class="modal fade text-start" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -280,31 +280,46 @@ include 'top-nav-dark.php';
             <form method="post" action="process-form.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
               <div id="commercial-form">
-                <p class="small mt-2 mb-1 w-100">You will get: </p>
-                <ul style="padding-left: 2rem;">
-                  <li style="list-style-type: disc;">All three badges</li>
-                  <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
-                  <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
-                  <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
-                  <li style="list-style-type: disc;">Your customized Creator Page (coming soon)</li>
-                </ul>
-                <div class="collapse" id="collapseInspirations">
-                  <div class="card card-body border-0 bg-light">
-                    <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
+                <div class="row">
+                  <div class="col-lg-7">
+                    <p class="small mt-2 mb-1 w-100">You will get: </p>
+                    <ul style="padding-left: 2rem;">
+                      <li style="list-style-type: disc;">All three badges</li>
+                      <ul class="ps-4 pb-2">
+                        <li style="list-style-type: circle;">Each badge comes with dark and light themes</li>
+                        <li style="list-style-type: circle;">Available in PNG, SVG, and EPS</li>
+                        <li style="list-style-type: circle;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
+                      </ul>
+                      <li style="list-style-type: disc;">Your customized <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
+                    </ul>
+                    <div class="collapse" id="collapseInspirations">
+                      <div class="card card-body border-0 bg-light">
+                        <p class="mb-3 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
+                      </div>
+                    </div>
+                    <p class="small mt-2 mb-1 w-100">Amount: </p>
+                    <div class="h3 mb-3">$12.99 <span class="h5">/mo</span></div>
+                    <a class="btn mb-2" href="https://buy.stripe.com/dR63e18si5tGg0MeUY">Purchase My Badges</a>
+                    <div class="row">
+                      <div class="col-lg-10 xs">By clicking the button above, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 text-center text-lg-end d-none d-lg-block">
+                    <img class="img-fluid mt-lg-3" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
                   </div>
                 </div>
-                <p class="small mt-2 mb-1 w-100">Amount: </p>
-                <div class="h3 mb-3">US$ 99.00</div>
-                <script async
-                  src="https://js.stripe.com/v3/buy-button.js">
-                </script>
-                <stripe-buy-button
-                  buy-button-id="buy_btn_1NCu2mHl9sHS7hKr4WcBxjXI"
-                  publishable-key="pk_live_51N2maJHl9sHS7hKrsfltSFO2NfQTxMw2M66jYcdoFi4SsBcEjwjmLvSjftn482UqQRMGx0YbbdoMMjkzo8Pel7ld00Buib1tK9"
-                >
-                </stripe-buy-button>
-                <div class="row">
-                  <div class="col-9 col-lg-6" style="font-size: 0.82rem;">By clicking the Download My Badge button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
+                <div class="collapse pt-3" id="creatorPagePromoContainer-commercial">
+                  <div class="border-top pt-4 mt-4" style="border-color: var(--bs-border-color)!important">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
+                      </div>
+                      <div class="col-md-6">
+                        <p class="xs mt-lg-3 mb-1">Creator Page</p>
+                        <p class="h4 pb-1">Submit your project details and we will set up a personalized Creator Page for you to link your badge to. </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </form>
