@@ -269,7 +269,7 @@ include 'top-nav.php';
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
                       <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Download My Free Badges">
-                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download</a>
+                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download My Badges</a>
                       <div class="collapse pt-3" id="creatorPagePromoContainer">
                         <div class="border-top pt-4 mt-4">
                           <div class="row">
@@ -296,7 +296,7 @@ include 'top-nav.php';
                             <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
                             <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
                             <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
-                            <!-- <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li> -->
+                            <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
                           </ul>
                           <div class="collapse" id="collapseLang">
                             <div class="card card-body border-0 bg-light">
@@ -304,14 +304,14 @@ include 'top-nav.php';
                             </div>
                           </div>
                           <p class="small mt-2 mb-1 w-100">Amount: </p>
-                          <div class="h3 mb-3">US$ 99.00</div>
-                          <a class="btn mb-2" href="https://buy.stripe.com/4gw01P6ka09mbKw9AB">Purchase My Badges</a>
+                          <div class="h3 mb-3">$12.99 <span class="h5">/mo</span></div>
+                          <a class="btn mb-2" href="https://buy.stripe.com/dR63e18si5tGg0MeUY">Purchase My Badges & Creator Page</a>
                           <div class="row">
                             <div class="col-lg-10 xs">By clicking the Purchase My Badges button, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
                           </div>
                         </div>
                         <div class="col-lg-5 text-center text-lg-end">
-                          <!-- <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page"> -->
+                          <img class="img-fluid mt-4 mt-lg-0" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
                         </div>
                       </div>
                       <div class="collapse pt-3" id="creatorPagePromoContainer-commercial">
