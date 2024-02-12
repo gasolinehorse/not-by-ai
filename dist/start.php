@@ -20,7 +20,7 @@ include 'top-nav.php';
             <?php
             if (isset($_GET['error'])) {
               if ($_GET['error'] == 'invalid_email') {
-                echo '<p class="py-2 rounded-2 small" style="background-color: rgb(255, 232, 232);">Invalid email. Please try again or <a href="">contact us</a> if you have any questions.</p>';
+                echo '<p class="py-2 rounded-2 small" style="background-color: rgb(255, 232, 232);">Invalid email. Please try again or <a href="" class="text-decoration-underline">contact us</a> if you have any questions.</p>';
               }
             }
             ?>
