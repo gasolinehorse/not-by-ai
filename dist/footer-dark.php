@@ -3,7 +3,7 @@
         <div class="row mt-3">
           <div class="col-lg-4 text-center text-md-start pb-3">
             <img class="mb-3" src="/img/not-by-ai-reversed.svg" alt="Not By AI">
-            <div class="display-2 lh-sm pb-2 text-white">Join the Not By AI Movement&nbsp;Today</div>
+            <div class="display-2 lh-sm pb-2 text-white">Join the Not&nbsp;By&nbsp;AI Movement&nbsp;Today</div>
             <p class="text-white" style="font-size: 1.3125rem;">With a badge, we empower humans to create authentic content.</p>
             <ul class="nav justify-content-center justify-content-md-start mb-2">
               <li class="lh-sm px-2"><a class="display-6" target="_blank" href="https://twitter.com/NotByAIBadge"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#FFF" fill-rule="evenodd" d="M11.905 8.47 19.35 0h-1.764L11.12 7.353 5.956 0H0l7.809 11.12L0 20h1.764l6.827-7.766L14.044 20H20M2.4 1.302h2.71l12.476 17.46h-2.71"/></svg></a></li>
