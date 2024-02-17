@@ -239,7 +239,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Yes, if you follow <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">the Not By AI Rule</a>. In short, the Not By AI rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
+                    Yes, if you follow <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">the Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
                   </div>
                 </div>
               </div>
@@ -251,7 +251,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Once purchased, you will receive all three badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about selecting the right badges to use and inserting the badges into your project. You can also use the contact form to request an answer from us. We are happy to help!
+                    Once purchased, you will receive all three badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-white text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-white text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
                   </div>
                 </div>
               </div>
