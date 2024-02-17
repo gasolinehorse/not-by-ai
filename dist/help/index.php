@@ -11,7 +11,7 @@ include '../top-nav.php';
       <section class="col-md-10 col-xl-6 text-center pt-4 pb-4">
         <p>Hi, we are Not By AI and we are here to help. Below are some useful guides and FAQs created and answered to ensure that your users and audience can easily identify your content created by humans.</p>
       </section>
-      <section class="col-lg-11 col-xl-10 text-start pt-4 px-md-3 px-lg-5 pt-2 pb-3 bg-light">
+      <section class="col-lg-11 col-xl-10 text-start pt-4 px-4 px-md-3 px-lg-5 pt-2 pb-3 bg-light">
         <h2 class="py-3 text-center">Frequently Asked Questions</h2>
         <div class="row border-lg-bottom">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
@@ -66,13 +66,66 @@ include '../top-nav.php';
         <div class="row py-2 justify-content-center">
           <div class="col-lg-9 text-center">
             <h2 id="how-to" class="mt-lg-4 pt-2">How to Add the Not By AI Badges</h2>
-            <p class="mb-4">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
-            <img class="img-fluid mb-5" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
+            <p class="mb-4 small">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
+            <img class="img-fluid mb-4" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
+            <p class="small">Steps</p>
             <p class="mb-1">1. First, download the badges on our <a href="https://notbyai.fyi/" class="text-decoration-underline">homepage</a> or <a href="https://notbyai.fyi/business" class="text-decoration-underline">Business</a> page.</p>
             <p>2. Follow the recommendations below based on your content type.</p>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div class="bg-light py-4">
+          <h3 class="h4 text-center">What Are You Creating?</h3>
+          <div class="d-flex justify-content-center">
+            <form class="me-2">
+              <input list="contentSections" id="sectionSearch" class="bg-white" name="sectionSearch" placeholder="Search content type">
+              <datalist id="contentSections">
+                <option value="Blog Posts, Recipes, Guides, and Reviews">
+                <option value="Essays, Research, Reports, and Other Educational/Academic Content">
+                <option value="Books and Magazines">
+                <option value="Code">
+                <option value="Emails">
+                <option value="Digital Art">
+                <option value="Physical Art and Handcrafted Products">
+                <option value="Comics">
+                <option value="Photography">
+                <option value="Music">
+                <option value="Videos">
+                <option value="Podcasts">
+                <option value="Overall Creative Approach">
+              </datalist>
+            </form>
+            <button class="btn" id="goToContentType">Search</button>
+          </div>
+          <script>
+          document.getElementById('goToContentType').addEventListener('click', function() {
+            var sectionMap = {
+              "Blog Posts, Recipes, Guides, and Reviews": "blog-posts",
+              "Essays, Research, Reports, and Other Educational/Academic Content": "academic-content",
+              "Books and Magazines": "books-and-magazines",
+              "Code": "code",
+              "Emails": "emails",
+              "Digital Art": "digital-art",
+              "Physical Art and Handcrafted Products": "physical-art",
+              "Comics": "comics",
+              "Photography": "photography",
+              "Music": "music",
+              "Videos": "videos",
+              "Podcasts": "podcasts",
+              "Overall Creative Approach": "creative-approach"
+            };
+            
+            var inputVal = document.getElementById('sectionSearch').value;
+            var selectedSection = sectionMap[inputVal];
+            if (selectedSection) {
+              window.location.hash = selectedSection; 
+            } else {
+              alert('Please try and search a different keyword.');
+            }
+          });
+          </script>
+
+        </div>
+        <div id="blog-posts" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Blog posts, recipes, guides, and reviews</h4>
@@ -83,7 +136,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="academic-content" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Essays, research, reports, and other educational/academic content </h4>
@@ -94,7 +147,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="books-and-magazines" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Books and magazines</h4>
@@ -105,7 +158,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="code" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Code</h4>
@@ -116,7 +169,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="emails" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Emails</h4>
@@ -127,7 +180,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="digital-art" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Digital art</h4>
@@ -138,7 +191,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="physical-art" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Physical art and handcrafted products</h4>
@@ -149,7 +202,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="comics" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Comics</h4>
@@ -160,7 +213,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="photography" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Photography</h4>
@@ -171,7 +224,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="music" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Music</h4>
@@ -182,7 +235,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="videos" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Videos</h4>
@@ -193,7 +246,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="border-bottom border-bottom py-3">
+        <div id="podcasts" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Podcasts</h4>
@@ -204,7 +257,7 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="py-3">
+        <div id="creative-approach" class="py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
               <h4 class="ps-lg-5 mb-1">Overall creative approach</h4>
