@@ -51,7 +51,7 @@ include '../top-nav.php';
             <div class="row pb-3 px-2 mb-3 bg-light">
               <div class="col">
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
-                <div class="pb-1 pb-lg-3 pt-2">
+                <div>
                   <p>
                     If you cannot find an answer in our Help Center, <a href="mailto:help@notbyai.fyi" class="text-decoration-underline">send us a message</a> so we can help you out.
                   </p>
