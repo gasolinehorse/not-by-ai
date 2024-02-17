@@ -268,8 +268,9 @@ include '../top-nav.php';
             </div>
           </div>
         </div>
-        <div class="bg-light p-3">
-          <p class="mb-0">Pro tip: Don't know which format to use? <a class="text-decoration-underline" href="/help/which-image-file-format-should-i-use.php">Check out our image format guide</a>. And remember, you should always <a class="text-decoration-underline" href="/help/how-do-i-link-my-not-by-ai-badge.php">link your badge</a> when it's possible.</p>
+        <div class="px-3 py-2 mb-2">
+          <p class="mb-0 small">Pro tip: Don't know which image format to use? <a class="text-decoration-underline" href="/help/which-image-file-format-should-i-use.php">Check out our image format guide</a>.</p>
+          <p class="mb-0 small">Pro tip: You should always <a class="text-decoration-underline" href="/help/how-do-i-link-my-not-by-ai-badge.php">link your badge</a> when it's possible.</p>
         </div>
       </section>
       <section class="col-lg-11 col-xl-10 text-start pt-4 pb-5">

@@ -38,6 +38,8 @@ include '../top-nav.php';
 
             <h2 class="h4 pt-4 mt-3 border-top">Physical</h2>
             <p>If you're working with physical content, such as books, paintings, sculptures, or any handcrafted products, the best implementation may differ depending on the type of content. Look for space within your content where a link to https://notbyai.fyi or your Creator Page can be displayed without distracting your audience. For example, consider the book blurb on the back of a book, or locate a nearby object, such as a painting's plaque or a product's tag, to show the link or a QR code to the link.</p>
+
+            <p class="pt-4 mt-3 border-top">For information on which image type works best for your content, please refer to <a class="text-decoration-underline" href="/help/which-image-file-format-should-i-use.php">Which Image File Format Should I Use</a>.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>
