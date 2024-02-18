@@ -4,6 +4,11 @@ $pageDes = 'Explore the Not By AI guides, resources, FAQs, and documentations th
 include '../header.php';
 include '../top-nav.php';
 ?>
+    <style>
+      .top-nav-biz-link {
+        display: none !important;
+      }      
+    </style>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
         <h1>Help Center</h1>
