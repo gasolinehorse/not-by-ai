@@ -61,7 +61,7 @@
       <a href="https://notbyai.fyi/business" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Not By AI for Business</a>
     </div>
     <div class="d-flex pt-4">
-      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
+      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
       <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
       <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
       <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>

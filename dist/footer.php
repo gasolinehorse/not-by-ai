@@ -68,6 +68,20 @@
       document.getElementById("sidenav-bar").classList.remove("show");
       document.getElementById("curtain").classList.remove("show");
     }
+
+    window.addEventListener('scroll', function() {
+      var mobileTopBar = document.getElementById('mobile-top-bar');
+      var notByAiMission = document.getElementById('not-by-ai-mission');
+      var triggerPoint = notByAiMission.offsetTop;
+
+      if (window.scrollY > triggerPoint) {
+        mobileTopBar.classList.remove('d-none');
+        mobileTopBar.classList.add('d-flex');
+      } else {
+        mobileTopBar.classList.add('d-none');
+        mobileTopBar.classList.remove('d-flex');
+      }
+    });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
