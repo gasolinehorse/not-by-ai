@@ -138,7 +138,7 @@ include 'top-nav.php';
       </nav>
       <div class="col-md-1 border-start"></div>
       <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-5">
-        <nav id="mobile-top-bar" class="d-none d-sm-none position-fixed top-0 start-0 end-0 bg-white border-bottom py-2 px-4 w-100">
+        <nav id="mobile-top-bar" class="d-none d-sm-none position-fixed top-0 start-0 end-0 z-3 bg-white border-bottom py-2 px-4 w-100">
           <div class="me-auto"><img class="img-fluid" width="100" src="/img/not-by-ai.svg" alt="Not By AI"></div>
           <div><span class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></div>
         </nav>
