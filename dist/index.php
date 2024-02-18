@@ -225,7 +225,7 @@ include 'top-nav.php';
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Support Us</h3>
-          <p>The whole Not By AI movement is created by real humans. Your support will make a difference. Donate today to empower the content creators and ensure that humanity continues to advance. Your donation will be used to grow Not By AI <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">in different ways</a>.</p>
+          <p>The whole Not By AI movement is created by real humans. Your support will make a difference. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate today</a> to empower the content creators and ensure that humanity continues to advance. Your donation will be used in <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">various places</a> to grow Not By AI.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
