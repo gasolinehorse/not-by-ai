@@ -186,7 +186,7 @@ include 'top-nav-dark.php';
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCreatorPage" aria-expanded="false" aria-controls="collapseCreatorPage">
-                    I Thought I Was Purchasing the Badges but I Am Also Getting a Creator Page? What Is It?
+                    I thought I was purchasing the badges but I am also getting a Creator Page? What is it?
                   </button>
                 </h2>
                 <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
