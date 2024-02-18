@@ -186,12 +186,12 @@ include 'top-nav-dark.php';
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCreatorPage" aria-expanded="false" aria-controls="collapseCreatorPage">
-                    What is a Creator Page?
+                    I Thought I Was Purchasing the Badges but I Am Also Getting a Creator Page? What Is It?
                   </button>
                 </h2>
                 <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to further establish credibility of the badges and make sure your audience understands your authentic human-first approach by seeing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional.
+                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to further establish credibility of the badges and make sure your audience understands your authentic human-first approach by seeing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional but highly encouraged.
                   </div>
                 </div>
               </div>
