@@ -44,7 +44,7 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://linerly.xyz" target="_blank" rel="nofollow">Linerly</a></p>
           </div>
           <div class="col-sm-4 col-6">
-            <p class="mb-0"><a class="text-decoration-underline" href="https://mastodon.social/@vanzasetia" target="_blank" rel="nofollow">Vanza</a></p>
+            <p class="mb-0">Vanza</p>
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://mas.to/@KNTRO" target="_blank" rel="nofollow">KNTRO</a></p>

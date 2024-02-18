@@ -152,8 +152,10 @@ include 'top-nav.php';
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
           <h3>Who Can Use the Badge</h3>
-          <h4>The Not By AI 90% Rule</h4>
+          <h4 class="pt-1">The Not By AI 90% Rule</h4>
           <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
+          <h4>The Qualification</h4>
+          <p>If you follow the Not By AI 90% Rule, came to this site as a human, manually downloaded our badges, and made the effort to insert them into your project, you qualify for non-commercial use. Similar to how reCAPTCHA detects humans by analyzing user behavior, this labor-intense process of manually inserting our badges is our way of verification. While it is not bulletproof, Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of AI-produced content. For paid projects, we manually review the project details and the relevant content, reaching out to collaborate with content creators for further validation when necessary. Whenever possible, we also leverage third-party tools to detect potential AI-generated content, while acknowledging that the accuracy of current AI detector technology has not yet been proven.</p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
