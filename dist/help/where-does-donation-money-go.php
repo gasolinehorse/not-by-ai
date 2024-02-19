@@ -26,10 +26,11 @@ include '../top-nav.php';
             <p>We are glad to hear that you are considering a donation! This means a lot to us as our progress is genuinely constrained by the resources and funding we have. By contributing, you empower us to promote authenticity in content creation.</p>
             <p>Here are a few ways in which the donations will be used:</p>
             <ul>
+              <li>Human content verification </li>
+              <li>Research </li>
               <li>Website and email maintenance/Server and domain </li>
               <li>Design and development </li>
               <li>Professional translation </li>
-              <li>Research </li>
               <li>Copywriting </li>
               <li>Sustainable business development </li>
               <li>Certification and registration fees </li>
