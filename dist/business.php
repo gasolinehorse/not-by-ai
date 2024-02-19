@@ -161,17 +161,17 @@ include 'top-nav-dark.php';
         <p class="small text-center why mb-3 mb-lg-5">How It Works</p>
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-5 col-xl-4">
-            <img class="img-fluid mb-4" src="/img/not-by-ai-short-reel.gif" alt="Not By AI reel" />
+            <img class="img-fluid mb-4" src="/img/human-no-ai-review-verification.gif" alt="Human review process to verify AI content" />
             <div class="d-flex">
               <div class="xs fw-bold pe-2 mt-1">01</div>
-              <h3 class="pb-4 pb-lg-0">Add the badge to your human&#8209;created&nbsp;content</h3>
+              <h3 class="pb-4 pb-lg-0">Submit your content and creative approach to us</h3>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 col-xl-4">
-            <img class="img-fluid mb-4" srcset="/img/not-by-ai-creator-page-preview@2x.jpg 2x" src="/img/not-by-ai-creator-page-preview.jpg" alt="The Not By AI Creator Page" />
+            <img class="img-fluid mb-4" src="/img/not-by-ai-short-reel.gif" alt="Not By AI reel" />
             <div class="d-flex">
               <div class="xs fw-bold pe-2 mt-1">02</div>
-              <h3>Set up your Creator Page to show your creative&nbsp;approach</h3>
+              <h3>Once approved, add the badge to your human&#8209;created&nbsp;content</h3>
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to further establish credibility of the badges and make sure your audience understands your authentic human-first approach by seeing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable. <br><br>Setting up a Creator Page is optional but highly encouraged.
+                    In addition to the Not By AI badges, you also get a Creator Page. The Creator Page is like a blog post that houses your "behind-the-scenes" stories about your content. It is the official Not By AI space for you to talk to your audience about your human-centric content creation approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. It is also a good way to further establish credibility of the badges and make sure your audience understands your authentic human-first approach by seeing your proof. You can link to this personalized Creator Page from your badges, provided they are linkable.
                   </div>
                 </div>
               </div>
@@ -227,7 +227,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    For now, we will not. But you should still follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. Once purchased, you are welcome to start using the badges immediately.
+                    We will review your content and project details to ensure that the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a> is being followed, while acknowledging that there are currently no bulletproof AI content detection methods. In the rare event that your project gets rejected, we will issue a refund and a request asking you to discontinue the use of our badge.
                   </div>
                 </div>
               </div>
@@ -239,7 +239,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Yes, if you follow <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">the Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
+                    Yes, if you follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
                   </div>
                 </div>
               </div>
