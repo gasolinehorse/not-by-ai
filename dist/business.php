@@ -286,9 +286,9 @@ include 'top-nav-dark.php';
                     <ul style="padding-left: 2rem;">
                       <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
                       <li style="list-style-type: disc;">All three badges</li>
-                      <li style="list-style-type: disc;">Each badge comes with dark and light themes</li>
-                      <li style="list-style-type: disc;">Available in PNG, SVG, and EPS</li>
-                      <li style="list-style-type: disc;">Available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
+                      <li style="list-style-type: disc;">Badges available in dark and light themes</li>
+                      <li style="list-style-type: disc;">Badges available in PNG, SVG, and EPS</li>
+                      <li style="list-style-type: disc;">Badges available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseInspirations" role="button" aria-expanded="false" aria-controls="collapseInspirations">multiple languages</span></li>
                     </ul>
                     <div class="collapse" id="collapseInspirations">
                       <div class="card card-body border-0 bg-light">
