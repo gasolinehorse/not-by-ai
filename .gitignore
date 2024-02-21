@@ -15,3 +15,4 @@ dist/creator-page-template.php
 dist/creator-page-application.php
 dist/process-form-creator-page.php
 dist/stripe-webhook.php
+dist/creations
