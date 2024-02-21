@@ -123,10 +123,10 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits of Not By AI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-use" href="/help">Resources</a>
+            <a class="nav-link text-black" id="quick-link-resources" href="/help">Resources</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-use" href="#support-not-by-ai">Support Us</a>
+            <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Support Us</a>
           </li>
           <li class="nav-item">
             <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
