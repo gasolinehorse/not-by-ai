@@ -58,12 +58,20 @@ include '../top-nav.php';
             <h3 class="h5"><a href="/help/how-do-i-link-my-not-by-ai-badge.php">How Do I Link My Not By AI Badge?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row border-lg-bottom">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/can-i-share-my-not-by-ai-project-with-you-and-the-community.php">I Am Using the Not By AI Badge on My Project. Can I Share It with You and the Community?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/the-not-by-ai-badges-are-not-available-in-my-language.php">The Not By AI Badges Are Not Available in My Language, What Do I Do?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
+            <h3 class="h5"><a href="/help/how-do-i-cancel-my-creator-page-subscription.php">How Do I Cancel My Creator Page Subscription?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+          </div>
+          <div class="col-lg-6 py-2 py-lg-3">
+            
           </div>
         </div>
       </section>
