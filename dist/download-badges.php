@@ -8,7 +8,7 @@ include 'top-nav.php';
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
-          <h1>Thank You for Your&nbsp;Purchase</h1>
+          <h1>Thank You for Supporting&nbsp;Us</h1>
         </header>
         <div class="row justify-content-center">
 	        <div class="col-sm-10 col-md-9 col-lg-6">
@@ -33,7 +33,7 @@ include 'top-nav.php';
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h2">Step 3</div>
-        <p>If your content is in a digital format that allows for the Not By AI badge to be linked, insert a link to your Creator Page (once approved) or https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
+        <p>If your content is in a digital format that allows for the Not By AI badge to be linked, insert a link to your Creator Page (once approved/subscribers only) or https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
       </div>
     </div>
     <div class="row">

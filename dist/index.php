@@ -247,7 +247,7 @@ include 'top-nav.php';
                   <form id="forms" method="post" action="process-form.php">
                     <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
                     <p class="small mt-2 mb-1 w-100">How will you use the badge? </p>
-                    <div class="d-flex pb-3">
+                    <div class="d-flex pb-2">
                       <div class="form-check me-3">
                         <input class="form-check-input" type="radio" name="usage" id="usage1" value="Personal Use" required>
                         <label class="form-check-label" for="usage1">
@@ -262,8 +262,19 @@ include 'top-nav.php';
                       </div>
                     </div>
                     <div id="personal-form">
-                      <label for="email">Email</label>
-                      <input type="email" name="email" required>
+                      <div class="row justify-content-between">
+                        <div class="col-md-7 col-lg-8 pt-2 pe-md-4">
+                          <label for="email">Email</label>
+                          <input type="email" name="email" required>
+                        </div>
+                        <div class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
+                          <label for="your-price">Pay What You Wish</label>
+                          <div class="d-flex align-items-center">
+                            <div class="display-4 pe-1 opacity-50">$</div>
+                            <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" required>
+                          </div>
+                        </div>
+                      </div>
                       <div class="pt-3">
                         <div class="d-flex">
                           <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to describe my creative approach on a Creator Page to describe my creative approach for $4.99 /mo."><label for="personalCreatorPage">I want to describe my creative approach on a <a class="text-decoration-underline" href="#creatorPagePromoContainer" data-bs-toggle="collapse">Creator Page</a> for $4.99 /mo.</label>
@@ -274,7 +285,8 @@ include 'top-nav.php';
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send Me Free Badges">
+                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
+                      <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Download My Badges</a>
                       <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download My Badges</a>
                       <div class="collapse pt-3" id="creatorPagePromoContainer">
                         <div class="border-top pt-4 mt-4">
@@ -417,21 +429,40 @@ include 'top-nav.php';
       }
       checkbox1.addEventListener('change', () => syncCheckboxes(checkbox1, checkbox2));
       checkbox2.addEventListener('change', () => syncCheckboxes(checkbox2, checkbox1));
-
       function toggleButtons() {
         var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
         var buttonB = document.getElementById('not-by-ai-badges-download-with-cp');
+        var buttonC = document.getElementById('not-by-ai-badges-download-with-donation-no-cp');
         var isChecked = document.getElementById('personalCreatorPage').checked || document.getElementById('personalCreatorPagePromo').checked;
-
         if (isChecked) {
           buttonA.style.display = 'none';
           buttonB.style.display = 'inline-block';
+          buttonC.style.display = 'none';
+          document.getElementById('your-price').value = "0";
+          document.getElementById('your-price').disabled = true;
         } else {
           buttonA.style.display = 'inline-block';
           buttonB.style.display = 'none';
+          document.getElementById('your-price').disabled = false;
         }
       }
       document.getElementById('personalCreatorPage').addEventListener('change', toggleButtons);
       document.getElementById('personalCreatorPagePromo').addEventListener('change', toggleButtons);
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var donationInput = document.getElementById('your-price');
+        var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
+        var buttonB = document.getElementById('not-by-ai-badges-download-with-donation-no-cp');
+        donationInput.addEventListener('input', function() {
+          const value = parseFloat(donationInput.value);
+          if (value > 0) {
+            buttonA.style.display = 'none';
+            buttonB.style.display = 'inline-block';
+          } else {
+            buttonA.style.display = 'inline-block';
+            buttonB.style.display = 'none';
+          }
+        });
+      });
     </script>
     <?php include 'footer.php'; ?>
