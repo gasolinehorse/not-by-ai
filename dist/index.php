@@ -308,25 +308,9 @@ include 'top-nav.php';
                     <div id="commercial-form" class="d-none">
                       <div class="row">
                         <div class="col-lg-7">
-                          <p class="small mt-2 mb-1 w-100">With <a class="mb-2 text-decoration-underline" href="/business">Not By AI for Business</a>, you will get: </p>
-                          <ul style="padding-left: 2rem;">
-                            <li style="list-style-type: disc;">An included <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a></li>
-                            <li style="list-style-type: disc;">All three badges</li>
-                            <li style="list-style-type: disc;">Badges available in dark and light themes</li>
-                            <li style="list-style-type: disc;">Badges available in PNG, SVG, and EPS</li>
-                            <li style="list-style-type: disc;">Badges available in <span class="text-decoration-underline" data-bs-toggle="collapse" href="#collapseLang" role="button" aria-expanded="false" aria-controls="collapseLang">multiple languages</span></li>
-                          </ul>
-                          <div class="collapse" id="collapseLang">
-                            <div class="card card-body border-0 bg-light">
-                              <p class="mb-1 small">The Not By AI badges are currently available in the following languages: <?php include 'all-supported-languages.php'; ?></p>
-                            </div>
-                          </div>
-                          <p class="small mt-2 mb-1 w-100">Amount: </p>
-                          <div class="h3 mb-3">$12.99 <span class="h5">/mo</span></div>
-                          <a class="btn mb-2" href="https://buy.stripe.com/dR63e18si5tGg0MeUY">Purchase My Badges & Creator Page</a>
-                          <div class="row">
-                            <div class="col-lg-10 xs">By clicking the button above, you agree to the terms of the <a class="text-decoration-underline" href="https://notbyai.fyi/license">License Agreement</a></div>
-                          </div>
+                          <div class="h4 mt-3">Showcase your human creativity</div>
+                          <p class="small mt-2 mb-4 w-100">Submit your content for approval, unlock your <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a> to share your creative approach with your audience, and add the Not By AI badges on your work to stand out in the AI world.</p>
+                          <a class="btn mb-2" href="/business">Learn More About Not By AI for Business</a>
                         </div>
                         <div class="col-lg-5 text-center text-lg-end d-none d-lg-block">
                           <img class="img-fluid mt-lg-3" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
