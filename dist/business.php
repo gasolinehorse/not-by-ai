@@ -351,12 +351,12 @@ include 'top-nav-dark.php';
     gsap.to('.show-when-scrolled', {
       scrollTrigger: {
         trigger: '.show-when-scrolled',
-        start: 'top center',
+        start: 'top bottom',
         end: 'bottom top',
         toggleActions: 'play none none none'
       },
       opacity: 1,
-      duration: 1,
+      duration: 1.5,
       stagger: 0.4
     });
     </script>
