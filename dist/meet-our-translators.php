@@ -79,6 +79,9 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://oscarotero.com" target="_blank" rel="nofollow">Óscar Otero</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://sweetgood.de" target="_blank" rel="nofollow">Christian Süßenguth</a></p>
+          </div>
           <div class="col-12 pt-4">
             <p class="opacity-50">...and other 25 anonymous translators.</p>
           </div>
