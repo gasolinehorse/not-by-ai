@@ -274,6 +274,7 @@ include 'top-nav.php';
                             <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" required>
                           </div>
                         </div>
+                        <input type="hidden" name="badgeType" id="badgeType" value="">
                       </div>
                       <div class="pt-3">
                         <div class="d-flex">
@@ -448,5 +449,16 @@ include 'top-nav.php';
           }
         });
       });
+
+      document.getElementById("artist-badge").onclick = function() {
+          document.getElementById("badgeType").value = "Artist";
+      };
+      document.getElementById("writer-badge").onclick = function() {
+          document.getElementById("badgeType").value = "Writer";
+      };
+      document.getElementById("producer-badge").onclick = function() {
+          document.getElementById("badgeType").value = "Producer";
+      };
+
     </script>
     <?php include 'footer.php'; ?>
