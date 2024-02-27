@@ -277,8 +277,8 @@ include 'top-nav.php';
                         <input type="hidden" name="badgeType" id="badgeType" value="">
                       </div>
                       <div class="pt-3">
-                        <div class="d-flex">
-                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to describe my creative approach on a Creator Page to describe my creative approach for $4.99 /mo."><label for="personalCreatorPage">I want to describe my creative approach on a <a class="text-decoration-underline" href="#creatorPagePromoContainer" data-bs-toggle="collapse">Creator Page</a> for $4.99 /mo.</label>
+                        <div class="d-flex mb-1 mb-lg-0">
+                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to upload drafts or other assets to a Creator Page to prove my human creation for $4.99/mo."><label for="personalCreatorPage">I want to upload drafts or other assets to a <a class="text-decoration-underline" href="#creatorPagePromoContainer" data-bs-toggle="collapse">Creator Page</a> to prove my human creation for $4.99/mo.</label>
                         </div>
                         <div class="d-flex">
                           <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
