@@ -10,3 +10,8 @@ dist/Not-By-AI.zip
 dist/error_log
 dist/company-page-template.php
 dist/corporation-page-template.html
+dist/stripe-webhook.php
+dist/process-form-creator-page.php
+dist/creator-page-template.php
+dist/creator-page-application.php
+dist/creations
