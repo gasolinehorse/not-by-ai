@@ -105,6 +105,7 @@ include '../top-nav.php';
                 <option value="Books and Magazines">
                 <option value="Code">
                 <option value="Emails">
+                <option value="PowerPoint and Keynote Decks">
                 <option value="Digital Art">
                 <option value="Physical Art and Handcrafted Products">
                 <option value="Comics">
@@ -125,6 +126,7 @@ include '../top-nav.php';
               "Books and Magazines": "books-and-magazines",
               "Code": "code",
               "Emails": "emails",
+              "PowerPoint and Keynote Decks": "powerpoints-and-keynotes",
               "Digital Art": "digital-art",
               "Physical Art and Handcrafted Products": "physical-art",
               "Comics": "comics",
@@ -198,6 +200,17 @@ include '../top-nav.php';
             </div>
             <div class="col-sm-8">
               <p>Display the Writer badge in your email signature or at the beginning of the email.</p>
+            </div>
+          </div>
+        </div>
+        <div id="powerpoints-and-keynotes" class="border-bottom border-bottom py-3">
+          <div class="row py-md-2">
+            <div class="col-sm-4">
+              <h4 class="ps-lg-5 mb-1">PowerPoint and Keynote Decks</h4>
+              <p class="ps-lg-5 small opacity-50 mb-0">The Writer badge</p>
+            </div>
+            <div class="col-sm-8">
+              <p>Display the Writer badge in the master slide for consistent exposure, or on the first/last slide of the deck. If your human-created content applies to more than text, consider the Producer/Generalist badge.</p>
             </div>
           </div>
         </div>
