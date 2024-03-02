@@ -79,7 +79,7 @@ include '../top-nav.php';
             <h3 class="h5"><a href="/help/how-do-i-cancel-my-creator-page-subscription.php">How Do I Cancel My Creator Page Subscription?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-lg-6 py-2 py-lg-3">
-            
+            <h3 class="h5"><a href="/help/why-is-there-not-a-generic-made-by-human-badge.php">Why Is There Not an All-Purpose "Made by Human" Badge?</a>
           </div>
         </div>
       </section>
