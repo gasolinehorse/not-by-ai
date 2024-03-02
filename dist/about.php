@@ -43,7 +43,7 @@ include 'top-nav.php';
           </div>
           <div class="col-4 col-md-2">
             <img class="w-100" srcset="/img/hamlet@2x.jpg 2x" src="/img/hamlet.jpg" alt="" />
-            <div class="h5 pt-2">William Shakespeare - Hamlet 1902</div>
+            <div class="h5 pt-2">William Shakespeare - Hamlet 1603</div>
           </div>
           <div class="col-4 col-md-2">
             <img class="w-100" srcset="/img/le-reve@2x.jpg 2x" src="/img/le-reve.jpg" alt="" />

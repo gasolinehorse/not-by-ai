@@ -263,18 +263,18 @@ include 'top-nav.php';
                     </div>
                     <div id="personal-form">
                       <div class="row justify-content-between">
-                        <div class="col-md-12 pt-2">
+                        <div class="col-md-7 col-lg-8 pt-2 pe-md-4">
                           <label for="email">Email</label>
                           <input type="email" name="email" required>
                         </div>
-<!--                         <div class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
+                        <div class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
                           <label for="your-price">Pay What You Wish</label>
                           <div class="d-flex align-items-center">
                             <div class="display-4 pe-1 opacity-50">$</div>
-                            <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" required>
+                            <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" value="0" required>
                           </div>
                         </div>
- -->                        <input type="hidden" name="badgeType" id="badgeType" value="">
+                        <input type="hidden" name="badgeType" id="badgeType" value="">
                       </div>
                       <div class="pt-3">
                         <div class="d-flex mb-1 mb-lg-0">
