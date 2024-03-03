@@ -267,7 +267,7 @@ include 'top-nav.php';
                           <label for="email">Email</label>
                           <input type="email" name="email" required>
                         </div>
-                        <div class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
+                        <div id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
                           <label for="your-price">Pay What You Wish</label>
                           <div class="d-flex align-items-center">
                             <div class="display-4 pe-1 opacity-50">$</div>
@@ -460,5 +460,10 @@ include 'top-nav.php';
           document.getElementById("badgeType").value = "Producer";
       };
 
+      posthog.onFeatureFlags(() => {
+        if (posthog.getFeatureFlag('home-download-popup-donation') === 'test') {
+          document.getElementById("donate-box").style.display = "none";
+        }
+      });
     </script>
     <?php include 'footer.php'; ?>
