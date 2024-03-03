@@ -94,10 +94,10 @@ include '../top-nav.php';
             <p>2. Follow the recommendations below based on your content type.</p>
           </div>
         </div>
-        <div class="bg-light py-4">
+        <div class="bg-light py-4 mb-3 mb-md-0">
           <h3 class="h4 text-center">What Are You Creating?</h3>
-          <div class="d-flex justify-content-center">
-            <form class="me-2">
+          <div class="d-flex justify-content-center flex-column flex-md-row px-3 px-md-0">
+            <form class="me-md-2">
               <input list="contentSections" id="sectionSearch" class="bg-white" name="sectionSearch" placeholder="Search content type">
               <datalist id="contentSections">
                 <option value="Blog Posts, Recipes, Guides, and Reviews">
@@ -116,7 +116,7 @@ include '../top-nav.php';
                 <option value="Overall Creative Approach">
               </datalist>
             </form>
-            <button class="btn" id="goToContentType">Search</button>
+            <button class="btn mt-2 mt-md-0" id="goToContentType">Search</button>
           </div>
           <script>
           document.getElementById('goToContentType').addEventListener('click', function() {
