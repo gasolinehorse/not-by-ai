@@ -287,7 +287,7 @@ include 'top-nav.php';
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
                       <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
-                      <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Download My Badges</a>
+                      <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
                       <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download My Badges</a>
                       <div class="collapse pt-3" id="creatorPagePromoContainer">
                         <div class="border-top pt-4 mt-4">
@@ -451,18 +451,19 @@ include 'top-nav.php';
       });
 
       document.getElementById("artist-badge").onclick = function() {
-          document.getElementById("badgeType").value = "Artist";
+        document.getElementById("badgeType").value = "Artist";
       };
       document.getElementById("writer-badge").onclick = function() {
-          document.getElementById("badgeType").value = "Writer";
+        document.getElementById("badgeType").value = "Writer";
       };
       document.getElementById("producer-badge").onclick = function() {
-          document.getElementById("badgeType").value = "Producer";
+        document.getElementById("badgeType").value = "Producer";
       };
 
       posthog.onFeatureFlags(() => {
-        if (posthog.getFeatureFlag('home-download-popup-donation') === 'test') {
-          document.getElementById("donate-box").style.display = "none";
+        if (posthog.getFeatureFlag('btn-text') === 'download') {
+          document.getElementById('not-by-ai-badges-download-no-cost').value = "Download My Badges";
+          document.getElementById('not-by-ai-badges-download-with-donation-no-cp').textContent = "Download My Badges";
         }
       });
     </script>
