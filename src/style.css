@@ -723,6 +723,8 @@ article.horizontal .animation-wrap .horizontal__item:nth-child(4n+4) {
   padding: 0.2rem 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 500;
 }
 .creator-profile__label {
 	font-size: 0.8125rem;
