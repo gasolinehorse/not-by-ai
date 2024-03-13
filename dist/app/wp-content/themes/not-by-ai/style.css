@@ -1,0 +1,223 @@
+@media (min-width: 992px) {
+	.wpuf-dashboard-navigation {
+		padding-top: 3rem;
+		background: rgb(255,255,255);
+		background: linear-gradient(122deg, rgba(255,255,255,1) 0%, rgba(253,252,252,1) 58%, rgba(249,248,247,1) 100%);
+		height: 100vh;
+	}
+}
+.wpuf-dashboard-navigation ul {
+	display: flex;
+	flex-direction: column;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.dashboard,
+.wpuf-dashboard-navigation .wpuf-menu-item.billing-address,
+.wpuf-dashboard-navigation .wpuf-menu-item.edit-profile {
+	display: none;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.submit-post {
+	order: 2;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.post {
+	order: 1;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.subscription {
+	order: 4;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.instruction {
+	order: 3;
+}
+.wpuf-dashboard-navigation .wpuf-menu-item.download {
+	order: 5;
+}
+body .wpuf-dashboard-container .wpuf-dashboard-navigation ul li {
+	padding-left: 3rem;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+}
+.wpuf-menu-item.active {
+	background-color: #f9f8f7;
+}
+body .wpuf-dashboard-navigation .wpuf-menu-item.active a {
+	color: #000 !important;
+}
+body .wpuf-dashboard-container .wpuf-dashboard-navigation a,
+.wpuf-form label,
+body ul.wpuf-form.form-label-above li .wpuf-label {
+	font-size: 0.86rem;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 500;
+}
+@media (min-width: 992px) {
+	body .wpuf-dashboard-container .wpuf-dashboard-navigation a {
+		margin-top: 1rem;
+	}	
+}
+body .wpuf-dashboard-container table.items-table th {
+	box-shadow: none;
+	font-weight: normal;
+	opacity: 50%;
+	font-size: 14px;
+}
+body .wpuf-dashboard-container table.items-table {
+	border: 0;
+}
+body .wpuf-dashboard-container table.items-table tr {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #eae9e9;
+	border-left: 0;
+}
+body .wpuf-dashboard-container .wpuf-dashboard-content {
+	display: block;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.wpuf-dashboard-content.post::before,
+.wpuf-dashboard-content.submit-post::before,
+.wpuf-dashboard-content.subscription::before,
+.wpuf-dashboard-content.edit-profile::before,
+.wpuf-dashboard-content.billing-address::before {
+  font-size: 2.375rem;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.1;
+	display: block;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.wpuf-dashboard-content.post::before {
+  content: "Your Projects";
+}
+.wpuf-dashboard-content.submit-post::before {
+  content: "Submit a Project";
+}
+.wpuf-dashboard-content.subscription::before {
+  content: "Subscription";
+}
+.wpuf-dashboard-content.edit-profile::before {
+  content: "Profile";
+}
+.wpuf-dashboard-content.billing-address::before {
+  content: "Billing";
+}
+.entry-content h1 {
+	font-size: 2.375rem;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.1;
+	display: block;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+body .wpuf-dashboard-container table.items-table .data-column:nth-child(2) span {
+	color: #000000 !important;
+}
+body .wpuf-dashboard-container table.items-table .data-column:nth-child(2) a {
+	color: #ffffff !important;
+	background: #000000;
+	border-radius: 9px;
+	padding: 5px 13px;
+	font-size: 13px;
+	margin-left: 0.7rem;
+}
+body .wpuf-dashboard-container table.items-table .data-column a.wpuf-posts-options {
+	background: transparent;
+	margin-left: 0;
+	padding: 0;
+}
+body .wpuf-dashboard-container table.items-table .data-column a.wpuf-posts-options svg path {
+	fill: #000000;
+	opacity: 0.5;
+}
+.wpuf-submit-button,
+.wpuf-submit button,
+.wpuf-submit input[type=submit],
+.wpuf-login-form input[type=submit] {
+	font-size: 1rem;
+	color: #FFFFFF;
+	width: auto !important;
+	background-color: #000000;
+	padding: 0.6rem 2.8rem;
+	border: 0;
+	border-radius: 6px;
+	box-shadow: 0px 1px 2px 1px #aaa;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 500;
+}
+.wpuf-submit-button:hover,
+.wpuf-submit-button:focus,
+.wpuf-submit-button:active,
+.wpuf-submit button:hover,
+.wpuf-submit button:focus,
+.wpuf-submit button:active,
+.wpuf-submit input[type=submit]:hover,
+.wpuf-submit input[type=submit]:focus,
+.wpuf-submit input[type=submit]:active
+.wpuf-login-form input[type=submit]:hover,
+.wpuf-login-form input[type=submit]:focus,
+.wpuf-login-form input[type=submit]:active {
+	color: #FFFFFF;
+	opacity: 1;
+	background-color: #333333;
+}
+.wpuf-login-form input[type=submit] {
+	width: 100% !important;
+}
+#wpuf-login-form a {
+	font-size: 13px;
+	text-decoration: underline;
+}
+.wpuf-label,
+.wpuf-fields {
+	font-size: 0.82rem;
+	margin-top: 0;
+}
+body ul.wpuf-form.form-label-above li .wpuf-label {
+	margin-bottom: 5px;
+}
+.wpuf-help {
+	font-size: 13px;
+	opacity: 0.5;
+}
+img.wpuf-eye {
+	right: 6px;
+}
+body .wpuf-dashboard-container .wpuf-update-profile-form ul.wpuf-form {
+	margin: 0 !important;
+}
+body ul.wpuf-form li {
+	padding: 0 0 10px 0;
+}
+body .wpuf-dashboard-container .wpuf-dashboard-navigation ul li:first-child::after {
+	padding-right: 8px;
+}
+body .wpuf-dashboard-container table.items-table td:first-child {
+	font-weight: bold;
+}
+body .wpuf-dashboard-container table.items-table td:first-child a {
+	pointer-events: none;
+  cursor: default;
+}
+body .wpuf-dashboard-container table.items-table th, body .wpuf-dashboard-container table.items-table td {
+	font-size: 15px;
+}
+body .wpuf-dashboard-container .wpuf-dashboard-content .wpuf-fields select {
+	font-size: 16px;
+}
+body .wpuf-error,
+body .wpuf-success,
+body .wpuf-message {
+	margin: 10px 0px 20px;
+	padding: 6px 10px;
+	font-size: 0.8rem;
+}
+.wpuf-user-avatar {
+	display: none;
+}
+main a {
+	text-decoration: underline;
+}
+#wpuf-rememberme {
+	display: inline-grid;
+}
