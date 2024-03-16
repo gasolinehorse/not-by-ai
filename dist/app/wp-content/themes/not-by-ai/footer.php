@@ -40,6 +40,10 @@ if (targetUl) {
   targetUl.appendChild(newLi1);
   targetUl.appendChild(newLi2);
 }
+var link = document.querySelector('.wpuf-menu-item.post.active a[href="https://notbyai.fyi/app/?section=post"]');
+if (link) {
+  link.textContent = 'Home';
+}
 document.querySelectorAll('body .wpuf-dashboard-container table.items-table .data-column:nth-child(2) a').forEach(link => {
 	if (link.textContent.trim() === 'View') {
     link.textContent = 'Copy Link';
@@ -64,6 +68,9 @@ document.querySelectorAll('body .wpuf-dashboard-container table.items-table .dat
       }, 2000);
     }
   });
+  if (link.textContent.trim() === 'Preview') {
+    link.style.display = 'none';
+  }
 });
 document.querySelectorAll('body .wpuf-dashboard-container table.items-table .data-column:nth-child(2) span').forEach(link => {
 	if (link.textContent.trim() === 'Live') {

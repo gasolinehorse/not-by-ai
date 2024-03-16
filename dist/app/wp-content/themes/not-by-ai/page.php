@@ -35,7 +35,7 @@ get_header();
 		  </div>
 		</div>
 	</header>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main position-relative z-1">
 
 		<?php
 		while ( have_posts() ) :
@@ -43,15 +43,45 @@ get_header();
 
 			get_template_part( 'template-parts/content', 'page' );
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
 		endwhile; // End of the loop.
 		?>
-
+				
+		<?php
+		// Get the current user's ID
+		$current_user_id = get_current_user_id();
+		
+		// Check if the current user has published any posts
+		$user_posts = get_posts(array(
+		    'author' => $current_user_id,
+		    'posts_per_page' => 1,
+		    'post_status' => 'any'
+		));
+		
+		// If the current user has no published posts, set a flag to use in JavaScript
+		$no_published_posts_by_user = empty($user_posts) ? 'true' : 'false';
+		?>
+		
+		<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+	    // Use the PHP variable to set the JavaScript flag
+	    var noPublishedPostsByUser = <?php echo $no_published_posts_by_user; ?>;
+	    var dashboardContent = document.querySelector('.wpuf-dashboard-content.post');
+	
+	    if (noPublishedPostsByUser && dashboardContent) {
+        // If the current user has no published posts, insert custom text into .wpuf-dashboard-content.post
+        dashboardContent.innerHTML = '<p>So glad to have you here! Here is what to do next:</p><ol class="fw-bold"><li>Sit on a comfortable chair with your coffee (or tea) ready</li><li><a href="https://notbyai.fyi/app/?section=submit-post" class="text-decoration-underline">Start your first project</a>.</li></ol><p class="xs opacity-50 pt-5">Got questions? Learn more about the <a href="https://notbyai.fyi/app/instruction/" class="text-decoration-underline">approval process</a></p>';
+	    }
+	    const mydivclass = document.querySelector('.wpuf-dashboard-content');
+			if(mydivclass.classList.contains('post')) {
+			  document.getElementById('sky-with-no-ai').classList.add('opacity-100');
+			} 
+		});
+		</script>
 	</main><!-- #main -->
-
+	<?php
+		if (is_front_page() && is_user_logged_in()) { 
+			echo '<img id="sky-with-no-ai" class="position-fixed end-0 bottom-0 z-0 d-none d-lg-block" style="pointer-events: none;" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/sky-with-no-ai.svg" alt="">';
+		}
+	?>
 <?php
 get_footer();

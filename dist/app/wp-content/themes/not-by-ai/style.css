@@ -12,7 +12,8 @@
 }
 .wpuf-dashboard-navigation .wpuf-menu-item.dashboard,
 .wpuf-dashboard-navigation .wpuf-menu-item.billing-address,
-.wpuf-dashboard-navigation .wpuf-menu-item.edit-profile {
+.wpuf-dashboard-navigation .wpuf-menu-item.edit-profile,
+.wpuf-dashboard-navigation .wpuf-menu-item.subscription  {
 	display: none;
 }
 .wpuf-dashboard-navigation .wpuf-menu-item.submit-post {
@@ -84,7 +85,7 @@ body .wpuf-dashboard-container .wpuf-dashboard-content {
 	line-height: 1.1;
 	display: block;
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1.8rem;
 }
 .wpuf-dashboard-content.post::before {
   content: "Your Projects";
@@ -101,6 +102,7 @@ body .wpuf-dashboard-container .wpuf-dashboard-content {
 .wpuf-dashboard-content.billing-address::before {
   content: "Billing";
 }
+h1,
 .entry-content h1 {
 	font-size: 2.375rem;
 	font-weight: bold;
@@ -108,7 +110,17 @@ body .wpuf-dashboard-container .wpuf-dashboard-content {
 	line-height: 1.1;
 	display: block;
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
+}
+.page-template button, 
+.page-template input, 
+.page-template optgroup, 
+.page-template select, 
+.page-template textarea {
+	font-size: 1rem;
+}
+.wpuf-fields-inline {
+	width: auto !important;
 }
 body .wpuf-dashboard-container table.items-table .data-column:nth-child(2) span {
 	color: #000000 !important;
@@ -133,11 +145,14 @@ body .wpuf-dashboard-container table.items-table .data-column a.wpuf-posts-optio
 .wpuf-submit-button,
 .wpuf-submit button,
 .wpuf-submit input[type=submit],
-.wpuf-login-form input[type=submit] {
+.wpuf-login-form input[type=submit],
+.page-template button,
+.page-template input[type=submit],
+body input.wpuf-btn {
 	font-size: 1rem;
 	color: #FFFFFF;
 	width: auto !important;
-	background-color: #000000;
+	background-color: #000000 !important;
 	padding: 0.6rem 2.8rem;
 	border: 0;
 	border-radius: 6px;
@@ -156,7 +171,10 @@ body .wpuf-dashboard-container table.items-table .data-column a.wpuf-posts-optio
 .wpuf-submit input[type=submit]:active
 .wpuf-login-form input[type=submit]:hover,
 .wpuf-login-form input[type=submit]:focus,
-.wpuf-login-form input[type=submit]:active {
+.wpuf-login-form input[type=submit]:active,
+.page-template input[type=submit]:hover,
+.page-template input[type=submit]:focus,
+.page-template input[type=submit]:active {
 	color: #FFFFFF;
 	opacity: 1;
 	background-color: #333333;
@@ -164,9 +182,11 @@ body .wpuf-dashboard-container table.items-table .data-column a.wpuf-posts-optio
 .wpuf-login-form input[type=submit] {
 	width: 100% !important;
 }
-#wpuf-login-form a {
+#wpuf-login-form a,
+#registrationform a {
 	font-size: 13px;
 	text-decoration: underline;
+	opacity: 0.5;
 }
 .wpuf-label,
 .wpuf-fields {
@@ -201,16 +221,21 @@ body .wpuf-dashboard-container table.items-table td:first-child a {
 }
 body .wpuf-dashboard-container table.items-table th, body .wpuf-dashboard-container table.items-table td {
 	font-size: 15px;
+	padding: 16px 10px;
 }
 body .wpuf-dashboard-container .wpuf-dashboard-content .wpuf-fields select {
 	font-size: 16px;
 }
 body .wpuf-error,
 body .wpuf-success,
-body .wpuf-message {
+body .wpuf-message,
+body #wpuf-delete-msg {
 	margin: 10px 0px 20px;
 	padding: 6px 10px;
 	font-size: 0.8rem;
+}
+#wpuf-delete-msg span {
+	margin-top: 0;
 }
 .wpuf-user-avatar {
 	display: none;
@@ -220,4 +245,7 @@ main a {
 }
 #wpuf-rememberme {
 	display: inline-grid;
+}
+#sky-with-no-ai {
+	opacity: 0;
 }

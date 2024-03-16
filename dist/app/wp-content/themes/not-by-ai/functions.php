@@ -153,9 +153,9 @@ add_action( 'wp_enqueue_scripts', 'not_by_ai_scripts' );
  * 03092024
  */
 function nba_theme_enqueue_scripts() {
-    wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css' );
-    wp_enqueue_style( 'theme-style', 'https://notbyai.fyi/style.css' );
-    wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' );
+  wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css' );
+  wp_enqueue_style( 'theme-style', 'https://notbyai.fyi/style.css' );
+  wp_enqueue_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' );
 }
 add_action( 'wp_enqueue_scripts', 'nba_theme_enqueue_scripts' ); 
 
@@ -166,10 +166,19 @@ function change_post_labels( $args ) {
     if( null === $label ) {
       continue;
     }
-    $args->{$key} = str_replace( [ __( 'Posts' ), __( 'Post' ) ], __( 'Home' ), $label );
+    $args->{$key} = str_replace( [ __( 'Posts' ), __( 'Post' ) ], __( 'Project' ), $label );
   }
   return $args;
 }
+function redirect_non_logged_in_users() {
+  if (is_front_page() && !is_user_logged_in()) {
+    $signup_page_url = site_url('/signup');
+    
+    wp_redirect($signup_page_url);
+    exit;
+  }
+}
+add_action('template_redirect', 'redirect_non_logged_in_users');
 
 
 /**
