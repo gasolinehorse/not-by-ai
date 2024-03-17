@@ -23,6 +23,7 @@ get_header();
 		
 				endwhile;
 				?>
+				<p class="pt-2 pt-lg-5 small text-lg-end pre-login">Already have an account? <a href="https://notbyai.fyi/app/login/" class="text-decoration-underline">Log in</a>.</p>
 	    </div>
 	  </div>
 	</div>

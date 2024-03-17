@@ -14,14 +14,26 @@
 
 get_header();
 ?>
+<div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="backdrop-filter: blur(12px); background-color: rgba(255, 255, 255); z-index: 1056;"><span class="h4"><div style="opacity: 0.03;"><lottie-player src="/img/loader.json" background="transparent" speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div></span></div>
+<script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script type="text/javascript">
+  window.onload = function() {
+    var loader = document.getElementById("loader");
+    loader.style.opacity = '0';
+    setTimeout(function() {
+      loader.style.display = "none";
+    }, 500);
+  };
+</script>
 	<header class="entry-header d-flex justify-content-between align-items-center py-3 px-2 px-lg-5">
-		<a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a>
+		<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">beta</div></div>
 		<div class="dropdown d-flex align-items-center">
 		  <div class="pe-3">
 			  <a href="https://notbyai.fyi/app/?section=submit-post" class="for-business-link rounded-2">Add a Project</a>
 			  <ul class="dropdown-menu mt-3" style="border-color: #eae9e9; box-shadow: 0px 5px 12px #eae9e9;">
-			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=edit-profile">Profile</a></li>
-			    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
+			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/edit-profile/">Profile</a></li>
+			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
+			    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=invoices">Invoice</a></li>
 			    <li class="border-top pt-1"><a class="dropdown-item xs" href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
 			  </ul>
 		  </div>
@@ -69,7 +81,10 @@ get_header();
 	
 	    if (noPublishedPostsByUser && dashboardContent) {
         // If the current user has no published posts, insert custom text into .wpuf-dashboard-content.post
-        dashboardContent.innerHTML = '<p>So glad to have you here! Here is what to do next:</p><ol class="fw-bold"><li>Sit on a comfortable chair with your coffee (or tea) ready</li><li><a href="https://notbyai.fyi/app/?section=submit-post" class="text-decoration-underline">Start your first project</a>.</li></ol><p class="xs opacity-50 pt-5">Got questions? Learn more about the <a href="https://notbyai.fyi/app/instruction/" class="text-decoration-underline">approval process</a></p>';
+        dashboardContent.innerHTML = '<p>So glad to have you here! Here is what to do next:</p><ol class="fw-bold"><li>Sit on a comfortable chair</li><li><a href="https://notbyai.fyi/app/?section=submit-post" class="text-decoration-underline">Start your first project</a> to get your Creator Page</li><li>Share your Creator Page with your audience <a class="text-decoration-underline xs opacity-50 fw-normal ms-1" href="https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php">Learn how</a></li></ol><p class="xs opacity-50 pt-5">Got questions? Learn more about the <a href="https://notbyai.fyi/app/instruction/" class="text-decoration-underline">approval process</a></p>';
+        var style = document.createElement('style');
+				style.innerHTML = '.wpuf-dashboard-content.post::after { content: " "; }';
+				document.head.appendChild(style);
 	    }
 	    const mydivclass = document.querySelector('.wpuf-dashboard-content');
 			if(mydivclass.classList.contains('post')) {

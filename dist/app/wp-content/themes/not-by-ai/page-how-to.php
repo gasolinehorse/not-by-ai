@@ -74,7 +74,7 @@ get_header();
 							<div class="d-flex">
 	              <div class="xs fw-bold pe-2">01</div>
 	              <div>
-		              <h2 class="h4 pb-4 pb-lg-0">Fill out your project details and submit your project for review.</h2>
+		              <h2 class="h4 pb-4 pb-lg-0">Fill out your project details and submit for review.</h2>
 		              <div class="h5 xs opacity-50">Human review wait time: ~5&nbsp;days</div>
 		              <a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/app/?section=submit-post">Submit Your Project</a>
 		            </div>
@@ -85,9 +85,9 @@ get_header();
 							<div class="d-flex">
 	              <div class="xs fw-bold pe-2">02</div>
 	              <div>
-	              	<h2 class="h4 pb-4 pb-lg-0">If you haven't, go ahead and download the Not&nbsp;By&nbsp;AI badges and add them to your content.</h2>
+	              	<h2 class="h4 pb-4 pb-lg-0">If you haven't, download the Not&nbsp;By&nbsp;AI badges and add to your content.</h2>
 	              	<a class="for-business-link rounded-2 mt-2" target="_blank" href="https://notbyai.fyi/Not-By-AI.zip">Download the Not By AI Badges <img src="/img/download-not-by-ai-badge.svg" alt=""></a>
-	              	<a class="for-business-link rounded-2 mt-3" href="https://notbyai.fyi/help/#how-to">How to Add the Not By AI Badges</a>
+	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/help/#how-to">How to Add the Not By AI Badges</a>
 	              </div>
 	            </div>
 						</div>
@@ -96,8 +96,9 @@ get_header();
 							<div class="d-flex">
 	              <div class="xs fw-bold pe-2">03</div>
 	              <div>
-	              	<h2 class="h4 pb-4 pb-lg-0">Upon approval, you will receive a live link to your project's Creator Page. Link the badges to it or show this link near your content if linking is not possible.</h2>
+	              	<h2 class="h4 pb-4 pb-lg-0">Upon approval, you will receive a link to your project's Creator Page. Link the badges to it or show it near your content if linking is not possible.</h2>
 	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/app/">Check My Project Status</a>
+	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php">What to Do With Creator Page</a>
 	              </div>
 	            </div>
 						</div>

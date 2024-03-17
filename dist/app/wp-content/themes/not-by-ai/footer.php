@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('body .wpuf-dashboard-container table.items-table tr td:nth-child(2)').forEach(function(element) {
   element.innerHTML = element.innerHTML.replace(/\|/g, '<span class="d-none">|</span>');
 });
+document.querySelectorAll('body .wpuf-dashboard-container table.items-table th:first-child').forEach(function(element) {
+  element.innerHTML = 'Creator Page';
+});
 document.querySelectorAll('body .wpuf-dashboard-container table.items-table th:last-child').forEach(function(element) {
   element.innerHTML = 'Edit';
 });
@@ -40,7 +43,7 @@ if (targetUl) {
   targetUl.appendChild(newLi1);
   targetUl.appendChild(newLi2);
 }
-var link = document.querySelector('.wpuf-menu-item.post.active a[href="https://notbyai.fyi/app/?section=post"]');
+var link = document.querySelector('.wpuf-menu-item.post a[href="https://notbyai.fyi/app/?section=post"]');
 if (link) {
   link.textContent = 'Home';
 }
