@@ -459,12 +459,5 @@ include 'top-nav.php';
       document.getElementById("producer-badge").onclick = function() {
         document.getElementById("badgeType").value = "Producer";
       };
-
-      posthog.onFeatureFlags(() => {
-        if (posthog.getFeatureFlag('btn-text') === 'download') {
-          document.getElementById('not-by-ai-badges-download-no-cost').value = "Download My Badges";
-          document.getElementById('not-by-ai-badges-download-with-donation-no-cp').textContent = "Download My Badges";
-        }
-      });
     </script>
     <?php include 'footer.php'; ?>
