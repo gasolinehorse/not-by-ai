@@ -2,13 +2,14 @@
 get_header();
 ?>
 <header class="entry-header d-flex justify-content-between align-items-center py-3 px-2 px-lg-5">
-	<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">beta</div></div>
+	<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">alpha</div></div>
 	<div class="dropdown d-flex align-items-center">
 	  <div class="pe-3">
-		  <a href="https://notbyai.fyi/app/?section=submit-post" class="for-business-link rounded-2">Add a Project</a>
+		  <a href="https://notbyai.fyi/app/creator-page-application/" class="for-business-link rounded-2">Add a Project</a>
 		  <ul class="dropdown-menu mt-3" style="border-color: #eae9e9; box-shadow: 0px 5px 12px #eae9e9;">
 		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/edit-profile/">Profile</a></li>
 		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
+		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=subscription">Subscription</a></li>
 		    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=invoices">Invoice</a></li>
 		    <li class="border-top pt-1"><a class="dropdown-item xs" href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
 		  </ul>

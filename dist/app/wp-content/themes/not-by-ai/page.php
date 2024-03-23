@@ -26,13 +26,14 @@ get_header();
   };
 </script>
 	<header class="entry-header d-flex justify-content-between align-items-center py-3 px-2 px-lg-5">
-		<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">beta</div></div>
+		<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">alpha</div></div>
 		<div class="dropdown d-flex align-items-center">
 		  <div class="pe-3">
-			  <a href="https://notbyai.fyi/app/?section=submit-post" class="for-business-link rounded-2">Add a Project</a>
+			  <a href="https://notbyai.fyi/app/creator-page-application/" class="for-business-link rounded-2">Add a Project</a>
 			  <ul class="dropdown-menu mt-3" style="border-color: #eae9e9; box-shadow: 0px 5px 12px #eae9e9;">
 			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/edit-profile/">Profile</a></li>
 			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
+			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=subscription">Subscription</a></li>
 			    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=invoices">Invoice</a></li>
 			    <li class="border-top pt-1"><a class="dropdown-item xs" href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
 			  </ul>
@@ -81,7 +82,7 @@ get_header();
 	
 	    if (noPublishedPostsByUser && dashboardContent) {
         // If the current user has no published posts, insert custom text into .wpuf-dashboard-content.post
-        dashboardContent.innerHTML = '<p>So glad to have you here! Here is what to do next:</p><ol class="fw-bold"><li>Sit on a comfortable chair</li><li><a href="https://notbyai.fyi/app/?section=submit-post" class="text-decoration-underline">Start your first project</a> to get your Creator Page</li><li>Share your Creator Page with your audience <a class="text-decoration-underline xs opacity-50 fw-normal ms-1" href="https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php">Learn how</a></li></ol><p class="xs opacity-50 pt-5">Got questions? Learn more about the <a href="https://notbyai.fyi/app/instruction/" class="text-decoration-underline">approval process</a></p>';
+        dashboardContent.innerHTML = '<p>So glad to have you here! Here is what to do next:</p><ol class="fw-bold"><li><strike>Sit on a comfortable chair</strike></li><li><a href="https://notbyai.fyi/app/?section=submit-post" class="text-decoration-underline">Start your first project</a> to get your Creator Page</li><li>Add the <a href="https://notbyai.fyi/Not-By-AI.zip" class="text-decoration-underline">Not By AI Badges</a> to your content</li><li>Share your Creator Page with your audience <a class="text-decoration-underline xs opacity-50 fw-normal ms-1" href="https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php">Learn how</a></li></ol><p class="xs opacity-50 pt-5">Got questions? Learn more about the <a href="https://notbyai.fyi/app/instruction/" class="text-decoration-underline">approval process</a></p>';
         var style = document.createElement('style');
 				style.innerHTML = '.wpuf-dashboard-content.post::after { content: " "; }';
 				document.head.appendChild(style);
@@ -90,6 +91,10 @@ get_header();
 			if(mydivclass.classList.contains('post')) {
 			  document.getElementById('sky-with-no-ai').classList.add('opacity-100');
 			} 
+			const form = document.querySelector('.submit-post form');
+		  if (form) {
+		    window.location.href = 'https://notbyai.fyi/app/creator-page-application';
+		  }
 		});
 		</script>
 	</main><!-- #main -->

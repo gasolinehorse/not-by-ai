@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('body .wpuf-dashboard-container table.items-table tr td:nth-child(2)').forEach(function(element) {
   element.innerHTML = element.innerHTML.replace(/\|/g, '<span class="d-none">|</span>');
 });
-document.querySelectorAll('body .wpuf-dashboard-container table.items-table th:first-child').forEach(function(element) {
+document.querySelectorAll('body .wpuf-dashboard-container table.items-table.post th:first-child').forEach(function(element) {
   element.innerHTML = 'Creator Page';
 });
-document.querySelectorAll('body .wpuf-dashboard-container table.items-table th:last-child').forEach(function(element) {
+document.querySelectorAll('body .wpuf-dashboard-container table.items-table.post th:last-child').forEach(function(element) {
   element.innerHTML = 'Edit';
 });
-document.querySelectorAll('body .wpuf-dashboard-container table.items-table td:last-child').forEach(function(element) {
+document.querySelectorAll('body .wpuf-dashboard-container table.items-table.post td:last-child').forEach(function(element) {
   if(element.querySelector('svg') === null) {
   	element.innerHTML += '<a class="xs text-decoration-underline opacity-50" href="mailto:help@notbyai.fyi?subject=Edit Request&body=Please include 1) the title of the project you would like to edit, 2) the edits you would like to submit for approval, and 3) your account email.">Send Edit Request</a>';
   }
@@ -37,7 +37,7 @@ newLi1.className = "wpuf-menu-item instruction";
 newLi1.innerHTML = '<a href="https://notbyai.fyi/app/instruction">How To</a>';
 var newLi2 = document.createElement("li");
 newLi2.className = "wpuf-menu-item download";
-newLi2.innerHTML = '<div class="pe-2"><a class="for-business-link rounded-2 mt-4" href="https://notbyai.fyi/Not-By-AI.zip">Download the Badges</a></div>';
+newLi2.innerHTML = '<div class="pe-2"><a class="for-business-link rounded-2 mt-4" href="https://notbyai.fyi/Not-By-AI.zip">Download the&nbsp;Badges</a></div>';
 var targetUl = document.querySelector(".wpuf-dashboard-navigation ul");
 if (targetUl) {
   targetUl.appendChild(newLi1);
@@ -79,8 +79,21 @@ document.querySelectorAll('body .wpuf-dashboard-container table.items-table .dat
 	if (link.textContent.trim() === 'Live') {
     link.innerHTML = '<span style="width:8px;height:8px;" class="me-2 rounded-circle bg-success d-inline-block"></span> Live';
   }
-  	if (link.textContent.trim() === 'Awaiting Approval') {
+  if (link.textContent.trim() === 'Awaiting Approval') {
     link.innerHTML = '<span style="width:8px;height:8px;" class="me-2 rounded-circle bg-warning d-inline-block"></span> Awaiting Approval';
+  }
+});
+var hint = document.querySelectorAll('body .wpuf-info');
+hint.forEach(function(hint) {
+  if (hint.textContent.trim() === 'Post Limit Exceeded for your purchased subscription pack.') {
+    hint.innerHTML = '<p style="font-size:16px;">If you would like to set up another Creator Page, please start a new subscription.</p><a class="btn" href="https://notbyai.fyi/app/payment-for-new-project/">Get a New Subscription</a>';
+    hint.style.backgroundColor = 'transparent';
+    hint.style.border = 'none';
+  }
+  if (hint.textContent.trim() === 'You must purchase a subscription package before posting') {
+    hint.innerHTML = '<p style="font-size:16px;">You will need a subscription before you can submit. Whenever you are ready!</p><a class="btn" href="https://notbyai.fyi/app/payment-for-new-project/">Get a Subscription</a>';
+    hint.style.backgroundColor = 'transparent';
+    hint.style.border = 'none';
   }
 });
 });

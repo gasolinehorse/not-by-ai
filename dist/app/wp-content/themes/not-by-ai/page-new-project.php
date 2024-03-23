@@ -1,4 +1,4 @@
-<?php /* Template Name: How To */
+<?php /* Template Name: Payment for New Project */
 echo '<link rel="stylesheet" href="https://notbyai.fyi/app/wp-content/plugins/wp-user-frontend/assets/css/frontend-forms.css?ver=4.0.6">';
 get_header();
 ?>
@@ -9,10 +9,8 @@ get_header();
 		  <div class="pe-3">
 			  <a href="https://notbyai.fyi/app/creator-page-application/" class="for-business-link rounded-2">Add a Project</a>
 			  <ul class="dropdown-menu mt-3" style="border-color: #eae9e9; box-shadow: 0px 5px 12px #eae9e9;">
-			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/edit-profile/">Profile</a></li>
-			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
-			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=subscription">Subscription</a></li>
-			    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=invoices">Invoice</a></li>
+			    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=edit-profile">Profile</a></li>
+			    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
 			    <li class="border-top pt-1"><a class="dropdown-item xs" href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
 			  </ul>
 		  </div>
@@ -57,7 +55,7 @@ get_header();
 	            >Submit a Project</a
 	          >
 	        </li>
-	        <li class="wpuf-menu-item instruction active">
+	        <li class="wpuf-menu-item instruction">
 	          <a href="https://notbyai.fyi/app/instruction">How To</a>
 	        </li>
 	        <li class="wpuf-menu-item download">
@@ -67,53 +65,81 @@ get_header();
 	    </nav>
 	
 	    <div class="wpuf-dashboard-content">
-				<h1 class="pb-3">How To</h1>
-				<p class="mb-5">Follow the three easy steps to add the Not By AI badges to your human-created content.</p>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-4">
-							<img class="img-fluid mb-4" src="/img/human-no-ai-review-verification.gif" alt="">
-							<div class="d-flex">
-	              <div class="xs fw-bold pe-2">01</div>
-	              <div>
-		              <h2 class="h4 pb-4 pb-lg-0">Fill out your project details and submit for review.</h2>
-		              <div class="h5 xs opacity-50">Human review wait time: ~5&nbsp;days</div>
-		              <a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/app/?section=submit-post">Submit Your Project</a>
-		            </div>
-	            </div>
-						</div>
-						<div class="col-sm-4">
-							<img class="img-fluid mb-4" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/download-the-badges.png" alt="">
-							<div class="d-flex">
-	              <div class="xs fw-bold pe-2">02</div>
-	              <div>
-	              	<h2 class="h4 pb-4 pb-lg-0">If you haven't, download the Not&nbsp;By&nbsp;AI badges and add to your content.</h2>
-	              	<a class="for-business-link rounded-2 mt-2" target="_blank" href="https://notbyai.fyi/Not-By-AI.zip">Download the Not By AI Badges <img src="/img/download-not-by-ai-badge.svg" alt=""></a>
-	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/help/#how-to">How to Add the Not By AI Badges</a>
-	              </div>
-	            </div>
-						</div>
-						<div class="col-sm-4">
-							<img class="img-fluid mb-4" src="https://notbyai.fyi/img/not-by-ai-short-reel.gif" alt="">
-							<div class="d-flex">
-	              <div class="xs fw-bold pe-2">03</div>
-	              <div>
-	              	<h2 class="h4 pb-4 pb-lg-0">Upon approval, you will receive a link to your project's Creator Page. Link the badges to it or show it near your content if linking is not possible.</h2>
-	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/app/">Check My Project Status</a>
-	              	<a class="for-business-link rounded-2 mt-2" href="https://notbyai.fyi/help/how-do-i-link-my-not-by-ai-badge.php">What to Do With Creator Page</a>
-	              </div>
-	            </div>
-						</div>
-					</div>
-					<div class="border-top mt-5">
-						<p class="mt-4">Most importantly, enjoy this process. You are now a part of something rare and organic in the AI world.</p>
-					</div>
-				</div>
-	      <div class="wpuf-pagination"></div>
+		    <h1>Submit a Project</h1>
+		    <p class="mb-0">Get a Creator Page to Show "Behind-the-Scenes" Content Creation Stories.</p>
+				<div class="row justify-content-center gx-4 text-start">
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="opacity: 0;">
+            <div class="bg-white rounded mt-4 border" style="overflow: clip;">
+              <div class="py-3 px-3 px-md-4">
+                <div class="h3 mt-3 mb-1">Individual</div>
+                <p class="small mb-0">For individuals or teams looking to grow.</p>
+              </div>
+              <div class="bg-light py-3 px-3 px-md-4">
+                <div class="d-flex align-items-end mb-3">
+                  <div class="display-2 mt-2 me-2">$5.00</div>
+                  <p class="xs mb-2 opacity-50">Per month</p>
+                </div>
+                <a href="https://notbyai.fyi/app/payment/?action=wpuf_pay&type=pack&pack_id=134" class="btn w-100">Get Started</a>
+                <ul class="mt-4 ul--checks">
+                  <li class="small">A Creator Page</li>
+                  <li class="small">All three badges</li>
+                  <li class="small">Badges available in dark and light themes</li>
+                  <li class="small">Badges available in PNG, SVG, and EPS</li>
+                  <li class="small">Badges available in multiple languages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.1s;">
+            <div class="bg-white rounded mt-4 border" style="overflow: clip;">
+              <div class="py-3 px-3 px-md-4">
+                <div class="h3 mt-3 mb-1">Business</div>
+                <p class="small mb-0">For startups and businesses with revenue under 1 million in the last 12 months.</p>
+              </div>
+              <div class="bg-light py-3 px-3 px-md-4">
+                <div class="d-flex align-items-end mb-3">
+                  <div class="display-2 mt-2 me-2">$7.00</div>
+                  <p class="xs mb-2 opacity-50">Per month</p>
+                </div>
+                <a href="https://notbyai.fyi/app/payment/?action=wpuf_pay&type=pack&pack_id=132" class="btn w-100">Get Started</a>
+                <ul class="mt-4 ul--checks">
+                  <li class="small">A Creator Page</li>
+                  <li class="small">All three badges</li>
+                  <li class="small">Badges available in dark and light themes</li>
+                  <li class="small">Badges available in PNG, SVG, and EPS</li>
+                  <li class="small">Badges available in multiple languages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 pb-4 pt-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.2s;">
+            <div class="bg-white rounded mt-4 border" style="overflow: clip;">
+              <div class="py-3 px-3 px-md-4">
+                <div class="h3 mt-3 mb-1">Enterprise</div>
+                <p class="small mb-0">For larger companies and organizations with revenue over 1 million in the last 12 months.</p>
+              </div>
+              <div class="bg-light py-3 px-3 px-md-4">
+                <div class="d-flex align-items-end mb-3">
+                  <div class="display-2 mt-2 me-2">$12.00</div>
+                  <p class="xs mb-2 opacity-50">Per month</p>
+                </div>
+                <a href="https://notbyai.fyi/app/payment/?action=wpuf_pay&type=pack&pack_id=136" class="btn w-100">Get Started</a>
+                <ul class="mt-4 ul--checks">
+                  <li class="small">A Creator Page</li>
+                  <li class="small">All three badges</li>
+                  <li class="small">Badges available in dark and light themes</li>
+                  <li class="small">Badges available in PNG, SVG, and EPS</li>
+                  <li class="small">Badges available in multiple languages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 	    </div>
 	  </div>
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
 <footer class="entry-footer">
 	<?php not_by_ai_entry_footer(); ?>
+	<?php wp_footer(); ?>
 </footer><!-- .entry-footer -->

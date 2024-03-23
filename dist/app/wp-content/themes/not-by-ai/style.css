@@ -46,7 +46,7 @@ body .wpuf-dashboard-navigation .wpuf-menu-item.active a {
 body .wpuf-dashboard-container .wpuf-dashboard-navigation a,
 .wpuf-form label,
 body ul.wpuf-form.form-label-above li .wpuf-label {
-	font-size: 0.86rem;
+	font-size: 0.84rem;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 	font-weight: 500;
 }
@@ -231,6 +231,7 @@ body ul.wpuf-form.form-label-above li .wpuf-label {
 .wpuf-help {
 	font-size: 13px;
 	opacity: 0.5;
+	display: block;
 }
 img.wpuf-eye {
 	right: 6px;
@@ -395,4 +396,29 @@ body .entry-content ul.wpuf_packs .wpuf-sub-desciption, body ul.wpuf_packs .wpuf
 }
 .wpuf-sub-desciption {
 	order: 3;
+}
+.entry-content i {
+	font-style: normal;
+}
+#wpuf_cancel_subscription {
+	margin-bottom: 4rem;
+}
+#forms.application input, 
+#forms.application textarea {
+  background-color: #FFFFFF;
+  padding: 0.3rem 0.5rem;
+  font-size:0.8125rem
+}
+#forms.application form input[type=checkbox] {
+	float: left;
+}
+.wpuf-checkbox-block {
+	display: block;
+	clear: both;
+}
+.required {
+	color: #c80000;
+}
+.wpuf-radio-inline {
+	padding-right: 20px;
 }

@@ -1,14 +1,24 @@
 <?php /* Template Name: Subscription */
 get_header();
 ?>
+<style>
+	.entry-content p,
+	.entry-content #wpuf_cancel_subscription .btn {
+		display: none;
+	}
+	.entry-content form p {
+		display: block;
+	}
+</style>
 <header class="entry-header d-flex justify-content-between align-items-center py-3 px-2 px-lg-5">
-	<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">beta</div></div>
+	<div class="d-flex align-items-end"><a href="https://notbyai.fyi/app/"><img width="128.5" height="26.77" src="https://notbyai.fyi/img/not-by-ai.svg" alt="Not By AI"></a><div class="xs opacity-50 ms-2 fst-italic" style="margin-bottom: 2px;">alpha</div></div>
 	<div class="dropdown d-flex align-items-center">
 	  <div class="pe-3">
-		  <a href="https://notbyai.fyi/app/?section=submit-post" class="for-business-link rounded-2">Add a Project</a>
+		  <a href="https://notbyai.fyi/app/creator-page-application/" class="for-business-link rounded-2">Add a Project</a>
 		  <ul class="dropdown-menu mt-3" style="border-color: #eae9e9; box-shadow: 0px 5px 12px #eae9e9;">
 		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/edit-profile/">Profile</a></li>
 		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=billing-address">Billing</a></li>
+		    <li><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=subscription">Subscription</a></li>
 		    <li class="pb-2"><a class="dropdown-item xs" href="https://notbyai.fyi/app/?section=invoices">Invoice</a></li>
 		    <li class="border-top pt-1"><a class="dropdown-item xs" href="<?php echo wp_logout_url(); ?>">Sign Out</a></li>
 		  </ul>
@@ -24,18 +34,61 @@ get_header();
 	</div>
 </header>
 <main class="position-relative z-1">
-	<div class="container">
-	  <div class="row justify-content-center">
-		  <div class="col-sm-10 col-xl-8 text-center">
-		    <h1 class="h2 mb-2 pt-3 pt-lg-5 pre-login text-center">Choose the Plan That's Right for You</h1>
+	<div class="entry-content">
+	  <div class="wpuf-dashboard-container">
+	    <nav class="wpuf-dashboard-navigation">
+	      <ul>
+	        <li class="wpuf-menu-item dashboard">
+	          <a href="https://notbyai.fyi/app/?section=dashboard">Dashboard</a>
+	        </li>
+	        <li class="wpuf-menu-item post">
+	          <a href="https://notbyai.fyi/app/?section=post">Home</a>
+	        </li>
+	        <li class="wpuf-menu-item edit-profile">
+	          <a href="https://notbyai.fyi/app/?section=edit-profile"
+	            >Edit Profile</a
+	          >
+	        </li>
+	        <li class="wpuf-menu-item subscription">
+	          <a href="https://notbyai.fyi/app/?section=subscription"
+	            >Subscription</a
+	          >
+	        </li>
+	        <li class="wpuf-menu-item billing-address">
+	          <a href="https://notbyai.fyi/app/?section=billing-address"
+	            >Billing Address</a
+	          >
+	        </li>
+	        <li class="wpuf-menu-item submit-post">
+	          <a href="https://notbyai.fyi/app/creator-page-application/"
+	            >Submit a Project</a
+	          >
+	        </li>
+	        <li class="wpuf-menu-item instruction">
+	          <a href="https://notbyai.fyi/app/instruction">How To</a>
+	        </li>
+	        <li class="wpuf-menu-item download">
+	        	<div class="pe-2"><a class="for-business-link rounded-2 mt-4" href="https://notbyai.fyi/Not-By-AI.zip">Download the&nbsp;Badges</a></div>
+	        </li>
+	      </ul>
+	    </nav>
+	
+	    <div class="wpuf-dashboard-content pb-5">
+		    <h1><?php single_post_title(); ?></h1>
 				<?php
 				while ( have_posts() ) :
 					the_post();
 		
 					get_template_part( 'template-parts/content', 'page' );
 		
-				endwhile;
+					// If comments are open or we have at least one comment, load up the comment template.
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
+		
+				endwhile; // End of the loop.
 				?>
+	      <div class="wpuf-pagination"></div>
 	    </div>
 	  </div>
 	</div>
