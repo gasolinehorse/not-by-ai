@@ -50,7 +50,8 @@
           <div class="col d-flex justify-content-center justify-content-md-end text-center text-md-end">
             <a href="https://notbyai.fyi/license" class="display-6 me-4 opacity-50">License</a>
             <a href="https://notbyai.fyi/privacy-policy" class="display-6 me-4 opacity-50">Privacy Policy</a>
-            <a href="https://notbyai.fyi/terms-and-conditions" class="display-6 opacity-50">Terms & Conditions</a>
+            <a href="https://notbyai.fyi/terms-and-conditions" class="display-6 me-4 opacity-50">Terms & Conditions</a>
+            <a href="#" class="termly-display-preferences display-6 opacity-50">Consent Preferences</a>
           </div>
         </div>
       </div>
@@ -84,5 +85,9 @@
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script
+    type="text/javascript"
+    src="https://app.termly.io/resource-blocker/437e3dac-e05c-4a14-9d34-7e8adfb7475f?autoBlock=on"
+  ></script>
 </body>
 </html>
