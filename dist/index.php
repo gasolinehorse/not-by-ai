@@ -345,12 +345,6 @@ include 'top-nav.php';
       </div>
     </div>
     <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-      }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script type="text/javascript">
       var personalRadio = document.getElementById("usage1");
       var commercialRadio = document.getElementById("usage2");
       var personalForm = document.getElementById("personal-form");
@@ -384,10 +378,25 @@ include 'top-nav.php';
         }
       });
 
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
       var trafficSource = document.referrer;
       if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
         document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>If You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
         document.getElementById("tagline").style.zoom = "90%";
+        
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        document.head.appendChild(script);
+        
+        window.googleTranslateElementInit = function() {
+          new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+        };
       }
 
       document.addEventListener('DOMContentLoaded', function() {
