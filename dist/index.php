@@ -390,15 +390,6 @@ include 'top-nav.php';
         document.getElementById("tagline").style.zoom = "90%";
       }
 
-      function hide() {
-        var x = document.getElementById("not-by-ai-inspirations");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
-      }
-
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('img.no-download').forEach(function(img) {
           img.addEventListener('contextmenu', function(e) {
