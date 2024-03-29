@@ -1,7 +1,7 @@
     <div class="border-top text-start pt-3">
       <div class="container pt-3">
         <div class="row mt-3">
-          <div class="col-lg-4 text-center text-md-start pb-3">
+          <div class="col-lg-4 text-center text-md-start pb-5 pb-lg-3">
             <img class="mb-3" src="/img/not-by-ai-reversed.svg" alt="Not By AI">
             <div class="display-2 lh-sm pb-2 text-white">Join the Not&nbsp;By&nbsp;AI Movement&nbsp;Today</div>
             <p class="text-white" style="font-size: 1.3125rem;">With a badge, we empower humans to create authentic content.</p>
