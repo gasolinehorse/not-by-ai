@@ -44,14 +44,14 @@
           </div>
         </div>
         <div class="row flex-column flex-md-row align-content-between pt-4 pb-5">
-          <div class="col">
-            <div class="display-6 text-center text-md-start opacity-50 pb-2">Not By AI © 2024 All rights reserved.</div>
+          <div class="col-md-3 col-lg-4">
+            <div class="display-6 mt-1 text-center text-md-start opacity-50 pb-2">Not By AI © 2024 All rights reserved.</div>
           </div>
-          <div class="col d-flex justify-content-center justify-content-md-end text-center text-md-end">
+          <div class="col justify-content-center justify-content-md-end text-center text-md-end">
             <a href="https://notbyai.fyi/license" class="display-6 me-4 opacity-50">License</a>
-            <a href="https://notbyai.fyi/privacy-policy" class="display-6 me-4 opacity-50">Privacy Policy</a>
-            <a href="https://notbyai.fyi/terms-and-conditions" class="display-6 me-4 opacity-50">Terms & Conditions</a>
-            <a href="#" class="termly-display-preferences display-6 opacity-50">Consent Preferences</a>
+            <a href="https://notbyai.fyi/privacy-policy" class="display-6 me-4 opacity-50">Privacy&nbsp;Policy</a>
+            <a href="https://notbyai.fyi/terms-and-conditions" class="display-6 me-4 opacity-50">Terms&nbsp;&&nbsp;Conditions</a>
+            <a href="#" class="termly-display-preferences display-6 opacity-50">Consent&nbsp;Preferences</a>
           </div>
         </div>
       </div>
