@@ -140,7 +140,7 @@ include 'top-nav.php';
       <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-5">
         <nav id="mobile-top-bar" class="d-none d-sm-none position-fixed top-0 start-0 end-0 z-3 bg-white border-bottom py-2 px-4 w-100">
           <div class="me-auto"><img class="img-fluid" width="100" src="/img/not-by-ai.svg" alt="Not By AI"></div>
-          <div><span class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></div>
+          <div><span id="mobile-top-bar__download" class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></div>
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
@@ -458,6 +458,12 @@ include 'top-nav.php';
       };
       document.getElementById("producer-badge").onclick = function() {
         document.getElementById("badgeType").value = "Producer";
+      };
+      document.getElementById("mobile-top-bar__download").onclick = function() {
+        document.getElementById("badgeType").value = "Unknown (via mobile top bar download)";
+      };
+      document.getElementById("side-download").onclick = function() {
+        document.getElementById("badgeType").value = "Unknown (via desktop side download)";
       };
     </script>
     <?php include 'footer.php'; ?>
