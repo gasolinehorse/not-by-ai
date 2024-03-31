@@ -412,7 +412,7 @@ only screen and (min-resolution: 2dppx) {
 }
 .blur-placeholder {
 	filter: blur(7px);
-	opacity: 0.5;
+	opacity: 0.2;
 	transition: all 0.2s ease;
 }
 form label {
