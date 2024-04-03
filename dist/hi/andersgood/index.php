@@ -35,8 +35,8 @@ include '../../top-nav.php';
                 <h3 class="display-3 pb-3">SWEETGOOD affirms that the applicable content of anderGOOD is majorly or entirely created by one or more humans. It adheres to the <a href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90% Rule</a> and has undergone human review.<sup>1</sup></h3>
               </div>
             </div>
-            <h5 class="d-inline">Applicable badge(s):</h5>
-            <img class="ps-3" src="/img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI">
+            <h5 class="d-sm-inline mb-3">Applicable badge(s):</h5>
+            <img class="ms-3 my-3 my-sm-0 d-block d-sm-inline-block" src="/img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI">
           </section>
           <section>
             <h4 class="h3 pt-4 pt-md-5">About anderGOOD</h4>
@@ -98,7 +98,7 @@ include '../../top-nav.php';
                 </div>
                 <div class="pb-3 pt-3">
                   <div class="xs opacity-50 lh-sm">
-                    A Not By AI Creation since 02/22/2024
+                    A Not By AI Project since 02/22/2024
                   </div>
                 </div>
               </div>

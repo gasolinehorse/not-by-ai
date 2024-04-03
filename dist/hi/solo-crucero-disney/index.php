@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Luxonauta | Not By AI';
+$pageTitle = 'Solo Crucero Disney | Not By AI';
 $pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
 include '../../header.php';
 include '../../top-nav.php';
@@ -9,17 +9,17 @@ include '../../top-nav.php';
         <div class="col-md-11 col-xl-8 pt-1">
           <div class="row position-relative z-1">
             <div class="col">
-              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Creations <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Luxonauta</small>
+              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Creations <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Solo Crucero Disney</small>
             </div>
           </div>
           <div class="row justify-content-start pt-3 pb-2">
             <div class="col-auto">
-              <img width="95" class="border rounded img-fluid position-relative z-1" src="img/logo.png" alt="logo">
+              <img width="95" class="border rounded img-fluid position-relative z-1 py-2 bg-white" src="img/logo.png" alt="logo">
             </div>
             <div class="col-auto">
               <h1 class="h5 mt-1 mb-0 ls-normal" style="letter-spacing: 0;">Not By AI - Creator Profile</h1>
-              <h2 class="display-2 my-0 lh-sm" style="background-color: #f9f8f7; box-shadow: #f9f8f7 10px 0px 40px 40px;">Luxonauta <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="#007CE4" fill-rule="evenodd" d="m9.545 18.48-1.45.885a1.781 1.781 0 0 1-2.616-.952l-.543-1.61a.871.871 0 0 0-.695-.584l-1.68-.254a1.782 1.782 0 0 1-1.392-2.412l.62-1.582a.871.871 0 0 0-.158-.894L.507 9.803A1.782 1.782 0 0 1 .991 7.06l1.492-.814a.872.872 0 0 0 .454-.786l-.042-1.699a1.782 1.782 0 0 1 2.133-1.79l1.666.336c.32.065.65-.055.853-.31L8.607.67a1.782 1.782 0 0 1 2.784 0l1.06 1.328a.872.872 0 0 0 .854.31l1.665-.335a1.781 1.781 0 0 1 2.133 1.79l-.041 1.698a.872.872 0 0 0 .454.786l1.492.814a1.782 1.782 0 0 1 .483 2.742l-1.123 1.274a.871.871 0 0 0-.158.894l.62 1.582a1.782 1.782 0 0 1-1.392 2.412l-1.68.254a.871.871 0 0 0-.696.583l-.542 1.61a1.782 1.782 0 0 1-2.616.953l-1.45-.885a.872.872 0 0 0-.909 0Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m15.083 8.685-5.982 5.983-4.185-4.185 1.506-1.506 2.679 2.678 4.476-4.476 1.506 1.506Z" clip-rule="evenodd"/></svg></h2>
-              <small class="xs">By Lucas de França</small>
+              <h2 class="display-2 my-0 lh-sm" style="background-color: #f9f8f7; box-shadow: #f9f8f7 10px 0px 40px 40px;">Solo Crucero Disney <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="#007CE4" fill-rule="evenodd" d="m9.545 18.48-1.45.885a1.781 1.781 0 0 1-2.616-.952l-.543-1.61a.871.871 0 0 0-.695-.584l-1.68-.254a1.782 1.782 0 0 1-1.392-2.412l.62-1.582a.871.871 0 0 0-.158-.894L.507 9.803A1.782 1.782 0 0 1 .991 7.06l1.492-.814a.872.872 0 0 0 .454-.786l-.042-1.699a1.782 1.782 0 0 1 2.133-1.79l1.666.336c.32.065.65-.055.853-.31L8.607.67a1.782 1.782 0 0 1 2.784 0l1.06 1.328a.872.872 0 0 0 .854.31l1.665-.335a1.781 1.781 0 0 1 2.133 1.79l-.041 1.698a.872.872 0 0 0 .454.786l1.492.814a1.782 1.782 0 0 1 .483 2.742l-1.123 1.274a.871.871 0 0 0-.158.894l.62 1.582a1.782 1.782 0 0 1-1.392 2.412l-1.68.254a.871.871 0 0 0-.696.583l-.542 1.61a1.782 1.782 0 0 1-2.616.953l-1.45-.885a.872.872 0 0 0-.909 0Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m15.083 8.685-5.982 5.983-4.185-4.185 1.506-1.506 2.679 2.678 4.476-4.476 1.506 1.506Z" clip-rule="evenodd"/></svg></h2>
+              <small class="xs">By Ana Cristina Ruiz Esparza</small>
             </div>
           </div>
         </div>
@@ -32,16 +32,16 @@ include '../../top-nav.php';
                 <img class="img-fluid" alt="" src="/img/not-by-ai-quote.svg">
               </div>
               <div class="col-11">
-                <h3 class="display-3 pb-3">Lucas de França affirms that the applicable content of Luxonauta is majorly or entirely created by one or more humans. It adheres to the <a href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90% Rule</a> and has undergone human review.<sup>1</sup></h3>
+                <h3 class="display-3 pb-3">Ana Cristina Ruiz Esparza affirms that the applicable content of Solo Crucero Disney is majorly or entirely created by one or more humans. It adheres to the <a href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90% Rule</a> and has undergone human review.<sup>1</sup></h3>
               </div>
             </div>
             <h5 class="d-sm-inline mb-3">Applicable badge(s):</h5>
-            <img class="ms-3 my-3 my-sm-0 d-block d-sm-inline-block" src="/img/painted-by-human-not-by-ai-white.svg" alt="Painted by Human, Not By AI">
             <img class="ms-3 my-3 my-sm-0 d-block d-sm-inline-block" src="/img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI">
+            <img class="ms-3 my-3 my-sm-0 d-block d-sm-inline-block" src="/img/produced-by-human-not-by-ai-white.svg" alt="Produced by Human, Not By AI">
           </section>
           <section>
-            <h4 class="h3 pt-4 pt-md-5">About Luxonauta</h4>
-            <p class="mb-2">I start with an idea or some feeling, which I better translate into words or illustrations to understand better. The charm lies in the authenticity and uniqueness of a voice that emerges spontaneously, and these tiny sparks surprise us. AI-generated content results from eager efficiency, obfuscating irreplaceable nuances of unique perspectives.</p>
+            <h4 class="h3 pt-4 pt-md-5">About Solo Crucero Disney</h4>
+            <p class="mb-2">Only when a person travels can they truly create personalized, functional itineraries and offer expert travel guidance.</p>
           </section>
           <ol class="source pt-5 pb-3">
             <li>
@@ -60,7 +60,7 @@ include '../../top-nav.php';
                     Industry
                   </div>
                   <div class="creator-profile__field">
-                    Blogging and Influencing
+                    Travel and Tourism
                   </div>
                 </div>
                 <div class="pb-1 pb-lg-3 pt-2">
@@ -68,7 +68,7 @@ include '../../top-nav.php';
                     Location
                   </div>
                   <div class="creator-profile__field">
-                    SP, Brazil
+                    USA
                   </div>
                 </div>
                 <div class="pb-1 pb-lg-3 pt-2">
@@ -77,18 +77,18 @@ include '../../top-nav.php';
                   </div>
                   <div class="creator-profile__field">
                     <ul class="mb-0">
-                      <li>Art</li>
                       <li>Writing</li>
+                      <li>Producer/Generalist</li>
                     </ul>
                   </div>
-                </div>  
+                </div>
                 <div class="pb-1 pb-lg-3 pt-2">
                   <div class="creator-profile__label">
                     IA Use Is Limited to 
                   </div>
                   <div class="creator-profile__field">
                     <ul class="mb-0">
-                      <li>Research</li>
+                      <li>None</li>
                     </ul>
                   </div>
                 </div>
@@ -97,12 +97,12 @@ include '../../top-nav.php';
                     Website
                   </div>
                   <div class="creator-profile__field">
-                    <a class="text-decoration-underline" href="https://www.luxonauta.com" target="_blank">www.luxonauta.com</a>
+                    <a class="text-decoration-underline" href="https://www.solocrucerodisney.com" target="_blank">www.solocrucerodisney.com</a>
                   </div>
                 </div>
                 <div class="pb-3 pt-3">
                   <div class="xs opacity-50 lh-sm">
-                    A Not By AI Project since 03/13/2024
+                    A Not By AI Project since 04/03/2024
                   </div>
                 </div>
               </div>
