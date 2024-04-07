@@ -6,7 +6,7 @@ include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Thank You</h1>
+        <h1 class="mt-4">Thank You</h1>
       </header>
       <section class="col-md-8 col-xl-6 pb-4">
         <p>Please bear with us as we may take a little time (usually less than 5 business days) to review your content. If you need to make any changes to your application, please reply to the confirmation email we just sent to you and let us know your edits. </p>

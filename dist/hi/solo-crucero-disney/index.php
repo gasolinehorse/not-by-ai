@@ -15,5 +15,7 @@ $project_use_research = "";
 $project_use_inspiration = "";
 $project_use_proofing = "";
 $project_use_none = "d-block";
+
+$project_assets ="";
 include '../template.php';
 ?>

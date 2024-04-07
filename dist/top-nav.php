@@ -13,6 +13,6 @@
         <a class="me-4 me-lg-5 me-sm-3 d-none d-md-inline-block text-center px-2 rounded-2 py-1 px-3 xs fw-bold top-nav-biz-link" href="https://notbyai.fyi/business">Not By AI for Business <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg); margin-bottom: 3px;"></a>
       </div>
       <div class="col-8 col-sm-4 text-center order-sm-2">
-        <a href="https://notbyai.fyi" style="opacity: 1;"><img class="mt-4 mb-5" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
+        <a href="https://notbyai.fyi" style="opacity: 1;"><img class="my-3 my-md-4" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
       </div>
     </div>

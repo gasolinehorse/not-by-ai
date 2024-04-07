@@ -11,7 +11,7 @@ include '../top-nav.php';
     </style>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Help Center</h1>
+        <h1 class="mt-4">Help Center</h1>
       </header>
       <section class="col-md-10 col-xl-6 text-center pt-4 pb-4">
         <p>Hi, we are Not By AI and we are here to help. Below are some useful guides and FAQs created and answered to ensure that your users and audience can easily identify your content created by humans.</p>

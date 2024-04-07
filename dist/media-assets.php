@@ -6,7 +6,7 @@ include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Media Assets</h1>
+        <h1 class="mt-4">Media Assets</h1>
       </header>
       <div class="col-md-10 col-xl-9 py-5">
         <div class="row justify-content-center text-start">

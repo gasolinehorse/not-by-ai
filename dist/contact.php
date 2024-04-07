@@ -21,7 +21,7 @@ include 'top-nav.php';
     </script>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Contact</h1>
+        <h1 class="mt-4">Contact</h1>
       </header>
       <div class="col-lg-9 py-5">
         <div class="row">

@@ -21,7 +21,7 @@ include 'top-nav.php';
     </script>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Translate</h1>
+        <h1 class="mt-4">Translate</h1>
       </header>
       <div class="col-12">
         <div class="row text-center pt-4 pb-3">

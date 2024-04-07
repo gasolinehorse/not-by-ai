@@ -8,7 +8,7 @@ include 'top-nav.php';
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
-          <h1 class="fs-2 h3 entry-title" itemprop="name">Your Download Will Start Shortly</h1>
+          <h1 class="fs-2 h3 entry-title mt-4" itemprop="name">Your Download Will Start Shortly</h1>
         </header>
         <p class="entry-content small mb-0">If your download hasn’t started, you can <a class="text-decoration-underline" href="https://notbyai.fyi/Not-By-AI.zip">download the badge here</a>.</p>
       </div>

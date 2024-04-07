@@ -6,7 +6,7 @@ include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1>Terms and Conditions</h1>
+        <h1 class="mt-4">Terms and Conditions</h1>
       </header>
       <section class="col-md-8 col-xl-6 text-start pt-4 pb-5">
         <p class="text-center">Last updated: February 3, 2023</p>

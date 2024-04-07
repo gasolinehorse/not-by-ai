@@ -4,7 +4,7 @@ $pageDes = 'Add the Not By AI badge to showcase your AI-free & human-first busin
 include 'header.php';
 include 'top-nav-dark.php';
 ?>
-    <main class="container-fluid">
+    <main class="container-fluid mt-4">
       <section class="row justify-content-center px-sm-4 px-lg-0">
         <div class="col-xl-9 col-xxl-8">
           <header>

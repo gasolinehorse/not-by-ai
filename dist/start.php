@@ -12,7 +12,7 @@ include 'top-nav.php';
     <div class="row justify-content-center px-4 px-lg-0">
       <div class="col-lg-9 pb-5">
         <header class="header">
-          <h1 class="display-1">Build Your Creator&nbsp;Page</h1>
+          <h1 class="display-1 mt-4">Build Your Creator&nbsp;Page</h1>
         </header>
         <div class="row justify-content-center">
 	        <div class="col-sm-10 col-md-9 col-lg-8">

@@ -48,6 +48,9 @@ include '../../top-nav.php';
               </div>
             </div>
           </section>
+          <section id="support-assets">
+            <?php echo $project_assets; ?>
+          </section>
           <ol class="source pt-5 mt-lg-5 pb-3">
             <li>
               <cite>The use of the Not By AI badges and the human review process do not guarantee that the content is not majorly created by AI, we are dedicated to enhancing our verification process and credibility.</cite>

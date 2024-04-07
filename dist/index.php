@@ -20,7 +20,7 @@ include 'top-nav.php';
       }
     </script>
     <main>
-      <section class="row justify-content-center">
+      <section class="row justify-content-center mt-4">
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
           <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
         </div>

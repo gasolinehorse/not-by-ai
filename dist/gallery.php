@@ -6,7 +6,7 @@ include 'top-nav.php';
 ?>
     <main class="px-4 px-lg-0">
       <header>
-        <h1 class="pb-3">Gallery</h1>
+        <h1 class="pb-3 mt-4">Gallery</h1>
         <p>Below are some examples showcasing how the Not By AI badges can amplify the thoughts and hard work you've put into your content.</p>
       </header>
       <div class="row justify-content-center text-start">
