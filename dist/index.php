@@ -159,7 +159,7 @@ include 'top-nav.php';
           <h4 class="pt-1">The Not By AI 90% Rule</h4>
           <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
           <h4>The Qualification</h4>
-          <p>If you follow the Not By AI 90% Rule, came to this site as a human, manually downloaded our badges, and made the effort to insert them into your project, you qualify for non-commercial use. Similar to how reCAPTCHA detects humans by analyzing user behavior, this labor-intense process of manually inserting our badges is our way of verification. While it is not bulletproof, Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of AI-produced content. You should be the one held accountable for human content. To assist, we offer Creator Pages for you to showcase proofs of your human-created content. Additionally, we manually review all Creator Pages and collaborate with content creators for further validation when necessary. Whenever possible, we also leverage third-party tools to detect potential AI-generated content, while acknowledging that the accuracy of current AI detector technology has not yet been proven.</p>
+          <p>If you follow the Not By AI 90% Rule, came to this site as a human, manually downloaded our badges, and made the effort to insert them into your project, you qualify for non-commercial use. Similar to how reCAPTCHA detects humans by analyzing user behavior, this labor-intense process of manually inserting our badges is our way of verification. While it is not bulletproof, Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of AI-produced content. You should be the one held accountable for human content. To show that your content is created by humans, join Not By AI to set up project pages that detail your content creation. We manually review all pages and collaborate with you when necessary. Whenever possible, we also leverage third-party tools to detect potential AI-generated content, while acknowledging that the accuracy of current AI detector technology is not yet proven.</p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
@@ -267,7 +267,7 @@ include 'top-nav.php';
                           <label for="email">Email</label>
                           <input type="email" name="email" required>
                         </div>
-                        <div id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
+                        <div style="display: none;" id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
                           <label for="your-price">Pay What You Wish</label>
                           <div class="d-flex align-items-center">
                             <div class="display-4 pe-1 opacity-50">$</div>
@@ -278,7 +278,7 @@ include 'top-nav.php';
                       </div>
                       <div class="pt-3">
                         <div class="d-flex mb-1 mb-lg-0">
-                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="I want to upload drafts or other assets to a Creator Page to prove my human creation for $4.99/mo."><label for="personalCreatorPage">I want to upload drafts or other assets to a <a class="text-decoration-underline" href="#creatorPagePromoContainer" data-bs-toggle="collapse">Creator Page</a> to prove my human creation for $4.99/mo.</label>
+                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="Join Not By AI to prove my human-created content, starting at $5/mo." checked><label for="personalCreatorPage">Join Not By AI to prove my human-created content, starting at $5/mo.</label>
                         </div>
                         <div class="d-flex">
                           <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
@@ -286,25 +286,9 @@ include 'top-nav.php';
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
+                      <input style="display: none;" id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
                       <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
-                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" style="display: none;" href="https://buy.stripe.com/3cs9Cp0ZQg8kbKweUX">Check Out and Download My Badges</a>
-                      <div class="collapse pt-3" id="creatorPagePromoContainer">
-                        <div class="border-top pt-4 mt-4">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
-                            </div>
-                            <div class="col-md-6">
-                              <p class="xs mt-lg-3 mb-1">Creator Page</p>
-                              <p class="h4 pb-1">Submit your project details and we will set up a personalized Creator Page for you to link your badge to. </p>
-                              <div class="d-flex">
-                                <input type="checkbox" id="personalCreatorPagePromo" name="personalCreatorPagePromo" value="I'm in for one!"><label for="personalCreatorPagePromo">I'm in for one!</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" href="https://notbyai.fyi/app/">Get Started</a>
                     </div>
                     <div id="commercial-form" class="d-none">
                       <div class="row">
@@ -407,18 +391,14 @@ include 'top-nav.php';
         });
       });
 
-      const checkbox1 = document.getElementById('personalCreatorPage');
-      const checkbox2 = document.getElementById('personalCreatorPagePromo');
       function syncCheckboxes(checkboxChanged, checkboxToSync) {
         checkboxToSync.checked = checkboxChanged.checked;
       }
-      checkbox1.addEventListener('change', () => syncCheckboxes(checkbox1, checkbox2));
-      checkbox2.addEventListener('change', () => syncCheckboxes(checkbox2, checkbox1));
       function toggleButtons() {
         var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
         var buttonB = document.getElementById('not-by-ai-badges-download-with-cp');
         var buttonC = document.getElementById('not-by-ai-badges-download-with-donation-no-cp');
-        var isChecked = document.getElementById('personalCreatorPage').checked || document.getElementById('personalCreatorPagePromo').checked;
+        var isChecked = document.getElementById('personalCreatorPage').checked;
         if (isChecked) {
           buttonA.style.display = 'none';
           buttonB.style.display = 'inline-block';
@@ -432,7 +412,6 @@ include 'top-nav.php';
         }
       }
       document.getElementById('personalCreatorPage').addEventListener('change', toggleButtons);
-      document.getElementById('personalCreatorPagePromo').addEventListener('change', toggleButtons);
 
       document.addEventListener('DOMContentLoaded', function () {
         var donationInput = document.getElementById('your-price');
