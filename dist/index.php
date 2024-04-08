@@ -237,37 +237,47 @@ include 'top-nav.php';
             <div class="modal-dialog modal-lg">
               <div class="modal-content border-0 rounded-0 download-popup">
                 <div class="modal-header px-md-5 py-md-4 align-items-start">
-                  <div class="modal-title fs-3 h3" id="downloadEmailLabel">Download the Not By AI Badges
-                    <p class="fw-normal pt-1 mb-0" id="personal-des" style="font-size: 0.82rem; letter-spacing: 0px;">Free for personal use under the <a class="text-decoration-underline" href="/license" target="_blank">License Agreement</a>. </p>
-                    <p class="fw-normal pt-1 mb-0 d-none" id="commercial-des" style="font-size: 0.82rem; letter-spacing: 0px;">Show your audience your human-centric approach. </p>
-                  </div>
+                  <div class="modal-title fs-3 h3" id="downloadEmailLabel">Download the Not By AI Badges</div>
                   <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
                   <form id="forms" method="post" action="process-form.php">
                     <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
-                    <p class="small mt-2 mb-1 w-100">How will you use the badge? </p>
-                    <div class="d-flex pb-2">
-                      <div class="form-check me-3">
-                        <input class="form-check-input" type="radio" name="usage" id="usage1" value="Personal Use" required>
-                        <label class="form-check-label" for="usage1">
-                          Personal Use
-                        </label>
+                    <p class="small my-0 my-md-2 w-100 fw-bold">I am downloading the badges to</p>
+                    <div class="row">
+                      <div class="col-lg-7">
+                        <div class="py-1 py-md-2">
+                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white">
+                            <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
+                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage2">Prove human creative process for my business <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
+                          </div>
+                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white">
+                            <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage1" value="Personal use">
+                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage1">Prove human creative process for my personal project <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
+                          </div>
+                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white">
+                            <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage3" value="Personal use - No account">
+                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage3">Use them without proving my human creative process for my personal project</label>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="usage" id="usage2" value="Commercial Use">
-                        <label class="form-check-label" for="usage2">
-                          Commercial Use
-                        </label>
+                      <div class="col-lg-5 d-none d-lg-block">
+                        <div class="position-relative">
+                          <img id="not-by-ai-offering-badges" class="img-fluid position-absolute top-0 start-0 z-2 ms-3" style="margin-top: 57px;" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                          <img id="not-by-ai-offering-projects" class="img-fluid position-absolute top-0 end-0 z-1" style="box-shadow: 0px 7px 6px -2px rgba(0,0,0,0.2);" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI member">
+                          <div style="margin-right: 87px; margin-top: 85px; transform: scale(1.5);" class="position-absolute top-0 end-0 z-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#D2D0CD" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 16.538l-4.592-4.548 4.546-4.587-1.416-1.403-4.545 4.589-4.588-4.543-1.405 1.405 4.593 4.552-4.547 4.592 1.405 1.405 4.555-4.596 4.591 4.55 1.403-1.416z"/></svg>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div id="personal-form">
+                    <div id="personal-form" class="d-none mt-md-4">
                       <div class="row justify-content-between">
-                        <div class="col-md-7 col-lg-8 pt-2 pe-md-4">
+                        <div class="col-md-7 col-lg-8 pt-md-2 pe-md-4">
                           <label for="email">Email</label>
                           <input type="email" name="email" required>
                         </div>
-                        <div style="display: none;" id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-2 mt-md-0">
+                        <div id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-md-0">
                           <label for="your-price">Pay What You Wish</label>
                           <div class="d-flex align-items-center">
                             <div class="display-4 pe-1 opacity-50">$</div>
@@ -277,44 +287,16 @@ include 'top-nav.php';
                         <input type="hidden" name="badgeType" id="badgeType" value="">
                       </div>
                       <div class="pt-3">
-                        <div class="d-flex mb-1 mb-lg-0">
-                          <input type="checkbox" id="personalCreatorPage" name="personalCreatorPage" value="Join Not By AI to prove my human-created content, starting at $5/mo." checked><label for="personalCreatorPage">Join Not By AI to prove my human-created content, starting at $5/mo.</label>
-                        </div>
                         <div class="d-flex">
                           <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
                         </div>
                       </div>
                       <label for="nogo" class="d-none">Company</label>
                       <input type="text" name="nogo" class="d-none">
-                      <input style="display: none;" id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
+                      <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
                       <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
-                      <a id="not-by-ai-badges-download-with-cp" class="btn mt-4" href="https://notbyai.fyi/app/">Get Started</a>
                     </div>
-                    <div id="commercial-form" class="d-none">
-                      <div class="row">
-                        <div class="col-lg-7">
-                          <div class="h4 mt-3">Showcase your human creativity</div>
-                          <p class="small mt-2 mb-4 w-100">Submit your content for approval, unlock your <a class="text-decoration-underline" href="#creatorPagePromoContainer-commercial" data-bs-toggle="collapse">Creator Page</a> to share your creative approach with your audience, and add the Not By AI badges on your work to stand out in the AI world.</p>
-                          <a class="btn mb-2" href="/business">Learn More About Not By AI for Business</a>
-                        </div>
-                        <div class="col-lg-5 text-center text-lg-end d-none d-lg-block">
-                          <img class="img-fluid mt-lg-3" srcset="/img/not-by-ai-pro-package@2x.jpg 2x" src="/img/not-by-ai-pro-package.jpg" alt="The Not By AI Creator Page">
-                        </div>
-                      </div>
-                      <div class="collapse pt-3" id="creatorPagePromoContainer-commercial">
-                        <div class="border-top pt-4 mt-4">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <img class="img-fluid pt-2 mt-lg-0" srcset="/img/creator-page-create@2x.jpg 2x" src="/img/creator-page-create.jpg" alt="The Not By AI Creator Page">
-                            </div>
-                            <div class="col-md-6">
-                              <p class="xs mt-lg-3 mb-1">Creator Page</p>
-                              <p class="h4 pb-1">Submit your project details and we will set up a personalized Creator Page for you to link your badge to. </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <a id="join-not-by-ai" class="btn mt-2 d-none" href="https://notbyai.fyi/app/">Get Started</a>
                   </form>
                 </div>
               </div>
@@ -329,36 +311,57 @@ include 'top-nav.php';
       </div>
     </div>
     <script type="text/javascript">
-      var personalRadio = document.getElementById("usage1");
       var commercialRadio = document.getElementById("usage2");
+      var personalRadio = document.getElementById("usage1");
+      var personalNoJoinRadio = document.getElementById("usage3");
+      var personalRadioJustBadges = document.getElementById("usage3");
       var personalForm = document.getElementById("personal-form");
-      var commercialForm = document.getElementById("commercial-form");
-      var personalDes = document.getElementById("personal-des");
-      var commercialDes = document.getElementById("commercial-des");
+      var joinNotByAI = document.getElementById("join-not-by-ai");
+      var offeringProjects = document.getElementById("not-by-ai-offering-projects");
+      var offeringBadges = document.getElementById("not-by-ai-offering-badges");
       personalRadio.addEventListener("change", function() {
         if (personalRadio.checked) {
-            personalForm.classList.remove("d-none");
-            commercialForm.classList.add("d-none");
-            personalDes.classList.remove("d-none");
-            commercialDes.classList.add("d-none");
-        } else {
+            offeringProjects.style.opacity = 1;
+            offeringProjects.style.filter = "none";
+            offeringBadges.classList.remove("d-none");
             personalForm.classList.add("d-none");
-            commercialForm.classList.remove("d-none");
-            personalDes.classList.add("d-none");
-            commercialDes.classList.remove("d-none");
+            joinNotByAI.classList.remove("d-none");
+        } else {
+            offeringProjects.style.opacity = 0.3;
+            offeringProjects.style.filter = "grayscale(100%) contrast(0.8)";
+            personalForm.classList.remove("d-none");
+            offeringBadges.classList.remove("d-none");
+            joinNotByAI.classList.add("d-none");
         }
       });
       commercialRadio.addEventListener("change", function() {
         if (commercialRadio.checked) {
-            commercialForm.classList.remove("d-none");
+            offeringProjects.style.opacity = 1;
+            offeringProjects.style.filter = "none";
+            offeringBadges.classList.remove("d-none");
             personalForm.classList.add("d-none");
-            commercialDes.classList.remove("d-none");
-            personalDes.classList.add("d-none");
+            joinNotByAI.classList.remove("d-none");
         } else {
-            commercialForm.classList.add("d-none");
+            offeringProjects.style.opacity = 0.3;
+            offeringProjects.style.filter = "grayscale(100%) contrast(0.8)";
             personalForm.classList.remove("d-none");
-            commercialDes.classList.add("d-none");
-            personalDes.classList.remove("d-none");
+            offeringBadges.classList.remove("d-none");
+            joinNotByAI.classList.add("d-none");
+        }
+      });
+      personalNoJoinRadio.addEventListener("change", function() {
+        if (personalNoJoinRadio.checked) {
+            offeringProjects.style.opacity = 0.3;
+            offeringProjects.style.filter = "grayscale(100%) contrast(0.8)";
+            personalForm.classList.remove("d-none");
+            personalForm.classList.remove("d-none");
+            joinNotByAI.classList.add("d-none");
+        } else {
+            offeringProjects.style.opacity = 1;
+            offeringProjects.style.filter = "none";
+            offeringBadges.classList.remove("d-none");
+            personalForm.classList.add("d-none");
+            joinNotByAI.classList.add("d-none");
         }
       });
 
@@ -394,24 +397,6 @@ include 'top-nav.php';
       function syncCheckboxes(checkboxChanged, checkboxToSync) {
         checkboxToSync.checked = checkboxChanged.checked;
       }
-      function toggleButtons() {
-        var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
-        var buttonB = document.getElementById('not-by-ai-badges-download-with-cp');
-        var buttonC = document.getElementById('not-by-ai-badges-download-with-donation-no-cp');
-        var isChecked = document.getElementById('personalCreatorPage').checked;
-        if (isChecked) {
-          buttonA.style.display = 'none';
-          buttonB.style.display = 'inline-block';
-          buttonC.style.display = 'none';
-          document.getElementById('your-price').value = "0";
-          document.getElementById('your-price').disabled = true;
-        } else {
-          buttonA.style.display = 'inline-block';
-          buttonB.style.display = 'none';
-          document.getElementById('your-price').disabled = false;
-        }
-      }
-      document.getElementById('personalCreatorPage').addEventListener('change', toggleButtons);
 
       document.addEventListener('DOMContentLoaded', function () {
         var donationInput = document.getElementById('your-price');

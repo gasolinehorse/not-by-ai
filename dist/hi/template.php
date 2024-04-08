@@ -85,9 +85,9 @@ include '../../top-nav.php';
                   </div>
                   <div class="creator-profile__field">
                     <ul class="mb-0">
-                      <li style="display: none;" class="<?php echo $project_badge_art; ?>">Art</li>
-                      <li style="display: none;" class="<?php echo $project_badge_writing; ?>">Writing</li>
-                      <li style="display: none;" class="<?php echo $project_badge_production; ?>">Production/General</li>
+                      <li style="display: none;" class="<?php echo $project_badge_art; ?> mt-1 lh-sm">Art</li>
+                      <li style="display: none;" class="<?php echo $project_badge_writing; ?> mt-1 lh-sm">Writing</li>
+                      <li style="display: none;" class="<?php echo $project_badge_production; ?> mt-1 lh-sm">Production/General</li>
                     </ul>
                   </div>
                 </div>  
@@ -97,10 +97,10 @@ include '../../top-nav.php';
                   </div>
                   <div class="creator-profile__field">
                     <ul class="mb-0">
-                      <li style="display: none;" class="<?php echo $project_use_research ?>">Research</li>
-                      <li style="display: none;" class="<?php echo $project_use_inspiration ?>">Inspiration</li>
-                      <li style="display: none;" class="<?php echo $project_use_proofing ?>">Copy Editing and/or Proofreading</li>
-                      <li style="display: none;" class="<?php echo $project_use_none ?>">None</li>
+                      <li style="display: none;" class="<?php echo $project_use_research ?> mt-1 lh-sm">Research</li>
+                      <li style="display: none;" class="<?php echo $project_use_inspiration ?> mt-1 lh-sm">Inspiration</li>
+                      <li style="display: none;" class="<?php echo $project_use_proofing ?> mt-1 lh-sm">Copy Editing and/or Proofreading</li>
+                      <li style="display: none;" class="<?php echo $project_use_none ?> mt-1 lh-sm">None</li>
                     </ul>
                   </div>
                 </div>

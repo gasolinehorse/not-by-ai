@@ -290,16 +290,16 @@ cite,
 nav {
 	font-size: 0.875rem;
 }
-.download-popup {
-	background-image: url('img/not-by-ai-badge-download-examples.svg'); 
-	background-position: bottom right; 
-	background-repeat: no-repeat;
-}
 @media (max-width: 991px) {
 	.download-popup {
-		background-image: none;
+		background-image: url('img/not-by-ai-badge-download-examples.svg'); 
+		background-repeat: no-repeat;
+		background-position: bottom right; 
 		background-size: 50%;
 	}
+}
+#not-by-ai-offering-projects {
+	transition: opacity 0.2s ease-out, filter 0.5s ease-out;
 }
 .custom-scrollbar {
   scrollbar-width: thin; /* For Firefox */
