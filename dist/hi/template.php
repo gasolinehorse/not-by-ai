@@ -17,7 +17,7 @@ include '../../top-nav.php';
               <img class="img-fluid" alt="" src="/img/not-by-ai-quote.svg">
             </div>
             <div class="col-11 col-md-9 pb-3 pb-md-0 pb-xl-2">
-              <h1 class="display-7"><?php echo $project_author; ?> affirms that the applicable content of <?php echo $project_name; ?> is majorly or entirely created by one or more humans. It adheres to the <a href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90% Rule</a> and has undergone human review.<sup style="font-size: 50%;">1</sup></h1>
+              <h1 class="display-7"><?php echo $project_author; ?> affirms that the applicable content of <?php echo $project_name; ?> is primarily or entirely created by one or more humans. It adheres to the <a href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90% Rule</a> and has undergone human review.<sup style="font-size: 50%;">1</sup></h1>
             </div>
           </div>
           <div class="row justify-content-start pt-2 pb-3 py-md-4">

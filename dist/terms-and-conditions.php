@@ -9,13 +9,13 @@ include 'top-nav.php';
         <h1 class="mt-4">Terms and Conditions</h1>
       </header>
       <section class="col-md-8 col-xl-6 text-start pt-4 pb-5">
-        <p class="text-center">Last updated: February 3, 2023</p>
+        <p class="text-center">Last updated: April 9, 2024</p>
 
-        <p>These Terms and Conditions ("Terms") govern your access to and use of Not By AI's website (https://notbyai.fyi), services, and products, including the badges and Creator Pages ("Services"). By accessing or using our Services, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, please do not use our Services.</p>
+        <p>These Terms and Conditions ("Terms") govern your access to and use of Not By AI's website (https://notbyai.fyi), services, and products, including the badges and subscription-based project pages ("Services"). By accessing or using our Services, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, please do not use our Services.</p>
 
         <h2 class="h4">1. Use of Services</h2>
 
-        <p>Not By AI provides badges and Creator Pages to promote content created primarily by humans. You may use these Services only in accordance with these Terms, the License Agreement for badge use, and any applicable laws.</p>
+        <p>Not By AI provides badges, subscription-based project pages, and associated services to promote content created primarily by humans. You may use these Services only in accordance with these Terms, the License Agreement for badge use, and any applicable laws.</p>
 
         <h2 class="h4">2. Eligibility</h2>
 
@@ -23,9 +23,7 @@ include 'top-nav.php';
 
         <h2 class="h4">3. Submission of Information and Account Registration</h2>
 
-        <p>To access certain features of our Services, such as creating a Creator Page, you may be required to submit information about yourself and your project using a web form. You agree to provide true, accurate, current, and complete information about yourself and your project as requested by the form and to update this information to maintain its accuracy and completeness. Failure to provide accurate and complete information may result in the denial of your submission or removal of your Creator Page from our Services.</p>
-
-        <p>Not By AI may in the future develop a feature allowing users to register for an account to enhance their interaction with our Services. Should this feature become available, existing users will be encouraged, though not required, to register. Further details about account registration, including any benefits and optional features, will be provided at the time of launch. Your decision to register an account will remain at your discretion, aimed at enhancing your experience with our Services.</p>
+        <p>To access certain features of our Services, such as subscribing for project pages, you may be required to submit information about yourself and your project using a web form. You agree to provide true, accurate, current, and complete information about yourself and your project as requested by the form and to update this information to maintain its accuracy and completeness. Failure to provide accurate and complete information may result in the denial of your project submission or removal of your membership and subscription from our Services.</p>
 
         <h2 class="h4">4. User Conduct</h2>
 
