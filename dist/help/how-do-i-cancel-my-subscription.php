@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Not By AI Help Center | Is Creator Page Project-Based or User-Based?';
+$pageTitle = 'Not By AI Help Center | How Do I Cancel My Not By AI Subscriptions or Close My Account?';
 $pageDes = 'Explore the Not By AI guides, resources, FAQs, and documentations that help showcase your original content created by humans, not AI.';
 include '../header.php';
 include '../top-nav.php';
@@ -14,7 +14,7 @@ include '../top-nav.php';
         <div class="col-md-11 col-xl-8 pt-1">
           <div class="row">
             <div class="col">
-              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/help" class="text-decoration-underline">Help Center</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Is Creator Page Project-Based or User-Based?</small>
+              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/help" class="text-decoration-underline">Help Center</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> How Do I Cancel My Not By AI Subscriptions or Close My Account?</small>
             </div>
           </div>
         </div>
@@ -22,9 +22,10 @@ include '../top-nav.php';
       <div class="row justify-content-center">
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
-            <h1 class="h2 pb-3">Is a Creator Page Project-Based or User-Based?</h1>
-            <p>Creator Pages are project-based because we recognize the uniqueness of every project you created. This not only gives us the time and resource required to review the submitted project to make sure it follows the Not By AI 90% Rule, it also provides the opportunity for the content creator(s) to include extensive context and insights behind the content creation journey on the Creator Page. </p>
-            <p>To create a new Creator Page for your next project, simply start a new subscription. Each subscription corresponds to a single project. </p>
+            <h1 class="h2 pb-3">How Do I Cancel My Not By AI Subscriptions or Close My Account?</h1>
+            <p>You can cancel your subscriptions by logging in to your account, selecting the settings icon at the top right corner, and clicking into 'Subscription' in the dropdown menu. Then select 'Cancel' to cancel a subscription. </p>
+            <p>If you would like to close your Not By AI account, simplify send an email request to <a class="text-decoration-underline" href="mailto:help@notbyai.fyi?subject=Not By AI account closure request">help@notbyai.fyi</a> using the email you signed up so we can validate that it is you. Once we receive the request, we will cancel it within 5 business days (usually sooner).</p>
+            <p>We don't guilt-trip you with the "We are sad to see you go" thing. We want to make sure you are happy with our service, and when you no longer need it, we make it as smooth as possible for you to move on and focus on other things in life. That said, if you're willing to share why you're canceling, we are all ears.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>

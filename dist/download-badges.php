@@ -33,7 +33,7 @@ include 'top-nav.php';
       </div>
       <div class="col-sm-8 col-md-7 col-lg-3">
         <div class="h2">Step 3</div>
-        <p>If your content is in a digital format that allows for the Not By AI badge to be linked, insert a link to your Creator Page (once approved/subscribers only) or https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
+        <p>If your content is in a digital format that allows for the Not By AI badge to be linked, insert a link to https://notbyai.fyi. This helps your users understand why you are participating in the movement.</p>
       </div>
     </div>
     <div class="row">

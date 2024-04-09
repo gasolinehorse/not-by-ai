@@ -40,7 +40,7 @@
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
-            <a href="https://notbyai.fyi"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
+            <a href="https://notbyai.fyi/hi/not-by-ai"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
           </div>
         </div>
         <div class="row flex-column flex-md-row align-content-between pt-4 pb-5">

@@ -23,7 +23,7 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Can I Update My Content After It Has Been Reviewed by Not By AI?</h1>
-            <p>It depends. If your updates are in line with the original creative approach and you continue to follow the Not By AI 90% Rule, you can update your content without another submission. On the other hand, if your update calls for a shift in AI involvement, especially when AI usage is increased beyond what was originally approved, it is required that you resubmit your content for Not By AI to review. This help us maintain our committment to a platform dedicated to human-centric content.</p>
+            <p>It depends. If your updates are in line with the original creative approach and you continue to follow the Not By AI 90% Rule, you can update your content. On the other hand, if your update calls for a shift in AI involvement, especially when AI usage is increased beyond what was originally approved, it is required that you update us with these changes or ask us to remove your project from Not By AI if the Not By AI 90% Rule is discarded using the 'Edit' link on the dashboard, located next to your approved project. This help us maintain our committment to a platform dedicated to human-centric content.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>

@@ -71,12 +71,12 @@ include '../top-nav.php';
             <h3 class="h5"><a href="/help/can-i-update-content-any-time-if-my-content-is-already-reviewed.php">Can I Update My Content After It Has Been Reviewed by Not By AI?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-lg-6 py-2 py-lg-3">
-            <h3 class="h5"><a href="/help/is-creator-page-project-based-or-user-based.php">Is Creator Page Project-Based or User-Based?</a></h3>
+            <h3 class="h5"><a href="/help/is-subscription-project-based-or-user-based.php">Is a Subscription Project-Based or User-Based?</a></h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
-            <h3 class="h5"><a href="/help/how-do-i-cancel-my-creator-page-subscription.php">How Do I Cancel My Creator Page Subscription?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+            <h3 class="h5"><a href="/help/how-do-i-cancel-my-subscription.php">How Do I Cancel My Not By AI Subscriptions or Close My Account?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/why-is-there-not-a-generic-made-by-human-badge.php">Why Is There Not an All-Purpose "Made by Human" Badge?</a>
