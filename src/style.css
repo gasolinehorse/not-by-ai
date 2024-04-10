@@ -543,6 +543,9 @@ form .form-check-input:checked {
 	background-color: #000000;
 	border-color: #000000;
 }
+form .form-check-input {
+	border-color: #dfdbd7;
+}
 @keyframes loadingText {
   0% {
     background-position: 100%;
