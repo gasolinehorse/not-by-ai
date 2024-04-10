@@ -296,7 +296,7 @@ include 'top-nav.php';
                       <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
                       <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
                     </div>
-                    <a id="join-not-by-ai" class="btn mt-2 d-none" href="https://notbyai.fyi/app/">Get Started</a>
+                    <a id="join-not-by-ai" class="btn mt-2 d-none" href="https://notbyai.fyi/app/signup/">Get Started</a>
                   </form>
                 </div>
               </div>
