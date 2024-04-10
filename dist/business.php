@@ -166,7 +166,7 @@ include 'top-nav-dark.php';
             <img class="img-fluid mb-4" src="/img/human-no-ai-review-verification.gif" alt="Human review process to verify AI content" />
             <div class="d-flex">
               <div class="xs fw-bold pe-2 mt-1">01</div>
-              <h3 class="pb-4 pb-lg-0">Submit your project with details showcasing your human-created&nbsp;content</h3>
+              <h3 class="pb-4 pb-lg-0">Submit your project with details showcasing your human-centric&nbsp;approach</h3>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 col-xl-4">
@@ -191,9 +191,9 @@ include 'top-nav-dark.php';
                     Why should I join Not By AI?
                   </button>
                 </h2>
-                <div id="collapseCreatorPage" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div id="collapseCreatorPage" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    A membership with Not By AI offers you the badges and a project page. A project page (<a href="https://notbyai.fyi/hi/not-by-ai" target="blank" class="text-decoration-underline text-white">example here</a>) is like a blog post that houses your project details and proof of authenticity. It is the official Not By AI space for you to talk to your audience about your human-centric creative approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets.<br><br>To further establish credibility of the badges and make sure your audience understands your authentic human-first approach, you can link the badges to this page that is unique to your project.
+                    A membership with Not By AI offers you the badges and a project page. A project page (<a href="https://notbyai.fyi/hi/not-by-ai" target="blank" class="text-decoration-underline text-white">example</a>) is like a blog post that houses your project details and proof of authenticity. It is the official Not By AI space for you to talk to your audience about your human-centric creative approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets.<br><br>To further establish credibility of your badges and make sure your audience understands your authentic human-first approach, link the badges to this page that is unique to your project.
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    We accept most major credit cards. We are not able to accept payment by check at this moment.
+                    We accept most major credit cards. We are not able to accept payment by check at this moment. If you are interested in becoming a member and require assistance with alternative payment options, drop us a line at help@notbyai.fyi.
                   </div>
                 </div>
               </div>
