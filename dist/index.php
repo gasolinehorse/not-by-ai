@@ -235,29 +235,29 @@ include 'top-nav.php';
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
           <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content border-0 rounded-0 download-popup pb-4">
+              <div class="modal-content border-0 rounded-0 download-popup">
                 <div class="modal-header px-md-5 py-md-4 align-items-start">
                   <div class="modal-title fs-3 h3" id="downloadEmailLabel">Download the Not By AI Badges</div>
                   <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body pb-4 pt-md-4 pb-md-5 px-md-5">
+                <div class="modal-body pb-4 pt-md-4 pb-5 px-md-5">
                   <form id="forms" method="post" action="process-form.php">
                     <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
                     <p class="small my-0 mt-md-2 w-100 fw-bold">I am downloading the badges to</p>
                     <div class="row">
                       <div class="col-lg-7">
                         <div class="py-1 py-md-2">
-                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
+                          <div class="not-by-ai-options form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
                             <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
-                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage2">Prove human creative process for my business <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
+                            <label class="form-check-label pe-3 py-3 w-100 cursor-pointer" for="usage2">Prove human creative process for my business <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
                           </div>
-                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
+                          <div class="not-by-ai-options form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
                             <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage1" value="Personal use">
-                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage1">Prove human creative process for my personal project <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
+                            <label class="form-check-label pe-3 py-3 w-100 cursor-pointer" for="usage1">Prove human creative process for my personal project <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div></label>
                           </div>
-                          <div class="form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
+                          <div class="not-by-ai-options form-check d-flex border rounded-3 my-2 align-items-center bg-white shadow">
                             <input class="form-check-input ms-0 me-3 mt-0" type="radio" name="usage" id="usage3" value="Personal use - No account">
-                            <label class="form-check-label pe-3 py-2 py-md-3 w-100 cursor-pointer" for="usage3">Use them without proving my human creative process for my personal project</label>
+                            <label class="form-check-label pe-3 py-3 w-100 cursor-pointer" for="usage3">Use them without proving my human creative process for my personal project</label>
                           </div>
                         </div>
                       </div>
