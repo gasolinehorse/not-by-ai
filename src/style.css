@@ -438,6 +438,24 @@ only screen and (min-resolution: 2dppx) {
 	animation-delay: 0.5s;
 	opacity: 0;
 }
+#formPreview.browser {
+	zoom: 0.5; 
+	transform: translateX(5%);
+}
+.preview-wrapper {
+	height: calc(100vh - 58px);
+}
+@-moz-document url-prefix() {
+  #formPreview.browser {
+		transform: scale(50%) translateX(5%);
+    transform-origin: top left;
+    width: 200%;
+    zoom: 1; 
+	}
+	.preview-wrapper {
+		overflow: hidden !important;
+	}
+}
 @keyframes fadeInM {
   0% { opacity: 0; }
   100% { opacity: 1; }
