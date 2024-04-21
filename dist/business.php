@@ -217,7 +217,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    We accept most major credit cards. We are not able to accept payment by check at this moment. If you are interested in becoming a member and require assistance with alternative payment options, drop us a line at help@notbyai.fyi.
+                    We accept most major credit cards. We are not able to accept payment by check at this moment. If you are interested in joining Not By AI and require assistance with alternative payment options, drop us a line at help@notbyai.fyi.
                   </div>
                 </div>
               </div>
