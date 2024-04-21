@@ -273,13 +273,13 @@ include 'top-nav-dark.php';
       <div class="modal-dialog modal-xl">
         <div class="modal-content border-0 rounded-0 download-popup">
           <div class="modal-header px-md-5 py-md-4 align-items-start">
-            <div class="modal-title fs-3 h3" id="downloadEmailLabel">Join Not By AI — In a world dominated by AI content, show your authenticity.</div>
+            <div class="modal-title fs-3 h3" id="downloadEmailLabel">Join Not By AI</div>
             <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body pb-4 pt-md-4 px-md-5">
             <form method="post" action="process-form.php">
               <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
-              <div id="commercial-form">
+              <div id="commercial-form" class="pb-3">
                 <p class="mb-0">Get the badges and a Not By AI project page to share your human-centric content and creative approach.</p>
                 <div class="row justify-content-center gx-4 text-start">
                   <div class="position-relative z-1 col-lg-4 fade-in-move-up" style="opacity: 0;">

@@ -117,10 +117,10 @@ include 'top-nav.php';
             <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
+            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits of Not By AI</a>
+            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-resources" href="/help">Resources</a>
@@ -157,9 +157,53 @@ include 'top-nav.php';
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
           <h3>Who Can Use the Badge</h3>
           <h4 class="pt-1">The Not By AI 90% Rule</h4>
-          <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you are a content creator, such as a writer, researcher, artist, music producer, sound designer, or filmmaker, or a business that provides creative content, and you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badge into your website, blog, art, film, essay, publications, resume, or whatever your project is. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
-          <h4>The Qualification</h4>
-          <p>If you follow the Not By AI 90% Rule, came to this site as a human, manually downloaded our badges, and made the effort to insert them into your project, you qualify for non-commercial use. Similar to how reCAPTCHA detects humans by analyzing user behavior, this labor-intense process of manually inserting our badges is our way of verification. While it is not bulletproof, Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of AI-produced content. You should be the one held accountable for human content. To show that your content is created by humans, join Not By AI to set up project pages that detail your content creation. We manually review all pages and collaborate with you when necessary. Whenever possible, we also leverage third-party tools to detect potential AI-generated content, while acknowledging that the accuracy of current AI detector technology is not yet proven.</p>
+          <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badges into your website, blog, art, film, essay, books, podcast, or whatever your project is for non-commercial use, and, with a subscription, commercial use. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
+          <p>Please note that Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of human-produced content. This means you should be the one held accountable for following the Not By AI 90% Rule mentioned above.</p>
+        </section>
+        <section>
+          <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
+          <h3>Benefits</h3>
+          <ul class="nav nav-underline" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> As an individual</button>
+            </li>
+          </ul>
+          <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
+            <div class="tab-pane fade show active" id="business-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              In addition to providing you with our iconic Not By AI badges (once approved), as a Not By AI member, we will help you set up a project page that documents your creative proccess and approach. This allows your audience to learn how you in fact created your content without or with very little help from AI.
+              <div class="row justify-content-center align-items-center mt-2 mb-3 px-3">
+                <div class="col-5 text-center">
+                  <img id="not-by-ai-offering-badges" class="img-fluid mt-3" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                  <div class="xs text-center">Not By AI badges</div>
+                </div>
+                <div class="col-1 px-0 text-center">
+                  <div class="h3">+</div>  
+                </div>
+                <div class="col-5 text-center">
+                  <a href="https://notbyai.fyi/hi/not-by-ai/"><img id="not-by-ai-offering-badges" class="img-fluid shadow mt-3 mt-md-0" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI projects"></a>
+                  <div class="xs text-center pt-2">Project page</div>
+                </div>
+              </div>
+              A project page can be linked from your badges. It is a crucial page for your clients, prospects, and users to recognize that your human effort is more than just inserting a badge. This is especially important when the business problem they look to solve is complex and requires a tailored solution from trained humans. With Not By AI for Business, you can:
+              <ul class="mt-3 ul--checks">
+                <li class="mb-1">Highlight your human-centric solutions</li>
+                <li class="mb-1">Prove that your content is safe from AI hallucinations</li>
+                <li class="mb-1">Set yourself apart from the competition</li>
+                <li class="mb-1">Show that your content is free from AI copyright infringement</li>
+                <li class="mb-1">Build trust & credibility for your brand</li>
+              </ul>
+              <a class="h5 text-decoration-underline cursor-pointer" href="/app/signup">Join Not By AI</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"><br>
+              <a class="h5 text-decoration-underline cursor-pointer" href="/business">Not By AI for Business</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
+            </div>
+            <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI, such as ChatGPT, Claude, or Gemini. <div class="mt-3">More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.<br><br>
+              We offer the badges for 100% free for non-commercial projects. It is our mission to spread the Not By AI movement as widely as possible. If you want to support us, please consider our paid subscriptions or <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">contribute through a donation</a>.</div>
+            </div>
+          </div>
+          <p class="mt-3">Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badges, you can ensure that this messaging receives constant exposure. </p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
@@ -199,34 +243,6 @@ include 'top-nav.php';
             </div>           
           </div>
           <p class="text-center"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Show More Inspirations</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
-        </section>
-        <section>
-          <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Benefits of Not By AI</h3>
-          <ul class="nav nav-underline mb-4 border-bottom" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> As an individual</button>
-            </li>
-          </ul>
-          <div class="tab-content px-3" id="myTabContent">
-            <div class="tab-pane fade show active" id="business-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-              <a href="/business" class="text-decoration-underline">Not By AI for Business</a> helps your clients, prospects, and users recognize your human-first approach to problem-solving. This is especially important when the business problem they look to solve is complex and requires a tailored solution that is built by trained humans. Below are ways your business can be benefited by Not By AI:
-              <ul class="mt-2">
-                <li>It highlights your customized, human-centric content and solutions.</li>
-                <li>It sets you apart from the competition.</li>
-                <li>It builds trust and credibility for your brand.</li>
-                <li>It proves that your content is safe from AI hallucinations.</li>
-              </ul>
-              <a class="h5 text-decoration-underline cursor-pointer" href="/business">Not By AI for Business</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
-            </div>
-            <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI. <div class="mt-3">More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.</div>
-            </div>
-          </div>
-          <p class="mt-3">Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badge, you can ensure that this messaging receives constant exposure. </p>
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
