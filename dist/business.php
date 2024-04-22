@@ -8,7 +8,7 @@ include 'top-nav-dark.php';
       <section class="row justify-content-center px-sm-4 px-lg-0">
         <div class="col-xl-9 col-xxl-8">
           <header>
-            <h1 id="tagline" class="pt-md-5 mt-md-3 pb-1 text-white">Add a Badge to Show Your Human-First&nbsp;Approach</h1>
+            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1 text-white">Add a Badge to Show Your Human-First&nbsp;Approach</h1>
           </header>
         </div>
         <div class="col-lg-11 col-xl-9 col-xxl-8">
