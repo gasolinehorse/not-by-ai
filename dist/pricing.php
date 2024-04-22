@@ -13,7 +13,7 @@ include 'top-nav.php';
       </section>
       <div class="col col-sm-11 col-lg-10 col-xl-8 col-xxl-7 position-relative" style="background-image: url('https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/ai-waves.svg'); background-repeat: no-repeat; background-size: 80%; background-position: center;">
         <div class="row gx-4 text-start justify-content-center">
-          <div class="col-sm-4 fade-in-move-up" style="opacity: 0;">
+          <div class="col-md-4 fade-in-move-up" style="opacity: 0;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
                 <div class="h3 mt-3 mb-1">Starter</div>
@@ -35,7 +35,7 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <div class="col-sm-4 fade-in-move-up" style="opacity: 0; animation-delay:0.1s;">
+          <div class="col-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.1s;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
                 <div class="h3 mt-3 mb-1">Business</div>
@@ -57,7 +57,7 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <div class="col-sm-4 fade-in-move-up" style="opacity: 0; animation-delay:0.2s;">
+          <div class="col-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.2s;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
                 <div class="h3 mt-3 mb-1">Enterprise</div>

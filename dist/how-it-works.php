@@ -8,8 +8,8 @@ include 'top-nav.php';
       <header>
         <h1 class="mt-4 display-2">How It Works</h1>
       </header>
-      <section class="col-md-10 col-xl-7 pt-4 pb-1">
-        <p>Adding our Not By AI badges to your content is an efficient way to demonstrate your human-created content. However, recognizing that our badges can be misused, we require you to set up a project page (where you can link your badges to) to describe your human-centric content approach if using our badges commercially. </p>
+      <section class="col-md-10 col-xl-7 pb-1">
+        <p class="mb-4">Adding our Not By AI badges to your content is an efficient way to demonstrate your human-created content. However, recognizing that our badges can be misused, we require you to set up a project page (where you can link your badges to) to describe your human-centric content approach if using our badges commercially. </p>
       </section>
       <div class="col-xl-11 text-start">
         <div class="row justify-content-center">
