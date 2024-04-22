@@ -104,7 +104,7 @@ include 'top-nav.php';
       </section>
     </main>
     <div class="pb-5 border-bottom"></div>
-    <div class="row justify-content-center">
+    <div id="top-nav-stop-point" class="row justify-content-center">
       <nav class="col-md-3 col-xl-2 text-start pt-5 d-none d-md-block">
         <ul class="nav flex-column position-sticky top-0 pt-5">
           <li class="nav-item ps-2">
@@ -256,4 +256,17 @@ include 'top-nav.php';
         </ol>
       </div>
     </div>
+    <script>
+      window.addEventListener('scroll', function() {
+        var nav = document.getElementById('topNav');
+        var stopPoint = document.getElementById('top-nav-stop-point').getBoundingClientRect().top;
+        var navHeight = nav.offsetHeight;
+
+        if (window.pageYOffset > 0 && stopPoint > navHeight) {
+          nav.classList.add('sticky-top');
+        } else {
+          nav.classList.remove('sticky-top');
+        }
+      });
+    </script>
     <?php include 'footer.php'; ?>

@@ -4,6 +4,7 @@ $pageDes = 'Download and add the Not By AI badge to showcase your AI-free & huma
 include '../../header.php';
 include '../../top-nav.php';
 ?>
+  <style>#topNav{margin-bottom:0px !important;}</style>
     <main>
       <header class="row no-md-bg justify-content-center text-start pt-1 pb-3 mb-3 mb-md-5 bg-light" style="background-image: url(/img/creator-profile-on-not-by-ai.svg); background-position: bottom right; background-repeat: no-repeat;">
         <div class="col-md-11 col-xl-8 pt-1">

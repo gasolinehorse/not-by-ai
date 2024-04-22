@@ -6,9 +6,9 @@ include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1 class="mt-4">Pricing</h1>
+        <h1 class="mt-4 display-2">Pricing</h1>
       </header>
-      <section class="col-md-10 col-xl-7 pt-4">
+      <section class="col-md-10 col-xl-7 pt-1">
         <p class="mb-2">Our revenue-based subscriptions are straightforward and designed to support you at any stage of your creative journey, whether you're an individual freelancer or a fortune 1000 enterprise.</p>
       </section>
       <div class="col col-sm-11 col-lg-10 col-xl-8 col-xxl-7 position-relative" style="background-image: url('https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/ai-waves.svg'); background-repeat: no-repeat; background-size: 80%; background-position: center;">
@@ -159,7 +159,7 @@ include 'top-nav.php';
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLang" aria-expanded="false" aria-controls="collapseLang" style="background-color: #f9f8f7 !important;">
-                      What badge languages do you offer?
+                      What languages are available for the badges?
                     </button>
                   </h2>
                   <div id="collapseLang" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

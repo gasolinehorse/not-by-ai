@@ -6,9 +6,9 @@ include 'top-nav.php';
 ?>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
-        <h1 class="mt-4">How It Works</h1>
+        <h1 class="mt-4 display-2">How It Works</h1>
       </header>
-      <section class="col-md-10 col-xl-7 pt-4 pb-4">
+      <section class="col-md-10 col-xl-7 pt-4 pb-1">
         <p>Adding our Not By AI badges to your content is an efficient way to demonstrate your human-created content. However, recognizing that our badges can be misused, we require you to set up a project page (where you can link your badges to) to describe your human-centric content approach if using our badges commercially. </p>
       </section>
       <div class="col-xl-11 text-start">

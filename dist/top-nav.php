@@ -1,5 +1,5 @@
   <div class="container-fluid bg-white text-center curve">
-    <div class="row border-bottom align-items-center mb-4 mb-xl-5">
+    <div id="topNav" class="row sticky-top bg-white border-bottom align-items-center mb-4 mb-xl-5">
       <div class="col-2 col-sm-4 text-start ps-4 ps-sm-4 share d-block d-lg-none">
         <span onclick="openNav()">
           <div class="hamburger-menu">
