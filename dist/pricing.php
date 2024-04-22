@@ -109,6 +109,19 @@ include 'top-nav.php';
                 </div>
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProject" aria-expanded="false" aria-controls="collapseProject" style="background-color: #f9f8f7 !important;">
+                      What is a Not By AI project page?
+                    </button>
+                  </h2>
+                  <div id="collapseProject" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                      It is where you should link your badges to, when hyperlinking is possible. A project page allows you to describe your human-centric creative approach and upload any supporting assets to showcase your "behind the scenes" stories, such as drafts, mood boards, or other relevant materials. This page establishes the credibility of your badges and makes sure your audience understands your authentic human-first approach.<br><br>
+                      To see an example of a live project page, click on the badge in our footer!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background-color: #f9f8f7 !important;">
+                  <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerify" aria-expanded="false" aria-controls="collapseVerify" style="background-color: #f9f8f7 !important;">
                       Will you verify that my content is not created by AI before I can use the badges?
                     </button>

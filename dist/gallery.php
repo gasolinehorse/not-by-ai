@@ -5,10 +5,12 @@ include 'header.php';
 include 'top-nav.php';
 ?>
     <main class="px-4 px-lg-0">
-      <header>
-        <h1 class="pb-3 mt-4">Gallery</h1>
-        <p>Below are some examples showcasing how the Not By AI badges can amplify the thoughts and hard work you've put into your content.</p>
-      </header>
+      <div class="row">
+        <header>
+          <h1 class="pb-3 mt-4">Gallery</h1>
+          <p>Below are some examples showcasing how the Not By AI badges can amplify the thoughts and hard work you've put into your content.</p>
+        </header>
+      </div>
       <div class="row justify-content-center text-start">
         <div class="col-lg-11">
           <div class="row">

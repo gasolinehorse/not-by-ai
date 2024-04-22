@@ -58,6 +58,172 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content border-0 rounded-0 download-popup">
+        <div class="modal-header px-md-5 py-md-4 align-items-start">
+          <div class="modal-title fs-3 h3" id="downloadEmailLabel">Download the Not By AI Badges</div>
+          <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pb-4 pt-md-4 pb-5 px-lg-5">
+          <form id="forms" method="post" action="process-form.php">
+            <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
+            <p class="small my-0 mt-md-2 w-100 text-center">I want to</p>
+            <div class="py-1 py-md-2">
+              <div class="row text-center justify-content-center px-3 px-sm-0">
+                <div class="col-sm-5 not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
+                  <input class="form-check-input me-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
+                  <label class="form-check-label py-3 w-100 cursor-pointer" for="usage2">
+                    <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
+                      <div class="col-5">
+                        <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                      </div>
+                      <div class="col-1 px-0 text-center">
+                        <div class="h3">+</div>  
+                      </div>
+                      <div class="col-5">
+                        <img id="not-by-ai-offering-badges" class="img-fluid shadow" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI projects">
+                      </div>
+                    </div>
+                    <h4 class="h5 mb-0">Download the badges & describe my human-centric approach to my users</h4>
+                    <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div>
+                  </label>
+                </div>
+                <div class="col-sm-1" style="width: 2%;"></div>
+                <div class="col-sm-5 not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
+                  <input class="form-check-input me-0" type="radio" name="usage" id="usage1" value="Personal use">
+                  <label class="form-check-label py-3 w-100 cursor-pointer" for="usage1">
+                    <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
+                      <div class="col-5">
+                        <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                      </div>
+                    </div>
+                    <h4 class="h5 mb-0">Download the badges only</h4>
+                    <div style="font-size: 0.75rem;" class="opacity-50">Pay as you wish</div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div id="personal-form" class="d-none mt-md-4 px-sm-3 px-lg-5">
+              <div class="row justify-content-between">
+                <div class="col-md-7 col-lg-8 pt-md-2 pe-md-4">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" required>
+                </div>
+                <div id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-md-0">
+                  <label for="your-price">Pay What You Wish</label>
+                  <div class="d-flex align-items-center">
+                    <div class="display-4 pe-1 opacity-50">$</div>
+                    <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" value="0" required>
+                  </div>
+                </div>
+                <input type="hidden" name="badgeType" id="badgeType" value="">
+              </div>
+              <div class="pt-3">
+                <div class="d-flex">
+                  <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
+                </div>
+              </div>
+              <label for="nogo" class="d-none">Company</label>
+              <input type="text" name="nogo" class="d-none">
+              <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
+              <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
+            </div>
+            <div class="text-center"><a id="join-not-by-ai" class="btn mt-2 d-none" href="https://notbyai.fyi/app/signup/">Get Started</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var commercialRadio = document.getElementById("usage2");
+    var personalRadio = document.getElementById("usage1");
+    var personalForm = document.getElementById("personal-form");
+    var joinNotByAI = document.getElementById("join-not-by-ai");
+    personalRadio.addEventListener("change", function() {
+      if (personalRadio.checked) {
+        personalForm.classList.remove("d-none");
+        joinNotByAI.classList.add("d-none");
+      } else {
+        personalForm.classList.add("d-none");
+        joinNotByAI.classList.remove("d-none");
+      }
+    });
+    commercialRadio.addEventListener("change", function() {
+      if (commercialRadio.checked) {
+        personalForm.classList.add("d-none");
+        joinNotByAI.classList.remove("d-none");
+      } else {
+        personalForm.classList.remove("d-none");
+        joinNotByAI.classList.add("d-none");
+      }
+    });
+
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    var trafficSource = document.referrer;
+    if (trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
+      document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>If You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
+      document.getElementById("tagline").style.zoom = "90%";
+      
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      document.head.appendChild(script);
+      
+      window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      };
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('img.no-download').forEach(function(img) {
+        img.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+        });
+      });
+    });
+
+    function syncCheckboxes(checkboxChanged, checkboxToSync) {
+      checkboxToSync.checked = checkboxChanged.checked;
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var donationInput = document.getElementById('your-price');
+      var buttonA = document.getElementById('not-by-ai-badges-download-no-cost');
+      var buttonB = document.getElementById('not-by-ai-badges-download-with-donation-no-cp');
+      donationInput.addEventListener('input', function() {
+        const value = parseFloat(donationInput.value);
+        if (value > 0) {
+          buttonA.style.display = 'none';
+          buttonB.style.display = 'inline-block';
+        } else {
+          buttonA.style.display = 'inline-block';
+          buttonB.style.display = 'none';
+        }
+      });
+    });
+
+    document.getElementById("artist-badge").onclick = function() {
+      document.getElementById("badgeType").value = "Artist";
+    };
+    document.getElementById("writer-badge").onclick = function() {
+      document.getElementById("badgeType").value = "Writer";
+    };
+    document.getElementById("producer-badge").onclick = function() {
+      document.getElementById("badgeType").value = "Producer";
+    };
+    document.getElementById("mobile-top-bar__download").onclick = function() {
+      document.getElementById("badgeType").value = "Unknown (via mobile top bar download)";
+    };
+    document.getElementById("side-download").onclick = function() {
+      document.getElementById("badgeType").value = "Unknown (via desktop side download)";
+    };
+  </script>
   <div id="curtain" class="position-fixed top-0 start-0 w-100 h-100" onclick="closeNav()"></div>
   <script type="text/javascript">
     function openNav() {

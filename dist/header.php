@@ -50,19 +50,17 @@
   <!-- End Google Tag Manager (noscript) -->
   <div id="sidenav-bar" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a onclick="closeNav()" href="/#not-by-ai-mission">Mission</a>
-    <a onclick="closeNav()" href="/#who-can-use-not-by-ai-badge">Qualification</a>
-    <a onclick="closeNav()" href="/help/which-not-by-ai-badge-should-i-use.php">Badge Types</a>
-    <a onclick="closeNav()" href="/gallery">Gallery</a>
-    <a onclick="closeNav()" href="/#why-should-i-use-not-by-ai-badge">Benefits</a>
-    <a onclick="closeNav()" href="/help">Resources</a>
+    <a href="https://notbyai.fyi/how-it-works">How It Works</a>
+    <a href="https://notbyai.fyi/pricing">Pricing</a>
+    <a href="https://notbyai.fyi/gallery">Gallery</a>
+    <a href="https://notbyai.fyi/help">Resources</a>
     <a href="https://notbyai.fyi/about">About Us</a>
     <a href="https://notbyai.fyi/contact">Contact</a>
     <div class="px-4 mt-3" onclick="closeNav()">
       <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges</a>
     </div>
     <div class="px-4 mt-3" onclick="closeNav()">
-      <a href="https://notbyai.fyi/business" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Not By AI for Business</a>
+      <a href="https://notbyai.fyi/app/login" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Log In</a>
     </div>
     <div class="d-flex pt-4">
       <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
