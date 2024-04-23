@@ -99,7 +99,7 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are used on <?php include 'all-stats.php'; ?> pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are featured on <?php include 'all-stats.php'; ?> pages.</div>
         </div>
       </section>
     </main>
@@ -187,7 +187,7 @@ include 'top-nav.php';
                   <div class="xs text-center pt-2">Project page</div>
                 </div>
               </div>
-              A project page can be linked from your badges. It is a crucial page for your clients, prospects, and users to recognize that your human effort is more than just inserting a badge. This is especially important when the business problem they look to solve is complex and requires a tailored solution from trained humans. With Not By AI for Business, you can:
+              A project page can be linked from your badges. It is a crucial page for your clients, prospects, and users to recognize that your human effort is more than just inserting a badge. This is especially important when the business problem they look to solve is complex and requires a tailored solution from trained humans. With Not By AI, you can:
               <ul class="mt-3 ul--checks">
                 <li class="mb-1">Highlight your human-centric solutions</li>
                 <li class="mb-1">Prove that your content is safe from AI hallucinations</li>
