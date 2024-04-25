@@ -16,7 +16,7 @@ include 'top-nav.php';
           <div class="col-md-4 fade-in-move-up" style="opacity: 0;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
-                <div class="h3 mt-3 mb-1">Starter</div>
+                <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-starter-plan.svg" alt=""> Starter</div>
                 <p class="small mb-0">For individual creators and small teams with revenue under $100,000 in the last 12 months.</p>
               </div>
               <div class="bg-light py-3 px-3 px-md-4">
@@ -38,7 +38,7 @@ include 'top-nav.php';
           <div class="col-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.1s;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
-                <div class="h3 mt-3 mb-1">Business</div>
+                <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-business-plan.svg" alt=""> Business</div>
                 <p class="small mb-0">For smaller startups and businesses with revenue under $1&nbsp;million in the last 12 months.</p>
               </div>
               <div class="bg-light py-3 px-3 px-md-4">
@@ -60,7 +60,7 @@ include 'top-nav.php';
           <div class="col-md-4 fade-in-move-up" style="opacity: 0; animation-delay:0.2s;">
             <div class="bg-white rounded mt-4 border" style="overflow: clip;">
               <div class="py-3 px-3 px-md-4">
-                <div class="h3 mt-3 mb-1">Enterprise</div>
+                <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-enterprise-plan.svg" alt=""> Enterprise</div>
                 <p class="small mb-0">For larger companies and organizations with revenue over $1&nbsp;million in the last 12 months.</p>
               </div>
               <div class="bg-light py-3 px-3 px-md-4">
