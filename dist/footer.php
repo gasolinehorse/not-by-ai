@@ -70,7 +70,7 @@
         <div class="modal-body pb-4 pt-md-4 pb-5 px-lg-5">
           <form id="forms" method="post" action="process-form.php">
             <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
-            <p class="small my-0 mt-md-2 w-100 text-center">I want to</p>
+            <p class="small my-0 w-100 text-center">I want to</p>
             <div class="py-1 py-md-2">
               <div class="row text-center justify-content-center px-3 px-sm-0">
                 <div class="col-sm-5 not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
@@ -106,7 +106,7 @@
                 </div>
               </div>
             </div>
-            <div id="personal-form" class="d-none mt-md-4 px-sm-3 px-lg-5">
+            <div id="personal-form" class="mt-md-3 px-sm-3 px-lg-5">
               <div class="row justify-content-between">
                 <div class="col-md-7 col-lg-8 pt-md-2 pe-md-4">
                   <label for="email">Email</label>
