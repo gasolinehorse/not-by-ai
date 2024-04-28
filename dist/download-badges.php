@@ -12,7 +12,7 @@ include 'top-nav.php';
         </header>
         <div class="row justify-content-center">
 	        <div class="col-sm-10 col-md-9 col-lg-6">
-		        <p>Your download will start soon. A copy of the Not By AI badges should be in your inbox shortly as well.</p>
+		        <p>Your download will start soon. A copy of the Not By AI badges will be in your inbox shortly as well.</p>
 	        </div>
         </div>
       </div>

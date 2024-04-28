@@ -72,8 +72,8 @@
             <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
             <p class="small my-0 w-100 text-center">I want to</p>
             <div class="py-1 py-md-2">
-              <div class="row text-center justify-content-center px-3 px-sm-0">
-                <div class="col-sm-5 not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
+              <div class="row text-center justify-content-center px-3">
+                <div class="col-sm not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
                   <input class="form-check-input me-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
                   <label class="form-check-label py-3 w-100 cursor-pointer" for="usage2">
                     <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
@@ -92,7 +92,7 @@
                   </label>
                 </div>
                 <div class="col-sm-1" style="width: 2%;"></div>
-                <div class="col-sm-5 not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
+                <div class="col-sm not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
                   <input class="form-check-input me-0" type="radio" name="usage" id="usage1" value="Personal use">
                   <label class="form-check-label py-3 w-100 cursor-pointer" for="usage1">
                     <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
@@ -106,7 +106,7 @@
                 </div>
               </div>
             </div>
-            <div id="personal-form" class="mt-md-3 px-sm-3 px-lg-5">
+            <div id="personal-form" class="mt-md-3 px-1 px-sm-3 px-lg-1">
               <div class="row justify-content-between">
                 <div class="col-md-7 col-lg-8 pt-md-2 pe-md-4">
                   <label for="email">Email</label>
