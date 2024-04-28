@@ -101,7 +101,7 @@
                       </div>
                     </div>
                     <h4 class="h5 mb-0">Download the badges only</h4>
-                    <div style="font-size: 0.75rem;" class="opacity-50">Pay as you wish</div>
+                    <div class="mt-1" style="font-size: 0.75rem;"><span class="opacity-50">Pay&nbsp;as&nbsp;you&nbsp;wish</span><span class="border rounded-2 ms-2 py-1 px-2"><span class="opacity-50">Personal&nbsp;Use&nbsp;Only</span></span></div>
                   </label>
                 </div>
               </div>
@@ -131,7 +131,10 @@
               <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
               <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
             </div>
-            <div class="text-center"><a id="join-not-by-ai" class="btn mt-2 d-none" href="https://notbyai.fyi/app/signup/">Get Started</a></div>
+            <div id="join-not-by-ai" class="text-center d-none">
+              <a class="btn mt-3" href="https://notbyai.fyi/app/signup/">Get Started</a>
+              <div class="small opacity-50 mt-3">Or <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">download the badges only for a one-time $99 fee</a></div>
+            </div>
           </form>
         </div>
       </div>
