@@ -349,7 +349,7 @@ include 'top-nav-dark.php';
                     </div>
                   </div>
                 </div>
-                <div class="mb-0 mt-4 text-center"><a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline small">Pay a one-time $99 fee instead (badges only)</a></div>
+                <div class="small mb-0 mt-4 text-center">Or <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">download the badges only for a one-time $99 fee</a></div>
               </div>
             </form>
           </div>
