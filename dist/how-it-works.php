@@ -9,7 +9,7 @@ include 'top-nav.php';
         <h1 class="mt-4 display-2">How It Works</h1>
       </header>
       <section class="col-md-10 col-xl-7 pb-1">
-        <p class="mb-4">Adding our Not By AI badges to your content is an efficient way to demonstrate your human-created content. However, recognizing that our badges can be misused, we require you to set up a project page (where you can link your badges to) to describe your human-centric content approach if using our badges commercially. </p>
+        <p class="mb-4">Adding our Not By AI badges to your content is an efficient way to demonstrate your human-created content. However, recognizing that our badges can be misused, we strongly encourage you to set up a project page (where you can link your badges to) to describe your human-centric content approach, if using our badges commercially. It is as easy as 1, 2, 3:</p>
       </section>
       <div class="col-xl-11 text-start">
         <div class="row justify-content-center">
@@ -54,7 +54,8 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="text-center pb-5 pt-2">
-          <a href="https://notbyai.fyi/app/signup" class="btn mt-4">Get Started</a>
+          <a href="https://notbyai.fyi/app/signup" class="btn mt-4 mb-4">Get Started</a><br>
+          <div class="small opacity-50">Or <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">download the badges only for a one-time $99 fee</a></div>
         </div>
       </div>
       <div id="all-not-by-ai-use-case-wrapper" class="overflow-hidden">
