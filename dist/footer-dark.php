@@ -88,7 +88,7 @@
                       </div>
                     </div>
                     <h4 class="h5 mb-0">Download the badges & describe my human-centric approach to my users</h4>
-                    <div style="font-size: 0.75rem;" class="opacity-50">Starting at $5/mo</div>
+                    <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Starting&nbsp;at&nbsp;$5/mo</span><span class="border rounded-2 ms-2 py-1 px-2"><span class="opacity-50">Commercial&nbsp;&&nbsp;Personal&nbsp;Use</span></span></div>
                   </label>
                 </div>
                 <div class="col-sm-1" style="width: 2%;"></div>
