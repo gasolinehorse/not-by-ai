@@ -79,7 +79,30 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <p class="xs position-relative z-1 text-center pt-3">If one project page isn't enough, a one-time payment of $15 for each additional project page is available.</p>
+          <p class="xs position-relative z-1 text-center pt-4 pb-3">If one project page isn't enough, a one-time payment of $15 for each additional project page is available.</p>
+          <div class="col-12 fade-in-move-up" style="opacity: 0; animation-delay:0.3s;">
+            <div class="row bg-white rounded mt-4 border">
+              <div class="col-6 col-md-8">
+                <div class="py-3 px-3 px-md-4" style="overflow: clip;">
+                  <div class="h3 mt-3 mb-1">Badges Only</div>
+                  <p class="small mb-0">For anyone who prefers not to sign up for a subscription and a project page, and intends to use the badge commercially.</p>
+                  <div class="display-2 mt-2 me-2">$99</div>
+                  <p class="xs mb-2 opacity-50">One-time</p>
+                  <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="btn px-2 px-md-4 px-lg-5 mb-4">Purchase the Badges</a>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 bg-light">
+                <div class="py-3 px-3 px-md-4">
+                  <ul class="mt-4 ul--checks px-2">
+                    <li class="small">All three badges</li>
+                    <li class="small">Badges available in dark and light themes</li>
+                    <li class="small">Badges available in PNG, SVG, and EPS</li>
+                    <li class="small">No hidden costs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-12 mt-5">
