@@ -21,8 +21,8 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">How Do I Cancel My Not By AI Subscriptions or Close My Account?</h1>
-            <p>You can cancel your subscriptions by logging in to your account, selecting the settings icon at the top right corner, and clicking into 'Subscription' in the dropdown menu. Then select 'Cancel' to cancel a subscription. </p>
-            <p>If you would like to close your Not By AI account, simplify send an email request to <a class="text-decoration-underline" href="mailto:help@notbyai.fyi?subject=Not By AI account closure request">help@notbyai.fyi</a> using the email you signed up so we can validate that it is you. Once we receive the request, we will cancel it within 5 business days (usually sooner).</p>
+            <p>You can cancel your subscriptions by logging in to your account, selecting the settings icon at the top-right corner, and clicking on 'Subscription' in the dropdown menu. Then select 'Cancel' to cancel a subscription. </p>
+            <p>If you would like to close your Not By AI account, simply send an email request to <a class="text-decoration-underline" href="mailto:help@notbyai.fyi?subject=Not By AI account closure request">help@notbyai.fyi</a> using the email you signed up so we can validate that it is you. Once we receive the request, we will cancel it within 5 business days (usually sooner).</p>
             <p>We don't guilt-trip you with the "We are sad to see you go" thing. We want to make sure you are happy with our service, and when you no longer need it, we make it as smooth as possible for you to move on and focus on other things in life. That said, if you're willing to share why you're canceling, we are all ears.</p>
           </section>
           <section class="py-4">
