@@ -24,9 +24,9 @@ include '../../top-nav.php';
           <div class="row justify-content-start pt-2 pb-3 py-md-4">
             <div class="col-1"></div>
             <div class="col-3 col-sm-auto border-md-top pt-md-4 pt-lg-4 pb-xl-2">
-              <img width="85" class="border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/logo.png" alt="logo">
+              <img width="85" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/logo.png" alt="logo">
             </div>
-            <div class="col-8 col-md-4 col-lg-6 col-xl-8 border-md-top pt-1 pt-md-4 pt-lg-4 pb-xl-2">
+            <div class="col-8 col-sm-auto col-md-4 col-lg-6 col-xl-8 border-md-top pt-1 pt-md-4 pt-lg-4 pb-xl-2">
               <h2 class="h2 mb-0 mt-md-2 mt-lg-3 lh-sm"><?php echo $project_name; ?> <svg class="mb-1 mb-md-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="#007CE4" fill-rule="evenodd" d="m9.545 18.48-1.45.885a1.781 1.781 0 0 1-2.616-.952l-.543-1.61a.871.871 0 0 0-.695-.584l-1.68-.254a1.782 1.782 0 0 1-1.392-2.412l.62-1.582a.871.871 0 0 0-.158-.894L.507 9.803A1.782 1.782 0 0 1 .991 7.06l1.492-.814a.872.872 0 0 0 .454-.786l-.042-1.699a1.782 1.782 0 0 1 2.133-1.79l1.666.336c.32.065.65-.055.853-.31L8.607.67a1.782 1.782 0 0 1 2.784 0l1.06 1.328a.872.872 0 0 0 .854.31l1.665-.335a1.781 1.781 0 0 1 2.133 1.79l-.041 1.698a.872.872 0 0 0 .454.786l1.492.814a1.782 1.782 0 0 1 .483 2.742l-1.123 1.274a.871.871 0 0 0-.158.894l.62 1.582a1.782 1.782 0 0 1-1.392 2.412l-1.68.254a.871.871 0 0 0-.696.583l-.542 1.61a1.782 1.782 0 0 1-2.616.953l-1.45-.885a.872.872 0 0 0-.909 0Z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="m15.083 8.685-5.982 5.983-4.185-4.185 1.506-1.506 2.679 2.678 4.476-4.476 1.506 1.506Z" clip-rule="evenodd"/></svg></h2>
               <small class="xs d-block">By <?php echo $project_author; ?></small>
             </div>
@@ -49,9 +49,57 @@ include '../../top-nav.php';
               </div>
             </div>
           </section>
-          <section id="support-assets">
-            <?php echo $project_assets; ?>
-          </section>
+          <?php if ($project_assets === true || $project_assets === 'yes'): ?>
+          <h3 class="pt-5">Supporting Assets</h3>
+          <div class="row pt-2 pt-md-0">
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name1; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name1; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name1; ?></p>
+              </a>
+            </div>
+            <?php if ($project_assets_source_file_name2): ?>
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name2; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name2; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name2; ?></p>
+              </a>
+            </div>
+            <?php endif; ?>
+            <?php if ($project_assets_source_file_name3): ?>
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name3; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name3; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name3; ?></p>
+              </a>
+            </div>
+            <?php endif; ?>
+            <?php if ($project_assets_source_file_name4): ?>
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name4; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name4; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name4; ?></p>
+              </a>
+            </div>
+            <?php endif; ?>
+            <?php if ($project_assets_source_file_name5): ?>
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name5; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name5; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name5; ?></p>
+              </a>
+            </div>
+            <?php endif; ?>
+            <?php if ($project_assets_source_file_name6): ?>
+            <div class="col-6 mb-3">
+              <a href="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_source_file_name6; ?>" target="_blank">
+                <img style="cursor: zoom-in;" width="160" class="w-100 border rounded img-fluid position-relative z-1 mt-md-2 mt-lg-3" src="<?php echo dirname($_SERVER['PHP_SELF']); ?>/img/<?php echo $project_assets_thumbnail_file_name6; ?>" alt="">
+                <p class="small text-center pt-1 text-decoration-underline"><?php echo $project_assets_name6; ?></p>
+              </a>
+            </div>
+            <?php endif; ?>
+          </div>
+          <?php endif; ?>
           <ol class="source pt-5 mt-lg-5 pb-3">
             <li>
               <cite>The use of the Not By AI badges and the human review process do not guarantee that the content is not majorly created by AI, we are dedicated to enhancing our verification process and credibility.</cite>
@@ -110,7 +158,7 @@ include '../../top-nav.php';
                     Website
                   </div>
                   <div class="creator-profile__field">
-                    <a class="text-decoration-underline" href="https://<?php echo $project_url; ?>" target="_blank"><?php echo $project_url; ?></a>
+                    <a class="text-decoration-underline text-nowrap" href="https://<?php echo $project_url; ?>" target="_blank"><?php echo $project_url; ?></a>
                   </div>
                 </div>
                 <div class="pb-3 pt-3">
