@@ -35,9 +35,6 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://github.com/tuncaykaptan" target="_blank" rel="nofollow">Tuncay KAPTAN</a></p>
           </div>
           <div class="col-sm-4 col-6">
-            <p class="mb-0"><a class="text-decoration-underline" href="https://www.ptsgrn.dev" target="_blank" rel="nofollow">Patsagorn Yuenyong</a></p>
-          </div>
-          <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://carlos-aguilar.com" target="_blank" rel="nofollow">Carlos Aguilar</a></p>
           </div>
           <div class="col-sm-4 col-6">
@@ -85,8 +82,14 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://dominik.meller.net.pl/" target="_blank" rel="nofollow">Dominik Meller</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://www.ptsgrn.dev" target="_blank" rel="nofollow">Patsagorn Yuenyong</a></p>
+          </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://blog.vfiles.no/" target="_blank" rel="nofollow">Andreas Lien</a></p>
+          </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 27 anonymous translators.</p>
+            <p class="opacity-50">...and other 28 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
