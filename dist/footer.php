@@ -130,6 +130,7 @@
               <input type="text" name="nogo" class="d-none">
               <input id="not-by-ai-badges-download-no-cost" class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback="onSubmit" data-action="submit" type="submit" value="Send Me the Badges">
               <a id="not-by-ai-badges-download-with-donation-no-cp" style="display: none;" href="https://donate.stripe.com/dR67uh7oe2hucOAcMR" class="btn mt-4">Send Me the Badges</a>
+              <div class="xs opacity-50 mt-2">By clicking on the button above, you agree to our <a href="https://notbyai.fyi/terms-and-conditions" class="text-decoration-underline">Terms and Conditions</a>.</div>
             </div>
             <div id="join-not-by-ai" class="text-center d-none">
               <a class="btn mt-3" href="https://notbyai.fyi/app/signup/">Get Started</a>
