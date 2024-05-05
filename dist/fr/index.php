@@ -29,7 +29,7 @@ include 'top-nav.php';
             <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
           </header>
           <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
-          <p class="display-5">If your content is not AI-generated, proudly add the badge to your&nbsp;work.</p>
+          <p class="display-5">If your content is not AI-generated, add the badge to your&nbsp;work.</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
           <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
