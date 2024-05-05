@@ -1,10 +1,10 @@
 <?php
-$pageTitle = 'Not By AI — Add the Badge to Your Human-Created Content';
-$pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
-include 'header.php';
-include 'top-nav.php';
+$pageTitle = 'Not By AI — 為你的非AI創作貼上這個貼紙吧！';
+$pageDes = '下載Not By AI貼紙來讓大家知道你的創作（不論文章、畫作、攝影、影片、音樂等）是手工製造、非AI所生成的';
+include '../header.php';
+include '../top-nav.php';
 ?>
-    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>Your download will start shortly. <br>Please do not close your window.</span></div>
+    <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>下載即將開始。 <br>請先不要關閉此視窗。</span></div>
     <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
@@ -26,10 +26,10 @@ include 'top-nav.php';
         </div>
         <div class="col-lg-10 col-xl-8">
           <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
+            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">為你非AI的人工創作<br>貼上個貼紙吧</h1>
           </header>
-          <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
-          <p class="display-5">If your content is not AI-generated, add the badge to your&nbsp;work.</p>
+          <p class="display-5">人工智慧（AI）是靠以前的人工內容訓練而成。倘若人類就此全面仰賴AI並且放棄自己創作，世界各地的創作恐將面臨停滯。</p>
+          <p class="display-5">如果你持續堅持人工創作，下載並把這張貼紙加到你的創作裡吧！</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
           <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
@@ -99,7 +99,7 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are featured on <?php include 'all-stats.php'; ?> pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are featured on <?php include '../all-stats.php'; ?> pages.</div>
         </div>
       </section>
     </main>
@@ -269,4 +269,4 @@ include 'top-nav.php';
         }
       });
     </script>
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
