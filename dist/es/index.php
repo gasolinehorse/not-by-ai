@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Not By AI — Add the Badge to Your Human-Created Content';
-$pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
+$pageTitle = 'Not By AI — Añade la insignia a tu contenido creado por humanos';
+$pageDes = 'Descarga y añade la insignia de Not By AI para mostrar que tu contenido (texto, arte, fotos, vídeos y música) está libre de AI';
 include 'header.php';
 include 'top-nav.php';
 ?>
@@ -26,10 +26,10 @@ include 'top-nav.php';
         </div>
         <div class="col-lg-10 col-xl-8">
           <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
+            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Tu contenido libre de IA <br>Se merece una&nbsp;Insignia</h1>
           </header>
-          <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
-          <p class="display-5">If your content is not AI-generated, add the badge to your&nbsp;work.</p>
+          <p class="display-5">La Inteligencia Artificial (AI) se entrena a partir de contenido creado por humanos. Si los humanos dejan de producir contenido y dependen únicamente de la AI, los contenidos de Internet podrían volverse repetitivos y&nbsp;estancarse.</p>
+          <p class="display-5">Si tu contenido está libre de AI, añade la insignia a tu&nbsp;trabajo.</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
           <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
@@ -51,8 +51,8 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Artist badge</h2>
-                  <p class="small mt-2 text-opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Descarga la insignia de Artista</h2>
+                  <p class="small mt-2 text-opacity-50">Para obras de arte, incluyendo arte tradicional y digital, pintura, ilustraciones, cómics y más.</p>
                 </div>
               </span>
             </span>
@@ -71,8 +71,8 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Writer badge</h2>
-                  <p class="small mt-2 text-opacity-50">Good for blog posts, essays, books, research, code, and other text-based content.</p>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Descarga la insignia de Escritor</h2>
+                  <p class="small mt-2 text-opacity-50">Para blos, ensayos, libros, trabajos de investigación, código y otro contenido basado en texto.</p>
                 </div>
               </span>
             </span>
@@ -91,15 +91,15 @@ include 'top-nav.php';
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Producer badge</h2>
-                  <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more.</p>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded">Descarga la insignia de Productor</h2>
+                  <p class="small mt-2 text-opacity-50">Para audio, vídeo, fotografía, enfoque creativo en general y más.</p>
                 </div>
               </span>
             </span>
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are featured on <?php include 'all-stats.php'; ?> pages.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">Estás en buena compañía. Las insignias Not By AI aparecen en <?php include 'all-stats.php'; ?> páginas.</div>
         </div>
       </section>
     </main>
@@ -111,28 +111,28 @@ include 'top-nav.php';
             <a class="ps-1" href="https://notbyai.fyi" style="opacity: 1;"><img class="mb-4 img-fluid" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black active" id="quick-link-mission" href="#not-by-ai-mission">Mission</a>
+            <a class="nav-link text-black active" id="quick-link-mission" href="#not-by-ai-mission">Misión</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">Who Can Use the Badge</a>
+            <a class="nav-link text-black" id="quick-link-who" href="#who-can-use-not-by-ai-badge">¿Quién puede usar la insignia?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Benefits</a>
+            <a class="nav-link text-black" id="quick-link-why" href="#why-should-i-use-not-by-ai-badge">Beneficios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Gallery</a>
+            <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Galería</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-resources" href="/help">Resources</a>
+            <a class="nav-link text-black" id="quick-link-resources" href="/help">Recursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Support Us</a>
+            <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Apóyanos</a>
           </li>
           <li class="nav-item">
-            <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
+            <span id="side-download" class="nav-link text-black text-decoration-underline mt-5 cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Descarga las insignias&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></span>
           </li>
           <li class="nav-item pb-4">
-            <a class="for-business-link ms-3 mt-3 rounded-2" style="letter-spacing: -0.15px;" href="https://notbyai.fyi/business">Not By AI for Business</a>
+            <a class="for-business-link ms-3 mt-3 rounded-2" style="letter-spacing: -0.15px;" href="https://notbyai.fyi/business">Not By AI para uso profesional</a>
           </li>
         </ul>
       </nav>
@@ -140,29 +140,29 @@ include 'top-nav.php';
       <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-5">
         <nav id="mobile-top-bar" class="d-none d-sm-none position-fixed top-0 start-0 end-0 z-3 bg-white border-bottom py-2 px-4 w-100">
           <div class="me-auto"><img class="img-fluid" width="100" src="/img/not-by-ai.svg" alt="Not By AI"></div>
-          <div><span id="mobile-top-bar__download" class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></div>
+          <div><span id="mobile-top-bar__download" class="text-decoration-underline cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">Descarga las insignias&nbsp;<img src="/img/download-not-by-ai-badge.svg" alt=""></div>
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>Mission</h3>
-          <p>The Not By AI badges are created to encourage more humans to produce original content and help users identify human-generated content. The Ultimate goal is to make sure humanity continues to advance.</p>
-          <p>An expert estimates that 90 percent of online content could be generated by AI by 2025.<sup>1</sup> With the surge in AI-generated content, it is important to note that AI is trained on human-generated content. If humans rely solely on AI to generate content moving forward, any new content generated by AI may just be recycled content from the past. This could pose a major obstacle to human advancement. Only by limiting the reliance on AI and continuing to create original content can propel us forward as a species.</p>
+          <h3>Misión</h3>
+          <p>Las insignias Not By AI han sido creadas para animar alentar a la humanidad a producir contenido original y ayudar a los usuarios a identificar los contenidos libres de AI. El objetivo final es garantizar que la humanidad siga avanzando.</p>
+          <p>Expertos estiman que el 90% del contenido en internet podría ser generado por IA en 2025.<sup>1</sup> Con el auge de los contenidos generados por AI, es importante tener en cuenta que ésta se entrena usando contenido generado por humanos. Si dependemos de la Inteligencia Artificial para generar contenido en el futuro, cualquier nuevo contenido podría ser simplemente un reciclaje de otro contenido creado por IA. Esto podría suponer un obstáculo significativo al desarrollo humano. Sólo limitando la dependencia de la IA y creando contenido original podremos avanzar como especie.</p>
           <figure>
             <img class="img-fluid mb-3" src="/img/ai-generates-content-using-human-content.svg" alt="AI using human-created content to produce new content">
-            <figcaption class="display-6">The chart represents a scenario in which humans stop generating new content and AI reuses pre-existing content to produce new content.</figcaption>
+            <figcaption class="display-6">El gráfico representa un escenario en el que los humanos dejan de crear contenido y la IA reutiliza contenido preexistente.</figcaption>
           </figure>
-          <p>It is worth mentioning that AI technologies mark a major milestone in the history of technology and the Not By AI badge is not designed to discourage the use of AI. Instead, it is to make sure that, while we celebrate the achievement, we work with AI instead of being replaced by&nbsp;AI.</p>
+          <p>Cabe destacar que las tecnologías de IA marcan un hito importante en la historia de la tecnología y la insignia Not By AI no está diseñada para desalentar el uso de la Inteligencia Artificial. Al contrario, se trata de asegurar que, mientras celebramos el logro, trabajamos con la IA en lugar de ser sustituidos por&nbsp;ella.</p>
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Who Can Use the Badge</h3>
-          <h4 class="pt-1">The Not By AI 90% Rule</h4>
-          <p>Understanding that there is a blurred line between what is considered AI-generated vs human-generated, if you estimate that <span class="text-decoration-underline">at least 90% of your content is created by humans</span>, you are eligible to add the badges into your website, blog, art, film, essay, books, podcast, or whatever your project is for non-commercial use, and, with a subscription, commercial use. The 90% <i>can</i> include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.</p>
-          <p>Please note that Not By AI is not an AI detection tool; our mission is tailored for users who voluntarily want to advocate for human-centric approaches, rather than for those seeking evidence of human-produced content. This means you should be the one held accountable for following the Not By AI 90% Rule mentioned above.</p>
+          <h3>¿Quién puede usar la insignia?</h3>
+          <h4 class="pt-1">La regla del 90% de Not By AI</h4>
+          <p>Partiendo de que no existe una división clara entre lo que se considera generado por humanos y IA, si estimas que <span class="text-decoration-underline">al menos el 90% de tu contenido ha sido creado por humanos</span>, puedes añadir las insignias a tu web, blog, arte, vídeo, ensayo, libros, podcasts o cualquier proyecto para uso no comercial y, con una subscripción, uso comercial. El 90% <i>puede</i> incluir uso de IA como inspiración, en documentos legales complementarios a tu trabajo (asumiento que no es objetivo principal de tu contenido o servicio), contenido no orientado al usuario como SEO, meta tags o código y para corregir y traducir contenido.</p>
+          <p>Ten en cuenta que Not By AI no es una herramienta de detección de IA; nuestra misión está dirigida a usuarios que voluntariamente desean optar por enfoques centrados en el ser humano, más que a aquellos que buscan pruebas de contenido libre de IA. Esto significa que tú serás el responsable de cumplir la regla del 90% mencionada anteriormente. </p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Benefits</h3>
+          <h3>Beneficios</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
@@ -173,81 +173,81 @@ include 'top-nav.php';
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
             <div class="tab-pane fade show active" id="business-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-              In addition to providing you with our iconic Not By AI badges (once approved), as a Not By AI member, we will help you set up a project page that documents your creative proccess and approach. This allows your audience to learn how you in fact created your content without or with very little help from AI.
+              Además de proporcionarte, una vez aprobadas, las icónicas insignias Not By AI, como miembro, te ayudaremos a crear una página de proyecto que documente tu enfoque y proceso creativo. De este modo, tu público podrá saber cómo has creado tu contenido con mínima intervención de IA.
               <div class="row justify-content-center align-items-center mt-2 mb-3 px-3">
                 <div class="col-5 text-center">
                   <img id="not-by-ai-offering-badges" class="img-fluid mt-3" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
-                  <div class="xs text-center">Not By AI badges</div>
+                  <div class="xs text-center">Insignias Not By AI</div>
                 </div>
                 <div class="col-1 px-0 text-center">
                   <div class="h3">+</div>  
                 </div>
                 <div class="col-5 text-center">
                   <a href="https://notbyai.fyi/hi/not-by-ai/"><img id="not-by-ai-offering-badges" class="img-fluid shadow mt-3 mt-md-0" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI projects"></a>
-                  <div class="xs text-center pt-2">Project page</div>
+                  <div class="xs text-center pt-2">Página de proyecto</div>
                 </div>
               </div>
-              A project page can be linked from your badges. It is a crucial page for your clients, prospects, and users to recognize that your human effort is more than just inserting a badge. This is especially important when the business problem they look to solve is complex and requires a tailored solution from trained humans. With Not By AI, you can:
+              Desde tus insignias se puede enlazar una página de proyecto. Será una página crucial para que tus clientes actuales y potenciales y tus usuarios reconozcan que el esfuerzo humano es algo más que insertar una insignia. Esto es especialmente importante cuando el problema que buscan solucionar es complejo y requiere una solución a medida por parte de humanos cualificados. Con Not By AI, puedes:
               <ul class="mt-3 ul--checks">
-                <li class="mb-1">Highlight your human-centric solutions</li>
-                <li class="mb-1">Prove that your content is safe from AI hallucinations</li>
-                <li class="mb-1">Set yourself apart from the competition</li>
-                <li class="mb-1">Show that your content is free from AI copyright infringement</li>
-                <li class="mb-1">Build trust & credibility for your brand</li>
+                <li class="mb-1">Destacar tus soluciones centradas en el ser humano</li>
+                <li class="mb-1">Demostrar que tu contenido está libre de alucinaciones de la IA</li>
+                <li class="mb-1">Diferenciarte de tus competidores</li>
+                <li class="mb-1">Asegurar que tu contenido no infringe derechos de autor por uso de IA</li>
+                <li class="mb-1">Construir confianza y credibilidad para tu marca</li>
               </ul>
-              <a href="/app/signup" class="btn mt-2 mb-3">Join Not By AI</a>
+              <a href="/app/signup" class="btn mt-2 mb-3">Únete a Not By AI</a>
             </div>
             <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI, such as ChatGPT, Claude, or Gemini. <div class="mt-3">More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.<br><br>
-              We offer the badges for 100% free for non-commercial projects. It is our mission to spread the Not By AI movement as widely as possible. If you want to support us, please consider our paid subscriptions or <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">contribute through a donation</a>.</div>
+              Sin profesionales específicamente entrenados o detectores de IA, es prácticamente imposible distinguir tu contenido humano del generado por IA. Utilizar las insignias Not By AI ayuda a tu audiencia a reconocer tu enfoque humano, comprendiendo que tu contenido es verdaderamente tuyo y no copiado y pegado de una IA generativa como ChatGPT, Claude o Gemini. <div class="mt-3"><br>Y lo que es más importante, esta iniciativa despierta la conciencia y anima a más individuos a producir contenido original. Este proceso garantiza que nosotros, colectivamente como especie, continuemos contribuyendo a la creación humana y evita que los contenidos sean sustituidos por reciclaje producido por IA.<br><br>
+              Ofrecemos las insignias de manera completamente gratuita para uso no comercial. Nuestra misión es difundir el movimiento lo más ampliamente posible. Si quieres apoyarnos, considera nuestras subscripciones o <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">contribuye con una donación</a>.</div>
             </div>
           </div>
-          <p class="mt-3">Some websites, like <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publish announcements to achieve similar goals. However, these announcements may no longer be visible shortly after their release. With the Not By AI badges, you can ensure that this messaging receives constant exposure. </p>
+          <p class="mt-3">Algunas webs, como <a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>, publican anuncios con un objetivo similar. Sin embargo, estos anuncios pueden dejar de ser visibles poco después de su publicación. Con las insignias Not By AI, puedes asegurarte de que el mensaje se exponga constantemente. </p>
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Gallery</h3>
+          <h3>Galería</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to a website</h5>
+              <h5>En una página web</h5>
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-footer.svg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to an artwork</h5>
+              <h5>En una ilustración</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-artwork@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-artwork.jpg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to an app</h5>
+              <h5>En una aplicación</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-app@2x.png 2x" src="/img/add-not-by-ai-badge-to-app.png" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to an essay</h5>
+              <h5>En un ensayo</h5>
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-essay.svg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to a book</h5>
+              <h5>En un libro</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-book@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-book.jpg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to an album cover</h5>
+              <h5>En una carátula</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-music@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-music.jpg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to a blog article</h5>
+              <h5>En un blog</h5>
               <img class="img-fluid" src="/img/add-not-by-ai-badge-to-blog.svg" alt="">
             </div>
             <div class="col-6 pt-4 pt-sm-3">
-              <h5>Add to a painting</h5>
+              <h5>En una pintura</h5>
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
             </div>           
           </div>
-          <p class="text-center"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Show More Inspirations</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
+          <p class="text-center"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Más inspiración</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>Support Us</h3>
-          <p>The whole Not By AI movement is created by real humans. Your support will make a difference. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate today</a> to empower the content creators and ensure that humanity continues to advance. Your donation will be used in <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">various places</a> to grow Not By AI.</p>
-          <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
+          <h3>Apóyanos</h3>
+          <p>Todo el movimiento Not By AI ha sido creado por humanos. Tu apoyo marca la diferencia. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> para empoderar a los creadores de contenido y asegurar el avance de la humanidad. Tu donativo se usará de <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">varias formas</a> para expandir Not By AI.</p>
+          <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>
         <ol class="source pt-5">
           <li>
