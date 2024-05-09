@@ -4,7 +4,7 @@ $project_author = 'Hey Joe Media';
 $project_about = 'Human stories need human storytellers. Hey Joe Media is built by a formerly incarcerated, award-winning journalist who helps nonprofits trying to change the criminal justice system for the better by helping them communicate their mission and their work. This work is most effective when people who are currently or formerly incarcerated or otherwise directly impacted by the criminal justice system are leading the effort through their lived experiences. AI has no such experience.';
 $project_category = 'Non-Profit and Social Causes';
 $project_location = 'Tucson, United States';
-$project_url = 'drive.google.com/file/d/1MfwqjtO5-_5MKsAbt9eEhijktYFdHcLe/view?usp=sharing';
+$project_url = 'drive.google.com/file/d/1MfwqjtO5-_5MKsAbt9eEhijktYFdHcLe/view?usp=sharing'; // don't include https://
 $project_date = 'May&nbsp;7,&nbsp;2024';
 
 $project_badge_art = "d-inline-block";

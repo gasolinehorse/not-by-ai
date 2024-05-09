@@ -68,7 +68,7 @@
           <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body pb-4 pt-md-4 pb-5 px-lg-5">
-          <form id="forms" method="post" action="process-form.php">
+          <form id="forms" method="post" action="../process-form.php">
             <noscript>请在你的浏览器中启用JavaScript以完成此表格。</noscript>
             <p class="small my-0 w-100 text-center">我打算</p>
             <div class="py-1 py-md-2">
