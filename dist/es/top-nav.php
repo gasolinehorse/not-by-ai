@@ -45,7 +45,7 @@
           <li class="d-inline">
             <span class="dropdown">
               <a class="xs pe-3 pe-lg-4 px-xl-3" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="/img/not-by-ai-language.svg" alt="" style="margin-bottom: 3px;"> <span class="d-none d-lg-inline-block">Español</span>
+                <img src="/img/not-by-ai-language.svg" alt="" style="margin-bottom: 3px;"> <span class="d-none d-xl-inline-block">Español</span>
               </a>
               <ul class="dropdown-menu px-3 py-2" style="border-color: #eae9e9;">
                 <li class="pb-2 small"><a href="http://notbyai.fyi">English</a></li>
@@ -57,7 +57,7 @@
             </span>
           </li>
           <?php endif; ?>
-          <li class="d-none d-md-inline"><a class="xs px-3" href="https://notbyai.fyi/app/login">Inicia sesión</a></li>
+          <li class="d-none d-lg-inline"><a class="xs px-3" href="https://notbyai.fyi/app/login">Inicia sesión</a></li>
           <li class="d-none d-md-inline"><a class="xs px-3 me-4 me-sm-3 me-lg-5" href="https://notbyai.fyi/app/signup">Regístrate <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg); margin-bottom: 3px;"></a></li>
         </ul>
       </div>
