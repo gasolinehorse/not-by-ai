@@ -4,11 +4,11 @@ $pageDes = 'The Not By AI badges are now available in over 20 languages thanks t
 include 'header.php';
 include 'top-nav.php';
 ?>
-    <main class="row justify-content-center px-4 px-lg-0">
+    <main class="row justify-content-center px-2 px-lg-0">
       <header>
         <h1 class="mt-4">Meet Our Translators</h1>
       </header>
-      <div class="col-md-10 col-xl-9 pt-5">
+      <div class="col-md-10 col-xl-9 pt-3 pt-md-5">
         <div class="row justify-content-center text-start">
           <div class="col-lg-10 pb-4">
             <img class="w-100 mb-4" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
