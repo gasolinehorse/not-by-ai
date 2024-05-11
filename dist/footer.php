@@ -72,37 +72,40 @@
             <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
             <p class="small my-0 w-100 text-center">I want to</p>
             <div class="py-1 py-md-2">
-              <div class="row text-center justify-content-center px-3">
-                <div class="col-sm not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
-                  <input class="form-check-input me-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
-                  <label class="form-check-label py-3 w-100 cursor-pointer" for="usage2">
-                    <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
-                      <div class="col-5">
-                        <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+              <div class="row text-center justify-content-center pb-3 px-0 px-sm-3 px-lg-0">
+                <div class="col-6">
+                  <div class="not-by-ai-options border rounded-3 my-2 pt-3 px-2 px-md-3 bg-white shadow h-100">
+                    <input class="form-check-input me-0" type="radio" name="usage" id="usage2" value="Commerical use" required>
+                    <label class="form-check-label pt-1 pt-sm-3 w-100 cursor-pointer h-100" for="usage2">
+                      <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3 d-none d-sm-flex">
+                        <div class="col-5">
+                          <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                        </div>
+                        <div class="col-1 px-0 text-center">
+                          <div class="h3">+</div>  
+                        </div>
+                        <div class="col-5">
+                          <img id="not-by-ai-offering-badges" class="img-fluid shadow" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI project">
+                        </div>
                       </div>
-                      <div class="col-1 px-0 text-center">
-                        <div class="h3">+</div>  
-                      </div>
-                      <div class="col-5">
-                        <img id="not-by-ai-offering-badges" class="img-fluid shadow" srcset="/img/sign-up-not-by-ai-pages@2x.png 2x" src="/img/sign-up-not-by-ai-pages.png" alt="Not By AI projects">
-                      </div>
+                      <h4 class="h5 mb-0">Download the badges & describe my human-centric approach to my users</h4>
+                      <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Starting at $5/mo</span><span class="d-block d-md-inline-block border rounded-2 ms-lg-2 mt-1 mt-lg-0 py-1 px-2"><span class="opacity-50">Commercial & Personal Use</span></span></div>
                     </div>
-                    <h4 class="h5 mb-0">Download the badges & describe my human-centric approach to my users</h4>
-                    <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Starting&nbsp;at&nbsp;$5/mo</span><span class="border rounded-2 ms-2 py-1 px-2"><span class="opacity-50">Commercial&nbsp;&&nbsp;Personal&nbsp;Use</span></span></div>
                   </label>
                 </div>
-                <div class="col-sm-1" style="width: 2%;"></div>
-                <div class="col-sm not-by-ai-options border rounded-3 my-2 pt-3 px-3 bg-white shadow">
-                  <input class="form-check-input me-0" type="radio" name="usage" id="usage1" value="Personal use">
-                  <label class="form-check-label py-3 w-100 cursor-pointer" for="usage1">
-                    <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3">
-                      <div class="col-5">
-                        <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                <div class="col-6">
+                  <div class="not-by-ai-options border rounded-3 my-2 pt-3 px-2 px-md-3 bg-white shadow h-100">
+                    <input class="form-check-input me-0" type="radio" name="usage" id="usage1" value="Personal use">
+                    <label class="form-check-label pt-1 pt-sm-3 w-100 cursor-pointer h-100" for="usage1">
+                      <div class="row justify-content-center align-items-center mb-3 px-5 px-sm-3 d-none d-sm-flex">
+                        <div class="col-5">
+                          <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                        </div>
                       </div>
-                    </div>
-                    <h4 class="h5 mb-0">Download the badges only</h4>
-                    <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Pay&nbsp;as&nbsp;you&nbsp;wish</span><span class="border rounded-2 ms-2 py-1 px-2"><span class="opacity-50">Personal&nbsp;Use&nbsp;Only</span></span></div>
-                  </label>
+                      <h4 class="h5 mb-0">Download the badges only</h4>
+                      <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Pay as you wish</span><span class="d-block d-md-inline-block border rounded-2 ms-lg-2 mt-1 mt-lg-0 py-1 px-2"><span class="opacity-50">Personal Use Only</span></span></div>
+                    </label>
+                  </div>
                 </div>
               </div>
             </div>

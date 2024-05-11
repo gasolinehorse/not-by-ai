@@ -20,7 +20,7 @@
       <div class="col-8 col-sm-4 col-lg-2 text-center">
         <a href="https://notbyai.fyi" style="opacity: 1;"><img class="my-3 img-fluid" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
       </div>
-      <div class="col-1 col-sm-4 col-lg-5 text-end pe-4">
+      <div class="col-2 col-sm-4 col-lg-5 text-end pe-4">
         <ul class="list-unstyled d-inline">
           <?php
           function isHomePage() {
@@ -49,10 +49,10 @@
               </a>
               <ul class="dropdown-menu px-3 py-2" style="border-color: #eae9e9;">
                 <li class="pb-2 small"><a href="http://notbyai.fyi">English</a></li>
-                <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文 <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></div></a></li>
-                <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/es">Español</a></li>
-                <!-- <li class="small"><a href="http://notbyai.fyi/fr">Français</a></li> -->
+                <!-- <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li> -->
+                <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文 <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></div></a></li>
+                <li class="small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
               </ul>
             </span>
           </li>

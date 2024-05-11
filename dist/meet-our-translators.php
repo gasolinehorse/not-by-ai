@@ -21,9 +21,32 @@ include 'top-nav.php';
         <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
       </div>
       <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1 fade-in-move-up" style="animation-delay: 0.5s; opacity: 0;">
+        <div class="row bg-light pt-4 pb-5 gy-4 justify-content-center align-items-center">
+          <div class="col-12 pb-3">
+            <div class="border-bottom py-3">
+              <h3 class="h3 mb-0">Special Thanks</h3>
+              <p class="mb-0">The ones who went above and beyond to help with our website translation.</p>
+            </div>
+          </div>
+          <div class="col-3 col-sm-4 col-lg-2">
+            <img class="img-fluid" src="img/alejandro-mata.webp" alt="Alejandro">
+          </div>
+          <div class="col-9 col-sm-8 col-lg-5 text-start">
+            <p class="mb-0 h4">Alejandro Mata</p>
+            <p>Deep Learning Developer</p>
+            <a target="_blank" href="https://alemalvarez.github.io" class="for-business-link rounded-2 me-2 mb-2">Personal Website</a>
+            <a target="_blank" href="https://www.linkedin.com/in/alemalvarez/" class="for-business-link rounded-2 me-2 mb-2">LinkedIn</a>
+            <a target="_blank" href="https://github.com/alemalvarez/" class="for-business-link rounded-2 mb-2">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center position-relative z-2 fade-in-move-up" style="margin-bottom: -22px; animation-delay: 0.7s; opacity: 0;">
+        <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
+      </div>
+      <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1 fade-in-move-up" style="animation-delay: 0.5s; opacity: 0;">
         <div class="row bg-light pt-4 pb-4 pb-lg-5 gy-4">
           <div class="col-12 pb-3">
-            <h3 class="h4 border-bottom py-3">The Not By AI Translators</h3>
+            <h3 class="h4 border-bottom py-3">The Not By AI Badge Translators</h3>
           </div>
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://fadamakis.com" target="_blank" rel="nofollow">Fotis Adamakis</a></p>
