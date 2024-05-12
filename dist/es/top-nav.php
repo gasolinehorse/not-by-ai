@@ -18,7 +18,7 @@
         </ul>
       </div>
       <div class="col-8 col-sm-4 col-lg-2 text-center">
-        <a href="https://notbyai.fyi" style="opacity: 1;"><img class="my-3 img-fluid" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
+        <a href="https://notbyai.fyi/es" style="opacity: 1;"><img class="my-3 img-fluid" width="128.5" height="26.77" src="/img/not-by-ai.svg" alt="Not By AI"></a>
       </div>
       <div class="col-2 col-sm-4 col-lg-5 text-end pe-4">
         <ul class="list-unstyled d-inline">
