@@ -64,7 +64,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content border-0 rounded-0 download-popup">
         <div class="modal-header px-md-5 py-md-4 align-items-start">
-          <div class="modal-title fs-3 h3" id="downloadEmailLabel">Descarga las insignias Not By AI</div>
+          <div class="modal-title fs-3 h3" id="downloadEmailLabel">Descarga las insignias <span class="d-none d-sm-inline-block">Not&nbsp;By&nbsp;AI</span></div>
           <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body pb-4 pt-md-4 pb-5 px-lg-5">
@@ -172,7 +172,7 @@
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
     var trafficSource = document.referrer;
-    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
+    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("notbyai.fyi/cn") == -1 && trafficSource.indexOf("notbyai.fyi/es") == -1 && trafficSource.indexOf("notbyai.fyi/tw") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
       document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>Si ves la insignia <span translate='no'>Not&nbsp;By&nbsp;AI</span>, ves contenido creado por humanos.";
       document.getElementById("tagline").style.zoom = "90%";
       

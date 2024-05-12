@@ -30,18 +30,6 @@
           }
           ?>
           <?php if (isHomePage()): ?>
-          <script>
-            var userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-            var currentUrl = window.location.href;
-
-            if (userTimezone === 'Asia/Taipei' && !currentUrl.includes('/tw')) {
-              window.location.href = 'https://notbyai.fyi/tw';
-            } else if (userTimezone === 'Asia/Shanghai' && !currentUrl.includes('/cn')) {
-              window.location.href = 'https://notbyai.fyi/cn';
-            } else {
-              // No redirection needed
-            }
-          </script>
           <li class="d-inline">
             <span class="dropdown">
               <a class="xs pe-3 pe-lg-4 px-xl-3" href="#" data-bs-toggle="dropdown" aria-expanded="false">
