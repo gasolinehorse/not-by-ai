@@ -83,15 +83,15 @@ include '../top-nav.php';
           </div>
         </div>
       </section>
-      <section class="col-lg-11 col-xl-10 py-5 text-start">
+      <section class="col-lg-11 col-xl-10 pt-4 pb-3 mt-5 text-start border">
         <div class="row py-2 justify-content-center">
           <div class="col-lg-9 text-center">
             <h2 id="how-to" class="mt-lg-4 pt-2">How to Add the Not By AI Badges</h2>
             <p class="mb-4 small">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
             <img class="img-fluid mb-4" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
-            <p class="small">Steps</p>
-            <p class="mb-1">1. First, download the badges on our <a href="https://notbyai.fyi/" class="text-decoration-underline">homepage</a> or <a href="https://notbyai.fyi/business" class="text-decoration-underline">Business</a> page.</p>
-            <p>2. Follow the recommendations below based on your content type.</p>
+            <p class="mb-1">1. First, <a href="#" data-bs-toggle="modal" data-bs-target="#downloadEmail" class="text-decoration-underline">download the Not By AI badges</a>.</p>
+            <p class="mb-1">2. Follow the instructions below to insert your badges.</p>
+            <p>3. Link the badges to notbyai.fyi or your project page when hyperlinking is possible.</p>
           </div>
         </div>
         <div class="bg-light py-4 mb-3 mb-md-0">
@@ -206,7 +206,7 @@ include '../top-nav.php';
         <div id="powerpoints-and-keynotes" class="border-bottom border-bottom py-3">
           <div class="row py-md-2">
             <div class="col-sm-4">
-              <h4 class="ps-lg-5 mb-1">PowerPoint and Keynote Decks</h4>
+              <h4 class="ps-lg-5 mb-1">PowerPoint and Keynote decks</h4>
               <p class="ps-lg-5 small opacity-50 mb-0">The Writer badge</p>
             </div>
             <div class="col-sm-8">

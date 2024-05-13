@@ -2,7 +2,7 @@
 $pageTitle = 'Not By AI — 為你的非AI創作貼上這個貼紙吧！';
 $pageDes = '下載Not By AI貼紙來讓大家知道你的創作（不論文章、畫作、攝影、影片、音樂等）是手工製造、非AI所生成的';
 include '../header.php';
-include './top-nav.php';
+include 'top-nav.php';
 ?>
     <div id="loader" class="position-fixed top-0 start-0 w-100 h-100 justify-content-center align-items-center" style="display: none; backdrop-filter: blur(12px); background-color: rgba(255, 255, 255, 0.8); z-index: 1056;"><span class="h4"><div><lottie-player src="/img/loader.json" background="transparent"  speed="1" class="my-0 mx-auto" style="width: 70px; height: 70px;" loop autoplay></lottie-player></div>下載即將開始。 <br>請先不要關閉此視窗。</span></div>
     <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -99,7 +99,7 @@ include './top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">安啦！有超過 <?php include './all-stats.php'; ?>的頁面正使用著Not By AI貼紙。
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">安啦！有超過 <?php include 'all-stats.php'; ?>的頁面正使用著Not By AI貼紙。
           </div>
         </div>
       </section>
@@ -269,4 +269,4 @@ include './top-nav.php';
         }
       });
     </script>
-    <?php include './footer.php'; ?>
+    <?php include 'footer.php'; ?>

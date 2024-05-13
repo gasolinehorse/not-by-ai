@@ -34,7 +34,7 @@ include 'top-nav.php';
                   <div class="xs fw-bold pe-2">02</div>
                   <h2 class="">Wait for Approval</h2>
                   <p class="small">We will review your content and details and remind you if anything is missing or looks off. If all is good, we will email you the good news!</p>
-                  <div class="h5 xs opacity-50">Current human review wait time: ~5&nbsp;days</div>
+                  <div class="h5 xs opacity-50">Current human review wait time: ~3 business&nbsp;days</div>
                 </div>
               </div>
             </div>

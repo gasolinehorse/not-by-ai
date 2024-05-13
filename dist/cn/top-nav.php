@@ -11,9 +11,9 @@
       </div>
       <div class="col-lg-5 text-start pe-4 d-none d-lg-block">
         <ul class="list-unstyled d-inline">
-          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3 ms-3" href="https://notbyai.fyi/how-it-works">使用方法</a></li>
-          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/pricing">订阅计划</a></li>
-          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/gallery">示例</a></li>
+          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3 ms-3" href="https://notbyai.fyi/cn/how-it-works">使用方法</a></li>
+          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/cn/pricing">订阅计划</a></li>
+          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/cn/gallery">示例</a></li>
           <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/help">资源中心</a></li>
         </ul>
       </div>

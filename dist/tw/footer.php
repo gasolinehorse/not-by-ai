@@ -14,11 +14,11 @@
           <div class="text-center text-md-start col-md-3 col-lg-2">
             <ul class="nav flex-column">
               <li class="fw-bold py-2">貼紙</li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/how-it-works">使用方法</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/pricing">付費方案</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/">Not By AI個人版</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/tw/how-it-works">使用方法</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/tw/pricing">付費方案</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/tw">Not By AI個人版</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/business">Not By AI商用版</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/gallery">範例</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/tw/gallery">範例</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
