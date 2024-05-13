@@ -24,17 +24,19 @@
         <ul class="list-unstyled d-inline">
           <?php
           function isHomePage() {
-            $currentPage = basename($_SERVER['PHP_SELF']);
-            $homePage = 'index.php'; // Replace with the name of your homepage file
-            return ($currentPage == $homePage);
+            $currentPath = $_SERVER['REQUEST_URI'];
+            $homePage = '/'; // Only the root directory counts as homepage
+            return ($currentPath == $homePage);
           }
           ?>
           <?php if (isHomePage()): ?>
           <script>
             var userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
             var currentUrl = window.location.href;
-            // Redirect only if the user is not from the site
-            if (currentUrl.indexOf("notbyai.fyi") === -1) {
+            var previousUrl = document.referrer;
+            
+            if (previousUrl.startsWith('https://notbyai.fyi/tw/') || previousUrl.startsWith('https://notbyai.fyi/cn/') || previousUrl.startsWith('https://notbyai.fyi/es/')) {
+            } else {
               var spanishSpeakingTimezones = [
                 'America/Mexico_City', 'America/Bogota', 'America/Caracas', 'America/Lima', 
                 'America/Buenos_Aires', 'America/Madrid', 'Europe/Madrid', 
