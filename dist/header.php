@@ -48,24 +48,3 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TNDH2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div id="sidenav-bar" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="https://notbyai.fyi/how-it-works">How It Works</a>
-    <a href="https://notbyai.fyi/pricing">Pricing</a>
-    <a href="https://notbyai.fyi/gallery">Gallery</a>
-    <a href="https://notbyai.fyi/help">Resources</a>
-    <a href="https://notbyai.fyi/about">About Us</a>
-    <a href="https://notbyai.fyi/contact">Contact</a>
-    <div class="px-4 mt-3" onclick="closeNav()">
-      <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Download Badges</a>
-    </div>
-    <div class="px-4 mt-3" onclick="closeNav()">
-      <a href="https://notbyai.fyi/app/login" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Log In</a>
-    </div>
-    <div class="d-flex pt-4">
-      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
-      <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
-      <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
-      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
-    </div>
-  </div>

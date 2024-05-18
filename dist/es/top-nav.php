@@ -1,3 +1,24 @@
+  <div id="sidenav-bar" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://notbyai.fyi/how-it-works">Cómo funciona</a>
+    <a href="https://notbyai.fyi/pricing">Precios</a>
+    <a href="https://notbyai.fyi/gallery">Galería</a>
+    <a href="https://notbyai.fyi/help">Recursos</a>
+    <a href="https://notbyai.fyi/about">Sobre nosotros</a>
+    <a href="https://notbyai.fyi/contact">Contáctanos</a>
+    <div class="px-4 mt-3" onclick="closeNav()">
+      <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">Descarga las insignias</a>
+    </div>
+    <div class="px-4 mt-3" onclick="closeNav()">
+      <a href="https://notbyai.fyi/app/login" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">Inicia sesión</a>
+    </div>
+    <div class="d-flex pt-4">
+      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
+      <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
+      <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
+      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
+    </div>
+  </div>
   <div class="container-fluid bg-white text-center curve">
     <div id="topNav" class="row sticky-top bg-white border-bottom align-items-center mb-4 mb-xl-5">
       <div class="col-2 col-sm-4 text-start ps-4 ps-sm-4 share d-block d-lg-none">
@@ -11,7 +32,7 @@
       </div>
       <div class="col-lg-5 text-start pe-4 d-none d-lg-block">
         <ul class="list-unstyled d-inline">
-          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3 ms-3" href="https://notbyai.fyi/how-it-works">Cómo Funciona</a></li>
+          <li class="d-inline"><a class="xs pe-lg-4 px-xl-3 ms-3" href="https://notbyai.fyi/how-it-works">Cómo funciona</a></li>
           <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/pricing">Precios</a></li>
           <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/gallery">Galería</a></li>
           <li class="d-inline"><a class="xs pe-lg-4 px-xl-3" href="https://notbyai.fyi/help">Recursos</a></li>
