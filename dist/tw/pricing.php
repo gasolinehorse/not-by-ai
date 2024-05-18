@@ -125,7 +125,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       我們接受絕大多數的信用卡。我們目前不接受支票付款。如果你想註冊或購買，但需要付款方面的協助，請聯繫help@notbyai.fyi。
                     </div>
                   </div>
@@ -137,7 +137,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseProject" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       如果你將貼紙使用在數位內容上，你可以把貼紙連結到你的這個Not By AI頁面。這個頁面能讓你闡述你以人為本的創作理念，且你可以上傳一些可以證明你是創作者的文件，像是草稿、靈感搜集、或其他相關素材。這個頁面可以說是為貼紙公信力所做的背書，好讓你的觀眾了解你真實的創作方式。<br><br>
                       如果你想知道Not By AI頁面長什麼樣，點開我們網站下方的貼紙來看個範例吧！
                     </div>
@@ -150,7 +150,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       在了解目前沒有百分之百準確的AI偵測器的前提之下，我們會審核你的創作和內容細節。然而，內容創作者必須確保自身所提交的內容遵循<a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90%規定</a>並做負責。在罕見的情況下，假如我們拒絕了你的申請內容，你會得到退款。
                     </div>
                   </div>
@@ -162,7 +162,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       是的，但前提是你遵循<a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90%規定</a>。一言以概之，Not By AI 90%規定講的是只要你估計你的內容至少九成以上是由人類所創作的，你就可以使用貼紙。這90%可以包含使用AI來找靈感、產生像是隱私政策的法用文件（除非你的主題或服務項目是法律相關）、產生像是搜尋引擎最佳化（SEO）等非使用者會看到的程式碼、抓文法錯誤和錯字，以及翻譯。
                     </div>
                   </div>
@@ -174,7 +174,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       只要成為Not By AI的會員，三款貼紙都能任你使用。請參考<a href="/help" class="text-decoration-underline" target="_blank">資源中心</a>來獲得更多關於<a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">如何選用貼紙</a>以及<a href="/help#how-to" class="text-decoration-underline" target="_blank">如何置入貼紙</a>的細節。你也可以透過聯絡表格來與我們諮詢，我們很樂意提供協助！
                     </div>
                   </div>
@@ -186,7 +186,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseLang" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       <?php include 'all-supported-languages.php'; ?>
                     </div>
                   </div>

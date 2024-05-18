@@ -125,7 +125,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       我们接受绝大多数的信用卡，如果國內的信用卡無法使用，可以考虑<a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">以WeChat一次性購買貼紙</a>。我们目前不接受支票付款。如果你想注册或购买，但需要付款方面的协助，请联繫help@notbyai.fyi。
                     </div>
                   </div>
@@ -137,7 +137,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseProject" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       如果你将贴纸使用在数字内容上，你可以把贴纸连结到你的这个Not By AI页面。这个页面能让你阐述你以人为本的创作理念，且你可以上传一些可以证明你是创作者的文件，像是草稿、灵感搜集、或其他相关素材。这个页面可以说是为贴纸公信力所做的背书，好让你的观众了解你真实的创作方式。<br><br>
                       如果你想知道Not By AI页面长什麽样，点开我们网站下方的贴纸来看个范例吧！
                     </div>
@@ -150,7 +150,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       在了解目前没有百分之百准确的AI侦测器的前提之下，我们会审核你的创作和内容细节。然而，内容创作者必须确保自身所提交的内容遵循<a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90%规定</a>并做负责。在罕见的情况下，假如我们拒绝了你的申请内容，你会得到退款。
                     </div>
                   </div>
@@ -162,7 +162,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       是的，但前提是你遵循<a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90%规定</a>。一言以概之，Not By AI 90%规定讲的是只要你估计你的内容至少九成以上是由人类所创作的，你就可以使用贴纸。这90%可以包含使用AI来找灵感、生成像是隐私政策的法用文件（除非你的主题或服务项目是法律相关）、生成像是搜索引擎优化（SEO）等非用戶会看到的代码、找语法错误和错字，以及翻译。
                     </div>
                   </div>
@@ -174,7 +174,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       只要成为Not By AI的会员，三款贴纸都能任你使用。请参考<a href="/help" class="text-decoration-underline" target="_blank">资源中心</a>来获得更多关于<a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">如何选用贴纸</a>以及<a href="/help#how-to" class="text-decoration-underline" target="_blank">如何置入贴纸</a>的细节。你也可以透过联络表格来与我们谘询，我们很乐意提供协助！
                     </div>
                   </div>
@@ -186,7 +186,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseLang" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       <?php include 'all-supported-languages.php'; ?>
                     </div>
                   </div>

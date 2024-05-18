@@ -125,7 +125,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       We accept most major credit cards. We are not able to accept payment by check at this moment. If you are interested in joining Not By AI and require assistance with alternative payment options, drop us a line at help@notbyai.fyi.
                     </div>
                   </div>
@@ -137,7 +137,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseProject" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       It is where you should link your badges to, when hyperlinking is possible. A project page allows you to describe your human-centric creative approach and upload any supporting assets to showcase your "behind the scenes" stories, such as drafts, mood boards, or other relevant materials. This page establishes the credibility of your badges and makes sure your audience understands your authentic human-first approach.<br><br>
                       To see an example of a live project page, click on the badge in our footer!
                     </div>
@@ -150,7 +150,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       We will review your content and project details while acknowledging that there are currently no bulletproof AI content detection methods. However, the content creators should be responsible for ensuring the content follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90% Rule</a>. In the rare event that your project submission gets rejected, we will issue a refund.
                     </div>
                   </div>
@@ -162,7 +162,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       Yes, if you follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline" target="_blank">Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
                     </div>
                   </div>
@@ -174,7 +174,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       As a Not By AI memeber, you will receive all three badges. Refer to the <a href="/help" class="text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
                     </div>
                   </div>
@@ -186,7 +186,7 @@ include 'top-nav.php';
                     </button>
                   </h2>
                   <div id="collapseLang" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body text-black" style="background-color: #f2efec;">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
                       <?php include 'all-supported-languages.php'; ?>
                     </div>
                   </div>
