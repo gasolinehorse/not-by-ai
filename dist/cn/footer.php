@@ -168,27 +168,6 @@
       }
     });
 
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-    }
-    var trafficSource = document.referrer;
-    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("notbyai.fyi/cn") == -1 && trafficSource.indexOf("notbyai.fyi/es") == -1 && trafficSource.indexOf("notbyai.fyi/tw") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
-      document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>每当你看到<span translate='no'>Not&nbsp;By&nbsp;AI</span>贴纸，你看到的尽是真人原创内容";
-      document.getElementById("tagline").style.zoom = "90%";
-      
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-      document.head.appendChild(script);
-      
-      window.googleTranslateElementInit = function() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      };
-    }
-
     document.addEventListener('DOMContentLoaded', function() {
       document.querySelectorAll('img.no-download').forEach(function(img) {
         img.addEventListener('contextmenu', function(e) {
