@@ -26,7 +26,7 @@ include './top-nav.php';
         </div>
         <div class="col-lg-10 col-xl-8">
           <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Tu contenido libre de IA <br>Se merece una&nbsp;Insignia</h1>
+            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Tu contenido libre de IA Se merece una&nbsp;Insignia</h1>
           </header>
           <p class="display-5">La Inteligencia Artificial (AI) se entrena a partir de contenido creado por humanos. Si los humanos dejan de producir contenido y dependen únicamente de la AI, los contenidos de Internet podrían volverse repetitivos y&nbsp;estancarse.</p>
           <p class="display-5">Si tu contenido está libre de AI, añade la insignia a tu&nbsp;trabajo.</p>
