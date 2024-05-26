@@ -16,14 +16,5 @@ dist/creator-page-application.php
 dist/process-form-creator-page.php
 dist/stripe-webhook.php
 dist/creations
-dist/app/*
-!dist/app/wp-content/
-!dist/app/wp-content/themes/not-by-ai/
-dist/app/wp-content/index.php
-dist/app/wp-content/mu-plugins/
-dist/app/wp-content/plugins/
-dist/app/wp-content/newfold-page-cacheaccount/
-dist/app/wp-content/newfold-page-cacheadmin/
-dist/app/wp-content/newfold-page-cachelogin/
-dist/app/wp-content/newfold-page-cachesignup/
+dist/app/
 dist/hi/
