@@ -26,7 +26,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
+                  <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
                   <li class="small">All three badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
@@ -48,7 +48,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
+                  <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
                   <li class="small">All three badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
@@ -70,7 +70,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
+                  <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
                   <li class="small">All three badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
@@ -79,7 +79,7 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <p class="xs position-relative z-1 text-center pt-4 pb-3">If one project page isn't enough, a one-time payment of $15 for each additional project page is available.</p>
+          <p class="xs position-relative z-1 text-center pt-4 pb-3">*If one project page isn't enough, a one-time payment of $15 for each additional project page is available.</p>
           <div class="col-12 fade-in-move-up" style="opacity: 0; animation-delay:0.3s;">
             <div class="row bg-white rounded mt-4 border">
               <div class="col-6 col-md-8">

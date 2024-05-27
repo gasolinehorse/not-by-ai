@@ -26,7 +26,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">开始使用</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">一个Not By AI页面</li>
+                  <li class="small">一个Not By AI页面*</li>
                   <li class="small">所有的贴纸</li>
                   <li class="small">每张贴纸各有明亮版与暗黑版两款设计</li>
                   <li class="small">每张贴纸各有PNG、SVG、EPS格式</li>
@@ -48,7 +48,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">开始使用</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">一个Not By AI页面</li>
+                  <li class="small">一个Not By AI页面*</li>
                   <li class="small">所有的贴纸</li>
                   <li class="small">每张贴纸各有明亮版与暗黑版两款设计</li>
                   <li class="small">每张贴纸各有PNG、SVG、EPS格式</li>
@@ -70,7 +70,7 @@ include 'top-nav.php';
                 </div>
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">开始使用</a>
                 <ul class="mt-4 ul--checks px-2">
-                  <li class="small">一个Not By AI页面</li>
+                  <li class="small">一个Not By AI页面*</li>
                   <li class="small">所有的贴纸</li>
                   <li class="small">每张贴纸各有明亮版与暗黑版两款设计</li>
                   <li class="small">每张贴纸各有PNG、SVG、EPS格式</li>
@@ -79,7 +79,7 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
-          <p class="xs position-relative z-1 text-center pt-4 pb-3">假如一个Not By AI页面不敷使用，你可以选择支付一次性的15美元来增购更多页面。</p>
+          <p class="xs position-relative z-1 text-center pt-4 pb-3">*假如一个Not By AI页面不敷使用，你可以选择支付一次性的15美元来增购更多页面。</p>
           <div class="col-12 fade-in-move-up" style="opacity: 0; animation-delay:0.3s;">
             <div class="row bg-white rounded mt-4 border">
               <div class="col-6 col-md-8">
