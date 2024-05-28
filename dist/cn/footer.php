@@ -43,7 +43,7 @@
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
             <a href="https://notbyai.fyi/hi/not-by-ai"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
-            <p class="small text-center pt-5"><br><a href="https://notbyai.fyi/app/signup/" class="for-business-link rounded-2 mb-3 me-3">注册</a><a href="https://notbyai.fyi/app/login/">登录</a></p>
+            <p class="small text-center pt-5"><br><a href="https://notbyai.fyi/app/cn/signup/" class="for-business-link rounded-2 mb-3 me-3">注册</a><a href="https://notbyai.fyi/app/cn/login/">登录</a></p>
           </div>
         </div>
         <div class="row flex-column flex-md-row align-content-between pt-4 pb-5">
@@ -136,7 +136,7 @@
               <div class="xs opacity-50 mt-2">点击以上按钮等同于你同意我们的<a href="https://notbyai.fyi/terms-and-conditions" class="text-decoration-underline">条款</a></div>
             </div>
             <div id="join-not-by-ai" class="text-center d-none">
-              <a class="btn mt-3" href="https://notbyai.fyi/app/signup/">开始使用</a>
+              <a class="btn mt-3" href="https://notbyai.fyi/app/cn/signup/">开始使用</a>
               <div class="small opacity-50 mt-3">或 <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">一次付完99美元直接下载贴纸</a></div>
             </div>
           </form>
@@ -242,7 +242,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script
     type="text/javascript"
-    src="https://app.termly.io/resource-blocker/437e3dac-e05c-4a14-9d34-7e8adfb7475f?autoBlock=on"
+    src="https://app/cn.termly.io/resource-blocker/437e3dac-e05c-4a14-9d34-7e8adfb7475f?autoBlock=on"
   ></script>
 </body>
 </html>

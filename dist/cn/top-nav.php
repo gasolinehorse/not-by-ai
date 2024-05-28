@@ -10,13 +10,13 @@
       <a href="#" id="side-nav-download" class="btn text-white cursor-pointer px-2" data-bs-toggle="modal" data-bs-target="#downloadEmail">下载贴纸</a>
     </div>
     <div class="px-4 mt-3" onclick="closeNav()">
-      <a href="https://notbyai.fyi/app/login" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">登录</a>
+      <a href="https://notbyai.fyi/app/cn/login" class="text-center px-2 rounded-2" style="box-shadow: 0 0 0px 1px #000000 inset;">登录</a>
     </div>
     <div class="d-flex pt-4">
-      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="Follow us on Twitter"></a>
-      <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="Follow us on Facebook"></a>
-      <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="Follow us on Linkedin"></a>
-      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
+      <a class="px-2 ms-4" href="https://twitter.com/NotByAIBadge" target="_blank"><img width="18" class="mx-1" src="/img/twitter.svg" alt="用X分享"></a>
+      <a class="px-2" href="https://facebook.com/notbyai" target="_blank"><img class="mx-1" src="/img/facebook.svg" alt="用Facebook分享"></a>
+      <a class="px-2" href="https://www.linkedin.com/company/notbyai/" target="_blank"><img width="16" class="mx-1" src="/img/linkedin.svg" alt="用领英分享"></a>
+      <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="用email分享"></a>
     </div>
   </div>
   <div class="container-fluid bg-white text-center curve">
@@ -66,8 +66,8 @@
             </span>
           </li>
           <?php endif; ?>
-          <li class="d-none d-md-inline"><a class="xs px-3" href="https://notbyai.fyi/app/login">登录</a></li>
-          <li class="d-none d-md-inline"><a class="xs px-3 me-4 me-sm-3 me-lg-5" href="https://notbyai.fyi/app/signup">注册 <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg); margin-bottom: 3px;"></a></li>
+          <li class="d-none d-md-inline"><a class="xs px-3" href="https://notbyai.fyi/app/cn/login">登录</a></li>
+          <li class="d-none d-md-inline"><a class="xs px-3 me-4 me-sm-3 me-lg-5" href="https://notbyai.fyi/app/cn/signup">注册 <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg); margin-bottom: 3px;"></a></li>
         </ul>
       </div>
     </div>
