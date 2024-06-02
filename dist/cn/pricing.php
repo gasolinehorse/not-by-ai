@@ -88,7 +88,7 @@ include 'top-nav.php';
                   <p class="small mb-0">如果你有商用需求，但只想下载贴纸而不想注册或使用我们的Not By AI页面来述说你的创作理念，你也可以一次性购买所有贴纸。</p>
                   <div class="display-2 mt-2 me-2">99美元</div>
                   <p class="xs mb-2 opacity-50">单次支付</p>
-                  <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="btn px-2 px-md-4 px-lg-5 mb-4">購買貼紙</a>
+                  <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB?locale=zh" class="btn px-2 px-md-4 px-lg-5 mb-4">購買貼紙</a>
                 </div>
               </div>
               <div class="col-6 col-md-4 bg-light">
@@ -126,7 +126,7 @@ include 'top-nav.php';
                   </h2>
                   <div id="collapsePay" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body text-black" style="background-color: #ffffff;">
-                      我们接受绝大多数的信用卡，如果國內的信用卡無法使用，可以考虑<a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">以WeChat一次性購買貼紙</a>。我们目前不接受支票付款。如果你想注册或购买，但需要付款方面的协助，请联繫help@notbyai.fyi。
+                      我们接受绝大多数的信用卡，如果國內的信用卡無法使用，可以考虑<a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB?locale=zh" class="text-decoration-underline">以WeChat一次性購買貼紙</a>。我们目前不接受支票付款。如果你想注册或购买，但需要付款方面的协助，请联繫help@notbyai.fyi。
                     </div>
                   </div>
                 </div>

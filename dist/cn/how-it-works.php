@@ -55,7 +55,7 @@ include 'top-nav.php';
         </div>
         <div class="text-center pb-5 pt-2">
           <a href="https://notbyai.fyi/app/signup" class="btn mt-4 mb-4">开始使用</a><br>
-          <div class="small opacity-50">或<a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">一次付99美元来下载贴纸就好</a></div>
+          <div class="small opacity-50">或<a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB?locale=zh" class="text-decoration-underline">一次付99美元来下载贴纸就好</a></div>
         </div>
       </div>
       <div id="all-not-by-ai-use-case-wrapper" class="overflow-hidden">
