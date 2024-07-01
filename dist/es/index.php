@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Not By AI — Añade la insignia a tu contenido creado por humanos';
-$pageDes = 'Descarga y añade la insignia de Not By AI para mostrar que tu contenido (texto, arte, fotos, vídeos y música) está libre de AI';
+$pageDes = 'Descarga y añade la insignia de Not By AI para mostrar que tu contenido (texto, arte, fotos, vídeos y música) está libre de IA';
 include '../header.php';
 include './top-nav.php';
 ?>
@@ -28,8 +28,8 @@ include './top-nav.php';
           <header>
             <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Tu contenido libre de IA Se merece una&nbsp;Insignia</h1>
           </header>
-          <p class="display-5">La Inteligencia Artificial (AI) se entrena a partir de contenido creado por humanos. Si los humanos dejan de producir contenido y dependen únicamente de la AI, los contenidos de Internet podrían volverse repetitivos y&nbsp;estancarse.</p>
-          <p class="display-5">Si tu contenido está libre de AI, añade la insignia a tu&nbsp;trabajo.</p>
+          <p class="display-5">La Inteligencia Artificial (IA) se entrena a partir de contenido creado por humanos. Si los humanos dejan de producir contenido y dependen únicamente de la IA, los contenidos de Internet podrían volverse repetitivos y&nbsp;estancarse.</p>
+          <p class="display-5">Si tu contenido está libre de IA, añade la insignia a tu&nbsp;trabajo.</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
           <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
@@ -145,8 +145,8 @@ include './top-nav.php';
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
           <h3>Misión</h3>
-          <p>Las insignias Not By AI han sido creadas para animar alentar a la humanidad a producir contenido original y ayudar a los usuarios a identificar los contenidos libres de AI. El objetivo final es garantizar que la humanidad siga avanzando.</p>
-          <p>Expertos estiman que el 90% del contenido en internet podría ser generado por IA en 2025.<sup>1</sup> Con el auge de los contenidos generados por AI, es importante tener en cuenta que ésta se entrena usando contenido generado por humanos. Si dependemos de la Inteligencia Artificial para generar contenido en el futuro, cualquier nuevo contenido podría ser simplemente un reciclaje de otro contenido creado por IA. Esto podría suponer un obstáculo significativo al desarrollo humano. Sólo limitando la dependencia de la IA y creando contenido original podremos avanzar como especie.</p>
+          <p>Las insignias Not By AI han sido creadas para animar alentar a la humanidad a producir contenido original y ayudar a los usuarios a identificar los contenidos libres de IA. El objetivo final es garantizar que la humanidad siga avanzando.</p>
+          <p>Expertos estiman que el 90% del contenido en internet podría ser generado por IA en 2025.<sup>1</sup> Con el auge de los contenidos generados por IA, es importante tener en cuenta que ésta se entrena usando contenido generado por humanos. Si dependemos de la Inteligencia Artificial para generar contenido en el futuro, cualquier nuevo contenido podría ser simplemente un reciclaje de otro contenido creado por IA. Esto podría suponer un obstáculo significativo al desarrollo humano. Sólo limitando la dependencia de la IA y creando contenido original podremos avanzar como especie.</p>
           <figure>
             <img class="img-fluid mb-3" src="/img/ai-generates-content-using-human-content.svg" alt="AI using human-created content to produce new content">
             <figcaption class="display-6">El gráfico representa un escenario en el que los humanos dejan de crear contenido y la IA reutiliza contenido preexistente.</figcaption>
