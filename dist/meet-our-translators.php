@@ -112,7 +112,7 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://blog.vfiles.no/" target="_blank" rel="nofollow">Andreas Lien</a></p>
           </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 28 anonymous translators.</p>
+            <p class="opacity-50">...and other 29 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
