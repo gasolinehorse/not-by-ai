@@ -10,6 +10,7 @@
               <li><a class="display-6" target="_blank" href="https://www.instagram.com/notbyai/"><img height="20" class="mx-2 share__li" src="/img/instagram.svg" alt="share on Instagram"></a></li>
               <li><a class="display-6" target="_blank" href="https://www.facebook.com/notbyai"><img height="20" class="mx-2 share__li" src="/img/facebook.svg" alt="share on Facebook"></a></li>
               <li><a class="display-6" target="_blank" href="https://www.linkedin.com/company/notbyai/"><img height="20" class="mx-2 share__li" src="/img/linkedin.svg" alt="share on Linkedin" style="margin-bottom:1px;"></a></li>
+              <li><a class="display-6" target="_blank" href="http://mastodon.social/@notbyai"><img height="20" class="mx-2 share__li" src="/img/mastodon.svg" alt="share on Mastodon"></a></li>
               <li><a class="display-6" target="_blank" href="https://www.pinterest.com/notbyai"><img height="20" class="mx-2 share__li" src="/img/pinterest.svg" alt="share on Pinterest"></a></li>
             </ul>
           </div>
