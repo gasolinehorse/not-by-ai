@@ -169,6 +169,18 @@ include 'top-nav.php';
                 </div>
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNPO" aria-expanded="false" aria-controls="collapseNPO" style="background-color: #f9f8f7 !important;">
+                      Do you offer plans for nonprofit organizations (NPOs) or educational institutions?
+                    </button>
+                  </h2>
+                  <div id="collapseNPO" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
+                      Please <a href="https://notbyai.fyi/contact" class="text-decoration-underline">send us an inquiry</a> and let us know how we can help and collaborate. We are passionate about human-created content as well as supporting communities in need. Let's connect!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background-color: #f9f8f7 !important;">
+                  <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose" style="background-color: #f9f8f7 !important;">
                       I am not sure which of the three Not By AI badges to use for my project. How do I choose?
                     </button>

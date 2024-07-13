@@ -169,6 +169,18 @@ include 'top-nav.php';
                 </div>
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNPO" aria-expanded="false" aria-controls="collapseNPO" style="background-color: #f9f8f7 !important;">
+                      你們有針對非營利組織和教育機構所提供的優惠嗎？
+                    </button>
+                  </h2>
+                  <div id="collapseNPO" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-black" style="background-color: #ffffff;">
+                      請<a href="https://notbyai.fyi/contact" class="text-decoration-underline">來信諮詢</a>並且讓我們知道我們可以如何幫助配合你。我們熱愛真人內容也不想錯過任何能夠對社會有所貢獻的機會。來聊聊看吧！
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" style="background-color: #f9f8f7 !important;">
+                  <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose" style="background-color: #f9f8f7 !important;">
                       我不太確定該使用Not By AI三款貼紙中的哪一款，我該如何抉擇呢？
                     </button>
