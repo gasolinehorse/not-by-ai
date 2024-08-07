@@ -104,7 +104,7 @@ include 'top-nav.php';
           </div>
           <div class="col-lg-7 pt-5 text-center text-lg-start">
             <h2 class="display-2">Support Us</h2>
-            <p style="font-size: 1.3125rem;">Not By AI is a self-started project that requires effort and innovation to sustain its impact. Yes, this is where we ask you for your support. We have a huge to-do list (literally) to grow Not By AI and need your help to do so. Your support empowers the future of content and humans.</p>
+            <p style="font-size: 1.3125rem;">Not By AI is a self-started project that requires effort and innovation to sustain its impact. Yes, this is where we ask you for your support. We have a huge to-do list (literally) to grow Not By AI and need your help to do so. Your support empowers creators like you and the future of human content.</p>
             <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" class="btn btn-dark mb-5" target="_blank">Name Your Price</a>
           </div>
         </div>
