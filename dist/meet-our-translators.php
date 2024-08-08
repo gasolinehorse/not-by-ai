@@ -111,6 +111,9 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://blog.vfiles.no/" target="_blank" rel="nofollow">Andreas Lien</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://www.linkedin.com/in/vasyl-pashko/" target="_blank" rel="nofollow">Vasyl Pashko</a></p>
+          </div>
           <div class="col-12 pt-4">
             <p class="opacity-50">...and other 31 anonymous translators.</p>
           </div>
