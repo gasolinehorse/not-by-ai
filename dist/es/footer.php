@@ -39,6 +39,7 @@
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/about">Sobre nosotros</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/feedback">Comentarios</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/media-assets">Activos multimedia</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/newsroom">Sala de prensa</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/meet-our-translators">Conoce a nuestros traductores</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/translate">Ayúdanos a traducir</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/contact">Contáctanos</a></li>
