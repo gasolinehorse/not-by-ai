@@ -14,9 +14,7 @@ include './top-nav.php';
         </div>
       </header>
       <div class="container">
-        <p class="small opacity-50"><a href="/contact" class="text-decoration-underline">Interview Request</a> | <a href="/media-assets" class="text-decoration-underline">Media Assets</a></p>
-        <img class="mb-5" srcset="/img/not-by-ai-press-newsroom.jpg 2x" src="/img/not-by-ai-press-newsroom.jpg" alt="Not By AI in the news" />
-        <div class="h5 text-center mb-lg-5 mt-4">Latest News</div>
+        <h2 class="h3 text-center mb-4 mt-5 pt-md-3">Latest News</h2>
         <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
           <div class="col-lg-11 col-xl-8 border-top pt-4">
             <div class="row align-content-around">
@@ -81,6 +79,8 @@ include './top-nav.php';
             </div>
           </div>
         </div>
+        <p class="small pt-4"><a href="/contact" class="text-decoration-underline">Interview Request</a> | <a href="/media-assets" class="text-decoration-underline">Media Assets</a></p>
+        <img class="mb-5" srcset="/img/not-by-ai-press-newsroom.jpg 2x" src="/img/not-by-ai-press-newsroom.jpg" alt="Not By AI in the news" />
         <?php include 'all-social.php'; ?>
         <div class="py-2"></div>
       </div>

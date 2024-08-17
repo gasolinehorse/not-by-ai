@@ -31,6 +31,7 @@
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">The Not By AI 90% Rule</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/help#how-to">How to Insert the Badges</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/help/guidelines">Usage Guidelines</a></li>
+              <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/translate">Help Us Translate</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
@@ -41,7 +42,6 @@
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/media-assets">Media Assets</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/newsroom">Newsroom</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/meet-our-translators">Meet Our Translators</a></li>
-              <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/translate">Help Us Translate</a></li>
               <li class="lh-sm pb-1"><a class="display-6 text-white" href="https://notbyai.fyi/contact">Contact Us</a></li>
             </ul>
           </div>

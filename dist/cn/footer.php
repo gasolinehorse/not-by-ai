@@ -31,6 +31,7 @@
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">Not By AI 90%规定</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help#how-to">如何贴贴纸</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help/guidelines">使用须知</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/translate">帮忙翻译</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
@@ -41,7 +42,6 @@
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/media-assets">媒体资源</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/newsroom">新闻中心</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/meet-our-translators">翻译团队</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/translate">帮忙翻译</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/contact">联繫我们</a></li>
             </ul>
           </div>

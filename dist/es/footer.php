@@ -31,6 +31,7 @@
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help/what-is-the-not-by-ai-90-rule">La regla del 90% de Not By AI</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help#how-to">Cómo hacerlo</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/help/guidelines">Directrices</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/translate">Ayúdanos a traducir</a></li>
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
@@ -41,7 +42,6 @@
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/media-assets">Activos multimedia</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/newsroom">Sala de prensa</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/meet-our-translators">Conoce a nuestros traductores</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/translate">Ayúdanos a traducir</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/contact">Contáctanos</a></li>
             </ul>
           </div>
