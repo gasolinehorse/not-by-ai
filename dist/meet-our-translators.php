@@ -13,7 +13,7 @@ include 'top-nav.php';
           <div class="col-lg-10 pb-4">
             <img class="w-100 mb-4" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
             <p>These are the amazing humans behind the Not By AI badges. Not By AI would not be able to grow and expand into different regions without their help.</p> 
-            <p>Thanks to their contributions, we now have over twenty languages translated including <?php include 'all-supported-languages.php'; ?></p>
+            <p>Thanks to their contributions, we now have over thirty languages translated including <?php include 'all-supported-languages.php'; ?></p>
           </div>
         </div>
       </div>
