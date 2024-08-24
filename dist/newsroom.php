@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'The Human Blog, by Not By AI';
-$pageDes = 'Explore the value of human-made content with Not By AI. Discover why authentic creativity in art, writing, and production stands out in the AI age.';
+$pageTitle = 'Newsroom of Not By AI';
+$pageDes = 'Stay updated with the news and media coverage for Not By AI. See how humans are reacting to the Not By AI movement.';
 include './header.php';
 include './top-nav.php';
 ?>
