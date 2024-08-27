@@ -198,7 +198,13 @@ include 'top-nav.php';
               <a href="/app/signup" class="btn mt-2 mb-3">Join Not By AI</a>
             </div>
             <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI, such as ChatGPT, Claude, or Gemini. <div class="mt-3">More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.<br><br>
+              Without trained professionals or AI detectors, it is nearly impossible to distinguish your human content from AI-generated content. Using the Not By AI badges helps your audience recognize your human-first approach so they understand that your content is truly from you and not copied and pasted from a generative AI, such as ChatGPT, Claude, or Gemini. <div class="mt-3">More importantly, this fosters awareness and encourages more individuals to produce original content. This process makes sure we, as a species, continue to contribute to human content collectively and prevent content from being replaced by recycled content produced by AI.
+              <div class="row justify-content-center align-items-center mt-2 mb-3 px-3">
+                <div class="col-5 text-center">
+                  <img id="not-by-ai-offering-badges" class="img-fluid mt-3" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                  <div class="xs text-center">Not By AI badges</div>
+                </div>
+              </div>
               We offer the badges for 100% free for non-commercial projects. It is our mission to spread the Not By AI movement as widely as possible. If you want to support us, please consider our paid subscriptions or <a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">contribute through a donation</a>.</div>
             </div>
           </div>
