@@ -358,6 +358,46 @@ nav {
 	  display: none !important;
 	}
 }
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(2px) scale(0.98);
+  }
+  70% {
+    transform: translateY(-0.5px) scale(1);
+  }
+  90% {
+    transform: translateY(0.5px) scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+.bounce {
+  animation-name: bounce;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+}
+#example-not-by-ai-badge-artist-wht {
+  animation-delay: 0.07s;
+}
+#example-not-by-ai-badge-artist-blk {
+  animation-delay: 0.14s;
+}
+#example-not-by-ai-badge-writer-wht {
+  animation-delay: 0.21s;
+}
+#example-not-by-ai-badge-writer-blk {
+  animation-delay: 0.28s;
+}
+#example-not-by-ai-badge-producer-wht {
+  animation-delay: 0.35s;
+}
+#example-not-by-ai-badge-producer-blk {
+  animation-delay: 0.42s;
+}
 .sliding-background {
   background: url("img/not-by-ai-rotate.svg") repeat-x;
   height: 42px;

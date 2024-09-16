@@ -175,7 +175,7 @@ include 'top-nav.php';
                   </h2>
                   <div id="collapseNPO" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body text-black" style="background-color: #ffffff;">
-                      请<a href="https://notbyai.fyi/contact" class="text-decoration-underline">来信咨询</a>并且让我们知道我们可以如何帮助配合你。我们热爱真人内容也不想错过任何能够对社会有所贡献的机会。来聊聊看吧！
+                      请<a href="https://notbyai.fyi/contact" class="text-decoration-underline">来信咨询</a>并且让我们知道我们可以如何帮助配合你。我们致力于推广真人内容也不想错过任何能够对社会有所贡献的机会。
                     </div>
                   </div>
                 </div>

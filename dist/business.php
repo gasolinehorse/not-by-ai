@@ -25,13 +25,13 @@ include 'top-nav-dark.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-art.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-artist-wht" width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-artist-blk" width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Artist badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Artist badges</h2>
                   <p class="small mt-2 text-opacity-50 text-white">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
                 </div>
               </span>
@@ -45,13 +45,13 @@ include 'top-nav-dark.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-article.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-writer-wht" width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-writer-blk" width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Writer badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Writer badges</h2>
                   <p class="small mt-2 text-opacity-50 text-white">Good for blog posts, essays, books, research, code, and other text-based content</p>
                 </div>
               </span>
@@ -65,13 +65,13 @@ include 'top-nav-dark.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-music.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-producer-wht" width="131" height="42" class="img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-producer-blk" width="131" height="42" class="img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
-                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Producer badge</h2>
+                  <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Producer badges</h2>
                   <p class="small mt-2 text-opacity-50 text-white">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
                 </div>
               </span>
@@ -390,5 +390,70 @@ include 'top-nav-dark.php';
       duration: 1.5,
       stagger: 0.4
     });
+    </script>
+    <script type="text/javascript">
+      const imageSets = {
+        'example-not-by-ai-badge-artist-wht': [
+          '/img/painted-by-human-not-by-ai-white.svg',
+          '/img/drawn-by-human-not-by-ai-white.svg',
+          '/img/animated-by-human-not-by-ai-white.svg',
+          '/img/designed-by-human-not-by-ai-white.svg',
+          '/img/composed-by-human-not-by-ai-white.svg',
+          '/img/crafted-by-human-not-by-ai-white.svg'
+        ],
+        'example-not-by-ai-badge-artist-blk': [
+          '/img/illustrated-by-human-not-by-ai-black.svg',
+          '/img/painted-by-human-not-by-ai-black.svg',
+          '/img/photographed-by-human-not-by-ai-black.svg',
+          '/img/sculpted-by-human-not-by-ai-black.svg',
+          '/img/sung-by-human-not-by-ai-black.svg'
+        ],
+        'example-not-by-ai-badge-writer-wht': [
+          '/img/written-by-human-not-by-ai-white.svg',
+          '/img/authored-by-human-not-by-ai-white.svg',
+          '/img/created-by-human-not-by-ai-white.svg'
+        ],
+        'example-not-by-ai-badge-writer-blk': [
+          '/img/researched-by-human-not-by-ai-black.svg',
+          '/img/written-by-human-not-by-ai-black.svg',
+          '/img/scripted-by-human-not-by-ai-black.svg'
+        ],
+        'example-not-by-ai-badge-producer-wht': [
+          '/img/filmed-by-human-not-by-ai-white.svg',
+          '/img/produced-by-human-not-by-ai-white.svg',
+          '/img/arranged-by-human-not-by-ai-white.svg',
+          '/img/developed-by-human-not-by-ai-white.svg'
+        ],
+        'example-not-by-ai-badge-producer-blk': [
+          '/img/produced-by-human-not-by-ai-black.svg',
+          '/img/narrated-by-human-not-by-ai-black.svg',
+          '/img/performed-by-human-not-by-ai-black.svg'
+        ]
+      };
+
+      function rotateImages(id, delay) {
+        const images = imageSets[id];
+        const imgElement = document.getElementById(id);
+        let currentIndex = 0;
+
+        function shuffleImage() {
+          imgElement.classList.remove('bounce');
+          void imgElement.offsetWidth;
+          imgElement.classList.add('bounce');
+          setTimeout(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            imgElement.src = images[currentIndex];
+          }, delay);
+
+          setTimeout(shuffleImage, 5000);
+        }
+        shuffleImage();
+      }
+      rotateImages('example-not-by-ai-badge-artist-wht', 450); 
+      rotateImages('example-not-by-ai-badge-artist-blk', 520); 
+      rotateImages('example-not-by-ai-badge-writer-wht', 590); 
+      rotateImages('example-not-by-ai-badge-writer-blk', 660); 
+      rotateImages('example-not-by-ai-badge-producer-wht', 730); 
+      rotateImages('example-not-by-ai-badge-producer-blk', 800);
     </script>
     <?php include 'footer-dark.php'; ?>
