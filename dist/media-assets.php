@@ -90,7 +90,7 @@ include 'top-nav.php';
         <div class="row justify-content-center text-start border-top mt-4">
           <div class="col-lg-10 text-center">
             <h2 class="h3 mt-5 mb-3">Cover the Not By AI Story</h2>
-            <p>While we are busy with promoting and celebrating human creativity, we will always make time to share our Not By AI story and insights with journalists, bloggers, media professionals, and anyone who are interested in our cause. If you'd like to learn more about our mission or arrange an interview, please don't hesitate to reach out. We would love to connect with you!</p>
+            <p>While we love promoting and celebrating human creativity, we will always make time to share our Not By AI story and insights with journalists, bloggers, and anyone who are interested in our cause. If you'd like to learn more about our mission or arrange an interview, please don't hesitate to reach out. We would love to connect with you!</p>
             <a class="btn" href="mailto:hello@notbyai.fyi" target="_blank">Talk to Us</a>
           </div>
         </div>

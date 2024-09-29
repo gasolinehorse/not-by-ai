@@ -10,11 +10,11 @@ include './top-nav.php';
     <main class="">
       <header class="row no-md-bg justify-content-center text-start pt-1 pb-2 mb-3 mb-md-5 bg-light" style="background-image: url(/img/creator-profile-of-not-by-ai.svg); background-position: top right; background-repeat: no-repeat; background-attachment: fixed;">
         <div class="col-lg-11 col-xl-8 pt-3 pb-1">
-          <h1 class="text-start h4">Newsroom</h1>
+          <h1 class="text-start h4">Newsroom <span class="fw-normal xs opacity-50"><span class="px-3">|</span><a href="#news" class="text-decoration-underline">Latest News</a><span class="px-3">|</span><a href="#press" class="text-decoration-underline">Press Releases</a></span></h1>
         </div>
       </header>
       <div class="container">
-        <h2 class="h3 text-center mb-4 mt-5 pt-md-3">Latest News</h2>
+        <h2 id="news" class="h3 text-center mb-4 mt-5 pt-md-3" style="scroll-margin-top: 4.5rem;">Latest News</h2>
         <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
           <div class="col-lg-11 col-xl-8 border-top pt-4">
             <div class="row align-content-around">
@@ -75,6 +75,23 @@ include './top-nav.php';
               </div>
               <div class="col-md-3">
                 <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(45deg, #F4F3F2 50%, #f9f8f7 50%); background-size: 10px 10px;">DATAETHICS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 id="press" class="h3 text-center mb-4 mt-5 pt-5" style="scroll-margin-top: 3rem;">Press Releases</h2>
+        <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
+          <div class="col-lg-11 col-xl-8 border-top pt-4">
+            <div class="row align-content-around">
+              <div class="col-md-3">
+                <p class="small">September 30, 2024</p>
+              </div>
+              <div class="col-md-6 pb-3">
+                <h2>Not By AI Releases New Badges for Musicians, Designers, and More</h2>
+                <a target="_blank" class="text-decoration-underline small" href="https://notbyai.fyi/news/not-by-ai-releases-badges-for-musicians-designers-and-more">Read More</a>
+              </div>
+              <div class="col-md-3">
+                <img class="img-fluid w-100 mb-3" src="/img/new-not-by-ai-badges-for-designers.jpeg" alt="New Not By AI badges for designers, musicians, and other creators">
               </div>
             </div>
           </div>
