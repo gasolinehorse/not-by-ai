@@ -96,4 +96,5 @@
           <li class="d-none d-md-inline"><a class="xs pe-3 pe-lg-4 px-xl-3 me-4 me-sm-3 me-lg-5" href="https://notbyai.fyi/app/signup">Join Us <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg); margin-bottom: 3px;"></a></li>
         </ul>
       </div>
+      <div class="bg-dark d-flex justify-content-between xs p-1"><p class="p-0 m-0">&nbsp;</p><p class="text-white p-0 m-0">New badges released for designers, musicians, photographers, and more. <a href="https://notbyai.fyi/news/not-by-ai-releases-badges-for-musicians-designers-and-more" class="text-white text-decoration-underline">Learn More</a> </p><div class="text-white pe-3 cursor-pointer" onClick="parentNode.remove()">X</div></div>
     </div>

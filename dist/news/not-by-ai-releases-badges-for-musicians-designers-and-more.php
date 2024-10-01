@@ -28,7 +28,7 @@ include '../top-nav.php';
               <img class="img-fluid w-100 mb-3" src="/img/new-badges-samples-from-not-by-ai.png" alt="Some of the new Not By AI badges">
               <figcaption class="display-6">New badges released by Not By AI to empower more content creators</figcaption>
             </figure>
-            <p>All new badges are now available to both free and paid Not By AI users in English, Simplified Chinese, and Traditional Chinese, with plans to expand to more languages in the future. These badges provide content creators a way to show that their content is authentically created by humans in a world saturated with AI-generated content.</p>
+            <p>All new badges are now available to both free and paid Not By AI users in English, Simplified Chinese, and Traditional Chinese, with plans to expand to more languages in the future. Existing users can re-download the badges to obtain the new badges. These badges provide content creators a way to show that their content is authentically created by humans in a world filled with AI-generated content.</p>
             <h2 class="h3 pt-3">About Not By AI</h2>
             <p>Not By AI focuses on promoting content originality through its innovative badges and a large and supportive community. Content creators show the human effort behind their work with Not By AI in a world dominated by AI-generated content. For more information, visit notbyai.fyi.</p>
           </section>
