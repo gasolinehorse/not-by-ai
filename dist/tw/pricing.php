@@ -182,12 +182,12 @@ include 'top-nav.php';
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose" style="background-color: #f9f8f7 !important;">
-                      我不太確定該使用Not By AI三款貼紙中的哪一款，我該如何抉擇呢？
+                      我不太確定該使用哪一款Not By AI貼紙，我該如何抉擇呢？
                     </button>
                   </h2>
                   <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body text-black" style="background-color: #ffffff;">
-                      只要成為Not By AI的會員，三款貼紙都能任你使用。請參考<a href="/help" class="text-decoration-underline" target="_blank">資源中心</a>來獲得更多關於<a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">如何選用貼紙</a>以及<a href="/help#how-to" class="text-decoration-underline" target="_blank">如何置入貼紙</a>的細節。你也可以透過聯絡表格來與我們諮詢，我們很樂意提供協助！
+                      只要成為Not By AI的會員，每款貼紙都能任你使用。請參考<a href="/help" class="text-decoration-underline" target="_blank">資源中心</a>來獲得更多關於<a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">如何選用貼紙</a>以及<a href="/help#how-to" class="text-decoration-underline" target="_blank">如何置入貼紙</a>的細節。你也可以透過聯絡表格來與我們諮詢，我們很樂意提供協助！
                     </div>
                   </div>
                 </div>

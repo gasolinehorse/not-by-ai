@@ -27,7 +27,7 @@ include 'top-nav.php';
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
                   <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
-                  <li class="small">All three badges</li>
+                  <li class="small">All badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
                   <li class="small">No hidden costs</li>
@@ -49,7 +49,7 @@ include 'top-nav.php';
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
                   <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
-                  <li class="small">All three badges</li>
+                  <li class="small">All badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
                   <li class="small">No hidden costs</li>
@@ -71,7 +71,7 @@ include 'top-nav.php';
                 <a href="https://notbyai.fyi/app/signup" class="btn w-100">Get Started</a>
                 <ul class="mt-4 ul--checks px-2">
                   <li class="small">A project page on Not&nbsp;By&nbsp;AI*</li>
-                  <li class="small">All three badges</li>
+                  <li class="small">All badges</li>
                   <li class="small">Badges available in dark and light themes</li>
                   <li class="small">Badges available in PNG, SVG, and EPS</li>
                   <li class="small">No hidden costs</li>
@@ -94,7 +94,7 @@ include 'top-nav.php';
               <div class="col-6 col-md-4 bg-light">
                 <div class="py-3 px-3 px-md-4">
                   <ul class="mt-4 ul--checks px-2">
-                    <li class="small">All three badges</li>
+                    <li class="small">All badges</li>
                     <li class="small">Badges available in dark and light themes</li>
                     <li class="small">Badges available in PNG, SVG, and EPS</li>
                     <li class="small">No hidden costs</li>
@@ -182,12 +182,12 @@ include 'top-nav.php';
                 <div class="accordion-item" style="background-color: #f9f8f7 !important;">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose" style="background-color: #f9f8f7 !important;">
-                      I am not sure which of the three Not By AI badges to use for my project. How do I choose?
+                      I am not sure which Not By AI badges to use for my project. How do I choose?
                     </button>
                   </h2>
                   <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body text-black" style="background-color: #ffffff;">
-                      As a Not By AI memeber, you will receive all three badges. Refer to the <a href="/help" class="text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
+                      As a Not By AI memeber, you will receive every badge. Refer to the <a href="/help" class="text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
                     </div>
                   </div>
                 </div>

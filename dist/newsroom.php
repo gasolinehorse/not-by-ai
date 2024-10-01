@@ -88,7 +88,7 @@ include './top-nav.php';
               </div>
               <div class="col-md-6 pb-3">
                 <h2>Not By AI Releases New Badges for Musicians, Designers, and More</h2>
-                <a target="_blank" class="text-decoration-underline small" href="https://notbyai.fyi/news/not-by-ai-releases-badges-for-musicians-designers-and-more">Read More</a>
+                <a class="text-decoration-underline small" href="https://notbyai.fyi/news/not-by-ai-releases-badges-for-musicians-designers-and-more">Read More</a>
               </div>
               <div class="col-md-3">
                 <img class="img-fluid w-100 mb-3" src="/img/new-not-by-ai-badges-for-designers.jpeg" alt="New Not By AI badges for designers, musicians, and other creators">
