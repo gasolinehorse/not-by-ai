@@ -248,12 +248,12 @@ include 'top-nav-dark.php';
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChoose" aria-expanded="false" aria-controls="collapseChoose">
-                    I am not sure which of the three Not By AI badges to use for my business. How do I choose?
+                    I am not sure which of the Not By AI badges to use for my business. How do I choose?
                   </button>
                 </h2>
                 <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    As a Not By AI memeber, you will receive all three badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-white text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-white text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
+                    As a Not By AI memeber, you will receive all badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-white text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-white text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
                   </div>
                 </div>
               </div>
@@ -296,7 +296,7 @@ include 'top-nav-dark.php';
                         <a href="https://notbyai.fyi/app/" class="btn w-100 px-2">Get Started</a>
                         <ul class="mt-3 mt-md-4 ul--checks px-2">
                           <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
-                          <li class="small">All three badges</li>
+                          <li class="small">All badges</li>
                           <li class="small">Badges available in dark and light themes</li>
                           <li class="small">Badges available in PNG, SVG, and EPS</li>
                           <li class="small">No hidden costs</li>
@@ -318,7 +318,7 @@ include 'top-nav-dark.php';
                         <a href="https://notbyai.fyi/app/" class="btn w-100 px-2">Get Started</a>
                         <ul class="mt-3 mt-md-4 ul--checks px-2">
                           <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
-                          <li class="small">All three badges</li>
+                          <li class="small">All badges</li>
                           <li class="small">Badges available in dark and light themes</li>
                           <li class="small">Badges available in PNG, SVG, and EPS</li>
                           <li class="small">No hidden costs</li>
@@ -340,7 +340,7 @@ include 'top-nav-dark.php';
                         <a href="https://notbyai.fyi/app/" class="btn w-100 px-2">Get Started</a>
                         <ul class="mt-3 mt-md-4 ul--checks px-2">
                           <li class="small">A project page on Not&nbsp;By&nbsp;AI</li>
-                          <li class="small">All three badges</li>
+                          <li class="small">All badges</li>
                           <li class="small">Badges available in dark and light themes</li>
                           <li class="small">Badges available in PNG, SVG, and EPS</li>
                           <li class="small">No hidden costs</li>

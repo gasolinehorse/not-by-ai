@@ -99,7 +99,7 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">别担心！有超过 <?php include 'all-stats.php'; ?>的 网页正使用着Not By AI贴纸。
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">别担心！有超过 <?php include 'all-stats.php'; ?>的网页正使用着Not By AI贴纸。
           </div>
         </div>
       </section>
