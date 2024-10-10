@@ -13,7 +13,7 @@ include '../top-nav.php';
         <div class="col-md-11 col-xl-8 pt-1">
           <div class="row">
             <div class="col">
-              <small class="xs"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/newsroom" class="text-decoration-underline">Newsroom</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Not By AI Releases New Badges for Musicians, Designers, Photographers, and More</small>
+              <small class="xs bg-for-title"><a href="https://notbyai.fyi" class="text-decoration-underline">Home</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> <a href="https://notbyai.fyi/newsroom" class="text-decoration-underline">Newsroom</a> <svg width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.793 3.5.646 1.354l.708-.708L4.207 3.5 1.354 6.354l-.708-.708L2.793 3.5Z" fill="#000"/></svg> Not By AI Releases New Badges for Musicians, Designers, Photographers, and More</small>
             </div>
           </div>
         </div>
