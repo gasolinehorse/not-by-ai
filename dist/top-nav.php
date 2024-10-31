@@ -54,10 +54,13 @@
           <script>
             var userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
             var currentUrl = window.location.href;
-            var previousUrl = document.referrer;
-            
-            if (previousUrl.startsWith('https://notbyai.fyi/tw/') || previousUrl.startsWith('https://notbyai.fyi/cn/') || previousUrl.startsWith('https://notbyai.fyi/es/')) {
+            var cameFromLanguagePath = localStorage.getItem('cameFromLanguagePath');
+
+            // If user came from a language-specific page, don't redirect
+            if (cameFromLanguagePath) {
+              localStorage.removeItem('cameFromLanguagePath');
             } else {
+              // Regular timezone-based redirect logic
               var spanishSpeakingTimezones = [
                 'America/Mexico_City', 'America/Bogota', 'America/Caracas', 'America/Lima', 
                 'America/Buenos_Aires', 'America/Madrid', 'Europe/Madrid', 
@@ -65,15 +68,13 @@
                 'America/El_Salvador', 'America/Tegucigalpa', 'America/Managua', 'America/Costa_Rica',
                 'America/Montevideo', 'America/Asuncion', 'America/La_Paz', 'America/Santo_Domingo'
               ];
-
+            
               if (userTimezone === 'Asia/Taipei' && !currentUrl.includes('/tw')) {
                 window.location.href = 'https://notbyai.fyi/tw';
               } else if (userTimezone === 'Asia/Shanghai' && !currentUrl.includes('/cn')) {
                 window.location.href = 'https://notbyai.fyi/cn';
               } else if (spanishSpeakingTimezones.includes(userTimezone) && !currentUrl.includes('/es')) {
                 window.location.href = 'https://notbyai.fyi/es';
-              } else {
-                // No redirection needed
               }
             }
           </script>

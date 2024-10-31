@@ -71,3 +71,8 @@
         </ul>
       </div>
     </div>
+    <script>
+      if (window.location.pathname.match(/\/(es|tw|cn)/)) {
+        localStorage.setItem('cameFromLanguagePath', window.location.pathname);
+      }
+    </script>
