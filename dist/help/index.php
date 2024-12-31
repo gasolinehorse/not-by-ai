@@ -7,7 +7,10 @@ include '../top-nav.php';
     <style>
       .top-nav-biz-link {
         display: none !important;
-      }      
+      }
+      html {
+        scroll-padding-top: 5rem;
+      }
     </style>
     <main class="row justify-content-center px-4 px-lg-0">
       <header>
@@ -111,8 +114,25 @@ include '../top-nav.php';
                 <option value="Comics">
                 <option value="Photography">
                 <option value="Music">
+                <option value="Soundcloud">
+                <option value="Bandcamp">
+                <option value="Spotify">
                 <option value="Videos">
+                <option value="TikTok">
+                <option value="YouTube">
+                <option value="Vimeo">
                 <option value="Podcasts">
+                <option value="Social Media">
+                <option value="Facebook">
+                <option value="X">
+                <option value="Thread">
+                <option value="Instagram">
+                <option value="LinkedIn">
+                <option value="Reddit">
+                <option value="Quora">
+                <option value="Mastodon">
+                <option value="Pinterest">
+                <option value="Bluesky">
                 <option value="Overall Creative Approach">
               </datalist>
             </form>
@@ -132,8 +152,25 @@ include '../top-nav.php';
               "Comics": "comics",
               "Photography": "photography",
               "Music": "music",
+              "Soundcloud": "music",
+              "Bandcamp": "music",
+              "Spotify": "music",
               "Videos": "videos",
+              "TikTok": "videos",
+              "YouTube": "videos",
+              "Vimeo": "videos",
               "Podcasts": "podcasts",
+              "Social Media": "social-media",
+              "Facebook": "social-media",
+              "X": "social-media",
+              "Thread": "social-media",
+              "Instagram": "social-media",
+              "LinkedIn": "social-media",
+              "Reddit": "social-media",
+              "Quora": "social-media",
+              "Mastodon": "social-media",
+              "Pinterest": "social-media",
+              "Bluesky": "social-media",
               "Overall Creative Approach": "creative-approach"
             };
             
@@ -204,7 +241,7 @@ include '../top-nav.php';
               <h4 class="ps-lg-5 mb-1">PowerPoint and Keynote decks</h4>
             </div>
             <div class="col-sm-8">
-              <p>Display the relevant badge in the master slide for consistent exposure, or on the first/last slide of the deck. If your human-created content applies to more than text, consider the relevant badge.</p>
+              <p>Display the relevant badge in the master slide for consistent exposure, or on the first/last slide of the deck.</p>
             </div>
           </div>
         </div>
@@ -275,6 +312,16 @@ include '../top-nav.php';
             </div>
             <div class="col-sm-8">
               <p>Display the relevant badge on the podcast cover and/or on the podcast website. If there is a video component, consider including the badge in the video intros/bumpers, outros, at a corner throughout the video, or incorporate it as a physical element, such as a banner, in the studio or recording environment. Also, display it on marketing materials to amplify your marketing efforts.</p>
+            </div>
+          </div>
+        </div>
+        <div id="social-media" class="border-bottom border-bottom py-3">
+          <div class="row py-md-2">
+            <div class="col-sm-4">
+              <h4 class="ps-lg-5 mb-1">Social Media</h4>
+            </div>
+            <div class="col-sm-8">
+              <p>Insert the relevant badge to your profile picture or cover photo. Share it in your activity feed or post it as a pinned post (if the platform allows) to ensure consistent visibility and exposure.</p>
             </div>
           </div>
         </div>
