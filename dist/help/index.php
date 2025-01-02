@@ -110,7 +110,11 @@ include '../top-nav.php';
                 <option value="Emails">
                 <option value="PowerPoint and Keynote Decks">
                 <option value="Digital Art">
+                <option value="Dribbble">
+                <option value="Behance">
+                <option value="DeviantArt">
                 <option value="Physical Art and Handcrafted Products">
+                <option value="Etsy">
                 <option value="Comics">
                 <option value="Photography">
                 <option value="Music">
@@ -133,6 +137,7 @@ include '../top-nav.php';
                 <option value="Mastodon">
                 <option value="Pinterest">
                 <option value="Bluesky">
+                <option value="Patreon">
                 <option value="Overall Creative Approach">
               </datalist>
             </form>
@@ -148,7 +153,11 @@ include '../top-nav.php';
               "Emails": "emails",
               "PowerPoint and Keynote Decks": "powerpoints-and-keynotes",
               "Digital Art": "digital-art",
+              "Dribbble": "digital-art",
+              "Behance": "digital-art",
+              "DeviantArt": "digital-art",
               "Physical Art and Handcrafted Products": "physical-art",
+              "Etsy": "physical-art",
               "Comics": "comics",
               "Photography": "photography",
               "Music": "music",
@@ -171,6 +180,7 @@ include '../top-nav.php';
               "Mastodon": "social-media",
               "Pinterest": "social-media",
               "Bluesky": "social-media",
+              "Patreon": "social-media",
               "Overall Creative Approach": "creative-approach"
             };
             
