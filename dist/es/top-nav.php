@@ -61,7 +61,8 @@
                 <li class="pb-2 small"><a href="http://notbyai.fyi/es">Español <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></a></div></li>
                 <!-- <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li> -->
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
-                <li class="small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
+                <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
+                <li class="pt-2 small border-top"><a class="small opacity-50 lh-sm d-inline-block" href="http://notbyai.fyi/translate#translate-not-by-ai-website">Ayuda con la traducción</a></li>
               </ul>
             </span>
           </li>
