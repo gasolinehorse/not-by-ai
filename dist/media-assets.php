@@ -20,7 +20,7 @@ include 'top-nav.php';
                 <h3 class="h5 text-center text-lg-start mb-4 mb-lg-0">Not By AI Logo</h3>
               </div>
               <div class="col-lg-3">
-                <a href="/img/Not-By-AI-logo_780x270.png" download="Not-By-AI-logo_780x270.png" class="btn">Download</a>
+                <a href="/img/media/Not-By-AI-logo_780x270.png" download="Not-By-AI-logo_780x270.png" class="btn">Download</a>
               </div>
             </div>
             <h2 class="h4 mt-5 mb-3">Photos and Illustrations</h2>
