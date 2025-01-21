@@ -81,6 +81,10 @@ include 'top-nav.php';
                 <a href="/img/media/media-asset-14.jpg" download="media-asset-14.jpg" class="small text-decoration-underline"><img class="img-fluid mb-2" src="/img/media/media-asset-14_thumbnail.jpg" alt=""></a>
                 <p><a href="/img/media/media-asset-14.jpg" download="media-asset-14.jpg" class="small text-decoration-underline">Download</a></p>
               </div>
+              <div class="col-6 col-lg-3 mb-3">
+                <a href="/img/media/media-asset-15.png" download="media-asset-15.png" class="small text-decoration-underline"><img class="img-fluid mb-2" src="/img/media/media-asset-15_thumbnail.jpg" alt=""></a>
+                <p><a href="/img/media/media-asset-15.png" download="media-asset-15.png" class="small text-decoration-underline">Download</a></p>
+              </div>
             </div>
           </div>
           <div class="col-lg-6 text-center">
