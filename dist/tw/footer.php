@@ -52,7 +52,7 @@
         </div>
         <div class="row flex-column flex-md-row align-content-between pt-4 pb-5">
           <div class="col-md-3 col-lg-4">
-            <div class="display-6 mt-1 text-center text-md-start opacity-50 pb-2">Not By AI © 2024 All rights reserved.</div>
+            <div class="display-6 mt-1 text-center text-md-start opacity-50 pb-2">Not By AI © <?php echo date('Y'); ?> All rights reserved.</div>
           </div>
           <div class="col justify-content-center justify-content-md-end text-center text-md-end">
             <a href="https://notbyai.fyi/license" class="display-6 me-4 opacity-50">合約</a>

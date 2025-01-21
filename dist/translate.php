@@ -108,10 +108,10 @@ include 'top-nav.php';
               <p class="small">These languages are <span class="fst-italic">no longer</span> needed: English, Spanish, Simplified Chinese (CN), Traditional Chinese (TW), and Lithuanian.</p>
             </div>
             <div class="col-lg-6 text-start">
-              <h3>1. </h3>
+              <h5 class="h3">Step 1. </h5>
               <h4 class="h5 pb-3">Download the homepage copy document and add your translation to the document.</h4>
               <a class="btn mb-4" href="not-by-ai-homepage-copy.docx" target="_blank">Download Content to Translate</a>
-              <h3 class="pt-lg-2">2. </h3>
+              <h5 class="h3 pt-lg-2">Step 2. </h5>
               <h4 class="h5 pb-3">Once completed, send the translated document to us. We will review it and get back to you shortly.</h4>
               <a class="btn" href="mailto:hello@notbyai.fyi?subject=Not%20By%20AI%20Homepage%20Translation%20Submission" target="_blank">Submit My Translation</a>
             </div>

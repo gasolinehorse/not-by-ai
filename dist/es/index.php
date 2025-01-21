@@ -123,7 +123,7 @@ include './top-nav.php';
             <a class="nav-link text-black" id="quick-link-examples" href="#not-by-ai-badge-use-examples">Galería</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" id="quick-link-resources" href="/help">Recursos</a>
+            <a class="nav-link text-black" id="quick-link-resources" href="https://notbyai.fyi/help">Recursos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" id="quick-link-support" href="#support-not-by-ai">Apóyanos</a>
@@ -195,7 +195,7 @@ include './top-nav.php';
                 <li class="mb-1">Asegurar que tu contenido no infringe derechos de autor por uso de IA</li>
                 <li class="mb-1">Construir confianza y credibilidad para tu marca</li>
               </ul>
-              <a href="/app/signup" class="btn mt-2 mb-3">Únete a Not By AI</a>
+              <a href="https://notbyai.fyi/app/signup" class="btn mt-2 mb-3">Únete a Not By AI</a>
             </div>
             <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
               Sin profesionales específicamente entrenados o detectores de IA, es prácticamente imposible distinguir tu contenido humano del generado por IA. Utilizar las insignias Not By AI ayuda a tu audiencia a reconocer tu enfoque humano, comprendiendo que tu contenido es verdaderamente tuyo y no copiado y pegado de una IA generativa como ChatGPT, Claude o Gemini. <div class="mt-3"><br>Y lo que es más importante, esta iniciativa despierta la conciencia y anima a más individuos a producir contenido original. Este proceso garantiza que nosotros, colectivamente como especie, continuemos contribuyendo a la creación humana y evita que los contenidos sean sustituidos por reciclaje producido por IA.<br><br>
@@ -241,12 +241,12 @@ include './top-nav.php';
               <img class="img-fluid" srcset="/img/add-not-by-ai-badge-to-art@2x.jpg 2x" src="/img/add-not-by-ai-badge-to-art.jpg" alt="">
             </div>           
           </div>
-          <p class="text-center"><a href="gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Más inspiración</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
+          <p class="text-center"><a href="https://notbyai.fyi/gallery" id="not-by-ai-inspirations" class="h5 text-decoration-underline">Más inspiración</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></p>
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
           <h3>Apóyanos</h3>
-          <p>Todo el movimiento Not By AI ha sido creado por humanos. Tu apoyo marca la diferencia. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> para empoderar a los creadores de contenido y asegurar el avance de la humanidad. Tu donativo se usará de <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">varias formas</a> para expandir Not By AI.</p>
+          <p>Todo el movimiento Not By AI ha sido creado por humanos. Tu apoyo marca la diferencia. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> para empoderar a los creadores de contenido y asegurar el avance de la humanidad. Tu donativo se usará de <a href="https://notbyai.fyi/help/where-does-donation-money-go.php" class="text-decoration-underline">varias formas</a> para expandir Not By AI.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>
         <ol class="source pt-5">

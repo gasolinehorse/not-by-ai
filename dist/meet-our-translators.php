@@ -121,7 +121,7 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://pixelfed.social/Vac31" target="_blank" rel="nofollow">Vac</a></p>
           </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 38 anonymous translators.</p>
+            <p class="opacity-50">...and other 39 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
