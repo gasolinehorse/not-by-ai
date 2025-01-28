@@ -19,6 +19,22 @@ include './top-nav.php';
           <div class="col-lg-11 col-xl-8 border-top pt-4">
             <div class="row align-content-around">
               <div class="col-md-3">
+                <p class="small">January 28, 2025</p>
+              </div>
+              <div class="col-md-6 pb-3">
+                <h2>Championing Authenticity in the AI Era: An Interview with Allen Hsu on the ‘Not By AI’ Movement</h2>
+                <a target="_blank" class="text-decoration-underline small" href="https://www.websiteplanet.com/blog/notbyai-interview/">Read More</a>
+              </div>
+              <div class="col-md-3">
+                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image:  linear-gradient(135deg, #F4F3F2 25%, transparent 25%), linear-gradient(225deg, #F4F3F2 25%, transparent 25%), linear-gradient(45deg, #F4F3F2 25%, transparent 25%), linear-gradient(315deg, #F4F3F2 25%, #f9f8f7 25%); background-position:  10px 0, 10px 0, 0 0, 0 0; background-size: 10px 10px; background-repeat: repeat;">Website Planet</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
+          <div class="col-lg-11 col-xl-8 border-top pt-4">
+            <div class="row align-content-around">
+              <div class="col-md-3">
                 <p class="small">June 13, 2024</p>
               </div>
               <div class="col-md-6 pb-3">
@@ -26,7 +42,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://decrypt.co/235334/anti-ai-cara-artists-platform-not-by-ai">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(to right, #F4F3F2, #F4F3F2 5px, #f9f8f7 5px, #f9f8f7 ); background-size: 10px 100%;">Decrypt</h3>
+                <h3 class="h4 py-5 text-center" style="background: linear-gradient(63deg, #f9f8f7 23%, transparent 23%) 7px 0, linear-gradient(63deg, transparent 74%, #f9f8f7 78%), linear-gradient(63deg, transparent 34%, #f9f8f7 38%, #f9f8f7 58%, transparent 62%), #F4F3F2; background-size: 16px 48px;">Decrypt</h3>
               </div>
             </div>
           </div>
@@ -58,7 +74,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://cryptorank.io/news/feed/434de-not-ai-badge-to-combat-ai-generated-content">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image:  linear-gradient(135deg, #F4F3F2 25%, transparent 25%), linear-gradient(225deg, #F4F3F2 25%, transparent 25%), linear-gradient(45deg, #F4F3F2 25%, transparent 25%), linear-gradient(315deg, #F4F3F2 25%, #f9f8f7 25%); background-position:  10px 0, 10px 0, 0 0, 0 0; background-size: 10px 10px; background-repeat: repeat;">cryptorank</h3>
+                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(to right, #F4F3F2, #F4F3F2 5px, #f9f8f7 5px, #f9f8f7 ); background-size: 10px 100%;">cryptorank</h3>
               </div>
             </div>
           </div>
