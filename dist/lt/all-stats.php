@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(counterElement);
 
 function startCounterAnimation() {
-  const targetNumber = 272; // Replace with new number
+  const targetNumber = 223; // Replace with new number
   let currentNumber = 0;
   const duration = 2400;
   const startTime = performance.now();
