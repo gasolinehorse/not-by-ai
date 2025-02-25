@@ -19,7 +19,7 @@
               <li class="fw-bold py-2">Insignias</li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/how-it-works">Cómo funciona</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/pricing">Precios</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/">Not By AI para individuos</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/es">Not By AI para individuos</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/business">Not By AI para uso profesional</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/gallery">Galería</a></li>
             </ul>

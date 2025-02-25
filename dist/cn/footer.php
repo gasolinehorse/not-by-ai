@@ -19,7 +19,7 @@
               <li class="fw-bold py-2">贴纸</li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/cn/how-it-works">使用方法</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/cn/pricing">订阅计划</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/">Not By AI个人版</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/cn">Not By AI个人版</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/business">Not By AI商用版</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/cn/gallery">示例</a></li>
             </ul>

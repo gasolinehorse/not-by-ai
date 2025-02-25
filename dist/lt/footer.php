@@ -19,7 +19,7 @@
               <li class="fw-bold py-2">Ženkleliai</li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/how-it-works">Kaip tai veikia</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/pricing">Kainodara</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/">„Not By AI“ asmenims</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/lt">„Not By AI“ asmenims</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/business">„Not By AI“ verslui</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/gallery">Galerija</a></li>
             </ul>

@@ -19,7 +19,7 @@
               <li class="fw-bold py-2">Badges</li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/how-it-works">Mode d’emploi</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/pricing">Tarifs</a></li>
-              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/">Pour les personnes</a></li>
+              <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/fr">Pour les personnes</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/business">Pour les entreprises</a></li>
               <li class="lh-sm pb-1"><a class="display-6" href="https://notbyai.fyi/gallery">Galerie</a></li>
             </ul>
@@ -72,7 +72,7 @@
           <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body pb-4 pt-md-4 pb-5 px-lg-5">
-          <form id="forms" method="post" action="process-form.php">
+          <form id="forms" method="post" action="../process-form.php">
             <noscript>Please enable JavaScript in your browser to complete this form.</noscript>
             <p class="small my-0 w-100 text-center">Je veux...</p>
             <div class="py-1 py-md-2">
@@ -171,27 +171,6 @@
         joinNotByAI.classList.add("d-none");
       }
     });
-
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-    }
-    var trafficSource = document.referrer;
-    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("notbyai.fyi/cn") == -1 && trafficSource.indexOf("notbyai.fyi/es") == -1 && trafficSource.indexOf("notbyai.fyi/tw") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
-      document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>When You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
-      document.getElementById("tagline").style.zoom = "90%";
-      
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-      document.head.appendChild(script);
-      
-      window.googleTranslateElementInit = function() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-      };
-    }
 
     document.addEventListener('DOMContentLoaded', function() {
       document.querySelectorAll('img.no-download').forEach(function(img) {

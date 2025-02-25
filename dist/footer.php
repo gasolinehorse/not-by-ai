@@ -176,7 +176,7 @@
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
     var trafficSource = document.referrer;
-    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("notbyai.fyi/cn") == -1 && trafficSource.indexOf("notbyai.fyi/es") == -1 && trafficSource.indexOf("notbyai.fyi/tw") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
+    if (trafficSource.indexOf("notbyai.fyi") == -1 && trafficSource.indexOf("notbyai.fyi/cn") == -1 && trafficSource.indexOf("notbyai.fyi/es") == -1 && trafficSource.indexOf("notbyai.fyi/tw") == -1 && trafficSource.indexOf("notbyai.fyi/fr") == -1 && trafficSource.indexOf("notbyai.fyi/lt") == -1 && trafficSource.indexOf("google") == -1 && trafficSource.indexOf("bing") == -1 && trafficSource.indexOf("yahoo") == -1 && trafficSource.length > 0) {
       document.getElementById("tagline").innerHTML = "<div id='google_translate_element' class='mb-2'></div>When You See the <span translate='no'>'Not&nbsp;By&nbsp;AI'</span> Badge, You See Human-Created Content.";
       document.getElementById("tagline").style.zoom = "90%";
       

@@ -68,6 +68,12 @@
                 'America/El_Salvador', 'America/Tegucigalpa', 'America/Managua', 'America/Costa_Rica',
                 'America/Montevideo', 'America/Asuncion', 'America/La_Paz', 'America/Santo_Domingo'
               ];
+
+              var frenchSpeakingTimezones = [
+                'Europe/Paris', 'Europe/Brussels', 'Europe/Monaco', 'Africa/Abidjan', 
+                'Africa/Casablanca', 'Africa/Dakar', 'Africa/Algiers', 'Africa/Tunis', 
+                'America/Guadeloupe', 'America/Martinique', 'America/Cayenne', 'Pacific/Tahiti', 'Indian/Reunion'
+              ];
             
               if (userTimezone === 'Asia/Taipei' && !currentUrl.includes('/tw')) {
                 window.location.href = 'https://notbyai.fyi/tw';
@@ -75,6 +81,8 @@
                 window.location.href = 'https://notbyai.fyi/cn';
               } else if (spanishSpeakingTimezones.includes(userTimezone) && !currentUrl.includes('/es')) {
                 window.location.href = 'https://notbyai.fyi/es';
+              } else if (frenchSpeakingTimezones.includes(userTimezone) && !currentUrl.includes('/fr')) {
+                window.location.href = 'https://notbyai.fyi/fr';
               }
             }
           </script>
@@ -86,7 +94,7 @@
               <ul class="dropdown-menu px-3 py-2" style="border-color: #eae9e9;">
                 <li class="pb-2 small"><a href="http://notbyai.fyi">English <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></div></a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/es">Español</a></li>
-                <!-- <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li> -->
+                <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lithuanian</a></li>
