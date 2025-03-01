@@ -28,15 +28,32 @@ include 'top-nav.php';
               <p class="mb-0">The ones who went above and beyond to help with our website translation.</p>
             </div>
           </div>
-          <div class="col-3 col-sm-4 col-lg-2">
-            <img class="img-fluid" src="img/alejandro-mata.webp" alt="Alejandro">
+          <div class="col-md-6 pb-3">
+            <div class="row justify-content-center">
+              <div class="col-3 col-sm-4">
+                <img class="img-fluid" src="img/alejandro-mata.webp" alt="Alejandro">
+              </div>
+              <div class="col-9 col-sm-8 text-start">
+                <p class="mb-0 h4">Alejandro Mata</p>
+                <p>Deep Learning Developer</p>
+                <a target="_blank" href="https://alemalvarez.github.io" class="for-business-link rounded-2 me-2 mb-2">Personal Website</a>
+                <a target="_blank" href="https://www.linkedin.com/in/alemalvarez/" class="for-business-link rounded-2 me-2 mb-2">LinkedIn</a>
+                <a target="_blank" href="https://github.com/alemalvarez/" class="for-business-link rounded-2 mb-2">GitHub</a>
+              </div>
+            </div>
           </div>
-          <div class="col-9 col-sm-8 col-lg-5 text-start">
-            <p class="mb-0 h4">Alejandro Mata</p>
-            <p>Deep Learning Developer</p>
-            <a target="_blank" href="https://alemalvarez.github.io" class="for-business-link rounded-2 me-2 mb-2">Personal Website</a>
-            <a target="_blank" href="https://www.linkedin.com/in/alemalvarez/" class="for-business-link rounded-2 me-2 mb-2">LinkedIn</a>
-            <a target="_blank" href="https://github.com/alemalvarez/" class="for-business-link rounded-2 mb-2">GitHub</a>
+          <div class="col-md-6 pb-3">
+            <div class="row justify-content-center">
+              <div class="col-3 col-sm-4">
+                <img class="img-fluid" src="img/marjolaine-cantus.webp" alt="Alejandro">
+              </div>
+              <div class="col-9 col-sm-8 text-start">
+                <p class="mb-0 h4">Marjolaine Cantus</p>
+                <p>Freelance translator (EN / ES >> FR)</p>
+                <a target="_blank" href="https://www.linkedin.com/in/marjocantus/" class="for-business-link rounded-2 me-2 mb-2">LinkedIn</a>
+                <a target="_blank" href="https://www.proz.com/translator/2073848" class="for-business-link rounded-2 mb-2">Proz</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
