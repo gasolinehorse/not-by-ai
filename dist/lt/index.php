@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Not By AI — Add the Badge to Your Human-Created Content';
-$pageDes = 'Download and add the Not By AI badge to showcase your AI-free & human-first approach to content creation (writings, art, photos, paintings, videos, and music)';
+$pageTitle = 'Not By AI — Pridėkite ženklelį prie savo žmogaus sukurto turinio';
+$pageDes = 'Atsisiųskite ir pridėkite „Not By AI“ ženklelį, kad parodytumėte savo AI-nepriklausomą ir žmogų pirmiausia vertinančią kūrybos filosofiją (rašiniai, menas, nuotraukos, paveikslai, vaizdo įrašai ir muzika).';
 include '../header.php';
 include './top-nav.php';
 ?>
