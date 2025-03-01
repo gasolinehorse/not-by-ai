@@ -149,7 +149,7 @@ include 'top-nav.php';
           <p>Not By AI是為了鼓勵人們持續產出原創內容，且讓這些原創內容能被注目而產生。而最終目的是確保人類文明得以持續產出創作與進步。</p>
           <p>有專家估計在2025年，會有超過九成的線上內容為AI所產生<sup>1</sup>。在這樣的AI狂瀾之下，我們必須提醒自己AI是以人類過去的創作所訓練而成。換句話說，假如人類從此便全面仰賴AI來產生內容，這些新的內容恐怕只會是回收過重置的舊內容罷了。這對人類文明的進展恐將造成極大的威脅<sup>2</sup>。唯有限制AI的使用並持續堅持原創內容才能確保人類的進步。</p>
           <figure>
-            <img class="img-fluid mb-3" src="/img/ai-generates-content-using-human-content.svg" alt="AI using human-created content to produce new content">
+            <img class="img-fluid mt-3" srcset="/img/AI-generates-content-using-human-content@2x.png 2x" src="/img/AI-generates-content-using-human-content.png" alt="AI使用人類的内容來生成新的内容">
             <figcaption class="display-6">AI不斷重複使用過去人類所創作的內容來產生“新”的內容的示意圖</figcaption>
           </figure>
           <p>然而，必須強調的是，AI科技是史上無可否認的重大里程碑，而我們設計Not By AI貼紙並不是為了要勸退你使用AI。我們是要確保人類能夠與AI攜手向前，而非被AI給取代。</p>
