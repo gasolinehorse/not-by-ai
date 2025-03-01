@@ -21,11 +21,12 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">What Is the Not By AI 90% Rule?</h1>
-            <p>The Not By AI 90% Rule states that at least 90% of the content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content. This means that if you use AI for brainstorming or concepting, generate 9% of your content, and employ AI to find typos in all content, you remain in compliance with the Not By AI 90% Rule.</p>
+            <p>The Not By AI 90% Rule states that at least 90% of the content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents (assuming that legal is not the main focus of your content or service), non-user facing content, or looking for grammatical errors and typos. This means that if you use AI for brainstorming or concepting, generate 9% of your content, and employ AI to find typos in all content, you remain in compliance with the Not By AI 90% Rule.</p>
             <div class="bg-light p-3 mb-3">
-              <p class="small m-0">You can freely use AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content.</p>
+              <p class="small m-0">You can freely use AI for inspiration purposes, supporting legal documents, non-user facing content, or looking for grammatical errors and typos.</p>
             </div>
             <p>Not By AI reserves the right to determine the origin of content in cases of ambiguity regarding whether it is human-created or AI-created.</p>
+            <p>Starting March 1st, 2025, AI-generated translations will no longer be included in the allowed 10% AI usage. This change is not retroactive and does not affect content created before this date.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>
