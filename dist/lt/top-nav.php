@@ -54,13 +54,13 @@
           <li class="d-inline">
             <span class="dropdown">
               <a class="xs pe-3 pe-lg-4 px-xl-3" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="/img/not-by-ai-language.svg" alt="" style="margin-bottom: 3px;"> <span class="d-none d-xl-inline-block">Lithuanian</span>
+                <img src="/img/not-by-ai-language.svg" alt="" style="margin-bottom: 3px;"> <span class="d-none d-xl-inline-block">Lietuvių</span>
               </a>
               <ul class="dropdown-menu px-3 py-2" style="border-color: #eae9e9;">
                 <li class="pb-2 small"><a href="http://notbyai.fyi">English</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/es">Español</li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li>
-                <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lithuanian <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></a></div></a></li>
+                <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lietuvių <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></a></div></a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
                 <li class="pt-2 small border-top"><a class="small opacity-50 lh-sm d-inline-block" href="http://notbyai.fyi/translate#translate-not-by-ai-website">Padėti mums versti</a></li>
