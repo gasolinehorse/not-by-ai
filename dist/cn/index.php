@@ -45,8 +45,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-art.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-artist-wht" width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/painted-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-artist-blk" width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/painted-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -65,8 +65,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-article.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-writer-wht" width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/written-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-writer-blk" width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/written-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -85,8 +85,8 @@ include 'top-nav.php';
                     <img class="position-static z-1 w-100 ai-folder px-xl-1" src="/img/not-by-ai-folder.svg" alt="">
                     <img class="img-fluid position-absolute top-50 start-50 translate-middle z-2 img-fluid d-none d-lg-block" src="/img/ai-music.png" alt="">
                     <div class="position-absolute bottom-0 z-3 w-100 pb-2 pb-mb-3 pb-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-evenly not-by-ai-badge-folder">
-                      <img width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
-                      <img width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
+                      <img id="example-not-by-ai-badge-producer-wht" width="131" height="42" class="no-download img-fluid pb-3 pb-sm-4 pb-md-3 pb-lg-0" src="/img/produced-by-human-not-by-ai-white.svg" alt="">
+                      <img id="example-not-by-ai-badge-producer-blk" width="131" height="42" class="no-download img-fluid d-block d-sm-none d-md-inline-block pb-3 pb-md-2 pb-lg-0" src="/img/produced-by-human-not-by-ai-black.svg" alt="">
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,14 @@ include 'top-nav.php';
               <a href="/app/signup" class="btn mt-2 mb-3">加入Not By AI</a>
             </div>
             <div class="tab-pane fade" id="indivisual-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-              现今要判定一个作品是否为AI生成的十分困难，即使是专业人士或AI探测器都未必可靠。使用Not By AI贴纸可以让你的观众们了解你以人为出发点的创作力，并证明你的内容真的出自于你，而不是由ChatGPT、Claude，或Gemini之类的生成式AI所生成。<div class="mt-3">更重要的是，这能推广真人原创内容的重要性。我们人类必须在这关键的时间点持续共同产出原创内容，以确保我们未来的内容不会被AI量产的回收内容给取代。<br><br>我们提供100%免费的贴纸给非商业用途的内容创作者，因为我们是认真的想将这份Not By AI运动推广到世界各地。如果你不吝帮忙，请考虑看看我们的付费方案或<a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">捐款帮助</a>。</div>
+              现今要判定一个作品是否为AI生成的十分困难，即使是专业人士或AI探测器都未必可靠。使用Not By AI贴纸可以让你的观众们了解你以人为出发点的创作力，并证明你的内容真的出自于你，而不是由ChatGPT、Claude，或Gemini之类的生成式AI所生成。<div class="mt-3">更重要的是，这能推广真人原创内容的重要性。我们人类必须在这关键的时间点持续共同产出原创内容，以确保我们未来的内容不会被AI量产的回收内容给取代。
+              <div class="row justify-content-center align-items-center mt-2 mb-3 px-3">
+                <div class="col-5 text-center">
+                  <img id="not-by-ai-offering-badges" class="img-fluid mt-3" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Not By AI badges">
+                  <div class="xs text-center">Not By AI贴纸</div>
+                </div>
+              </div>
+              我们提供100%免费的贴纸给非商业用途的内容创作者，因为我们是认真的想将这份Not By AI运动推广到世界各地。如果你不吝帮忙，请考虑看看我们的付费方案或<a href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank" class="text-decoration-underline">捐款帮助</a>。</div>
             </div>
           </div>
           <p class="mt-3">有些像<a class="text-decoration-underline" href="https://www.wired.com/story/how-wired-will-use-generative-ai-tools/" target="_blank">WIRED</a>的网站会特别po文阐述AI使用规范以达成同样的目标。然而，这样的宣示往往立刻被其他文章埋没。使用Not By AI贴纸则没有这样的问题，你的贴纸可以随时提醒着大家你对原创的坚持。</p>
@@ -271,5 +278,66 @@ include 'top-nav.php';
           nav.classList.remove('sticky-top');
         }
       });
+    </script>
+    <script type="text/javascript">
+      const imageSets = {
+        'example-not-by-ai-badge-artist-wht': [
+          '/img/painted-by-human-not-by-ai-white-cn.svg',
+          '/img/drafted-by-human-not-by-ai-white-cn.svg',
+          '/img/designed-by-human-not-by-ai-white-cn.svg'
+        ],
+        'example-not-by-ai-badge-artist-blk': [
+          '/img/photographed-by-human-not-by-ai-black-cn.svg',
+          '/img/sculpted-by-human-not-by-ai-black-cn.svg',
+          '/img/crafted-by-human-not-by-ai-black-cn.svg'
+        ],
+        'example-not-by-ai-badge-writer-wht': [
+          '/img/written-by-human-not-by-ai-white-cn.svg',
+          '/img/authored-by-human-not-by-ai-white-cn.svg'
+        ],
+        'example-not-by-ai-badge-writer-blk': [
+          '/img/researched-by-human-not-by-ai-black-cn.svg',
+          '/img/scripted-by-human-not-by-ai-black-cn.svg'
+        ],
+        'example-not-by-ai-badge-producer-wht': [
+          '/img/filmed-by-human-not-by-ai-white-cn.svg',
+          '/img/produced-by-human-not-by-ai-white-cn.svg',
+          '/img/arranged-by-human-not-by-ai-white-cn.svg',
+          '/img/developed-by-human-not-by-ai-white-cn.svg',
+          '/img/composed-by-human-not-by-ai-white-cn.svg'
+        ],
+        'example-not-by-ai-badge-producer-blk': [
+          '/img/produced-by-human-not-by-ai-black-cn.svg',
+          '/img/animated-by-human-not-by-ai-black-cn.svg',
+          '/img/sung-by-human-not-by-ai-black-cn.svg',
+          '/img/narrated-by-human-not-by-ai-black-cn.svg',
+          '/img/performed-by-human-not-by-ai-black-cn.svg'
+        ]
+      };
+
+      function rotateImages(id, delay) {
+        const images = imageSets[id];
+        const imgElement = document.getElementById(id);
+        let currentIndex = 0;
+
+        function shuffleImage() {
+          imgElement.classList.remove('bounce');
+          void imgElement.offsetWidth;
+          imgElement.classList.add('bounce');
+          setTimeout(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            imgElement.src = images[currentIndex];
+          }, delay);
+
+          setTimeout(shuffleImage, 5000);
+        }
+        shuffleImage();
+      }
+      rotateImages('example-not-by-ai-badge-artist-wht', 450); 
+      rotateImages('example-not-by-ai-badge-artist-blk', 520); 
+      rotateImages('example-not-by-ai-badge-writer-wht', 590); 
+      rotateImages('example-not-by-ai-badge-writer-blk', 660); 
+      rotateImages('example-not-by-ai-badge-producer-wht', 730); 
+      rotateImages('example-not-by-ai-badge-producer-blk', 800);
     </script>
     <?php include 'footer.php'; ?>
