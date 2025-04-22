@@ -77,12 +77,17 @@ include '../top-nav.php';
             <h3 class="h5"><a href="/help/is-subscription-project-based-or-user-based.php">Is a Subscription Project-Based or User-Based?</a></h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row border-lg-bottom">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
             <h3 class="h5"><a href="/help/how-do-i-cancel-my-subscription.php">How Do I Cancel My Not By AI Subscriptions?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
           <div class="col-lg-6 py-2 py-lg-3">
             <h3 class="h5"><a href="/help/how-do-i-close-my-not-by-ai-account.php">How Do I Close My Not By AI Account?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
+            <h3 class="h5"><a href="/help/what-if-i-need-a-larger-badge-size.php">What If I Need a Large Badge Size?</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);"></h3>
           </div>
         </div>
       </section>

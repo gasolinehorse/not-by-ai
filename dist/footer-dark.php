@@ -46,7 +46,7 @@
             </ul>
           </div>
           <div class="text-center text-md-start col-md-3 col-lg-2">
-            <a href="https://notbyai.fyi/hi/not-by-ai"><img class="pt-3 d-block mx-auto" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
+            <a href="https://notbyai.fyi/hi/not-by-ai"><img class="pt-3 d-block mx-auto no-download" src="/img/written-by-human-not-by-ai-white.svg" alt="Written By Human, Not By AI"></a>
             <p class="small text-center pt-5"><br><a href="https://notbyai.fyi/app/signup/" class="text-white for-business-link border-white rounded-2 mb-3 me-3" style="border-color: white !important;">Sign Up</a><a href="https://notbyai.fyi/app/login/" class="text-white">Log In</a></p>
           </div>
         </div>
