@@ -58,7 +58,23 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://www.theatlantic.com/technology/archive/2024/06/llm-free-all-organic/678670/">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background: linear-gradient(135deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #F4F3F2 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #F4F3F2 25%, #f9f8f7 25%) 0px 0/ 20px 20px;">The Atlantic</h3>
+                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: radial-gradient(circle at center center, #F4F3F2, #f9f8f7), repeating-radial-gradient(circle at center center, #F4F3F2, #F4F3F2, 10px, transparent 20px, transparent 10px); background-blend-mode: multiply;">The Atlantic</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
+          <div class="col-lg-11 col-xl-8 border-top pt-4">
+            <div class="row align-content-around">
+              <div class="col-md-3">
+                <p class="small">March 3, 2024</p>
+              </div>
+              <div class="col-md-6 pb-3">
+                <h2>Dawn of the dialogue: AI's leap from lab to living room</h2>
+                <a target="_blank" class="text-decoration-underline small" href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1308156/full">Read More</a>
+              </div>
+              <div class="col-md-3">
+                <h3 class="h4 py-5 text-center" style="background-color: #ffffff; opacity: 0.8; background: linear-gradient(135deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #F4F3F2 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #F4F3F2 25%, #f9f8f7 25%) 0px 0/ 20px 20px;">frontiers</h3>
               </div>
             </div>
           </div>
@@ -91,6 +107,22 @@ include './top-nav.php';
               </div>
               <div class="col-md-3">
                 <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(45deg, #F4F3F2 50%, #f9f8f7 50%); background-size: 10px 10px;">DATAETHICS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-start px-4 px-lg-0 mb-4 mb-lg-5">
+          <div class="col-lg-11 col-xl-8 border-top pt-4">
+            <div class="row align-content-around">
+              <div class="col-md-3">
+                <p class="small">March 29, 2023</p>
+              </div>
+              <div class="col-md-6 pb-3">
+                <h2>"This illustration was drawn by a human" - Thinking about a new certification mark in the age of AI</h2>
+                <a target="_blank" class="text-decoration-underline small" href="https://ideasforgood.jp/2023/03/29/not-by-ai/">Read More</a>
+              </div>
+              <div class="col-md-3">
+                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(0deg, #f9f8f7 50%, #F4F3F2 50%); background-size: 10px 10px;">IDEAS FOR GOOD</h3>
               </div>
             </div>
           </div>
