@@ -65,17 +65,14 @@ include 'top-nav.php';
                 <input type="email" name="email" required>
                 <label for="message">Which language(s) would you like to translate?</label>
                 <input type="text" name="language" required>
-                <label for="message">Translate "painted by human, not by AI"</label>
+                <label for="message">Translate "painted by humans, not by AI" & "painted by a human, not by AI"</label>
                 <input type="text" name="translate1" required>
-                <label for="message">Translate "written by human, not by AI"</label>
+                <label for="message">Translate "written by humans, not by AI" & "written by a human, not by AI"</label>
                 <input type="text" name="translate2" required>
-                <label for="message">Translate "produced by human, not by AI"</label>
+                <label for="message">Translate "produced by humans, not by AI" & "produced by a human, not by AI"</label>
                 <input type="text" name="translate3" required>
                 <div class="d-flex pt-3">
                   <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label class="mt-0" for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
-                </div>
-                <div class="d-flex pt-2">
-                  <input type="checkbox" id="languageNotification" name="languageNotification" value="I want to be notified when a badge in a new language becomes available"><label class="mt-0" for="languageNotification">Notify me when a badge in a new language becomes available</label>
                 </div>
                 <input type="text" name="nogo" style="display:none;">
                 <input class="g-recaptcha btn mt-4" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send My Translation">
@@ -87,9 +84,10 @@ include 'top-nav.php';
               <ul>
                 <li class="pb-2">Your translation should be punctual and so simple that a third-grader can understand. </li>
                 <li class="pb-2">Make sure “Not By AI” is translated in a way where “Not By AI” can be meaningful as a standalone.</li>
-                <li class="pb-2">It does not need to be a 1 to 1 translation. For example, you may consider "hand-painted, not by AI" or "human-painted, no AI reliance" depending on what sounds more natural in your language. Localization is fine but stay close to the original meaning.</li>
-                <li class="pb-2">"Produce" has many meanings in English. In our case, it is referring to music production and overall content creation. If there is no such word in your language, consider "create" or "make".</li>
-                <li class="pb-2">In general, shorter word count is preferred.</li>
+                <li class="pb-2">If the word "human" in your language is uncountable, you don’t need to submit two versions (singular and plural).</li>
+                <li class="pb-2">It does not need to be a 1 to 1 translation. For example, you may consider "hand-painted, not by AI" or "painted by humans, no AI used" depending on what sounds more natural in your language.</li>
+                <li class="pb-2">"Produce" has many meanings in English. In our case, it refers to music production and overall content creation. If there is no such word in your language, consider "create" or "make".</li>
+                <li class="pb-2">In general, a shorter word count is preferred.</li>
               </ul>
               <p>You will be featured on our <a href="/meet-our-translators" class="text-decoration-underline">Meet Our Translators page</a> for your contribution (optional). Can't wait to see our badges in your beautiful languages!</p>
               <p class="small">These languages are <span class="fst-italic">no longer</span> needed: <?php include 'all-supported-languages.php'; ?></p>
@@ -103,7 +101,7 @@ include 'top-nav.php';
             <h3 class="pb-lg-5">Translate Website</h3>
             <div class="col-lg-6 text-start">
               <h4 class="h5 pb-3">To those who go above and beyond:</h4>
-              <p>Translating our homepage is a meaningful task and it helps the audience better understand the Not By AI mission. Our goal is not only to provide badges in all languages but also to make sure that, when someone clicks on a badge and land on the Not By AI homepage, they understand why creators from all over the world are placing the badges on their content. Thank you for going the extra mile, we deeply appreciate your help!</p>
+              <p>Translating our homepage is a meaningful task and it helps the audience better understand the Not By AI mission. Our goal is not only to provide badges in all languages but also to make sure that, when someone clicks on a badge and lands on the Not By AI homepage, they understand why creators from all over the world are placing the badges on their content. Thank you for going the extra mile, we deeply appreciate your help!</p>
               <p>Please follow these two steps to submit your translation.</p>
               <p class="small">These languages are <span class="fst-italic">no longer</span> needed: English, Spanish, Simplified Chinese (CN), Traditional Chinese (TW), and Lithuanian.</p>
             </div>
