@@ -20,7 +20,7 @@ include 'top-nav.php';
                 <div>
                   <div class="xs fw-bold pe-2">01</div>
                   <h2 class="">Submit a Project</h2>
-                  <p class="small">Fill out your project details, describe your creative approach, and upload any supporting docs, such as drafts or videos of you creating your content.</p>
+                  <p class="small">Fill out your project details, describe your creative approach, and upload any supporting docs, such as drafts and photos or videos of you creating your content.</p>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ include 'top-nav.php';
           <div class="h5 text-center mb-lg-5 mt-4">How We Help</div>
           <div class="col-lg-6 ps-sm-4 order-lg-1">
             <h3 class="h2 pt-4">The Iconic Not By AI Badges Convey Authentic Content</h3>
-            <p>Not By AI is the pioneering leader started in early 2023 in promoting human content and our badges are featured on over <?php include 'all-stats.php'; ?> pages. With such widespread recognization, the Not By AI badges have become an efficient way to show that your content is human-created. The badges feature a distinguishable shape and design that conveys its messaging without distracting your audience from consuming your content. </p>
+            <p>Not By AI is the pioneering leader started in early 2023 in promoting human content and our badges are featured on over <?php include 'all-stats.php'; ?> pages. With such widespread recognition, the Not By AI badges have become an efficient way to show that your content is human-created. The badges feature a distinguishable shape and design that conveys its messaging efficiently without distracting your audience from consuming your content. </p>
           </div>
           <div class="col-lg-6 px-2 px-sm-0 text-center">
             <img class="w-100" srcset="/img/not-by-ai-badges-for-authenticity@2x.png 2x" src="/img/not-by-ai-badges-for-authenticity.png" style="max-width: 500px;" alt="A Not By AI badge" />
