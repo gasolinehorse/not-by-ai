@@ -19,7 +19,7 @@ include '../top-nav.php';
       <section class="col-md-10 col-xl-6 text-center pt-4 pb-4">
         <p>Hi, we are Not By AI and we are here to help. Below are some useful guides and FAQs created and answered to ensure that your users and audience can easily identify your content created by humans.</p>
       </section>
-      <section class="col-lg-11 col-xl-10 text-start pt-4 px-4 px-md-3 px-lg-5 pt-2 pb-3 bg-light">
+      <section class="col-lg-11 col-xl-10 text-start pt-4 px-4 px-md-3 px-lg-5 pt-2 pb-3 bg-light rounded">
         <h2 class="py-3 text-center">Frequently Asked Questions</h2>
         <div class="row border-lg-bottom">
           <div class="col-lg-6 py-2 py-lg-3 border-lg-end">
@@ -91,7 +91,7 @@ include '../top-nav.php';
           </div>
         </div>
       </section>
-      <section class="col-lg-11 col-xl-10 pt-4 pb-3 mt-5 text-start border">
+      <section class="col-lg-11 col-xl-10 pt-4 pb-3 mt-5 text-start border rounded">
         <div class="row py-2 justify-content-center">
           <div class="col-lg-9 text-center">
             <h2 id="how-to" class="mt-lg-4 pt-2">How to Add the Not By AI Badges</h2>
@@ -102,7 +102,7 @@ include '../top-nav.php';
             <p>3. Link the badges to notbyai.fyi or your project page when hyperlinking is possible.</p>
           </div>
         </div>
-        <div class="bg-light py-4 mb-3 mb-md-0">
+        <div class="bg-light py-4 mb-3 mb-md-0 rounded">
           <h3 class="h4 text-center">What Are You Creating?</h3>
           <div class="d-flex justify-content-center flex-column flex-md-row px-3 px-md-0">
             <form class="me-md-2">
@@ -356,7 +356,7 @@ include '../top-nav.php';
         </div>
       </section>
       <section class="col-lg-11 col-xl-10 text-start pt-4 pb-5">
-        <div class="row bg-light mb-lg-3">
+        <div class="row bg-light mb-lg-3 rounded">
           <div class="col-lg-5 ps-0 d-none d-lg-block">
             <img class="h-100" src="/img/support-not-by-ai.svg" alt="">
           </div>

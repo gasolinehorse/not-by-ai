@@ -12,7 +12,7 @@ include 'top-nav-dark.php';
           </header>
         </div>
         <div class="col-lg-11 col-xl-9 col-xxl-8">
-          <p class="display-5 text-white">Content originality has become the rare differentiator for businesses and enterprises. Show your audience that your work is Not&nbsp;By&nbsp;AI.</p>
+          <p class="display-5 text-white">Content originality is becoming a rare differentiator for businesses and enterprises. Show your audience that your work is Not&nbsp;By&nbsp;AI.</p>
         </div>
       </section>
       <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-4 container-fluid pb-5 border-bottom" style="max-width: 1052px; background-image: url(/img/ai-dots.png); background-position: center; background-repeat: no-repeat; background-size: 100%;">
@@ -32,7 +32,7 @@ include 'top-nav-dark.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Artist badges</h2>
-                  <p class="small mt-2 text-opacity-50 text-white">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
+                  <p class="small mt-2 text-opacity-50 text-white">Good for digital/traditional artwork, paintings, illustrations, music, animations, and more.</p>
                 </div>
               </span>
             </span>
@@ -52,7 +52,7 @@ include 'top-nav-dark.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Writer badges</h2>
-                  <p class="small mt-2 text-opacity-50 text-white">Good for blog posts, essays, books, research, code, and other text-based content</p>
+                  <p class="small mt-2 text-opacity-50 text-white">Good for blog posts, essays, books, research, code, and other text-based content.</p>
                 </div>
               </span>
             </span>
@@ -72,7 +72,7 @@ include 'top-nav-dark.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded text-white">Download the Producer badges</h2>
-                  <p class="small mt-2 text-opacity-50 text-white">Good for audio, video, photography, overall creative approach/philosophy, and more</p>
+                  <p class="small mt-2 text-opacity-50 text-white">Good for audio, video, performances, overall creative approach/philosophy, and more.</p>
                 </div>
               </span>
             </span>
@@ -101,7 +101,7 @@ include 'top-nav-dark.php';
           <div class="col-lg-4 position-relative z-1">
             <h3 class="pb-1">Grow your business</h3>
             <p>Your clients and prospects will appreciate AI but they will still want humans to address their specific needs. AI may be powerful, it is still only passively listening to prompts to generate answers, sometimes incorrectly. Only a trained human can understand the complexity of a real life problem and tailor a customized solution for it.</p>
-            <p>If your work can be done by AI, your clients would have already brought it in-house. Show your unique value with Not By AI. </p>
+            <p>If your work can be done by AI, your clients would have already brought it in-house — or they soon will. Show your unique value with Not By AI. </p>
           </div>
           <div class="col-lg-6 text-center">
             <img class="img-fluid" srcset="/img/not-by-ai-business-growth@2x.jpg 2x" src="/img/not-by-ai-business-growth.jpg" alt="" />
@@ -193,7 +193,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseCreatorPage" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    A membership with Not By AI offers you the badges and a project page. A project page (<a href="https://notbyai.fyi/hi/not-by-ai" target="blank" class="text-decoration-underline text-white">example</a>) is like a blog post that houses your project details and proof of authenticity. It is the official Not By AI space for you to talk to your audience about your human-centric creative approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets.<br><br>To further establish credibility of your badges and make sure your audience understands your authentic human-first approach, link the badges to this page that is unique to your project.
+                    A membership with Not By AI offers you the badges and project pages. A project page (<a href="https://notbyai.fyi/hi/not-by-ai" target="blank" class="text-decoration-underline text-white">example</a>) is like a blog post that houses your project details and proof of authenticity. It is the official Not By AI space for you to talk to your audience about your human-centric creative approach and process, as well as to showcase some of your drafts, mood boards, or other relevant assets. <a href="https://notbyai.fyi/how-it-works" class="text-decoration-underline text-white">Learn how it works</a>.<br><br>To further establish the credibility of your badges and make sure your audience understands your authentic human-first approach, link the badges to this page that is unique to your project.
                   </div>
                 </div>
               </div>
@@ -229,7 +229,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseVerify" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    We will review your content and project details while acknowledging that there are currently no bulletproof AI content detection methods. However, the content creators should be responsible for ensuring the content follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. In the rare event that your project submission gets rejected, we will issue a refund.
+                    We will review your content and project details while acknowledging that there are currently no bulletproof AI content detection methods. The content creators should be responsible for ensuring the content follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. In the rare event that your project submission gets rejected, we will issue a refund.
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseAI" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    Yes, if you follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, to look for grammatical errors and typos, and to translate content.
+                    Yes, if you follow the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline text-white" target="_blank">Not By AI 90% Rule</a>. In short, the Not By AI 90% Rule states that if you estimate that at least 90% of your content is human-created, you can use the badge. This 90% can include using AI for inspiration purposes, supporting legal documents such as privacy policies (assuming that legal is not the main focus of your content or service), non-user facing content such as SEO meta tags or code, and looking for grammatical errors and typos.
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@ include 'top-nav-dark.php';
                 </h2>
                 <div id="collapseChoose" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    As a Not By AI memeber, you will receive all badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-white text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-white text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
+                    As a Not By AI member, you will receive all badges. Refer to the <a href="/help" class="text-white text-decoration-underline" target="_blank">Help Center</a> for details about <a href="/help/which-not-by-ai-badge-should-i-use.php" class="text-white text-decoration-underline" target="_blank">selecting the right badges to use</a> and <a href="/help#how-to" class="text-white text-decoration-underline" target="_blank">inserting the badges into your project</a>. You can also use the contact form to request an answer from us. We are happy to help!
                   </div>
                 </div>
               </div>
