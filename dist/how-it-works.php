@@ -4,7 +4,8 @@ $pageDes = 'Learn about our Not By AI badges and project pages, and how they hel
 include 'header.php';
 include 'top-nav.php';
 ?>
-    <main class="row justify-content-center px-4 px-lg-0">
+<style>#topNav { margin-bottom: 0 !important; border-bottom: 0 !important;}</style>
+    <main class="row bg-light justify-content-center px-4 px-lg-0 pt-5">
       <header>
         <h1 class="mt-4 display-2">How It Works</h1>
       </header>
@@ -13,7 +14,7 @@ include 'top-nav.php';
       </section>
       <div class="col-xl-11 text-start">
         <div class="row justify-content-center">
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step1-submit-project.png" alt="">
               <div class="d-flex">
@@ -26,7 +27,7 @@ include 'top-nav.php';
             </div>
           </div>
           <div class="col-md-1 px-2 text-center align-self-center d-none d-lg-block" style="max-width: 40px;"><img class="img-fluid" src="/img/arrow-solid-right.svg" alt=""></div>
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step2-project-review.png" alt="">
               <div class="d-flex">
@@ -40,7 +41,7 @@ include 'top-nav.php';
             </div>
           </div>
           <div class="col-md-1 px-2 text-center align-self-center d-none d-lg-block" style="max-width: 40px;"><img class="img-fluid" src="/img/arrow-solid-right.svg" alt=""></div>
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/img/not-by-ai-short-reel.gif" alt="">
               <div class="d-flex">
@@ -53,8 +54,8 @@ include 'top-nav.php';
             </div>
           </div>
         </div>
-        <div class="text-center pb-5 pt-2">
-          <a href="https://notbyai.fyi/app/signup" class="btn mt-4 mb-4">Get Started</a><br>
+        <div class="text-center pb-5">
+          <a href="https://notbyai.fyi/app/signup" class="btn mt-3 mb-4">Get Started</a><br>
           <div class="small opacity-50">Or <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="text-decoration-underline">download the badges only for a one-time $99 fee</a></div>
         </div>
       </div>
@@ -89,7 +90,7 @@ include 'top-nav.php';
             <p>Not By AI is the pioneering leader started in early 2023 in promoting human content and our badges are featured on over <?php include 'all-stats.php'; ?> pages. With such widespread recognition, the Not By AI badges have become an efficient way to show that your content is human-created. The badges feature a distinguishable shape and design that conveys its messaging efficiently without distracting your audience from consuming your content. </p>
           </div>
           <div class="col-lg-6 px-2 px-sm-0 text-center">
-            <img class="w-100" srcset="/img/not-by-ai-badges-for-authenticity@2x.png 2x" src="/img/not-by-ai-badges-for-authenticity.png" style="max-width: 500px;" alt="A Not By AI badge" />
+            <img class="w-100 rounded" srcset="/img/not-by-ai-badges-for-authenticity@2x.png 2x" src="/img/not-by-ai-badges-for-authenticity.png" style="max-width: 500px;" alt="A Not By AI badge" />
           </div>
         </div>
         <div class="row py-4 mb-lg-3 order-lg-2">
@@ -98,11 +99,11 @@ include 'top-nav.php';
             <p>A project page provides the space for you to describe your creative approach. This ensures the authenticity of our badges and builds trust with your audience. By linking your badges to your project page(s), you leverage a centralized system made for human content creators just like you, instead of having to host this crucial information on your own.</p>
           </div>
           <div class="col-lg-6 px-2 px-sm-0 text-center">
-            <img class="w-100" srcset="/img/not-by-ai-project-page-for-credibility@2x.png 2x" src="/img/not-by-ai-project-page-for-credibility.png" style="max-width: 500px;" alt="A Not By AI project page" />
-            <div class="xs opacity-50" style="margin-top: -20px;">A Not By AI project page</div>
+            <img class="w-100 rounded" srcset="/img/not-by-ai-project-page-for-credibility@2x.png 2x" src="/img/not-by-ai-project-page-for-credibility.png" style="max-width: 500px;" alt="A Not By AI project page" />
+            <div class="xs opacity-50" style="margin-top: -28px;">A Not By AI project page</div>
           </div>
         </div>
-        <div class="row bg-light mb-lg-3 justify-content-center">
+        <div class="row bg-white mt-5 rounded mb-3 justify-content-center">
           <div class="col-lg-3 d-none d-lg-block">
             <img class="w-100" src="/img/support-not-by-ai.svg" alt="">
           </div>
