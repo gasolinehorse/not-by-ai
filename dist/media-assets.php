@@ -12,7 +12,7 @@ include 'top-nav.php';
         <div class="row justify-content-center text-start">
           <div class="col-lg-10 pb-4 text-center">
             <h2 class="h4 mb-3">Brand Assets</h2>
-            <div class="row bg-light py-5 px-3 align-items-center">
+            <div class="row bg-light py-5 px-3 align-items-center rounded">
               <div class="col-lg-4">
                 <img class="img-fluid mb-3 mb-lg-0" src="/img/media/Not-By-AI-logo_780x270.png" alt="Not By AI logo">
               </div>
@@ -24,7 +24,7 @@ include 'top-nav.php';
               </div>
             </div>
             <h2 class="h4 mt-5 mb-3">Photos and Illustrations</h2>
-            <div class="row bg-light pt-5 pb-3 px-3 align-items-center">
+            <div class="row bg-light pt-5 pb-3 px-3 align-items-center rounded">
               <div class="col-6 col-lg-3 mb-3">
                 <a href="/img/media/media-asset-1.png" download="media-asset-1.png" class="small text-decoration-underline"><img class="img-fluid mb-2" src="/img/media/media-asset-1_thumbnail.jpg" alt=""></a>
                 <p><a href="/img/media/media-asset-1.png" download="media-asset-1.png" class="small text-decoration-underline">Download</a></p>
@@ -94,7 +94,7 @@ include 'top-nav.php';
         <div class="row justify-content-center text-start border-top mt-4">
           <div class="col-lg-10 text-center">
             <h2 class="h3 mt-5 mb-3">Cover the Not By AI Story</h2>
-            <p>While we love promoting and celebrating human creativity, we will always make time to share our Not By AI story and insights with journalists, bloggers, and anyone who are interested in our cause. If you'd like to learn more about our mission or arrange an interview, please don't hesitate to reach out. We would love to connect with you!</p>
+            <p>While we work hard promoting and celebrating human creativity, we will always make time to share our Not By AI story and insights with journalists, bloggers, and anyone who is interested in our cause. If you'd like to learn more about our mission or arrange an interview, please don't hesitate to reach out. We would love to connect with you!</p>
             <a class="btn" href="mailto:hello@notbyai.fyi" target="_blank">Talk to Us</a>
           </div>
         </div>
