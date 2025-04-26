@@ -26,7 +26,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://www.websiteplanet.com/blog/notbyai-interview/">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image:  linear-gradient(135deg, #F4F3F2 25%, transparent 25%), linear-gradient(225deg, #F4F3F2 25%, transparent 25%), linear-gradient(45deg, #F4F3F2 25%, transparent 25%), linear-gradient(315deg, #F4F3F2 25%, #f9f8f7 25%); background-position:  10px 0, 10px 0, 0 0, 0 0; background-size: 10px 10px; background-repeat: repeat;">Website Planet</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #f9f8f7; opacity: 0.8; background-image:  linear-gradient(135deg, #F4F3F2 25%, transparent 25%), linear-gradient(225deg, #F4F3F2 25%, transparent 25%), linear-gradient(45deg, #F4F3F2 25%, transparent 25%), linear-gradient(315deg, #F4F3F2 25%, #f9f8f7 25%); background-position:  10px 0, 10px 0, 0 0, 0 0; background-size: 10px 10px; background-repeat: repeat;">Website Planet</h3>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://decrypt.co/235334/anti-ai-cara-artists-platform-not-by-ai">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background: linear-gradient(63deg, #f9f8f7 23%, transparent 23%) 7px 0, linear-gradient(63deg, transparent 74%, #f9f8f7 78%), linear-gradient(63deg, transparent 34%, #f9f8f7 38%, #f9f8f7 58%, transparent 62%), #F4F3F2; background-size: 16px 48px;">Decrypt</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background: linear-gradient(63deg, #f9f8f7 23%, transparent 23%) 7px 0, linear-gradient(63deg, transparent 74%, #f9f8f7 78%), linear-gradient(63deg, transparent 34%, #f9f8f7 38%, #f9f8f7 58%, transparent 62%), #F4F3F2; background-size: 16px 48px;">Decrypt</h3>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://www.theatlantic.com/technology/archive/2024/06/llm-free-all-organic/678670/">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: radial-gradient(circle at center center, #F4F3F2, #f9f8f7), repeating-radial-gradient(circle at center center, #F4F3F2, #F4F3F2, 10px, transparent 20px, transparent 10px); background-blend-mode: multiply;">The Atlantic</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #f9f8f7; opacity: 0.8; background-image: radial-gradient(circle at center center, #F4F3F2, #f9f8f7), repeating-radial-gradient(circle at center center, #F4F3F2, #F4F3F2, 10px, transparent 20px, transparent 10px); background-blend-mode: multiply;">The Atlantic</h3>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1308156/full">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #ffffff; opacity: 0.8; background: linear-gradient(135deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #F4F3F2 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #F4F3F2 25%, #f9f8f7 25%) 0px 0/ 20px 20px;">frontiers</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #ffffff; opacity: 0.8; background: linear-gradient(135deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #F4F3F2 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #F4F3F2 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #F4F3F2 25%, #f9f8f7 25%) 0px 0/ 20px 20px;">frontiers</h3>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://cryptorank.io/news/feed/434de-not-ai-badge-to-combat-ai-generated-content">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(to right, #F4F3F2, #F4F3F2 5px, #f9f8f7 5px, #f9f8f7 ); background-size: 10px 100%;">cryptorank</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(to right, #F4F3F2, #F4F3F2 5px, #f9f8f7 5px, #f9f8f7 ); background-size: 10px 100%;">cryptorank</h3>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://dataethics.eu/human-made-content-could-be-the-new-hype/">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(45deg, #F4F3F2 50%, #f9f8f7 50%); background-size: 10px 10px;">DATAETHICS</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(45deg, #F4F3F2 50%, #f9f8f7 50%); background-size: 10px 10px;">DATAETHICS</h3>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ include './top-nav.php';
                 <a target="_blank" class="text-decoration-underline small" href="https://ideasforgood.jp/2023/03/29/not-by-ai/">Read More</a>
               </div>
               <div class="col-md-3">
-                <h3 class="h4 py-5 text-center" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(0deg, #f9f8f7 50%, #F4F3F2 50%); background-size: 10px 10px;">IDEAS FOR GOOD</h3>
+                <h3 class="h4 py-5 text-center rounded" style="background-color: #f9f8f7; opacity: 0.8; background-image: linear-gradient(0deg, #f9f8f7 50%, #F4F3F2 50%); background-size: 10px 10px;">IDEAS FOR GOOD</h3>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ include './top-nav.php';
                 <a class="text-decoration-underline small" href="https://notbyai.fyi/news/not-by-ai-releases-badges-for-musicians-designers-and-more">Read More</a>
               </div>
               <div class="col-md-3">
-                <img class="img-fluid w-100 mb-3" src="/img/new-not-by-ai-badges-for-designers.jpeg" alt="New Not By AI badges for designers, musicians, and other creators">
+                <img class="img-fluid w-100 mb-3 rounded" src="/img/new-not-by-ai-badges-for-designers.jpeg" alt="New Not By AI badges for designers, musicians, and other creators">
               </div>
             </div>
           </div>

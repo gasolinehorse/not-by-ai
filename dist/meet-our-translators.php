@@ -11,7 +11,7 @@ include 'top-nav.php';
       <div class="col-md-10 col-xl-9 pt-3 pt-md-5">
         <div class="row justify-content-center text-start">
           <div class="col-lg-10 pb-4">
-            <img class="w-100 mb-4" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
+            <img class="w-100 mb-4 rounded" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
             <p>These are the amazing humans behind the Not By AI badges. Not By AI would not be able to grow and expand into different regions without their help.</p> 
             <p>Thanks to their contributions, we now have over thirty languages translated including <?php include 'all-supported-languages.php'; ?></p>
           </div>
@@ -21,7 +21,7 @@ include 'top-nav.php';
         <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
       </div>
       <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1 fade-in-move-up" style="animation-delay: 0.5s; opacity: 0;">
-        <div class="row bg-light pt-4 pb-5 gy-4 justify-content-center align-items-center">
+        <div class="row bg-light pt-4 pb-5 gy-4 justify-content-center align-items-center rounded">
           <div class="col-12 pb-3">
             <div class="border-bottom py-3">
               <h3 class="h3 mb-0">Special Thanks</h3>
@@ -31,7 +31,7 @@ include 'top-nav.php';
           <div class="col-md-6 pb-3">
             <div class="row justify-content-center">
               <div class="col-3 col-sm-4">
-                <img class="img-fluid" src="img/alejandro-mata.webp" alt="Alejandro">
+                <img class="img-fluid rounded" src="img/alejandro-mata.webp" alt="Alejandro">
               </div>
               <div class="col-9 col-sm-8 text-start">
                 <p class="mb-0 h4">Alejandro Mata</p>
@@ -45,7 +45,7 @@ include 'top-nav.php';
           <div class="col-md-6 pb-3">
             <div class="row justify-content-center">
               <div class="col-3 col-sm-4">
-                <img class="img-fluid" src="img/marjolaine-cantus.webp" alt="Alejandro">
+                <img class="img-fluid rounded" src="img/marjolaine-cantus.webp" alt="Alejandro">
               </div>
               <div class="col-9 col-sm-8 text-start">
                 <p class="mb-0 h4">Marjolaine Cantus</p>
@@ -61,7 +61,7 @@ include 'top-nav.php';
         <img width="90" height="90" srcset="/img/not-by-ai-translator-badge.png 2x" src="/img/not-by-ai-translator-badge.png" alt="Not By AI Translator List" />
       </div>
       <div class="col-lg-10 col-xl-9 px-4 px-lg-0 mb-4 mb-lg-5 positino-relative z-1 fade-in-move-up" style="animation-delay: 0.5s; opacity: 0;">
-        <div class="row bg-light pt-4 pb-4 pb-lg-5 gy-4">
+        <div class="row bg-light pt-4 pb-4 pb-lg-5 gy-4 rounded">
           <div class="col-12 pb-3">
             <h3 class="h4 border-bottom py-3">The Not By AI Badge Translators</h3>
           </div>
