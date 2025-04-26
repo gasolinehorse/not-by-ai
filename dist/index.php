@@ -52,7 +52,7 @@ include 'top-nav.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Artist badges</h2>
-                  <p class="small mt-2 text-opacity-50">Good for artwork, including digital and traditional art, paintings, illustrations, comics, and more.</p>
+                  <p class="small mt-2 text-opacity-50">Good for digital/traditional artwork, paintings, illustrations, music, animations, and more.</p>
                 </div>
               </span>
             </span>
@@ -92,7 +92,7 @@ include 'top-nav.php';
                 </div>
                 <div class="col-12 download-link-wrapper mt-1">
                   <h2 class="h6 py-1 px-md-3 download-link rounded">Download the Producer badges</h2>
-                  <p class="small mt-2 text-opacity-50">Good for audio, video, photography, overall creative approach/philosophy, and more.</p>
+                  <p class="small mt-2 text-opacity-50">Good for audio, video, performances, overall creative approach/philosophy, and more.</p>
                 </div>
               </span>
             </span>
