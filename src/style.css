@@ -841,7 +841,7 @@ article.horizontal .animation-wrap .horizontal__item:nth-child(4n+4) {
 }
 .nav-underline .nav-link.active, 
 .nav-underline .show>.nav-link {
-	border-bottom-width: 1px;
+	border-bottom-width: 4px;
 	border-bottom-color: #000000;
 	opacity: 1;
 }
