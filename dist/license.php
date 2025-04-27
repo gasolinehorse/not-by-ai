@@ -17,8 +17,11 @@ include 'top-nav.php';
             <p class="text-center pb-4">Read below for the actual license but the gist is you can use our badges for personal use without attribution or any costs. For commercial use, pay $99. Both require you to follow our <a class="text-decoration-underline" href="https://notbyai.fyi/#who-can-use-not-by-ai-badge">Not By AI&nbsp;rule</a>.</p>
             
             <div class="border-bottom my-4"></div>
-            
-            <h2 class="h3 pt-3">Full License</h2>
+
+            <div class="d-flex justify-content-between align-items-center py-3">
+              <h2 class="h3 mb-0">Full License</h2>
+              <p class="small mb-0">Updated on 04/26/2025</p>
+            </div>
             
             <p class="fw-bold pt-2 mb-2">1. Definitions</p>
             
@@ -34,7 +37,7 @@ include 'top-nav.php';
             
             <p class="fw-bold pt-2 mb-2">3. Not By AI 90% Rule</p>
             
-            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI 90% Rule, which states that at least 90% of the Content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, looking for grammatical errors and typos, or translating content. Not By AI reserves the right to determine the origin of content in cases of ambiguity regarding whether it is human-created or AI-created. Content created by humans utilizing AI does not qualify as human-created content within the parameters of the Not By AI 90% Rule. </p>
+            <p>To be eligible to use a Badge, Licensee must comply with the Not By AI 90% Rule, which states that at least 90% of the Content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents, non-user facing content, and looking for grammatical errors and typos. Not By AI reserves the right to determine the origin of content in cases of ambiguity regarding whether it is human-created or AI-created. Content created by humans utilizing AI does not qualify as human-created content within the parameters of the Not By AI 90% Rule. </p>
             
             <p class="fw-bold pt-2 mb-2">4. Commercial Use</p>
             
