@@ -20,7 +20,7 @@ include 'top-nav.php';
 
             <div class="d-flex justify-content-between align-items-center py-3">
               <h2 class="h3 mb-0">Full License</h2>
-              <p class="small mb-0">Updated on 04/26/2025</p>
+              <p class="small mb-0">Last updated: 04/26/2025</p>
             </div>
             
             <p class="fw-bold pt-2 mb-2">1. Definitions</p>
