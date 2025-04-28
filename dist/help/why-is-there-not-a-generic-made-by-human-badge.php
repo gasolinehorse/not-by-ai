@@ -20,9 +20,8 @@ include '../top-nav.php';
       <div class="row justify-content-center">
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
-            <h1 class="h2 pb-3">Why Is There Not an All-Purpose "Made by Human" Badge?</h1>
-            <p>We purposefully avoided general words like "made" or "create" in our badges because it can easily become the go-to badge for everyone but when your audience sees such wording, it may be hard for them to identify what exact content is human-made. For example, a "Made by Human" badge on a website could be interpreted in many different ways. That's why we have chosen to be specific by using verbs that directly relate to the type of content that is not by AI. This allows us to make sure that the message is as clear and precise as possible.</p>
-            <p>On the other hand, in situations where all content is indeed following the Not By AI 90% Rule, such as a children's book that contains both text and illustrations that are human-made, we encourage you to use the Producer/Generalist badge. While the word "produced" can be leveraged in the music and film industries, it is also versatile enough to be applied across different content types.</p>
+            <h1 class="h2 pb-3">Why Is There Not an All-Purpose "Made by a Human" Badge?</h1>
+            <p>We purposefully avoided generic words like "made" or "built" in our badges because these words are broad and do not indicate exactly which content was created by humans. For example, a "Made by a Human" badge on a website could be interpreted in many different ways, as a website is composed of several components including design, copy, photos, illustrations, and code. Are they all made by a human? Or only some of them? That's why we chose to be specific by using verbs that are associated with the type of content that is not by AI. This allows us to make sure that the badge message is as clear and precise as possible.</p>
             <p>If you have any feedback or questions, <a href="/feedback" class="text-decoration-underline">share your thoughts</a>! We are actively improving and refining our badges.</p>
           </section>
           <section class="py-4">

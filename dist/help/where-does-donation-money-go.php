@@ -25,7 +25,7 @@ include '../top-nav.php';
             <p>Here are a few ways in which the donations will be used:</p>
             <ul>
               <li>Human content verification </li>
-              <li>Research </li>
+              <li>R&D </li>
               <li>Website and email maintenance/Server and domain </li>
               <li>Design and development </li>
               <li>Professional translation </li>
@@ -37,7 +37,7 @@ include '../top-nav.php';
               <li>...and more </li>
             </ul>
             <p>Reference upon request. </p>
-            <p class="pb-2">Please join us in shaping a better future for art, literature, music, and other types of content.</p>
+            <p class="pb-2">Please join us in shaping a better future for art, literature, music, and all forms of creative content.</p>
             <a class="btn" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Donate Today</a>
           </section>
           <section class="py-4">

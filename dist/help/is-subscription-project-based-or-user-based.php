@@ -21,7 +21,7 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Is a Subscription Project-Based or User-Based?</h1>
-            <p>A subscription with Not By AI was project-based before. However, you now have the option to either start a new subscription or pay a one-time $15 fee to submit any new projects.</p>
+            <p>A subscription with Not By AI was project-based before. However, you now have the option to either start a new subscription or pay a one-time $15 fee to submit any new projects under your existing subscription.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>

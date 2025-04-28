@@ -21,7 +21,7 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Why Can't I Customize the Not By AI Badges to Better Fit My Content?</h1>
-            <p>The Not By AI badges are designed to be the universal visual that allows users to easily recognize and understand. This is manifested through careful consideration of colors, typography, icons, shapes, borders, and the overall aesthetics. To ensure consistent recognition, it is necessary to limit the degree of customization allowed for the Not By AI badges. Understanding that our badges are being used by creative content creators who may desire more flexibility, we are committed to exploring opportunities to improve the overall user experience.</p>
+            <p>The Not By AI badges are designed to be the universal visual that allows users to easily recognize and understand. This is manifested through careful consideration of colors, typography, icons, shapes, borders, spacing, and overall aesthetics. To ensure consistent recognition, it is necessary to limit the degree of customization allowed for the Not By AI badges. Understanding that our badges are being used by creative content creators who may desire more flexibility, we are committed to exploring opportunities to improve the overall user experience.</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>

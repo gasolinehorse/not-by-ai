@@ -21,24 +21,25 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Which Not By AI Badge Should I Use?</h1>
+            <p>Our badges come in more than 30 different languages. While some languages have more badge options than others, all languages contain three essential badge types mentioned below.</p>
             <ul>
               <li class="pb-2">
-                <h4 class="fw-bold fs-6 d-inline">You should use one of the Artist badges when: </h4><br>
-                <img class="my-2 d-block" src="../img/painted-by-human-not-by-ai-white.svg" alt="Painted by Human, Not By AI.">
-                <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the Not By AI 90% Rule.</p>
+                <h4 class="fw-bold fs-6 d-inline">You should use the "Pained by Humans, Not By AI" badges when: </h4><br>
+                <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>.</p>
               </li>
               <li class="pb-2">
-                <h4 class="fw-bold fs-6 d-inline">You should use one of the Writer badges when: </h4><br>
-                <img class="my-2 d-block" src="../img/written-by-human-not-by-ai-white.svg" alt="Written by Human, Not By AI.">
-                <p>Your article, including blog posts, essays, research, reports, code, emails, and other text-based content, follows the Not By AI 90% Rule.</p>
+                <h4 class="fw-bold fs-6 d-inline">You should use the "Written by Humans, Not By AI" badges when: </h4><br>
+                <p>Your article, including blog posts, essays, research, reports, code, emails, and other text-based content, follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>.</p>
               </li>
               <li class="pb-2">
-                <h4 class="fw-bold fs-6 d-inline">You should use one of the Producer/Generalist badges when: </h4><br>
-                <img class="my-2 d-block" src="../img/produced-by-human-not-by-ai-white.svg" alt="Produced by Human, Not By AI.">
-                <p>Your audio (music, podcasts, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the Not By AI 90% Rule.</p>
-                <p>If you want to indicate that your overall creative approach and content, which could include images, text, videos, audio, and/or more, follows the Not By AI 90% Rule, use the Producer/Generalist badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
+                <h4 class="fw-bold fs-6 d-inline">You should use the "Produced by Humans, Not By AI" badges when: </h4><br>
+                <p>Your audio (music, podcasts, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>.</p>
+                <div class="bg-light p-3 mb-3">
+                  <p class="small m-0">If you want to indicate that your overall creative approach and content, which could include images, text, videos, audio, and/or more, follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>, use the Producer/Generalist badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
+                </div>
               </li>
             </ul>
+            <p>If you see additional badges beyond the ones mentioned above in your language pack, we encourage you to explore further and identify the right badges for your content types. Don’t hesitate to drop us a line if you need assistance!</p>
           </section>
           <section class="py-4">
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>

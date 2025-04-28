@@ -95,7 +95,7 @@ include '../top-nav.php';
         <div class="row py-2 justify-content-center">
           <div class="col-lg-9 text-center">
             <h2 id="how-to" class="mt-lg-4 pt-2">How to Add the Not By AI Badges</h2>
-            <p class="mb-4 small">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while the others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
+            <p class="mb-4 small">Depending on how important it is to you to convey the message of Not By AI, you have the flexibility to choose where to display the Not By AI badge. Some users may prefer the badge to be prominent while others opt for a non-intrusive approach. Below are our recommendations but feel free to alter them to meet your needs.</p>
             <img class="img-fluid mb-4" srcset="/img/not-by-ai-badge-how-to@2x.jpg 2x" src="/img/not-by-ai-badge-how-to.jpg" alt="">
             <p class="mb-1">1. First, <a href="#" data-bs-toggle="modal" data-bs-target="#downloadEmail" class="text-decoration-underline">download the Not By AI badges</a>.</p>
             <p class="mb-1">2. Follow the instructions below to insert your badges.</p>
@@ -226,7 +226,7 @@ include '../top-nav.php';
               <h4 class="ps-lg-5 mb-1">Books and magazines</h4>
             </div>
             <div class="col-sm-8">
-              <p>Display the relevant badge on the cover, the book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, display it on marketing materials, such as the website of the author or the book, is encouraged.</p>
+              <p>Display the relevant badge on the cover, the book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, displaying it on marketing materials, such as the website of the author or the book, is encouraged.</p>
             </div>
           </div>
         </div>
@@ -276,7 +276,7 @@ include '../top-nav.php';
               <h4 class="ps-lg-5 mb-1">Physical art and handcrafted products</h4>
             </div>
             <div class="col-sm-8">
-              <p>Display the relevant badge on the front, side, or back of the artwork or product, on the plaque, tag, or on the package/cover of the art or product. Also consider displaying the badge on the website of the art or product and on marketing materials.</p>
+              <p>Display the relevant badge on the front, side, or back of the artwork or product, on the plaque, tag, or on the package/cover of the art or product. Also, consider displaying the badge on the website of the art or product and on marketing materials.</p>
             </div>
           </div>
         </div>
@@ -286,7 +286,7 @@ include '../top-nav.php';
               <h4 class="ps-lg-5 mb-1">Comics</h4>
             </div>
             <div class="col-sm-8">
-              <p>Display the relevant badge on the cover, the comic book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, display it on marketing materials, such as the website of the author or the comics, is encouraged.</p>
+              <p>Display the relevant badge on the cover, the comic book blurb on the back, at the beginning or the end of the content, in the book jacket flap copy, or in the author profile section. Also, displaying it on marketing materials, such as the website of the author or the comics, is encouraged.</p>
             </div>
           </div>
         </div>
@@ -336,7 +336,7 @@ include '../top-nav.php';
               <h4 class="ps-lg-5 mb-1">Social Media</h4>
             </div>
             <div class="col-sm-8">
-              <p>Insert the relevant badge to your profile picture or cover photo. Share it in your activity feed or post it as a pinned post (if the platform allows) to ensure consistent visibility and exposure.</p>
+              <p>Insert the relevant badge into your profile picture or cover photo. Share it in your activity feed or post it as a pinned post (if the platform allows) to ensure consistent visibility and exposure.</p>
             </div>
           </div>
         </div>

@@ -21,23 +21,23 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">How Do I Link My Not By AI Badge?</h1>
-            <p>We strongly recommend you to link the badges to notbyai.fyi or your project page (paid users only) when it's possible so that your users can click on the badge to visit the page and understand the mission you are participating in.</p>
-            <p>The linking method varies depending on where you content is located and how you choose to display the Not By AI badge:</p>
+            <p>We strongly recommend linking the badges to notbyai.fyi or your project page (paid users only) when it's possible so that your users can click on the badge to visit the page and understand the mission you are participating in.</p>
+            <p>The linking method varies depending on where your content is located and how you choose to display the Not By AI badge:</p>
             <h2 class="h4 pt-2">Content Management Systems (CMS) or Editors</h2>
-            <p>If your content is hosted on CMS like Wordpress, HubSpot, Shopify, writing platforms such as Medium, Squarespace, and LinkedIn, or if your content is in a text editor like Google Docs or Word, follow the general steps below: </p>
+            <p>If your content is hosted on a CMS like WordPress, HubSpot, Shopify, or writing platforms such as Medium, Squarespace, and LinkedIn, or if your content is in a text editor like Google Docs or Word, follow the general steps below: </p>
             <ol>
               <li class="mb-1">Select the image insert tool in your editor.</li>
-              <li class="mb-1">When a popup shows up in your editor, select and insert your downloaded Not By AI badge in PNG file format.</li>
+              <li class="mb-1">When a popup appears in your editor, select and insert your downloaded Not By AI badge in PNG file format.</li>
               <li class="mb-1">Once inserted, highlight the image by clicking on it.</li>
               <li class="mb-1">Select the hyperlink tool and input https://notbyai.fyi or the link to your project page as the destination URL.</li>
               <li>Press 'Save' or 'Publish' based on your progress in content creation.</li>
             </ol>
-            <p>Please note that the steps above is a general guide for inserting and linking an image and may not specifically match the steps in your editor.</p>
+            <p>Please note that the steps above are a general guide for inserting and linking an image and may not specifically match the steps in your editor.</p>
             
             <h2 class="h4 pt-4 mt-3 border-top">Hardcoded</h2>
             <p>If your content is hardcoded in HTML or PHP, use the following code to populate the Not By AI badge.</p>
-            <pre class="my-2 py-1 px-2 bg-black text-white" style="user-select: all; -webkit-user-select: all;"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-human-not-by-ai-white.svg" alt="Written by Human, Not by AI"&gt;&lt;/a&gt;</code></pre>
-            <p>Be sure to replace the image path in <code>src="..."</code> with your image location, replace the URL in <code>href="..."</code> with your project page link if you are a paid user, and replace the Writer badge mentioned in <code>alt</code> with the badge you intend to use.</p>
+            <pre class="my-2 py-1 px-2 bg-black text-white" style="user-select: all; -webkit-user-select: all;"><code>&lt;a href="https://notbyai.fyi"&gt;&lt;img src="written-by-a-human-not-by-ai-white.svg" alt="Written by a Human, Not by AI"&gt;&lt;/a&gt;</code></pre>
+            <p>Be sure to replace the image path in <code>src="..."</code> with your image location, replace the URL in <code>href="..."</code> with your project page link if you are a paid user, and replace "Written by..." mentioned in the <code>alt</code> text with the badge type you intend to use.</p>
 
             <h2 class="h4 pt-4 mt-3 border-top">Physical</h2>
             <p>If you're working with physical content, such as books, paintings, sculptures, or any handcrafted products, the best implementation may differ depending on the type of content. Look for space within your content where a link to https://notbyai.fyi or your project page can be displayed without distracting your audience. For example, consider the book blurb on the back of a book, or locate a nearby object, such as a painting's plaque or a product's tag, to show the link or a QR code to the link.</p>

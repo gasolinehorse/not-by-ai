@@ -23,10 +23,13 @@ include '../top-nav.php';
             <h1 class="h2 pb-3">Which Image File Format Should I Use?</h1>
             <p>We include PNG, SVG, and EPS formats in our badge designs to make sure they are applicable in all use cases. See below to learn which works best for you: </p>
             <ul>
-              <li class="mb-1"><strong>PNG</strong>: Applicable for most use cases due to its wide-range of support. If you are using a third-party platform to host your content, such as WordPress, Medium, Squarespace, and LinkedIn, PNG is likely the best option.</li>
+              <li class="mb-1"><strong>PNG</strong>: Applicable for most use cases due to its wide range of support. If you are using a third-party platform to host your content, such as WordPress, Medium, Squarespace, or LinkedIn, PNG is likely the best option.</li>
               <li class="mb-1"><strong>SVG</strong>: If you are including the badge as a part of your web-based project or have full control over your digital content's editability, use SVG for its superior quality.</li>
-              <li class="mb-1"><strong>EPS</strong>: Similar to SVG, if you are including the badge as a part of your design or have full control over your content's editability, and will be printing out your content, opt for EPS.</li>
+              <li class="mb-1"><strong>EPS</strong>: Similar to SVG, if you are including the badge as a part of your design or have full control over your content's editability, and will be printing out your content, opt for EPS. EPS differs from SVG because it is optimized for print.</li>
             </ul>
+            <div class="bg-light p-3 mb-3">
+              <p class="small m-0">Both SVG and EPS are vector-based image formats which allow them to be scaled freely without any loss of image quality.</p>
+            </div>
             <p>In summary, use PNG if it is the only image format your platform supports. Use SVG if you are not limited to platform restrictions and are working on a web-based project. Use EPS if you are working on a print or physical project.</p>
           </section>
           <section class="py-4">
