@@ -27,7 +27,7 @@ include '../top-nav.php';
               <li class="mb-1"><strong>SVG</strong>: If you are including the badge as a part of your web-based project or have full control over your digital content's editability, use SVG for its superior quality.</li>
               <li class="mb-1"><strong>EPS</strong>: Similar to SVG, if you are including the badge as a part of your design or have full control over your content's editability, and will be printing out your content, opt for EPS. EPS differs from SVG because it is optimized for print.</li>
             </ul>
-            <div class="bg-light p-3 mb-3">
+            <div class="bg-light p-3 mb-3 rounded">
               <p class="small m-0">Both SVG and EPS are vector-based image formats which allow them to be scaled freely without any loss of image quality.</p>
             </div>
             <p>In summary, use PNG if it is the only image format your platform supports. Use SVG if you are not limited to platform restrictions and are working on a web-based project. Use EPS if you are working on a print or physical project.</p>
@@ -39,7 +39,7 @@ include '../top-nav.php';
         <div class="col-md-1 border-start order-2" style="transform: translateX(40px); pointer-events: none;"></div>
         <aside class="col-md-3 col-xl-2 text-start px-4 px-md-0 order-md-1">
           <div class="nav flex-column position-sticky top-0 pt-md-3 pe-md-4">
-            <div class="row pb-3 px-2 mb-3 bg-light">
+            <div class="row pb-3 px-2 mb-3 bg-light rounded">
               <div class="col">
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
                 <div>

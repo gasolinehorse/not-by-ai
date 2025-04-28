@@ -34,7 +34,7 @@ include '../top-nav.php';
               <li class="pb-2">
                 <h4 class="fw-bold fs-6 d-inline">You should use the "Produced by Humans, Not By AI" badges when: </h4><br>
                 <p>Your audio (music, podcasts, vocal, sound effects, voice over, and other sounds), video (films, movies, TikTok/YouTube/Instagram and other social clips, tutorials, and other video-based content), or photography follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>.</p>
-                <div class="bg-light p-3 mb-3">
+                <div class="bg-light p-3 mb-3 rounded">
                   <p class="small m-0">If you want to indicate that your overall creative approach and content, which could include images, text, videos, audio, and/or more, follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>, use the Producer/Generalist badge to accommodate all.</span> Alternatively, you may opt to display all relevant badges.</p>
                 </div>
               </li>
@@ -48,7 +48,7 @@ include '../top-nav.php';
         <div class="col-md-1 border-start order-2" style="transform: translateX(40px); pointer-events: none;"></div>
         <aside class="col-md-3 col-xl-2 text-start px-4 px-md-0 order-md-1">
           <div class="nav flex-column position-sticky top-0 pt-md-3 pe-md-4">
-            <div class="row pb-3 px-2 mb-3 bg-light">
+            <div class="row pb-3 px-2 mb-3 bg-light rounded">
               <div class="col">
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
                 <div>

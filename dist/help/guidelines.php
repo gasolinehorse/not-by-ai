@@ -65,7 +65,7 @@ include '../top-nav.php';
         <div class="col-md-1 border-start order-2" style="transform: translateX(40px); pointer-events: none;"></div>
         <aside class="col-md-3 col-xl-2 text-start px-4 px-md-0 order-md-1">
           <div class="nav flex-column position-sticky top-0 pt-md-3 pe-md-4">
-            <div class="row pb-3 px-2 mb-3 bg-light">
+            <div class="row pb-3 px-2 mb-3 bg-light rounded">
               <div class="col">
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
                 <div>

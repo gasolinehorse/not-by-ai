@@ -22,7 +22,7 @@ include '../top-nav.php';
           <section>
             <h1 class="h2 pb-3">What Is the Not By AI 90% Rule?</h1>
             <p>The Not By AI 90% Rule states that at least 90% of the content must be created by humans. The Not By AI 90% Rule does not apply to the use of AI for inspiration purposes, supporting legal documents (assuming that legal is not the main focus of your content or service), non-user facing content, or looking for grammatical errors and typos. This means that if you use AI for brainstorming or concepting, generate 9% of your content, and employ AI to find typos in all content, you remain in compliance with the Not By AI 90% Rule.</p>
-            <div class="bg-light p-3 mb-3">
+            <div class="bg-light p-3 mb-3 rounded">
               <p class="small m-0">You can freely use AI for inspiration purposes, supporting legal documents, non-user facing content, or looking for grammatical errors and typos.</p>
             </div>
             <p>Not By AI reserves the right to determine the origin of content in cases of ambiguity regarding whether it is human-created or AI-created.</p>
@@ -35,7 +35,7 @@ include '../top-nav.php';
         <div class="col-md-1 border-start order-2" style="transform: translateX(40px); pointer-events: none;"></div>
         <aside class="col-md-3 col-xl-2 text-start px-4 px-md-0 order-md-1">
           <div class="nav flex-column position-sticky top-0 pt-md-3 pe-md-4">
-            <div class="row pb-3 px-2 mb-3 bg-light">
+            <div class="row pb-3 px-2 mb-3 bg-light rounded">
               <div class="col">
                 <div class="h5 pb-1 mt-4">Still Need Help?</div>
                 <div>
