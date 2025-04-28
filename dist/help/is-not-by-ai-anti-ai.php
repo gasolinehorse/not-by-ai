@@ -21,7 +21,7 @@ include '../top-nav.php';
         <div class="col-md-7 col-xl-5 text-start px-4 px-lg-0 pt-3 pt-md-2 pb-4 order-md-3">
           <section>
             <h1 class="h2 pb-3">Is Not By AI anti-AI?</h1>
-            <p>No, we are Not By AI, not anti-AI. We do not deny the great achievements of AI, nor do we discourage its use. In fact, we want to celebrate this remarkable human technological achievement and are excited to see it advance and bloom. We encourage everyone to leverage AI to enhance their work and move closer to perfection. However, our stance is that you should use AI as an assisting tool rather than treating it as your creative director. The core ideas and values of your work should be coming from you, not AI.</p> 
+            <p>No, we are Not By AI, not anti-AI. We acknowledge the great achievements of AI and we celebrate this remarkable human technological achievement. We encourage everyone to leverage AI to enhance their work and automate their process to increase efficiency. However, our stance is that you should use AI as an assisting tool rather than treating it as your creative director. The core ideas and values of your work should be coming from you, not AI.</p> 
             <p>We designed the Not By AI badges to encourage humans to continue creating original content and to provide a means for audiences to distinguish human-created content from AI-generated content.</p>
           </section>
           <section class="py-4">
