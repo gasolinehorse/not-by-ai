@@ -48,7 +48,7 @@ include '../top-nav.php';
             <a href="https://notbyai.fyi/help" class="text-decoration-underline small">Back to Help Center</a>
           </section>
         </div>
-        <div class="col-md-1 border-start order-2" style="transform: translateX(40px);"></div>
+        <div class="col-md-1 border-start order-2" style="transform: translateX(40px); pointer-events: none;"></div>
         <aside class="col-md-3 col-xl-2 text-start px-4 px-md-0 order-md-1">
           <div class="nav flex-column position-sticky top-0 pt-md-3 pe-md-4">
             <div class="row pb-3 px-2 mb-3 bg-light">
