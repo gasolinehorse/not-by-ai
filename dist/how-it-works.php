@@ -16,7 +16,7 @@ include 'top-nav.php';
         <div class="row justify-content-center">
           <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
-              <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step1-submit-project.png" alt="">
+              <img class="img-fluid mb-3" src="https://notbyai.fyi/img/step1-submit-project.gif" alt="">
               <div class="d-flex">
                 <div>
                   <div class="xs fw-bold pe-2">01</div>
@@ -29,7 +29,7 @@ include 'top-nav.php';
           <div class="col-md-1 px-2 text-center align-self-center d-none d-lg-block" style="max-width: 40px;"><img class="img-fluid" src="/img/arrow-solid-right.svg" alt=""></div>
           <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
-              <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step2-project-review.png" alt="">
+              <img class="img-fluid mb-3" src="https://notbyai.fyi/img/step2-project-review.gif" alt="">
               <div class="d-flex">
                 <div>
                   <div class="xs fw-bold pe-2">02</div>
