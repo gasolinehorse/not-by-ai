@@ -28,7 +28,7 @@ include 'top-nav.php';
           <header>
             <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">为你非AI的原创内容<br>贴上个贴纸吧</h1>
           </header>
-          <p class="display-5">人工智能（AI）是靠以前人类创作的内容训练而成。倘若人类就此全面仰赖AI并且放弃创作，世界各地的产出内容恐将一成不变并停滞。</p>
+          <p class="display-5">人工智能（AI）是靠前人的创作内容训练而成。倘若人类就此全面仰赖AI并且放弃创作，世界各地的产出内容恐将一成不变并停滞。</p>
           <p class="display-5">如果你持续坚持真人创作，下载这贴纸并把它加到你的创作里吧！</p>
         </div>
         <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">

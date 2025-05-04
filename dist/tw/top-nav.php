@@ -61,6 +61,7 @@
                 <li class="pb-2 small"><a href="http://notbyai.fyi/es">Español</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lietuvių</a></li>
+                <li class="pb-2 small"><a href="http://notbyai.fyi/ru">Русский</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文 <div class="d-inline-block float-end"><svg width="11" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1 3 3.5 3.5 6-6" stroke="#000"/></svg></div></a></li>
                 <li class="pt-2 small border-top"><a class="small opacity-50" href="http://notbyai.fyi/translate#translate-not-by-ai-website">幫忙翻譯</a></li>
@@ -74,7 +75,7 @@
       </div>
     </div>
     <script>
-      if (window.location.pathname.match(/\/(es|tw|cn|fr|lt)/)) {
+      if (window.location.pathname.match(/\/(es|tw|cn|fr|lt|ru)/)) {
         localStorage.setItem('cameFromLanguagePath', window.location.pathname);
       }
     </script>
