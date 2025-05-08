@@ -106,7 +106,7 @@
                           <img id="not-by-ai-offering-badges" class="img-fluid" srcset="/img/sign-up-not-by-ai-badges@2x.png 2x" src="/img/sign-up-not-by-ai-badges.png" alt="Значки Not By AI">
                         </div>
                       </div>
-                      <h4 class="h5 mb-0">Загрузить только значки</h4>
+                      <h4 class="h5 mb-0">Только загрузить значки</h4>
                       <div class="mt-2" style="font-size: 0.75rem;"><span class="opacity-50">Оплата по вашему желанию</span><span class="d-block d-md-inline-block border rounded-2 ms-lg-2 mt-1 mt-lg-0 py-1 px-2"><span class="opacity-50">Только личное использование</span></span></div>
                     </label>
                   </div>
