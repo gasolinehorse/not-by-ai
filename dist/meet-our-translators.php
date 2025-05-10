@@ -12,7 +12,7 @@ include 'top-nav.php';
         <div class="row justify-content-center text-start">
           <div class="col-lg-10 pb-4">
             <img class="w-100 mb-4 rounded" srcset="/img/translate-multi-languages-not-by-ai.jpg 2x" src="/img/translate-multi-languages-not-by-ai.jpg" alt="Not By AI in greek" />
-            <p>These are the amazing humans behind the Not By AI badges. Not By AI would not be able to grow and expand into different regions without their help.</p> 
+            <p>These are the amazing humans behind the Not By AI badges and webpages. Not By AI would not be able to grow and expand into different regions without their help.</p> 
             <p>Thanks to their contributions, we now have over thirty languages translated including <?php include 'all-supported-languages.php'; ?></p>
           </div>
         </div>
@@ -31,7 +31,7 @@ include 'top-nav.php';
           <div class="col-md-6 pb-3">
             <div class="row justify-content-center">
               <div class="col-3 col-sm-4">
-                <img class="img-fluid rounded" src="img/alejandro-mata.webp" alt="Alejandro">
+                <img class="img-fluid rounded bg-black" src="img/alejandro-mata.webp" alt="Alejandro">
               </div>
               <div class="col-9 col-sm-8 text-start">
                 <p class="mb-0 h4">Alejandro Mata</p>
@@ -45,7 +45,7 @@ include 'top-nav.php';
           <div class="col-md-6 pb-3">
             <div class="row justify-content-center">
               <div class="col-3 col-sm-4">
-                <img class="img-fluid rounded" src="img/marjolaine-cantus.webp" alt="Alejandro">
+                <img class="img-fluid rounded" src="img/marjolaine-cantus.webp" alt="Marjolaine">
               </div>
               <div class="col-9 col-sm-8 text-start">
                 <p class="mb-0 h4">Marjolaine Cantus</p>
@@ -55,6 +55,19 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
+          <div class="col-md-6 pb-3">
+            <div class="row justify-content-center">
+              <div class="col-3 col-sm-4">
+                <img class="img-fluid rounded" src="img/vsevolod-grigorev.jpg" alt="Vsevolod">
+              </div>
+              <div class="col-9 col-sm-8 text-start">
+                <p class="mb-0 h4">Vsevolod Grigorev</p>
+                <p>Software Engineering Student</p>
+                <a target="_blank" href="https://sevka.su/" class="for-business-link rounded-2 me-2 mb-2">Personal Website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pb-3"></div>
         </div>
       </div>
       <div class="col-12 text-center position-relative z-2 fade-in-move-up" style="margin-bottom: -22px; animation-delay: 0.7s; opacity: 0;">
