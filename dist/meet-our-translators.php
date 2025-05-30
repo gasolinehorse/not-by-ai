@@ -150,6 +150,9 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://pixelfed.social/Vac31" target="_blank" rel="nofollow">Vac</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://jaidip.com.np" target="_blank" rel="nofollow">Jaidip Subedi</a></p>
+          </div>
           <div class="col-12 pt-4">
             <p class="opacity-50">...and other 41 anonymous translators.</p>
           </div>
