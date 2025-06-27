@@ -19,23 +19,25 @@ include 'top-nav.php';
         }
       }
     </script>
-    <main>
-      <section class="row justify-content-center mt-4">
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
-        </div>
-        <div class="col-lg-10 col-xl-8">
-          <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
-          </header>
-          <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
-          <p class="display-5">If your content is not AI-generated, add the badge to your&nbsp;work.</p>
-        </div>
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+    <main class="row bg-light-gradient pt-4 pt-xl-5">
+      <section class="col-12 mt-4">
+        <div class="row justify-content-center">
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
+          </div>
+          <div class="col-lg-10 col-xl-8">
+            <header>
+              <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Your AI-free Content <br>Deserves a&nbsp;Badge</h1>
+            </header>
+            <p class="display-5">Artificial Intelligence (AI) is trained using human-created content. If humans stop producing new content and rely solely on AI, online content across the world may become repetitive and&nbsp;stagnant.</p>
+            <p class="display-5">If your content is not AI-generated, add the badge to your&nbsp;work.</p>
+          </div>
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+          </div>
         </div>
       </section>
-      <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
+      <section class="col-12 mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
         <div class="row justify-content-center gx-4">
           <div class="col-sm-4 pb-4">
             <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">
@@ -99,11 +101,14 @@ include 'top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">You are in good company. The Not By AI badges are featured on <?php include 'all-stats.php'; ?> pages.</div>
+        	<div class="col-lg-7 p-2 bg-white rounded-5 mt-3">
+            <svg class="mt-1" xmlns="http://www.w3.org/2000/svg" width="127.972" height="18.995"><path fill="#EED601" fill-rule="nonzero" d="m13.022 6.32 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L0 7.256l6.95-.935L9.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L27 7.256l6.95-.935L36.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L54 7.256l6.95-.935L63.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L81 7.256l6.95-.935L90.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L108 7.256l6.95-.935L117.986 0l3.036 6.32Z"/></svg>
+            <p class="small my-1">You are in good company. The Not By AI badges are featured on <?php include 'all-stats.php'; ?> pages.</p>
+          </div>
         </div>
       </section>
+      <div class="pb-4 mt-3 border-bottom"></div>
     </main>
-    <div class="pb-5 border-bottom"></div>
     <div id="top-nav-stop-point" class="row justify-content-center">
       <nav class="col-md-3 col-xl-2 text-start pt-5 d-none d-md-block">
         <ul class="nav flex-column position-sticky top-0 pt-5">
