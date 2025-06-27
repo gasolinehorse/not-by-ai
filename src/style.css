@@ -184,7 +184,7 @@ cite,
 .not-by-ai-folder {
 	filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.3));
 }
-@supports (-webkit-touch-callout: none) {
+@supports (-webkit-hyphens: none) and (not (overflow: -webkit-marquee)) {
 	.not-by-ai-folder {
 		filter: none;
 	}
