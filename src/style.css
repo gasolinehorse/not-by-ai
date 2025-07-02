@@ -651,6 +651,31 @@ form .form-check-input {
   justify-content: space-between;
   cursor: pointer;
 }
+.ai-light {
+	animation: light-beam-flow 6s ease-out forwards;
+  transform-origin: top left;
+  filter: brightness(1.2);
+}
+@keyframes light-beam-flow {
+  0% {
+    width: 70%;
+    opacity: 0.3;
+    filter: blur(0px);
+  }
+  30% {
+    opacity: 0.8;
+    filter: blur(1px);
+  }
+  60% {
+    opacity: 0.6;
+    filter: blur(0.5px);
+  }
+  100% {
+    width: 35%;
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
 .bar {
   width: 100%;
   height: 2.5px;
@@ -840,10 +865,6 @@ article.horizontal .animation-wrap .horizontal__item:nth-child(4n+4) {
 }
 .creator-profile__field {
 	font-size: 1.125rem;
-}
-.creator-profile__field li.d-block,
-.creator-profile__field li.d-inline-block {
-	display: list-item !important;
 }
 .nav-underline .nav-link.active, 
 .nav-underline .show>.nav-link {

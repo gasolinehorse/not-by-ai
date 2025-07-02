@@ -99,7 +99,7 @@ include './top-nav.php';
           </div>
         </div>
         <div class="row justify-content-center">
-        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">Esate geroje bendrovėje. Ženkleliai „Not By AI“ rodomi daugiau nei <?php include './all-stats.php'; ?> tūkst. puslapių.</div>
+        	<div class="col-lg-8 gx-4 h5 p-3 bg-light rounded-5 mt-2">Esate geroje bendrovėje. Ženkleliai „Not By AI“ rodomi daugiau nei <?php include './all-stats.php'; ?> puslapių.</div>
         </div>
       </section>
     </main>

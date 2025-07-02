@@ -19,11 +19,11 @@ include 'top-nav.php';
         }
       }
     </script>
-    <main class="row bg-light-gradient pt-4">
+    <main class="row bg-light-gradient pt-4 position-relative">
       <section class="col-12 mt-4">
         <div class="row justify-content-center">
           <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
-            <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
+            <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download position-relative z-1" src="/img/not-by-ai-badges-l.svg" alt="">
           </div>
           <div class="col-lg-10 col-xl-8">
             <header>
@@ -107,6 +107,7 @@ include 'top-nav.php';
           </div>
         </div>
       </section>
+      <div class="col-12 d-none d-xl-block"><img style="pointer-events: none;" width="599" class="ai-light img-fluid position-absolute top-0 start-0 no-download z-0" src="img/ai-light.svg" alt=""></div>
       <div class="pb-4 mt-3 border-bottom"></div>
     </main>
     <div id="top-nav-stop-point" class="row justify-content-center">
@@ -170,7 +171,7 @@ include 'top-nav.php';
           <h3>Benefits</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> As a business</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> As an individual</button>

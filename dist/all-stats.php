@@ -1,4 +1,4 @@
-<span class="counter h4">0</span>K+
+<span class="counter h4">0</span><span class="fw-bold">K</span>+
 <script>
 const counterElement = document.querySelector('.counter');
 
@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(counterElement);
 
 function startCounterAnimation() {
-  const targetNumber = 196; // Replace with new number
+  const targetNumber = 206; // Replace with new number
   let currentNumber = 0;
   const duration = 2400;
   const startTime = performance.now();
