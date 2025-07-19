@@ -95,7 +95,7 @@ include 'top-nav.php';
           </div>
           <div class="col-lg-6 ps-sm-4">
             <h3 class="h2 pt-4">Our Founder</h3>
-            <p>The founder behind Not By AI is Allen Hsu, a Philadelphia-based designer and judge for multiple design awards, and a full-on content creator with skills ranging from UX and writing to animation and music. His passion for promoting original content extends to his appreciation for culture, which led him to spend 15 months as a nomad traveling around the world. This experience, combined with his multicultural background, has given Allen the vision to prioritize the international exposure and adoption of Not&nbsp;By&nbsp;AI. With the help of <a href="/meet-our-translators" class="text-decoration-underline">30+ translators</a>, Not&nbsp;By&nbsp;AI is now gaining international recognition.</p>
+            <p>The founder behind Not By AI is Allen Hsu, a Philadelphia-based designer and judge for multiple design awards, and a full-on content creator with skills ranging from UX and writing to animation and music. His passion for promoting original content extends to his appreciation for culture, which led him to spend 15 months as a nomad traveling around the world. This experience, combined with his multicultural background, has given Allen the vision to prioritize the international exposure and adoption of Not&nbsp;By&nbsp;AI. With the help of <a href="/meet-our-translators" class="text-decoration-underline">40+ translators</a>, Not&nbsp;By&nbsp;AI is now gaining international recognition.</p>
           </div>
         </div>
         <div class="row bg-light mb-lg-3 rounded" style="overflow: clip;">
