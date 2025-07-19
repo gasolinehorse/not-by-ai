@@ -2,6 +2,7 @@
   --color-light: #f9f8f7;
   --color-light-darkened: #f2efec;
   --color-black: #000000;
+  --color-blue: #00B3C7;
   --color-dark: #232E3E;
   --color-dark-lightened: #343B45;
   --color-black-biz: #19212D;
@@ -180,6 +181,22 @@ cite,
 .source,
 .xs {
 	font-size: 0.812rem;
+}
+.marker::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--color-blue);
+  width: 8px;
+  height: 1.1em;;
+  border-radius: 2rem;
+  margin-right: 0.8rem;
+  margin-left: -1.25rem;
+  vertical-align: middle;
+}
+@media (max-width: 1199px) {
+	.marker::before {
+		margin-left: 0;
+	}
 }
 .not-by-ai-folder {
 	filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.3));
