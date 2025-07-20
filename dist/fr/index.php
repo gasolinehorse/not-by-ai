@@ -144,7 +144,7 @@ include 'top-nav.php';
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>Mission</h3>
+          <h3 class="marker">Mission</h3>
           <p>Les badges Not By AI / Pas par l’IA ont été créés pour encourager les hommes et les femmes à produire des contenus originaux, ainsi que pour aider le public à reconnaître les contenus générés par des humains. L’objectif final est de faire en sorte que l’humanité continue d’avancer.</p>
           <p>D’après une spécialiste de l’IA, 90 % des contenus en ligne pourraient être générés par l’IA en 2025.<sup>1</sup> Avec l’explosion des contenus générés par IA, il est important de rappeler que l’IA est entraînée sur des contenus générés par des hommes et des femmes. Si les humains deviennent dépendants à l’IA pour générer des contenus, ces nouveaux contenus générés par IA se contenteront de recycler des contenus du passé. Cela constituerait un obstacle majeur au progrès humain. 2 Pour que notre espèce continue d’avancer, nous devons limiter la dépendance à l’IA et continuer de créer des œuvres originales.</p>
           <figure>
@@ -155,20 +155,20 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>À qui s’adresse le badge</h3>
+          <h3 class="marker">À qui s’adresse le badge</h3>
           <h4 class="pt-1">La règle des 90 %</h4>
           <p>Nous reconnaissons que la frontière entre ce qui est considéré comme généré par IA ou par l’humain est poreuse. Aussi, si vous estimez qu’<span class="text-decoration-underline">au moins 90 % de vos contenus sont créés par des humains</span>, vous pouvez ajouter les badges sur votre site web, blog, art, film, essai, publication, podcast ou tout autre projet non commercial. Pour une utilisation commerciale, vous devez souscrire à un abonnement. Les 90 % <i>peuvent</i> inclure l’utilisation de l’IA à des fins d’inspiration, pour des documents juridiques annexes comme une politique de confidentialité (tant que vous n’êtes pas fournisseur de contenus ou de services juridiques), pour des contenus non destinés aux utilisateurs finaux (SEO meta tags, code), ou pour rechercher des erreurs d’orthographe ou de grammaire.</p>
           <p>Rappelons enfin que Not By AI / Pas par l’IA n’est pas un outil de détection d’IA ; notre mission s’adresse aux utilisateurs qui souhaitent défendre des pratiques centrées sur l’humain plutôt qu’à ceux qui recherchent la preuve qu’un contenu a été produit par l’humain. Aussi est-ce à vous que revient la responsabilité de suivre la règle des 90 % énoncée ci-dessus.</p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Avantages</h3>
+          <h3 class="marker">Avantages</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> En tant qu’entreprise</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> En tant qu’entreprise</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> En tant que personne</button>
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><img class="mb-1" src="img/individual.svg" alt=""> En tant que personne</button>
             </li>
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
@@ -212,7 +212,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Galerie</h3>
+          <h3 class="marker">Galerie</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
               <h5>Badge sur un site web</h5>
@@ -251,7 +251,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>Nous aider</h3>
+          <h3 class="marker">Nous aider</h3>
           <p>Le mouvement Not By AI / Pas par l’IA a été fondé par de vrais humains. Votre soutien fera toute la différence. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Faites un don</a> pour donner aux créateurs de contenus les moyens d’avancer et faire en sorte que l’humanité continue d’avancer. Votre don sera utilisé à <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">différents endroits</a> pour faire grandir Not By AI / Pas par l’IA.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Faire un don</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>

@@ -144,7 +144,7 @@ include './top-nav.php';
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>Misión</h3>
+          <h3 class="marker">Misión</h3>
           <p>Las insignias Not By AI han sido creadas para animar alentar a la humanidad a producir contenido original y ayudar a los usuarios a identificar los contenidos libres de IA. El objetivo final es garantizar que la humanidad siga avanzando.</p>
           <p>Expertos estiman que el 90% del contenido en internet podría ser generado por IA en 2025.<sup>1</sup> Con el auge de los contenidos generados por IA, es importante tener en cuenta que ésta se entrena usando contenido generado por humanos. Si dependemos de la Inteligencia Artificial para generar contenido en el futuro, cualquier nuevo contenido podría ser simplemente un reciclaje de otro contenido creado por IA. Esto podría suponer un obstáculo significativo al desarrollo humano.<sup>2</sup> Sólo limitando la dependencia de la IA y creando contenido original podremos avanzar como especie.</p>
           <figure>
@@ -155,20 +155,20 @@ include './top-nav.php';
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>¿Quién puede usar la insignia?</h3>
+          <h3 class="marker">¿Quién puede usar la insignia?</h3>
           <h4 class="pt-1">La regla del 90% de Not By AI</h4>
           <p>Partiendo de que no existe una división clara entre lo que se considera generado por humanos y IA, si estimas que <span class="text-decoration-underline">al menos el 90% de tu contenido ha sido creado por humanos</span>, puedes añadir las insignias a tu web, blog, arte, vídeo, ensayo, libros, podcasts o cualquier proyecto para uso no comercial y, con una subscripción, uso comercial. El 90% <i>puede</i> incluir uso de IA como inspiración, en documentos legales complementarios a tu trabajo (asumiendo que no es objetivo principal de tu contenido o servicio), contenido no orientado al usuario como SEO, meta tags o código y para corregir contenido.</p>
           <p>Ten en cuenta que Not By AI no es una herramienta de detección de IA; nuestra misión está dirigida a usuarios que voluntariamente desean optar por enfoques centrados en el ser humano, más que a aquellos que buscan pruebas de contenido libre de IA. Esto significa que tú serás el responsable de cumplir la regla del 90% mencionada anteriormente. </p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Beneficios</h3>
+          <h3 class="marker">Beneficios</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> As a business</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> As a business</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> As an individual</button>
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><img class="mb-1" src="img/individual.svg" alt=""> As an individual</button>
             </li>
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
@@ -206,7 +206,7 @@ include './top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Galería</h3>
+          <h3 class="marker">Galería</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
               <h5>En una página web</h5>
@@ -245,7 +245,7 @@ include './top-nav.php';
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>Apóyanos</h3>
+          <h3 class="marker">Apóyanos</h3>
           <p>Todo el movimiento Not By AI ha sido creado por humanos. Tu apoyo marca la diferencia. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> para empoderar a los creadores de contenido y asegurar el avance de la humanidad. Tu donativo se usará de <a href="https://notbyai.fyi/help/where-does-donation-money-go.php" class="text-decoration-underline">varias formas</a> para expandir Not By AI.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Dona hoy</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>

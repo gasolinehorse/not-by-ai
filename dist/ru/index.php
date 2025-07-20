@@ -145,7 +145,7 @@ include 'top-nav.php';
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>Миссия</h3>
+          <h3 class="marker">Миссия</h3>
           <p>Значки Not By AI созданы для того, чтобы побудить больше людей создавать оригинальный контент и помочь аудитории определять контент, созданный человеком. Конечная цель — обеспечить дальнейшее развитие человечества.</p>
           <p>По оценкам экспертов, к 2025 году 90 процентов онлайн-контента может быть создано с помощью искусственного интеллекта.<sup>1</sup> С учетом стремительного роста объемов ИИ-сгенерированного контента важно понимать, что ИИ обучается на контенте, созданном людьми. Если люди полностью перейдут на использование ИИ для создания контента, то новый контент, создаваемый ИИ, может оказаться лишь переработкой уже существующего. Это может стать серьезным препятствием для прогресса человечества.<sup>2</sup> Только ограничив нашу зависимость от ИИ и продолжая создавать оригинальный контент, мы сможем двигаться вперед как вид.</p>
           <figure>
@@ -156,20 +156,20 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Кто может использовать значок</h3>
+          <h3 class="marker">Кто может использовать значок</h3>
           <h4 class="pt-1">Правило 90% Не ИИ</h4>
           <p>Понимая, что существует размытая грань между тем, что считается созданным ИИ и созданным человеком, если вы оцениваете, что по крайней мере 90% вашего контента создано людьми, вы имеете право добавлять значки на свой веб-сайт, блог, искусство, фильм, эссе, книги, подкаст или любой другой ваш проект для некоммерческого использования, а при наличии подписки — для коммерческого использования. 90% могут включать использование ИИ для вдохновения, поддержку юридических документов, таких как политики конфиденциальности (при условии, что юридические вопросы не являются основным направлением вашего контента или услуги), непользовательский контент, такой как метатеги SEO или код, а также перевод контента и поиск грамматических ошибок и опечаток.</p>
           <p>Обратите внимание, что Not By AI не является инструментом обнаружения ИИ; наша миссия рассчитана на пользователей, которые добровольно хотят отстаивать подходы, ориентированные на человека, а не на тех, кто ищет доказательства наличия контента, созданного человеком. Это означает, что вы должны нести ответственность за соблюдение Правила 90% Не ИИ.</p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Преимущества</h3>
+          <h3 class="marker">Преимущества</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> Для бизнеса</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> Для бизнеса</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> Для личного использования</button>
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><img class="mb-1" src="img/individual.svg" alt=""> Для личного использования</button>
             </li>
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
@@ -214,7 +214,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Галерея</h3>
+          <h3 class="marker">Галерея</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
               <h5>Добавить на веб-сайт</h5>
@@ -253,7 +253,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>Поддержите нас</h3>
+          <h3 class="marker">Поддержите нас</h3>
           <p>Все движение Not By AI создано реальными людьми. Ваша поддержка будет иметь значение. Пожертвуйте сегодня, чтобы помочь создателям контента и обеспечить дальнейшее развитие человечества. Ваше <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">пожертвование</a> будет использовано для <a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">развития</a> Not By AI. Спасибо.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Поддержать</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>

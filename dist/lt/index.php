@@ -144,7 +144,7 @@ include './top-nav.php';
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>Misija</h3>
+          <h3 class="marker">Misija</h3>
           <p>Ženkleliai „Not By AI“ sukurti siekiant paskatinti daugiau žmonių kurti originalų turinį ir padėti auditorijai atpažinti žmonių sugeneruotą turinį. Galutinis tikslas – užtikrinti, kad žmonija ir toliau tobulėtų.</p>
           <p>Eksperto vertinimu, iki 2025 m. 90 procentų internetinio turinio gali būti generuojama DI.<sup>1</sup> Didėjant DI generuojamo turinio bangai, svarbu pažymėti, kad DI yra apmokytas pagal žmogaus sugeneruotą turinį. Jei žmonės, generuodami turinį, ateityje pasikliaus tik DI, bet koks naujas DI sugeneruotas turinys gali būti tik perdirbtas praeities turinys. Tai gali tapti didele kliūtimi žmonijos pažangai.<sup>2</sup> Tik apribojus priklausomybę nuo DI ir toliau kuriant originalų turinį, mes, kaip rūšis, galime judėti į priekį.</p>
           <figure>
@@ -155,20 +155,20 @@ include './top-nav.php';
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Kas gali naudoti ženklelį</h3>
+          <h3 class="marker">Kas gali naudoti ženklelį</h3>
           <h4 class="pt-1">„Not By AI“ 90 % taisyklė</h4>
           <p>Suprasdami, kad riba tarp to, kas laikoma DI ir žmogaus sugeneruotu turiniu, yra neryški, jei manote, kad <span class="text-decoration-underline">bent 90 % jūsų turinio sukūrė žmonės</span>, galite pridėti ženklelius į savo svetainę, tinklaraštį, meno kūrinį, filmą, rašinį, knygą, tinklalaidę ar bet kokį kitą projektą nekomerciniam naudojimui, o užsiprenumeravę – ir komerciniam naudojimui. 90 % gali būti naudojami DI įkvėpimo tikslais, teisiniams dokumentams, tokiems kaip privatumo politika, palaikyti (darant prielaidą, kad teisinis aspektas nėra pagrindinis jūsų turinio ar paslaugos tikslas), su naudotoju nesusijusiam turiniui, tokiam kaip SEO metažymės ar kodas, gramatikos bei rašybos klaidų paieškai.</p>
           <p>Atkreipkite dėmesį, kad „Not By AI“ nėra DI aptikimo priemonė, mūsų misija pritaikyta naudotojams, kurie savanoriškai nori propaguoti į žmogų orientuotus būdus, o ne tiems, kurie ieško žmogaus sukurto turinio įrodymų. Tai reiškia, kad jūs patys turėtumėte būti atsakingi už pirmiau minėtos „Not By AI“ 90 % taisyklės laikymąsi.</p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>Naudos</h3>
+          <h3 class="marker">Naudos</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> Kaip verslas</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> Kaip verslas</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> Kaip asmuo</button>
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><img class="mb-1" src="img/individual.svg" alt=""> Kaip asmuo</button>
             </li>
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
@@ -212,7 +212,7 @@ include './top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>Galerija</h3>
+          <h3 class="marker">Galerija</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
               <h5>Pridėti į svetainę</h5>
@@ -251,7 +251,7 @@ include './top-nav.php';
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>Palaikykite mus</h3>
+          <h3 class="marker">Palaikykite mus</h3>
           <p>Visą judėjimą „Not By AI“ kuria tikri žmonės. Jūsų palaikymas turės reikšmės. <a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Paaukokite šiandien</a>, kad suteiktumėte daugiau galimybių turinio kūrėjams ir užtikrintumėte, kad žmonija ir toliau žengtų į priekį. Jūsų aukojimas bus panaudotas <a href="https://notbyai.fyi/help/where-does-donation-money-go.php" class="text-decoration-underline">įvairiose vietose</a>, kad „Not By AI“ augtų.</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">Aukoti šiandien</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>

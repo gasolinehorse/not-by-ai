@@ -145,7 +145,7 @@ include 'top-nav.php';
         </nav>
         <section>
           <div id="not-by-ai-mission" class="py-3"></div>
-          <h3>使命</h3>
+          <h3 class="marker">使命</h3>
           <p>Not By AI是为了鼓励人们持续产出原创内容，且让这些原创内容能被注目而产生。而最终目的是确保人类文明得以持续产出创作与进步。</p>
           <p>有专家估计在2025年，会有超过九成的线上内容为AI所生成<sup>1</sup>。在这样的AI狂澜之下，我们必须提醒自己AI是以人类过去的创作所训练而成。换句话说，假如人类从此便全面仰赖AI来生成内容，这些新的内容恐怕只会是回收过重置的旧内容罢了。这对人类文明的进展恐将造成极大的威胁<sup>2</sup>。唯有限制AI的使用并持续坚持原创内容才能确保人类的进步。</p>
           <figure>
@@ -156,20 +156,20 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="who-can-use-not-by-ai-badge" class="py-3"></div>
-          <h3>谁能使用贴纸</h3>
+          <h3 class="marker">谁能使用贴纸</h3>
           <h4 class="pt-1">Not By AI 90%规定</h4>
           <p>在了解什麽算是AI生成与什麽算是人类生成时常难以定义的前提下，如果你估计自己的内容有90%是人类所创作的，你便能将Not By AI贴纸加到你的网站、部落格、艺术品、视频、论文、书、播客，或其他型态的非商业用途的作品。若是商业用途而你也遵守Not By AI 90%规定，你便也符合可以注册并付费使用的资格。这90%是可以包含使用AI来找灵感、生成像是隐私政策的法用文件（除非你的主题或服务项目是法律相关）、生成像是搜索引擎优化（SEO）等非用戶会看到的代码，以及找语法错误和错字。</p>
           <p>也别忘了Not By AI并不是AI探测器。我们的努力是奉献给想主动宣示自己创作是原创的内容创作者，而不是寻找证据的人。这也代表了，身为用戶的你必须扛起遵循Not By AI 90%规定的责任。</p>
         </section>
         <section>
           <div id="why-should-i-use-not-by-ai-badge" class="py-3"></div>
-          <h3>优点</h3>
+          <h3 class="marker">优点</h3>
           <ul class="nav nav-underline" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path stroke="#000" stroke-linecap="round" d="M2 .5h10v13H2V.5Z"/><path stroke="#000" stroke-linecap="round" d="M5 3h4v2H5zM9 7v2H5V7zM5 11h4v2H5zM.5 13.5h13"/></svg> 对企业来说</button>
+              <button class="nav-link active fw-normal me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab" aria-controls="business-tab-pane" aria-selected="true"><img class="mb-1" src="img/industry.svg" alt=""> 对企业来说</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><svg class="mb-1 d-none d-sm-inline-block" xmlns="http://www.w3.org/2000/svg" width="13" height="14" fill="none"><circle cx="6.5" cy="4.5" r="3.5" stroke="#000" stroke-linecap="round"/><path fill="#000" fill-rule="evenodd" d="M4.177 7.118c-.75.411-1.412 1-1.957 1.68C1.162 10.124.5 11.857.5 13.5v.5h12v-.5c0-1.644-.662-3.377-1.72-4.701-.544-.681-1.207-1.27-1.957-1.681a3.5 3.5 0 0 1-1.015.63c.821.312 1.574.903 2.19 1.675.822 1.028 1.362 2.329 1.478 3.577H1.524C1.64 11.752 2.18 10.451 3 9.423c.617-.772 1.37-1.363 2.19-1.676a3.5 3.5 0 0 1-1.014-.63Z" clip-rule="evenodd"/><path stroke="#000" d="M6.5 8v6"/></svg> 对个人来说</button>
+              <button class="nav-link fw-normal" id="profile-tab" data-bs-toggle="tab" data-bs-target="#indivisual-tab-pane" type="button" role="tab" aria-controls="indivisual-tab-pane" aria-selected="false"><img class="mb-1" src="img/individual.svg" alt=""> 对个人来说</button>
             </li>
           </ul>
           <div class="tab-content pt-4 pb-4 px-3 bg-light" id="myTabContent">
@@ -213,7 +213,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="not-by-ai-badge-use-examples" class="py-3"></div>
-          <h3>示例</h3>
+          <h3 class="marker">示例</h3>
           <div class="row pb-4">
             <div class="col-6 pt-4 pt-sm-3">
               <h5>贴在网站上</h5>
@@ -252,7 +252,7 @@ include 'top-nav.php';
         </section>
         <section>
           <div id="support-not-by-ai" class="py-3"></div>
-          <h3>赞助我们</h3>
+          <h3 class="marker">赞助我们</h3>
           <p>整个Not By AI运动是由真实人类以时间和精力所创造的。你的每份贊助对我们而言是十分重要的。请考虑<a class="text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">现在捐款</a>以帮助和你我一样、还坚持原创内容的创作者，同时并确保人类文明得以持续演进。你的捐款将被用在<a href="/help/where-does-donation-money-go.php" class="text-decoration-underline">各种用途</a>上以助长Not By AI。</p>
           <a class="h5 text-decoration-underline" href="https://donate.stripe.com/dR66qd4c22hucOAdQS" target="_blank">现在就捐款</a> <img src="/img/download-not-by-ai-badge.svg" alt="" style="transform: rotate(-90deg);">
         </section>
