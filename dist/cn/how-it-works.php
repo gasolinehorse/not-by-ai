@@ -4,7 +4,8 @@ $pageDes = '了解如何使用Not By AI贴纸与页面来帮助你宣扬你的�
 include '../header.php';
 include 'top-nav.php';
 ?>
-    <main class="row justify-content-center px-4 px-lg-0">
+<style>#topNav { margin-bottom: 0 !important; border-bottom: 0 !important;}</style>
+    <main class="row human-touch bg-light justify-content-center px-4 px-lg-0 pt-5">
       <header>
         <h1 class="mt-4 display-2">使用方法</h1>
       </header>
@@ -13,7 +14,7 @@ include 'top-nav.php';
       </section>
       <div class="col-xl-11 text-start">
         <div class="row justify-content-center">
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step1-submit-project.png" alt="">
               <div class="d-flex">
@@ -26,7 +27,7 @@ include 'top-nav.php';
             </div>
           </div>
           <div class="col-md-1 px-2 text-center align-self-center d-none d-lg-block" style="max-width: 40px;"><img class="img-fluid" src="/img/arrow-solid-right.svg" alt=""></div>
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/app/wp-content/themes/not-by-ai/img/step2-project-review.png" alt="">
               <div class="d-flex">
@@ -40,7 +41,7 @@ include 'top-nav.php';
             </div>
           </div>
           <div class="col-md-1 px-2 text-center align-self-center d-none d-lg-block" style="max-width: 40px;"><img class="img-fluid" src="/img/arrow-solid-right.svg" alt=""></div>
-          <div class="col-md-4 col-lg-3 bg-light">
+          <div class="col-md-4 col-lg-3 bg-white mb-3 rounded">
             <div class="py-4 px-3">
               <img class="img-fluid mb-3" src="https://notbyai.fyi/img/not-by-ai-short-reel.gif" alt="">
               <div class="d-flex">
@@ -89,7 +90,7 @@ include 'top-nav.php';
             <p>Not By AI是拥有领先地位并充满前瞻性的的运动，从2023年初便成立，并致力于推广真人创作的内容。我们的贴纸已被用在 <?php include 'all-stats.php'; ?>个页面上。乘着大量的好评，Not By AI贴纸如今已成为一个能快速有效展示你的真人创作内容的媒介。独家设计的贴纸形状能让人轻松辨识，而低调俭朴的贴纸设计风格也能轻松融入你的创作内容，丝毫不夺你的风采。</p>
           </div>
           <div class="col-lg-6 px-2 px-sm-0 text-center">
-            <img class="w-100" srcset="/img/not-by-ai-badges-for-authenticity@2x.png 2x" src="/img/not-by-ai-badges-for-authenticity.png" style="max-width: 500px;" alt="A Not By AI貼紙" />
+            <img class="w-100 rounded" srcset="/img/not-by-ai-badges-for-authenticity@2x.png 2x" src="/img/not-by-ai-badges-for-authenticity.png" style="max-width: 500px;" alt="A Not By AI貼紙" />
           </div>
         </div>
         <div class="row py-4 pb-lg-5 mb-lg-4 order-lg-2">
@@ -98,11 +99,11 @@ include 'top-nav.php';
             <p>Not By AI页面是个能让你尽情阐扬你的创作理念的空间。它能用来确保我们贴纸的公信力并建立起你与观众之间的信任。将你的贴纸连结到你的Not By AI页面，便能让你得以藉由我们为所有真人创作者而打造的系统来展示你的真实性。请让我们为你託管这重要的资讯吧！</p>
           </div>
           <div class="col-lg-6 px-2 px-sm-0 text-center">
-            <img class="w-100" srcset="/img/not-by-ai-project-page-for-credibility@2x.png 2x" src="/img/not-by-ai-project-page-for-credibility.png" style="max-width: 500px;" alt="A Not By AI頁面" />
+            <img class="w-100 rounded" srcset="/img/not-by-ai-project-page-for-credibility@2x.png 2x" src="/img/not-by-ai-project-page-for-credibility.png" style="max-width: 500px;" alt="A Not By AI頁面" />
             <div class="xs opacity-50" style="margin-top: -20px;">Not By AI頁面</div>
           </div>
         </div>
-        <div class="row bg-light mb-lg-3 justify-content-center">
+        <div class="row bg-white mt-5 rounded mb-3 justify-content-center">
           <div class="col-lg-3 d-none d-lg-block">
             <img class="w-100" src="/img/support-not-by-ai.svg" alt="">
           </div>

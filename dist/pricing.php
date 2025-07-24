@@ -19,7 +19,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-starter-plan.svg" alt=""> Starter</div>
                 <p class="small mb-0">For individual creators and small teams with revenue under $100,000 in the last 12 months.</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">$5.00</div>
                   <p class="xs mb-2 opacity-50">Per month</p>
@@ -41,7 +41,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-business-plan.svg" alt=""> Business</div>
                 <p class="small mb-0">For smaller startups and businesses with revenue under $1&nbsp;million in the last 12 months.</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">$7.00</div>
                   <p class="xs mb-2 opacity-50">Per month</p>
@@ -63,7 +63,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-enterprise-plan.svg" alt=""> Enterprise</div>
                 <p class="small mb-0">For larger companies and organizations with revenue over $1&nbsp;million in the last 12 months.</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">$12.00</div>
                   <p class="xs mb-2 opacity-50">Per month</p>
@@ -91,7 +91,7 @@ include 'top-nav.php';
                   <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB" class="btn px-2 px-md-4 px-lg-5 mb-4">Purchase the Badges</a>
                 </div>
               </div>
-              <div class="col-6 col-md-4 bg-light">
+              <div class="col-6 col-md-4 bg-light human-touch">
                 <div class="py-3 px-3 px-md-4">
                   <ul class="mt-4 ul--checks px-2">
                     <li class="small">All badges</li>

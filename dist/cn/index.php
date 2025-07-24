@@ -19,23 +19,25 @@ include 'top-nav.php';
         }
       }
     </script>
-    <main>
-      <section class="row justify-content-center mt-4">
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
-        </div>
-        <div class="col-lg-10 col-xl-8">
-          <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">为你非AI的原创内容<br>贴上个贴纸吧</h1>
-          </header>
-          <p class="display-5">人工智能（AI）是靠前人的创作内容训练而成。倘若人类就此全面仰赖AI并且放弃创作，世界各地的产出内容恐将一成不变并停滞。</p>
-          <p class="display-5">如果你持续坚持真人创作，下载这贴纸并把它加到你的创作里吧！</p>
-        </div>
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+    <main class="row human-touch bg-light-gradient pt-4 position-relative">
+      <section class="col-12 mt-4">
+        <div class="row justify-content-center">
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
+          </div>
+          <div class="col-lg-10 col-xl-8">
+            <header>
+              <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">为你非AI的原创内容<br>贴上个贴纸吧</h1>
+            </header>
+            <p class="display-5">人工智能（AI）是靠前人的创作内容训练而成。倘若人类就此全面仰赖AI并且放弃创作，世界各地的产出内容恐将一成不变并停滞。</p>
+            <p class="display-5">如果你持续坚持真人创作，下载这贴纸并把它加到你的创作里吧！</p>
+          </div>
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+          </div>
         </div>
       </section>
-      <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
+      <section class="col-12 mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
         <div class="row justify-content-center gx-4">
           <div class="col-sm-4 pb-4">
             <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">

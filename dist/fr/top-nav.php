@@ -19,8 +19,11 @@
       <a class="px-2" href="mailto:?subject=Not By AI&amp;body=Download the Not By AI badges from https://notbyai.fyi." title="Share by Email" target="_blank"><img class="mx-1 mt-1" src="/img/forward.svg" alt="Share via email"></a>
     </div>
   </div>
+  <?php
+  $is_homepage = $_SERVER['REQUEST_URI'] === '/fr/' || $_SERVER['REQUEST_URI'] === '/fr' || $_SERVER['REQUEST_URI'] === '/fr/index.php';
+  ?>
   <div class="container-fluid bg-white text-center curve">
-    <div id="topNav" class="row sticky-top bg-white border-bottom align-items-center mb-4 mb-xl-5">
+    <div id="topNav" class="row sticky-top bg-white border-bottom align-items-center <?php if (!$is_homepage) echo 'mb-4 mb-xl-5'; ?>">
       <div class="col-2 col-sm-4 text-start ps-4 ps-sm-4 share d-block d-lg-none">
         <span onclick="openNav()">
           <div class="hamburger-menu">

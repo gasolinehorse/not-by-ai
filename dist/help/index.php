@@ -102,7 +102,7 @@ include '../top-nav.php';
             <p>3. Link the badges to notbyai.fyi or your project page when hyperlinking is possible.</p>
           </div>
         </div>
-        <div class="bg-light py-4 mb-3 mb-md-0 rounded">
+        <div class="bg-light human-touch py-4 mb-3 mb-md-0 rounded">
           <h3 class="h4 text-center">What Are You Creating?</h3>
           <div class="d-flex justify-content-center flex-column flex-md-row px-3 px-md-0">
             <form class="me-md-2">
@@ -356,7 +356,7 @@ include '../top-nav.php';
         </div>
       </section>
       <section class="col-lg-11 col-xl-10 text-start pt-4 pb-5">
-        <div class="row bg-light mb-lg-3 rounded">
+        <div class="row bg-light mb-lg-3 rounded" style="overflow: clip;">
           <div class="col-lg-5 ps-0 d-none d-lg-block">
             <img class="h-100" src="/img/support-not-by-ai.svg" alt="">
           </div>

@@ -19,23 +19,25 @@ include 'top-nav.php';
         }
       }
     </script>
-    <main>
-      <section class="row justify-content-center mt-4">
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
-        </div>
-        <div class="col-lg-10 col-xl-8">
-          <header>
-            <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Vos contenus réalisés sans IA méritent un&nbsp;badge</h1>
-          </header>
-          <p class="display-5">L’intelligence artificielle (IA) est entraînée sur des contenus réalisés par des hommes et des femmes. Si les humains arrêtent de produire de nouvelles œuvres pour s’appuyer uniquement sur l’IA, les contenus présents en ligne et partout dans le monde risquent de devenir répétitifs et&nbsp;redondants.</p>
-          <p class="display-5">Si vos contenus ne sont pas générés par IA, vous pouvez ajouter le badge à votre&nbsp;travail.</p>
-        </div>
-        <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
-          <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+    <main class="row human-touch bg-light-gradient pt-4 position-relative">
+      <section class="col-12 mt-4">
+        <div class="row justify-content-center">
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-start not-by-ai-badges-l no-download" src="/img/not-by-ai-badges-l.svg" alt="">
+          </div>
+          <div class="col-lg-10 col-xl-8">
+            <header>
+              <h1 id="tagline" class="pt-4 pt-lg-5 mt-md-3 pb-1">Vos contenus réalisés sans IA méritent un&nbsp;badge</h1>
+            </header>
+            <p class="display-5">L’intelligence artificielle (IA) est entraînée sur des contenus réalisés par des hommes et des femmes. Si les humains arrêtent de produire de nouvelles œuvres pour s’appuyer uniquement sur l’IA, les contenus présents en ligne et partout dans le monde risquent de devenir répétitifs et&nbsp;redondants.</p>
+            <p class="display-5">Si vos contenus ne sont pas générés par IA, vous pouvez ajouter le badge à votre&nbsp;travail.</p>
+          </div>
+          <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 pe-0 pt-5 pt-xxl-0">
+            <img class="img-fluid d-none d-xl-block float-end not-by-ai-badges-r no-download" src="/img/not-by-ai-badges-r.svg" alt="">
+          </div>
         </div>
       </section>
-      <section class="mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
+      <section class="col-12 mx-auto px-5 px-sm-4 px-xl-0 pt-3" style="max-width: 1052px;">
         <div class="row justify-content-center gx-4">
           <div class="col-sm-4 pb-4">
             <span id="artist-badge" class="d-block cursor-pointer" data-bs-toggle="modal" data-bs-target="#downloadEmail">

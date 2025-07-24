@@ -5,7 +5,7 @@ include 'header.php';
 include 'top-nav.php';
 ?>
 <style>#topNav { margin-bottom: 0 !important; border-bottom: 0 !important;}</style>
-    <main class="row bg-light justify-content-center px-4 px-lg-0 pt-5">
+    <main class="row human-touch bg-light justify-content-center px-4 px-lg-0 pt-5">
       <header>
         <h1 class="mt-4 display-2">How It Works</h1>
       </header>

@@ -19,7 +19,7 @@ include 'top-nav.php';
         }
       }
     </script>
-    <main class="row bg-light-gradient pt-4 position-relative">
+    <main class="row human-touch bg-light-gradient pt-4 position-relative">
       <section class="col-12 mt-4">
         <div class="row justify-content-center">
           <div class="overflow-hidden d-none d-lg-block col-lg-1 col-xl-2 ps-0 pt-5 pt-xxl-0">
@@ -107,7 +107,6 @@ include 'top-nav.php';
           </div>
         </div>
       </section>
-      <div class="col-12 d-none d-xl-block"><img style="pointer-events: none;" width="599" class="ai-light img-fluid position-absolute top-0 start-0 no-download z-0" src="img/ai-light.svg" alt=""></div>
       <div class="pb-4 mt-3 border-bottom"></div>
     </main>
     <div id="top-nav-stop-point" class="row justify-content-center">

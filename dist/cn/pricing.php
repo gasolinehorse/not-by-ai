@@ -19,7 +19,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-starter-plan.svg" alt=""> 牛刀小试</div>
                 <p class="small mb-0">适合独立创作者以及过去12月营收低于十万美元的小团队。</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">5美元</div>
                   <p class="xs mb-2 opacity-50">每月</p>
@@ -41,7 +41,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-business-plan.svg" alt=""> 蓬勃发展</div>
                 <p class="small mb-0">适合过去12月营收低于一百万美元的小型新创公司与组织。</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">7美元</div>
                   <p class="xs mb-2 opacity-50">每月</p>
@@ -63,7 +63,7 @@ include 'top-nav.php';
                 <div class="h3 mt-3 mb-1"><img class="mb-1" src="/img/not-by-ai-enterprise-plan.svg" alt=""> 大展身手</div>
                 <p class="small mb-0">适合过去12月营收高于一百万美元的大型公司与组织。</p>
               </div>
-              <div class="bg-light py-3 px-3 px-md-4">
+              <div class="bg-light human-touch py-3 px-3 px-md-4">
                 <div class="d-flex align-items-end mb-3">
                   <div class="display-2 mt-2 me-2">12美元</div>
                   <p class="xs mb-2 opacity-50">每月</p>
@@ -91,7 +91,7 @@ include 'top-nav.php';
                   <a href="https://buy.stripe.com/4gw01P6ka09mbKw9AB?locale=zh" class="btn px-2 px-md-4 px-lg-5 mb-4">購買貼紙</a>
                 </div>
               </div>
-              <div class="col-6 col-md-4 bg-light">
+              <div class="col-6 col-md-4 bg-light human-touch">
                 <div class="py-3 px-3 px-md-4">
                   <ul class="mt-4 ul--checks px-2">
                     <li class="small">所有的贴纸</li>
