@@ -66,7 +66,7 @@
   </div>
   <div class="modal fade" id="downloadEmail" tabindex="-1" aria-labelledby="downloadEmailLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content border-0 rounded-0 download-popup">
+      <div class="modal-content border-0 download-popup">
         <div class="modal-header px-md-5 py-md-4 align-items-start">
           <div class="modal-title fs-3 h3" id="downloadEmailLabel">Download the <span class="d-none d-sm-inline-block">Not&nbsp;By&nbsp;AI&nbsp;</span>Badges</div>
           <button type="button" class="btn-close mt-0" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -117,13 +117,13 @@
               <div class="row justify-content-between">
                 <div class="col-md-7 col-lg-8 pt-md-2 pe-md-4">
                   <label for="email">Email</label>
-                  <input type="email" name="email" required>
+                  <input class="bg-white" type="email" name="email" required>
                 </div>
                 <div id="donate-box" class="col-6 col-md-5 col-lg-4 border-md pb-1 pb-md-3 pt-2 px-md-4 rounded-3 mt-md-0">
                   <label for="your-price">Pay What You Wish</label>
                   <div class="d-flex align-items-center">
                     <div class="display-4 pe-1 opacity-50">$</div>
-                    <input id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" value="0" required>
+                    <input class="bg-white" id="your-price" type="your-price" name="your-price" pattern="\d*" title="Only numbers are allowed" value="0" required>
                   </div>
                 </div>
                 <input type="hidden" name="badgeType" id="badgeType" value="">

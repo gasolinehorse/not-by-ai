@@ -10,10 +10,20 @@
 }
 body {
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif; 
-	background-image: url('img/ai-bg.jpg');	
+	background-image: url('img/ai-bg.jpg');
 	background-repeat: repeat-y;
 	background-size: 100%;
 	color: var(--black);
+}
+body.page {
+	background-image: none;
+}
+body.page.page-template-page-signup, 
+body.page.page-template-page-login {
+	background-image: url('img/human-touch.webp');
+	background-repeat: repeat;
+	background-size: auto;
+	height: 100vh;
 }
 .curve {
 	border-top-right-radius: 100px;
@@ -312,6 +322,9 @@ cite,
 }
 nav {
 	font-size: 0.875rem;
+}
+.download-popup {
+	background-color: var(--color-light);
 }
 @media (max-width: 991px) {
 	.download-popup {
