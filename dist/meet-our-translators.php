@@ -153,8 +153,14 @@ include 'top-nav.php';
           <div class="col-sm-4 col-6">
             <p class="mb-0"><a class="text-decoration-underline" href="https://jaidip.com.np" target="_blank" rel="nofollow">Jaidip Subedi</a></p>
           </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://catboo.neocities.org" target="_blank" rel="nofollow">Elly John</a></p>
+          </div>
+          <div class="col-sm-4 col-6">
+            <p class="mb-0"><a class="text-decoration-underline" href="https://teknopata.eus" target="_blank" rel="nofollow">Joxe Rojas</a></p>
+          </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 43 anonymous translators.</p>
+            <p class="opacity-50">...and other 41 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
