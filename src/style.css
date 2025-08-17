@@ -15,16 +15,6 @@ body {
 	background-size: 100%;
 	color: var(--black);
 }
-body.page {
-	background-image: none;
-}
-body.page.page-template-page-signup, 
-body.page.page-template-page-login {
-	background-image: url('img/human-touch.webp');
-	background-repeat: repeat;
-	background-size: auto;
-	height: 100vh;
-}
 .curve {
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 100px;
