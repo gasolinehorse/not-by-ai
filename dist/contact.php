@@ -38,7 +38,7 @@ include 'top-nav.php';
               <div class="d-flex pt-3">
                 <input type="checkbox" id="marketing" name="marketing" value="I want to receive news such as updates, tips, resources, and discounts."><label class="mt-0" for="marketing">I want to receive news such as updates, tips, resources, and discounts.</label>
               </div>
-              <input type="text" name="nogo" style="display:none;">
+              <input type="text" name="nogo" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
               <input class="g-recaptcha btn mt-3" data-sitekey="6LcD-NsnAAAAAJ1SLXijs4KO4J2IX2OJHbABIumM" data-callback='onSubmit' data-action='submit' type="submit" value="Send My Message">
             </form>
           </section>
