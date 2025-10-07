@@ -163,7 +163,7 @@ include 'top-nav.php';
             <p class="mb-0"><a class="text-decoration-underline" href="https://judomania.no" target="_blank" rel="nofollow">Arne Midtlund</a></p>
           </div>
           <div class="col-12 pt-4">
-            <p class="opacity-50">...and other 40 anonymous translators.</p>
+            <p class="opacity-50">...and other 42 anonymous translators.</p>
           </div>
           <div class="overflow-hidden pt-4">
             <div class="sliding-background sliding-background--trans"></div>
