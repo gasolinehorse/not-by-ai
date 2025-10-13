@@ -103,7 +103,7 @@ include './top-nav.php';
         <div class="row justify-content-center">
           <div class="col-lg-7 p-2 bg-white rounded-5 mt-3">
             <svg class="mt-1" xmlns="http://www.w3.org/2000/svg" width="127.972" height="18.995"><path fill="#EED601" fill-rule="nonzero" d="m13.022 6.32 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L0 7.256l6.95-.935L9.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L27 7.256l6.95-.935L36.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L54 7.256l6.95-.935L63.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L81 7.256l6.95-.935L90.986 0l3.036 6.32Zm27 0 6.95.935-5.073 4.842 1.26 6.898-6.173-3.329-6.172 3.33 1.26-6.9L108 7.256l6.95-.935L117.986 0l3.036 6.32Z"/></svg>
-            <p class="small my-1">Aramıza hoş geldiniz. Not By AI rozetleri <?php include 'all-stats.php'; ?> aşkın sayfada yer almaktadır.</p>
+            <p class="small my-1">Aramıza hoş geldiniz. Not By AI rozetleri <?php include '../all-stats.php'; ?> aşkın sayfada yer almaktadır.</p>
           </div>
         </div>
       </section>
