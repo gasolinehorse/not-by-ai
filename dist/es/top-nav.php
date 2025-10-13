@@ -65,6 +65,7 @@
                 <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lietuvių</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/ru">Русский</a></li>
+                <li class="pb-2 small"><a href="http://notbyai.fyi/tr">Türkçe</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
                 <li class="pt-2 small border-top"><a class="small opacity-50 lh-sm d-inline-block" href="http://notbyai.fyi/translate#translate-not-by-ai-website">Ayuda con la traducción</a></li>

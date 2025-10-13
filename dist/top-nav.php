@@ -85,6 +85,10 @@
                 'Asia/Vladivostok', 'Asia/Magadan', 'Asia/Kamchatka'
               ];
 
+              var turkishTimezones = [
+                'Europe/Istanbul', 'Asia/Istanbul', 'Asia/Nicosia'
+              ];
+
               if (userTimezone === 'Asia/Taipei' && !currentUrl.includes('/tw')) {
                 window.location.href = 'https://notbyai.fyi/tw';
               } else if (userTimezone === 'Asia/Shanghai' && !currentUrl.includes('/cn')) {
@@ -95,6 +99,8 @@
                 window.location.href = 'https://notbyai.fyi/fr';
               } else if (russianTimezones.includes(userTimezone) && !currentUrl.includes('/ru')) {
                 window.location.href = 'https://notbyai.fyi/ru';
+              } else if (turkishTimezones.includes(userTimezone) && !currentUrl.includes('/tr')) {
+                window.location.href = 'https://notbyai.fyi/tr';
               }
             }
           </script>
@@ -109,6 +115,7 @@
                 <li class="pb-2 small"><a href="http://notbyai.fyi/fr">Français</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/lt">Lietuvių</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/ru">Русский</a></li>
+                <li class="pb-2 small"><a href="http://notbyai.fyi/tr">Türkçe</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/cn">简体中文</a></li>
                 <li class="pb-2 small"><a href="http://notbyai.fyi/tw">繁體中文</a></li>
                 <li class="pt-2 small border-top"><a class="small opacity-50" href="http://notbyai.fyi/translate#translate-not-by-ai-website">Help Us Translate</a></li>
