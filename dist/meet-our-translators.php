@@ -67,6 +67,19 @@ include 'top-nav.php';
               </div>
             </div>
           </div>
+          <div class="col-md-6 pb-3">
+            <div class="row justify-content-center">
+              <div class="col-3 col-sm-4">
+                <img class="img-fluid rounded" src="img/emir.webp" alt="Emir">
+              </div>
+              <div class="col-9 col-sm-8 text-start">
+                <p class="mb-0 h4">Emir</p>
+                <p>Translator (EN/TR) & Writer</p>
+                <a target="_blank" href="https://tekhne.dev" class="for-business-link rounded-2 me-2 mb-2">Personal Website</a>
+                <a target="_blank" href="https://github.com/tekhne-dev" class="for-business-link rounded-2 mb-2">GitHub</a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6 pb-3"></div>
         </div>
       </div>
