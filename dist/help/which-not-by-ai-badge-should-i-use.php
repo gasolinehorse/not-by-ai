@@ -24,7 +24,7 @@ include '../top-nav.php';
             <p>Our badges come in more than 30 different languages. While some languages have more badge options than others, all languages contain three essential badge types mentioned below.</p>
             <ul>
               <li class="pb-2">
-                <h4 class="fw-bold fs-6 d-inline">You should use the "Pained by Humans, Not By AI" badges when: </h4><br>
+                <h4 class="fw-bold fs-6 d-inline">You should use the "Painted by Humans, Not By AI" badges when: </h4><br>
                 <p>Your artwork, including digital and traditional art, paintings, illustrations, and comics, follows the <a href="/help/what-is-the-not-by-ai-90-rule.php" class="text-decoration-underline">Not By AI 90% Rule</a>.</p>
               </li>
               <li class="pb-2">
